@@ -1,0 +1,523 @@
+{
+  "pageCounts": {
+    "entity": 7,
+    "concept": 4,
+    "source": 0,
+    "synthesis": 1,
+    "report": 6
+  },
+  "claimCount": 15,
+  "claimHealth": {
+    "freshness": {
+      "fresh": 15,
+      "aging": 0,
+      "stale": 0,
+      "unknown": 0
+    },
+    "contested": 0,
+    "lowConfidence": 0,
+    "missingEvidence": 0
+  },
+  "contradictionClusters": [
+    {
+      "key": "email",
+      "label": "email",
+      "kind": "claim-id",
+      "entryCount": 2,
+      "paths": [
+        "entities/randomstix.md",
+        "syntheses/racoony-ops.md"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "concept.anomem-postmortem",
+      "title": "Anomem Postmortem",
+      "kind": "concept",
+      "path": "concepts/anomem-postmortem.md",
+      "sourceIds": [
+        "MEMORY.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "concept.project-guidelines",
+      "title": "Project Guidelines",
+      "kind": "concept",
+      "path": "concepts/project-guidelines.md",
+      "sourceIds": [
+        "MEMORY.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "concept.prompt-weapon-generator-game",
+      "title": "Prompt Weapon Generator Game",
+      "kind": "concept",
+      "path": "concepts/prompt-weapon-generator-game.md",
+      "sourceIds": [
+        "MEMORY.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "concept.self-hosted-infra",
+      "title": "Self Hosted Infra",
+      "kind": "concept",
+      "path": "concepts/self-hosted-infra.md",
+      "sourceIds": [
+        "MEMORY.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.honda-civic-2016-ex-t-maintenance",
+      "title": "Honda Civic 2016 EX-T Maintenance",
+      "kind": "entity",
+      "path": "entities/honda-civic-2016-ex-t-maintenance.md",
+      "sourceIds": [
+        "MEMORY.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.lexus-rx-350-2017",
+      "title": "Lexus RX 350 2017",
+      "kind": "entity",
+      "path": "entities/lexus-rx-350-2017.md",
+      "sourceIds": [
+        "USER.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.lolok-site",
+      "title": "lolok Site",
+      "kind": "entity",
+      "path": "entities/lolok-site.md",
+      "sourceIds": [
+        "MEMORY.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22",
+      "claimCount": 4,
+      "topClaims": [
+        {
+          "id": "deployment",
+          "text": "CI/CD via GitHub Actions + self-hosted runner (lolok-runner)",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "MEMORY.md",
+              "path": "workspace/MEMORY.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        },
+        {
+          "id": "port",
+          "text": "Live container at port 5001",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "MEMORY.md",
+              "path": "workspace/MEMORY.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        },
+        {
+          "id": "static-server",
+          "text": "Static file server was on port 8080, may need restart",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "MEMORY.md",
+              "path": "workspace/MEMORY.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        },
+        {
+          "id": "type",
+          "text": "Web application running in Docker container",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "MEMORY.md",
+              "path": "workspace/MEMORY.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        }
+      ]
+    },
+    {
+      "id": "entity.lost-lands-2026",
+      "title": "Lost Lands 2026",
+      "kind": "entity",
+      "path": "entities/lost-lands-2026.md",
+      "sourceIds": [
+        "MEMORY.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22",
+      "claimCount": 4,
+      "topClaims": [
+        {
+          "id": "cost",
+          "text": "GA Tier 4 ($512.91) + Thursday Early Entry ($107.02) + shipping ($16.49) - promo ($25) = $611.42 total",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "MEMORY.md",
+              "path": "workspace/MEMORY.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        },
+        {
+          "id": "ticket-type",
+          "text": "GA Tier 4 with Thursday Early Entry",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "MEMORY.md",
+              "path": "workspace/MEMORY.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        },
+        {
+          "id": "location",
+          "text": "Legend Valley, OH",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "MEMORY.md",
+              "path": "workspace/MEMORY.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        },
+        {
+          "id": "dates",
+          "text": "September 18-20, 2026",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "MEMORY.md",
+              "path": "workspace/MEMORY.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        }
+      ]
+    },
+    {
+      "id": "entity.macvm",
+      "title": "macvm",
+      "kind": "entity",
+      "path": "entities/macvm.md",
+      "sourceIds": [
+        "MEMORY.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.randomstix-health",
+      "title": "Randomstix Health",
+      "kind": "entity",
+      "path": "entities/randomstix-health.md",
+      "sourceIds": [
+        "MEMORY.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.randomstix",
+      "title": "Quoc Vu",
+      "kind": "entity",
+      "path": "entities/randomstix.md",
+      "sourceIds": [
+        "USER.md",
+        "MEMORY.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22",
+      "claimCount": 4,
+      "topClaims": [
+        {
+          "id": "timezone",
+          "text": "America/New_York (EDT/EST)",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "USER.md",
+              "path": "workspace/USER.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        },
+        {
+          "id": "discord-handle",
+          "text": "Contact via Discord #general",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "USER.md",
+              "path": "workspace/USER.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        },
+        {
+          "id": "email",
+          "text": "Email is quocvu2640@gmail.com",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "USER.md",
+              "path": "workspace/USER.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        },
+        {
+          "id": "name",
+          "text": "Name is randomstix",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "USER.md",
+              "path": "workspace/USER.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        }
+      ]
+    },
+    {
+      "id": "report.claim-health",
+      "title": "Claim Health",
+      "kind": "report",
+      "path": "reports/claim-health.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22T20:08:56.138Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.contradictions",
+      "title": "Contradictions",
+      "kind": "report",
+      "path": "reports/contradictions.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22T20:20:03.508Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.lint",
+      "title": "Lint Report",
+      "kind": "report",
+      "path": "reports/lint.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.low-confidence",
+      "title": "Low Confidence",
+      "kind": "report",
+      "path": "reports/low-confidence.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22T04:38:47.297Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.open-questions",
+      "title": "Open Questions",
+      "kind": "report",
+      "path": "reports/open-questions.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22T04:38:47.297Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.stale-pages",
+      "title": "Stale Pages",
+      "kind": "report",
+      "path": "reports/stale-pages.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22T20:14:44.978Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "synthesis.raccoony-ops",
+      "title": "Raccoony Operations",
+      "kind": "synthesis",
+      "path": "syntheses/racoony-ops.md",
+      "sourceIds": [
+        "IDENTITY.md",
+        "TOOLS.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-04-22",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "identity",
+          "text": "Name: Raccoony, emoji 🦝, runs as AI assistant in OpenClaw",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "IDENTITY.md",
+              "path": "workspace/IDENTITY.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        },
+        {
+          "id": "email",
+          "text": "Personal email: racoonyclaw@gmail.com (used for CI/CD alerts, notifications)",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "TOOLS.md",
+              "path": "workspace/TOOLS.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        },
+        {
+          "id": "user-email",
+          "text": "User's email: quocvu2640@gmail.com",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "sourceId": "TOOLS.md",
+              "path": "workspace/TOOLS.md"
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-04-22"
+        }
+      ]
+    }
+  ]
+}
