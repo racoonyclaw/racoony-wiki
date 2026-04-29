@@ -3,8 +3,8 @@ title: Honda Civic 2016 EX-T Maintenance
 id: entity.honda-civic-2016-ex-t-maintenance
 pageType: entity
 sourceIds:
-  - MEMORY.md
-updatedAt: 2026-04-22
+- MEMORY.md
+updatedAt: 2026-04-23
 claims: []
 ---
 
@@ -46,6 +46,37 @@ claims: []
 - **Capacity:** ~4.0-4.5 quarts (with filter)
 - **Oil Drain Plug Washer:** 14mm — Honda P/N `94109-14000`
 
+## Spark Plugs
+
+**Part:** 4 × NGK ZFR5F-11 (OEM) or NGK IX Iridium 93175 (upgraded)
+- **OEM-spec:** Honda P/N `98079-5514G` (~NGK ZFR5F-11)
+  - Source: [HondaPartsNow — Civic Spark Plug](https://www.hondapartsnow.com/oem-honda-civic-spark_plug.html)
+- **Iridium upgrade:** NGK IX Iridium 93175 (~$15 each)
+  - Source: [AutoZone — Civic 2016 Spark Plugs](https://www.autozone.com/external-engine/spark-plug/honda/civic/2016)
+
+**Gap Spec:** Per OEM (ZFR5F-11 is pre-gapped from factory)
+**Torque Spec:** 18 lb-ft (do NOT over-tighten, especially with iridium plugs)
+
+**Tools Needed:**
+- 14mm spark plug socket (or 9/16") — the 1.5L turbo uses smaller plugs than the 2.0L
+- 3/8" drive ratchet (long-handle preferred for reach)
+- Wobble extension — engine bay is tight, plugs sit deep
+- Spark plug boot puller or twist and pull
+- Torque wrench — 18 lb-ft spec
+- 10mm socket — for engine cover
+
+**Important Notes:**
+- These engines are known for spark plugs seizing/corroding in — soak in penetrating oil before removal if over 80k miles
+- 1.5L turbo Civic uses **14mm / 9/16"** plugs — different from the 2.0L
+- **Do NOT use anti-seize** — it can throw off the gap
+- Do NOT over-tighten — iridium center electrodes are fragile
+
+**Helpful Guides:**
+- [YouTube: Civic 1.5L Turbo Spark Plug Replacement](https://www.youtube.com/watch?v=SIFiVkgq2TM)
+- [YouTube: 2016-2021 Honda Civic 1.5L Spark Plugs](https://www.youtube.com/watch?v=cgPmhYq7lmw)
+- [Paul's Travel Pictures: 10th Gen Civic Spark Plug Guide](https://paulstravelpictures.com/2016-2019-Honda-Civic-Spark-Plugs-Replacement-Guide/index.html)
+- [CivicX Forum: Changing Spark Plugs Issue](https://www.civicx.com/forum/threads/changing-spark-plugs-issue.34272/)
+
 ## Documentation
 - **[Owner's Manual (PDF)](https://techinfo.honda.com/rjanisis/pubs/QS/AH/ATBA1616OG/enu/ATBA1616OG.pdf)** — official 2016 Civic Sedan owner's guide
 - **[Honda TechInfo — Electrical Wiring Diagrams](https://techinfo.honda.com/rjanisis/content/rjxa_isisviewer_sa.aspx?k=start&package=2016_KA_KL_KC_KX_TBA&p=SM&t=2)** — VIN-specific schematics
@@ -68,3 +99,34 @@ claims: []
 - [[entities/randomstix-health|Randomstix Health]]
 - [[concepts/self-hosted-infra|Self Hosted Infra]]
 <!-- openclaw:wiki:related:end -->
+
+## Spark Plugs
+
+**Part:** 4 × NGK ZFR5F-11 (OEM) or NGK IX Iridium 93175 (upgraded)
+- **OEM-spec:** Honda P/N `98079-5514G` (~NGK ZFR5F-11)
+  - Source: [HondaPartsNow — Civic Spark Plug](https://www.hondapartsnow.com/oem-honda-civic-spark_plug.html)
+- **Iridium upgrade:** NGK IX Iridium 93175 (~$15 each)
+  - Source: [AutoZone — Civic 2016 Spark Plugs](https://www.autozone.com/external-engine/spark-plug/honda/civic/2016)
+
+**Gap Spec:** Per OEM (ZFR5F-11 is pre-gapped from factory)
+**Torque Spec:** 18 lb-ft (do NOT over-tighten, especially with iridium plugs)
+
+**Tools Needed:**
+- 14mm spark plug socket (or 9/16") — the 1.5L turbo uses smaller plugs than the 2.0L
+- 3/8" drive ratchet (long-handle preferred for reach)
+- Wobble extension — engine bay is tight, plugs sit deep
+- Spark plug boot puller or twist and pull
+- Torque wrench — 18 lb-ft spec
+- 10mm socket — for engine cover
+
+**Important Notes:**
+- These engines are known for spark plugs seizing/corroding in — soak in penetrating oil before removal if over 80k miles
+- 1.5L turbo Civic uses **14mm / 9/16"** plugs — different from the 2.0L
+- **Do NOT use anti-seize** — it can throw off the gap
+- Do NOT over-tighten — iridium center electrodes are fragile
+
+**Helpful Guides:**
+- [YouTube: Civic 1.5L Turbo Spark Plug Replacement](https://www.youtube.com/watch?v=SIFiVkgq2TM)
+- [YouTube: 2016-2021 Honda Civic 1.5L Spark Plugs](https://www.youtube.com/watch?v=cgPmhYq7lmw)
+- [Paul's Travel Pictures: 10th Gen Civic Spark Plug Guide](https://paulstravelpictures.com/2016-2019-Honda-Civic-Spark-Plugs-Replacement-Guide/index.html)
+- [CivicX Forum: Changing Spark Plugs Issue](https://www.civicx.com/forum/threads/changing-spark-plugs-issue.34272/)

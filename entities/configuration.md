@@ -1,0 +1,2279 @@
+---
+pageType: entity
+id: entity.configuration
+title: Configuration
+provenanceMode: unsafe-local
+sourcePath: /tmp/hermes-docs/hermes-agent-configuration.md
+unsafeLocalConfiguredPath: /media/racoony-wiki
+unsafeLocalRelativePath: /tmp/hermes-docs/hermes-agent-configuration.md
+updatedAt: '2026-04-24T15:05:25.919788+00:00'
+sourceIds:
+- githubcom
+- modalcom
+- daytonaio
+- apptainerorg
+- githubcom
+- apizai
+- apiopenaicom
+- apixai
+- apigroqcom
+sources:
+- sourceId: githubcom
+  sourceType: web
+  sourcePath: https://github.com/NousResearch/hermes-agent/blob/main/cli-config.yaml.example
+  title: '[`cli-config.yaml.example`](https://github.com/NousResearch/hermes-agent/blob/main/cli-config.yaml.e'
+- sourceId: modalcom
+  sourceType: web
+  sourcePath: https://modal.com
+  title: '[Modal](https://modal.com)'
+- sourceId: daytonaio
+  sourceType: web
+  sourcePath: https://daytona.io
+  title: '[Daytona](https://daytona.io)'
+- sourceId: apptainerorg
+  sourceType: web
+  sourcePath: https://apptainer.org
+  title: '[Singularity/Apptainer](https://apptainer.org)'
+- sourceId: githubcom
+  sourceType: web
+  sourcePath: https://github.com/StackGuardian/tirith
+  title: '[Tirith](https://github.com/StackGuardian/tirith)'
+- sourceId: apizai
+  sourceType: web
+  sourcePath: https://api.z.ai/api/coding/paas/v4
+  title: api.z.ai
+- sourceId: apiopenaicom
+  sourceType: web
+  sourcePath: https://api.openai.com/v1
+  title: api.openai.com
+- sourceId: apixai
+  sourceType: web
+  sourcePath: https://api.x.ai/v1
+  title: api.x.ai
+- sourceId: apigroqcom
+  sourceType: web
+  sourcePath: https://api.groq.com/openai/v1
+  title: api.groq.com
+claims:
+- id: backend-where-commands-run-isolation-best-for
+  text: Backend**, **Where commands run**, **Isolation**, **Best for**
+  status: supported
+  confidence: null
+- id: backend-local-where-commands-run-your-machine-d
+  text: 'Backend**: **local**, **Where commands run**: Your machine directly, **Isolation**:
+    None, **Best for**: Development, personal use'
+  status: supported
+  confidence: null
+- id: backend-docker-where-commands-run-docker-contai
+  text: 'Backend**: **docker**, **Where commands run**: Docker container, **Isolation**:
+    Full (namespaces, cap-drop), **Best for**: Safe sandboxing, CI/CD'
+  status: supported
+  confidence: null
+- id: backend-ssh-where-commands-run-remote-server-vi
+  text: 'Backend**: **ssh**, **Where commands run**: Remote server via SSH, **Isolation**:
+    Network boundary, **Best for**: Remote dev, powerful hardware'
+  status: supported
+  confidence: null
+- id: backend-modal-where-commands-run-modal-cloud-sa
+  text: 'Backend**: **modal**, **Where commands run**: Modal cloud sandbox, **Isolation**:
+    Full (cloud VM), **Best for**: Ephemeral cloud compute, evals'
+  status: supported
+  confidence: null
+- id: backend-daytona-where-commands-run-daytona-work
+  text: 'Backend**: **daytona**, **Where commands run**: Daytona workspace, **Isolation**:
+    Full (cloud container), **Best for**: Managed cloud dev environments'
+  status: supported
+  confidence: null
+- id: backend-singularity-where-commands-run-singular
+  text: 'Backend**: **singularity**, **Where commands run**: Singularity/Apptainer
+    container, **Isolation**: Namespaces (--containall), **Best for**: HPC clusters,
+    shared machines'
+  status: supported
+  confidence: null
+- id: github-token
+  text: '"GITHUB_TOKEN"'
+  status: supported
+  confidence: null
+- id: homeuserprojectsworkspaceprojects
+  text: '"/home/user/projects:/workspace/projects"'
+  status: supported
+  confidence: null
+- id: homeuserdatadataro-ro-for-read-only
+  text: '"/home/user/data:/data:ro"   # :ro for read-only'
+  status: supported
+  confidence: null
+- id: cap-drop-all-with-only-dac-override-chown-fowner
+  text: '`--cap-drop ALL` with only `DAC_OVERRIDE`, `CHOWN`, `FOWNER` added back'
+  status: supported
+  confidence: null
+- id: [[entity.security|Security]]-opt-no-new-privileges
+  text: '`--[[entity.security|Security]]-opt no-new-privileges`'
+  status: supported
+  confidence: null
+- id: pids-limit-256
+  text: '`--pids-limit 256`'
+  status: supported
+  confidence: null
+- id: size-limited-tmpfs-for-tmp-512mb-vartmp-256mb
+  text: Size-limited tmpfs for `/tmp` (512MB), `/var/tmp` (256MB), `/run` (64MB)
+  status: supported
+  confidence: null
+- id: variable-default-description
+  text: Variable**, **Default**, **Description**
+  status: supported
+  confidence: null
+- id: variable-terminal-ssh-port-default-22-descri
+  text: 'Variable**: `TERMINAL_SSH_PORT`, **Default**: `22`, **Description**: SSH
+    port'
+  status: supported
+  confidence: null
+- id: variable-terminal-ssh-key-default-system-default
+  text: 'Variable**: `TERMINAL_SSH_KEY`, **Default**: (system default), **Description**:
+    Path to SSH private key'
+  status: supported
+  confidence: null
+- id: variable-terminal-ssh-persistent-default-true
+  text: 'Variable**: `TERMINAL_SSH_PERSISTENT`, **Default**: `true`, **Description**:
+    Enable persistent shell'
+  status: supported
+  confidence: null
+- id: local-no-special-requirements-the-safest-default-when-g
+  text: "Local** \u2014 No special requirements. The safest default when getting started."
+  status: supported
+  confidence: null
+- id: docker-run-docker-version-to-verify-docker-is-working
+  text: "Docker** \u2014 Run `docker version` to verify Docker is working. If it fails,\
+    \ fix Docker or `hermes config set terminal.backend local`."
+  status: supported
+  confidence: null
+- id: ssh-both-terminal-ssh-host-and-terminal-ssh-user-mus
+  text: "SSH** \u2014 Both `TERMINAL_SSH_HOST` and `TERMINAL_SSH_USER` must be set.\
+    \ Hermes logs a clear error if either is missing."
+  status: supported
+  confidence: null
+- id: modal-needs-modal-token-id-env-var-or-modaltoml
+  text: "Modal** \u2014 Needs `MODAL_TOKEN_ID` env var or `~/.modal.toml`. Run `hermes\
+    \ doctor` to check."
+  status: supported
+  confidence: null
+- id: daytona-needs-daytona-api-key-the-daytona-sdk-handles
+  text: "Daytona** \u2014 Needs `DAYTONA_API_KEY`. The Daytona SDK handles server\
+    \ URL configuration."
+  status: supported
+  confidence: null
+- id: singularity-needs-apptainer-or-singularity-in-path
+  text: "Singularity** \u2014 Needs `apptainer` or `singularity` in `$PATH`. Common\
+    \ on HPC clusters."
+  status: supported
+  confidence: null
+- id: homeuserprojectsworkspaceprojects-read-write-de
+  text: '"/home/user/projects:/workspace/projects"   # Read-write (default)'
+  status: supported
+  confidence: null
+- id: homeuserdatasetsdataro-read-only
+  text: '"/home/user/datasets:/data:ro"              # Read-only'
+  status: supported
+  confidence: null
+- id: homeuserhermescachedocumentsoutput-gateway-visib
+  text: '"/home/user/.hermes/cache/documents:/output" # Gateway-visible exports'
+  status: supported
+  confidence: null
+- id: providing-files-to-the-agent-datasets-configs-reference
+  text: Providing files** to the agent (datasets, configs, reference code)
+  status: supported
+  confidence: null
+- id: receiving-files-from-the-agent-generated-code-reports-e
+  text: Receiving files** from the agent (generated code, reports, exports)
+  status: supported
+  confidence: null
+- id: shared-workspaces-where-both-you-and-the-agent-access-the
+  text: Shared workspaces** where both you and the agent access the same files
+  status: supported
+  confidence: null
+- id: write-files-inside-docker-to-output
+  text: Write files inside Docker to `/output/...`
+  status: supported
+  confidence: null
+- id: emit-the-host-path-in-media-for-example
+  text: 'Emit the **host path** in `MEDIA:`, for example:'
+  status: supported
+  confidence: null
+- id: do-not-emit-workspace-or-output-unless-tha
+  text: Do **not** emit `/workspace/...` or `/output/...` unless that exact path also
+  status: supported
+  confidence: null
+- id: github-token
+  text: '"GITHUB_TOKEN"'
+  status: supported
+  confidence: null
+- id: npm-token
+  text: '"NPM_TOKEN"'
+  status: supported
+  confidence: null
+- id: if-you-launch-hermes-from-projectsmy-app-that-host-dir
+  text: if you launch Hermes from `~/projects/my-app`, that host directory is bind-mounted
+    to `/workspace`
+  status: supported
+  confidence: null
+- id: the-docker-backend-starts-in-workspace
+  text: the Docker backend starts in `/workspace`
+  status: supported
+  confidence: null
+- id: file-tools-and-terminal-commands-both-see-the-same-mounted-p
+  text: file tools and terminal commands both see the same mounted project
+  status: supported
+  confidence: null
+- id: false-preserves-the-sandbox-boundary
+  text: '`false` preserves the sandbox boundary'
+  status: supported
+  confidence: null
+- id: true-gives-the-sandbox-direct-access-to-the-directory-you
+  text: '`true` gives the sandbox direct access to the directory you launched Hermes
+    from'
+  status: supported
+  confidence: null
+- id: working-directory-cd-tmp-sticks-for-the-next-command
+  text: Working directory (`cd /tmp` sticks for the next command)
+  status: supported
+  confidence: null
+- id: exported-environment-variables-export-foobar
+  text: Exported environment variables (`export FOO=bar`)
+  status: supported
+  confidence: null
+- id: shell-variables-my-varhello
+  text: Shell variables (`MY_VAR=hello`)
+  status: supported
+  confidence: null
+- id: level-variable-default
+  text: Level**, **Variable**, **Default**
+  status: supported
+  confidence: null
+- id: level-config-variable-terminalpersistent-shell
+  text: 'Level**: Config, **Variable**: `terminal.persistent_shell`, **Default**:
+    `true`'
+  status: supported
+  confidence: null
+- id: level-ssh-override-variable-terminal-ssh-persisten
+  text: 'Level**: SSH override, **Variable**: `TERMINAL_SSH_PERSISTENT`, **Default**:
+    follows config'
+  status: supported
+  confidence: null
+- id: level-local-override-variable-terminal-local-persi
+  text: 'Level**: Local override, **Variable**: `TERMINAL_LOCAL_PERSISTENT`, **Default**:
+    `false`'
+  status: supported
+  confidence: null
+- id: hermes-config-migrate-scans-all-enabled-skills-finds-unco
+  text: '`hermes config migrate` scans all enabled skills, finds unconfigured settings,
+    and offers to prompt you'
+  status: supported
+  confidence: null
+- id: hermes-config-show-displays-all-skill-settings-under-skil
+  text: '`hermes config show` displays all skill settings under "Skill Settings" with
+    the skill they belong to'
+  status: supported
+  confidence: null
+- id: when-a-skill-loads-its-resolved-config-values-are-injected
+  text: When a skill loads, its resolved config values are injected into the skill
+    context automatically
+  status: supported
+  confidence: null
+- id: max-bytes-when-a-terminal-command-produces-more-than
+  text: "`max_bytes`** \u2014 When a `terminal` command produces more than this many\
+    \ characters of combined stdout/stderr, Hermes keeps the first 40% and last 60%\
+    \ and inserts a `[OUTPUT TRUNCATED]` notice between them. Default `50000` (\u2248\
+    12-15K tokens across typical tokenisers)."
+  status: supported
+  confidence: null
+- id: max-lines-upper-bound-on-the-limit-parameter-of-a-si
+  text: "`max_lines`** \u2014 Upper bound on the `limit` parameter of a single `read_file`\
+    \ call. Requests above this are clamped so a single read can't flood the context\
+    \ window. Default `2000`."
+  status: supported
+  confidence: null
+- id: max-line-length-per-line-cap-applied-when-read-file
+  text: "`max_line_length`** \u2014 Per-line cap applied when `read_file` emits the\
+    \ line-numbered view. Lines longer than this are truncated to this many chars\
+    \ followed by `... [truncated]`. Default `2000`."
+  status: supported
+  confidence: null
+- id: auxiliarycompressionprovider-auxiliarycompression
+  text: '`auxiliary.compression.provider`**, **`auxiliary.compression.base_url`**,
+    **Result**'
+  status: supported
+  confidence: null
+- id: auxiliarycompressionprovider-auto-default-aux
+  text: '`auxiliary.compression.provider`**: `auto` (default), **`auxiliary.compression.base_url`**:
+    not set, **Result**: Auto-detect best available provider'
+  status: supported
+  confidence: null
+- id: auxiliarycompressionprovider-nous-openrouter
+  text: '`auxiliary.compression.provider`**: `nous` / `openrouter` / etc., **`auxiliary.compression.base_url`**:
+    not set, **Result**: Force that provider, use its auth'
+  status: supported
+  confidence: null
+- id: auxiliarycompressionprovider-any-auxiliarycompre
+  text: '`auxiliary.compression.provider`**: any, **`auxiliary.compression.base_url`**:
+    set, **Result**: Use the custom endpoint directly (provider ignored)'
+  status: supported
+  confidence: null
+- id: threshold-level-what-the-model-sees
+  text: Threshold**, **Level**, **What the model sees**
+  status: supported
+  confidence: null
+- id: threshold-70-level-caution-what-the-model-s
+  text: 'Threshold**: **70%**, **Level**: Caution, **What the model sees**: `[BUDGET:
+    63/90. 27 iterations left. Start consolidating.]`'
+  status: supported
+  confidence: null
+- id: threshold-90-level-warning-what-the-model-s
+  text: 'Threshold**: **90%**, **Level**: Warning, **What the model sees**: `[BUDGET
+    WARNING: 81/90. Only 9 left. Respond NOW.]`'
+  status: supported
+  confidence: null
+- id: timeout-default-local-providers-config-env
+  text: Timeout**, **Default**, **Local providers**, **Config / env**
+  status: supported
+  confidence: null
+- id: timeout-socket-read-timeout-default-120s-local-p
+  text: 'Timeout**: Socket read timeout, **Default**: 120s, **Local providers**: Auto-raised
+    to 1800s, **Config / env**: `HERMES_STREAM_READ_TIMEOUT`'
+  status: supported
+  confidence: null
+- id: timeout-stale-stream-detection-default-180s-loca
+  text: 'Timeout**: Stale stream detection, **Default**: 180s, **Local providers**:
+    Auto-disabled, **Config / env**: `HERMES_STREAM_STALE_TIMEOUT`'
+  status: supported
+  confidence: null
+- id: timeout-stale-non-stream-detection-default-300s
+  text: 'Timeout**: Stale non-stream detection, **Default**: 300s, **Local providers**:
+    Auto-disabled when left implicit, **Config / env**: `providers.<id>.stale_timeout_seconds`
+    or `HERMES_API_CALL_STALE_TIMEOUT`'
+  status: supported
+  confidence: null
+- id: timeout-api-call-non-streaming-default-1800s-l
+  text: 'Timeout**: API call (non-streaming), **Default**: 1800s, **Local providers**:
+    Unchanged, **Config / env**: `providers.<id>.request_timeout_seconds` / `timeout_seconds`
+    or `HERMES_API_TIMEOUT`'
+  status: supported
+  confidence: null
+- id: progress-level-what-happens
+  text: Progress**, **Level**, **What happens**
+  status: supported
+  confidence: null
+- id: progress-60-to-threshold-level-info-what
+  text: "Progress**: **\u2265 60%** to threshold, **Level**: Info, **What happens**:\
+    \ CLI shows a cyan progress bar; gateway sends an informational notice"
+  status: supported
+  confidence: null
+- id: progress-85-to-threshold-level-warning-wh
+  text: "Progress**: **\u2265 85%** to threshold, **Level**: Warning, **What happens**:\
+    \ CLI shows a bold yellow bar; gateway warns compaction is imminent"
+  status: supported
+  confidence: null
+- id: key-what-it-does-default
+  text: Key**, **What it does**, **Default**
+  status: supported
+  confidence: null
+- id: key-provider-what-it-does-which-provider-to-use-f
+  text: 'Key**: `provider`, **What it does**: Which provider to use for auth and routing,
+    **Default**: `"auto"`'
+  status: supported
+  confidence: null
+- id: key-model-what-it-does-which-model-to-request
+  text: 'Key**: `model`, **What it does**: Which model to request, **Default**: provider''s
+    default'
+  status: supported
+  confidence: null
+- id: key-base-url-what-it-does-custom-openai-compatibl
+  text: 'Key**: `base_url`, **What it does**: Custom OpenAI-compatible endpoint (overrides
+    provider), **Default**: not set'
+  status: supported
+  confidence: null
+- id: auxiliarysession-searchmax-concurrency-limits-how-many
+  text: '`auxiliary.session_search.max_concurrency`: limits how many matched sessions
+    Hermes summarizes at once'
+  status: supported
+  confidence: null
+- id: auxiliarysession-searchextra-body-forwards-provider-spe
+  text: '`auxiliary.session_search.extra_body`: forwards provider-specific OpenAI-compatible
+    request fields on the summarization calls'
+  status: supported
+  confidence: null
+- id: provider-description-requirements
+  text: Provider**, **Description**, **Requirements**
+  status: supported
+  confidence: null
+- id: provider-auto-description-best-available-defau
+  text: "Provider**: `\"auto\"`, **Description**: Best available (default). Vision\
+    \ tries OpenRouter \u2192 Nous \u2192 Codex., **Requirements**: \u2014"
+  status: supported
+  confidence: null
+- id: provider-openrouter-description-force-openroute
+  text: "Provider**: `\"openrouter\"`, **Description**: Force OpenRouter \u2014 routes\
+    \ to any model (Gemini, GPT-4o, Claude, etc.), **Requirements**: `OPENROUTER_API_KEY`"
+  status: supported
+  confidence: null
+- id: provider-nous-description-force-nous-portal
+  text: 'Provider**: `"nous"`, **Description**: Force Nous Portal, **Requirements**:
+    `hermes auth`'
+  status: supported
+  confidence: null
+- id: provider-codex-description-force-codex-oauth-c
+  text: "Provider**: `\"codex\"`, **Description**: Force Codex OAuth (ChatGPT account).\
+    \ Supports vision (gpt-5.3-codex)., **Requirements**: `hermes model` \u2192 Codex"
+  status: supported
+  confidence: null
+- id: provider-main-description-use-your-active-custo
+  text: "Provider**: `\"main\"`, **Description**: Use your active custom/main endpoint.\
+    \ This can come from `OPENAI_BASE_URL` + `OPENAI_API_KEY` or from a custom endpoint\
+    \ saved via `hermes model` / `config.yaml`. Works with OpenAI, local models, or\
+    \ any OpenAI-compatible API. **Auxiliary tasks only \u2014 not valid for `model.provider`.**,\
+    \ **Requirements**: Custom endpoint credentials + base URL"
+  status: supported
+  confidence: null
+- id: setting-environment-variable
+  text: 'Setting**: Environment Variable'
+  status: supported
+  confidence: null
+- id: vision-provider-auxiliary-vision-provider
+  text: 'Vision provider**: `AUXILIARY_VISION_PROVIDER`'
+  status: supported
+  confidence: null
+- id: vision-model-auxiliary-vision-model
+  text: 'Vision model**: `AUXILIARY_VISION_MODEL`'
+  status: supported
+  confidence: null
+- id: vision-endpoint-auxiliary-vision-base-url
+  text: 'Vision endpoint**: `AUXILIARY_VISION_BASE_URL`'
+  status: supported
+  confidence: null
+- id: vision-api-key-auxiliary-vision-api-key
+  text: 'Vision API key**: `AUXILIARY_VISION_API_KEY`'
+  status: supported
+  confidence: null
+- id: web-extract-provider-auxiliary-web-extract-provider
+  text: 'Web extract provider**: `AUXILIARY_WEB_EXTRACT_PROVIDER`'
+  status: supported
+  confidence: null
+- id: web-extract-model-auxiliary-web-extract-model
+  text: 'Web extract model**: `AUXILIARY_WEB_EXTRACT_MODEL`'
+  status: supported
+  confidence: null
+- id: web-extract-endpoint-auxiliary-web-extract-base-url
+  text: 'Web extract endpoint**: `AUXILIARY_WEB_EXTRACT_BASE_URL`'
+  status: supported
+  confidence: null
+- id: web-extract-api-key-auxiliary-web-extract-api-key
+  text: 'Web extract API key**: `AUXILIARY_WEB_EXTRACT_API_KEY`'
+  status: supported
+  confidence: null
+- id: value-behavior
+  text: 'Value**: Behavior'
+  status: supported
+  confidence: null
+- id: auto-default-enabled-for-models-matching-gpt-c
+  text: '`"auto"` (default)**: Enabled for models matching: `gpt`, `codex`, `gemini`,
+    `gemma`, `grok`. Disabled for all others (Claude, DeepSeek, Qwen, etc.).'
+  status: supported
+  confidence: null
+- id: true-always-enabled-regardless-of-model-useful-if-you
+  text: '`true`**: Always enabled, regardless of model. Useful if you notice your
+    current model describing actions instead of performing them.'
+  status: supported
+  confidence: null
+- id: false-always-disabled-regardless-of-model
+  text: '`false`**: Always disabled, regardless of model.'
+  status: supported
+  confidence: null
+- id: gpt-codex-qwen-llama-enabled-only-when-the
+  text: '`["gpt", "codex", "qwen", "llama"]`**: Enabled only when the model name contains
+    one of the listed substrings (case-insensitive).'
+  status: supported
+  confidence: null
+- id: mode-what-you-see
+  text: 'Mode**: What you see'
+  status: supported
+  confidence: null
+- id: off-silent-just-the-final-response
+  text: "`off`**: Silent \u2014 just the final response"
+  status: supported
+  confidence: null
+- id: new-tool-indicator-only-when-the-tool-changes
+  text: '`new`**: Tool indicator only when the tool changes'
+  status: supported
+  confidence: null
+- id: all-every-tool-call-with-a-short-preview-default
+  text: '`all`**: Every tool call with a short preview (default)'
+  status: supported
+  confidence: null
+- id: verbose-full-args-results-and-debug-logs
+  text: '`verbose`**: Full args, results, and debug logs'
+  status: supported
+  confidence: null
+- id: field-treatment
+  text: 'Field**: Treatment'
+  status: supported
+  confidence: null
+- id: phone-numbers-user-id-on-whatsappsignal-hashed-to-use
+  text: 'Phone numbers (user ID on WhatsApp/Signal)**: Hashed to `user_<12-char-sha256>`'
+  status: supported
+  confidence: null
+- id: user-ids-hashed-to-user-12-char-sha256
+  text: 'User IDs**: Hashed to `user_<12-char-sha256>`'
+  status: supported
+  confidence: null
+- id: chat-ids-numeric-portion-hashed-platform-prefix-preserve
+  text: 'Chat IDs**: Numeric portion hashed, platform prefix preserved (`telegram:<hash>`)'
+  status: supported
+  confidence: null
+- id: home-channel-ids-numeric-portion-hashed
+  text: 'Home channel IDs**: Numeric portion hashed'
+  status: supported
+  confidence: null
+- id: user-names-usernames-not-affected-user-chosen-pub
+  text: 'User names / usernames**: **Not affected** (user-chosen, publicly visible)'
+  status: supported
+  confidence: null
+- id: local-uses-faster-whisper-running-on-your-machine-insta
+  text: '`local` uses `faster-whisper` running on your machine. Install it separately
+    with `pip install faster-whisper`.'
+  status: supported
+  confidence: null
+- id: groq-uses-groqs-whisper-compatible-endpoint-and-reads-gr
+  text: '`groq` uses Groq''s Whisper-compatible endpoint and reads `GROQ_API_KEY`.'
+  status: supported
+  confidence: null
+- id: openai-uses-the-openai-speech-api-and-reads-voice-tools-o
+  text: '`openai` uses the OpenAI speech API and reads `VOICE_TOOLS_OPENAI_KEY`.'
+  status: supported
+  confidence: null
+- id: true-is-the-default-and-recommended-setting-in-discord-ch
+  text: '`true` is the default and recommended setting. In Discord channels, Telegram
+    groups, Slack channels, and similar shared contexts, each sender gets their own
+    session when the platform provides a user ID.'
+  status: supported
+  confidence: null
+- id: false-reverts-to-the-old-shared-room-behavior-that-can-be
+  text: '`false` reverts to the old shared-room behavior. That can be useful if you
+    explicitly want Hermes to treat a channel like one collaborative conversation,
+    but it also means users share context, token costs, and interrupt state.'
+  status: supported
+  confidence: null
+- id: direct-messages-are-unaffected-hermes-still-keys-dms-by-cha
+  text: Direct messages are unaffected. Hermes still keys DMs by chat/DM ID as usual.
+  status: supported
+  confidence: null
+- id: threads-stay-isolated-from-their-parent-channel-either-way
+  text: Threads stay isolated from their parent channel either way; with `true`, each
+    participant also gets their own session inside the thread.
+  status: supported
+  confidence: null
+- id: pair-is-the-default-hermes-denies-access-but-replies-wit
+  text: '`pair` is the default. Hermes denies access, but replies with a one-time
+    pairing code in DMs.'
+  status: supported
+  confidence: null
+- id: ignore-silently-drops-unauthorized-dms
+  text: '`ignore` silently drops unauthorized DMs.'
+  status: supported
+  confidence: null
+- id: platform-sections-override-the-global-default-so-you-can-ke
+  text: Platform sections override the global default, so you can keep pairing enabled
+    broadly while making one platform quieter.
+  status: supported
+  confidence: null
+- id: 30-second-timeout-long-running-commands-are-killed-with
+  text: "30-second timeout** \u2014 long-running commands are killed with an error\
+    \ message"
+  status: supported
+  confidence: null
+- id: priority-quick-commands-are-checked-before-skill-command
+  text: "Priority** \u2014 quick commands are checked before skill commands, so you\
+    \ can override skill names"
+  status: supported
+  confidence: null
+- id: autocomplete-quick-commands-are-resolved-at-dispatch-tim
+  text: "Autocomplete** \u2014 quick commands are resolved at dispatch time and are\
+    \ not shown in the built-in slash-command autocomplete tables"
+  status: supported
+  confidence: null
+- id: type-only-exec-is-supported-runs-a-shell-command-ot
+  text: "Type** \u2014 only `exec` is supported (runs a shell command); other types\
+    \ show an error"
+  status: supported
+  confidence: null
+- id: works-everywhere-cli-telegram-discord-slack-whatsapp
+  text: "Works everywhere** \u2014 CLI, Telegram, Discord, Slack, WhatsApp, Signal,\
+    \ Email, Home Assistant"
+  status: supported
+  confidence: null
+- id: project-default-scripts-run-in-the-sessions-working
+  text: "`project`** (default) \u2014 scripts run in the session's working directory\
+    \ with the active virtualenv/conda env's python. Project deps (`pandas`, `torch`,\
+    \ project packages) and relative paths (`.env`, `./data.csv`) resolve naturally,\
+    \ matching what `terminal()` sees."
+  status: supported
+  confidence: null
+- id: strict-scripts-run-in-a-temp-staging-directory-with-s
+  text: "`strict`** \u2014 scripts run in a temp staging directory with `sys.executable`\
+    \ (Hermes's own python). Maximum reproducibility, but project deps and relative\
+    \ paths won't resolve."
+  status: supported
+  confidence: null
+- id: backend-env-var-search-extract-crawl
+  text: Backend**, **Env Var**, **Search**, **Extract**, **Crawl**
+  status: supported
+  confidence: null
+- id: backend-firecrawl-default-env-var-firecrawl
+  text: "Backend**: **Firecrawl** (default), **Env Var**: `FIRECRAWL_API_KEY`, **Search**:\
+    \ \u2714, **Extract**: \u2714, **Crawl**: \u2714"
+  status: supported
+  confidence: null
+- id: backend-parallel-env-var-parallel-api-key
+  text: "Backend**: **Parallel**, **Env Var**: `PARALLEL_API_KEY`, **Search**: \u2714\
+    , **Extract**: \u2714, **Crawl**: \u2014"
+  status: supported
+  confidence: null
+- id: backend-tavily-env-var-tavily-api-key-sear
+  text: "Backend**: **Tavily**, **Env Var**: `TAVILY_API_KEY`, **Search**: \u2714\
+    , **Extract**: \u2714, **Crawl**: \u2714"
+  status: supported
+  confidence: null
+- id: backend-exa-env-var-exa-api-key-search
+  text: "Backend**: **Exa**, **Env Var**: `EXA_API_KEY`, **Search**: \u2714, **Extract**:\
+    \ \u2714, **Crawl**: \u2014"
+  status: supported
+  confidence: null
+- id: must-respond-default-capture-the-dialog-surface-it-in
+  text: "`must_respond` (default) \u2014 capture the dialog, surface it in `browser_snapshot.pending_dialogs`,\
+    \ and wait for the agent to call `browser_dialog(action=...)`. After `dialog_timeout_s`\
+    \ seconds with no response, the dialog is auto-dismissed to prevent the page's\
+    \ JS thread from stalling forever."
+  status: supported
+  confidence: null
+- id: auto-dismiss-capture-dismiss-immediately-the-agent-sti
+  text: "`auto_dismiss` \u2014 capture, dismiss immediately. The agent still sees\
+    \ the dialog record in `browser_snapshot.recent_dialogs` with `closed_by=\"auto_policy\"\
+    ` after the fact."
+  status: supported
+  confidence: null
+- id: auto-accept-capture-accept-immediately-useful-for-page
+  text: "`auto_accept` \u2014 capture, accept immediately. Useful for pages with aggressive\
+    \ `beforeunload` prompts."
+  status: supported
+  confidence: null
+- id: require-mention-when-true-default-the-bot-only-resp
+  text: "`require_mention` \u2014 when `true` (default), the bot only responds in\
+    \ server channels when mentioned with `@BotName`. DMs always work without mention."
+  status: supported
+  confidence: null
+- id: free-response-channels-comma-separated-list-of-channel-i
+  text: "`free_response_channels` \u2014 comma-separated list of channel IDs where\
+    \ the bot responds to every message without requiring a mention."
+  status: supported
+  confidence: null
+- id: auto-thread-when-true-default-mentions-in-channels
+  text: "`auto_thread` \u2014 when `true` (default), mentions in channels automatically\
+    \ create a thread for the conversation, keeping channels clean (similar to Slack\
+    \ threading)."
+  status: supported
+  confidence: null
+- id: redact-secrets-automatically-detects-and-redacts-pattern
+  text: "`redact_secrets` \u2014 automatically detects and redacts patterns that look\
+    \ like API keys, tokens, and passwords in tool output before it enters the conversation\
+    \ context and logs."
+  status: supported
+  confidence: null
+- id: tirith-enabled-when-true-terminal-commands-are-scanne
+  text: "`tirith_enabled` \u2014 when `true`, terminal commands are scanned by [Tirith](https://github.com/StackGuardian/tirith)\
+    \ before execution to detect potentially dangerous operations."
+  status: supported
+  confidence: null
+- id: tirith-path-path-to-the-tirith-binary-set-this-if-tirit
+  text: "`tirith_path` \u2014 path to the tirith binary. Set this if tirith is installed\
+    \ in a non-standard location."
+  status: supported
+  confidence: null
+- id: tirith-timeout-maximum-seconds-to-wait-for-a-tirith-scan
+  text: "`tirith_timeout` \u2014 maximum seconds to wait for a tirith scan. Commands\
+    \ proceed if the scan times out."
+  status: supported
+  confidence: null
+- id: tirith-fail-open-when-true-default-commands-are-all
+  text: "`tirith_fail_open` \u2014 when `true` (default), commands are allowed to\
+    \ execute if tirith is unavailable or fails. Set to `false` to block commands\
+    \ when tirith cannot verify them."
+  status: supported
+  confidence: null
+- id: internalcompanycom
+  text: '"*.internal.company.com"'
+  status: supported
+  confidence: null
+- id: adminexamplecom
+  text: '"admin.example.com"'
+  status: supported
+  confidence: null
+- id: etchermesblocked-sitestxt
+  text: '"/etc/hermes/blocked-sites.txt"'
+  status: supported
+  confidence: null
+- id: exact-domains-adminexamplecom
+  text: 'Exact domains: `admin.example.com`'
+  status: supported
+  confidence: null
+- id: wildcard-subdomains-internalcompanycom-blocks-all-su
+  text: 'Wildcard subdomains: `*.internal.company.com` (blocks all subdomains)'
+  status: supported
+  confidence: null
+- id: tld-wildcards-local
+  text: 'TLD wildcards: `*.local`'
+  status: supported
+  confidence: null
+- id: mode-behavior
+  text: 'Mode**: Behavior'
+  status: supported
+  confidence: null
+- id: manual-default-prompt-the-user-before-executing-any-f
+  text: '`manual` (default)**: Prompt the user before executing any flagged command.
+    In the CLI, shows an interactive approval dialog. In messaging, queues a pending
+    approval request.'
+  status: supported
+  confidence: null
+- id: smart-use-an-auxiliary-llm-to-assess-whether-a-flagged
+  text: '`smart`**: Use an auxiliary LLM to assess whether a flagged command is actually
+    dangerous. Low-risk commands are auto-approved with session-level persistence.
+    Genuinely risky commands are escalated to the user.'
+  status: supported
+  confidence: null
+- id: off-skip-all-approval-checks-equivalent-to-hermes-yol
+  text: '`off`**: Skip all approval checks. Equivalent to `HERMES_YOLO_MODE=true`.
+    **Use with caution.**'
+  status: supported
+  confidence: null
+- id: file-purpose-scope
+  text: File**, **Purpose**, **Scope**
+  status: supported
+  confidence: null
+- id: file-soulmd-purpose-primary-agent-identity
+  text: "File**: `SOUL.md`, **Purpose**: **Primary agent identity** \u2014 defines\
+    \ who the agent is (slot #1 in the system prompt), **Scope**: `~/.hermes/SOUL.md`\
+    \ or `$HERMES_HOME/SOUL.md`"
+  status: supported
+  confidence: null
+- id: file-hermesmd-hermesmd-purpose-project-spe
+  text: 'File**: `.hermes.md` / `HERMES.md`, **Purpose**: Project-specific instructions
+    (highest priority), **Scope**: Walks to git root'
+  status: supported
+  confidence: null
+- id: file-agentsmd-purpose-project-specific-instructi
+  text: 'File**: `AGENTS.md`, **Purpose**: Project-specific instructions, coding conventions,
+    **Scope**: Recursive directory walk'
+  status: supported
+  confidence: null
+- id: file-claudemd-purpose-claude-code-context-files
+  text: 'File**: `CLAUDE.md`, **Purpose**: Claude Code context files (also detected),
+    **Scope**: Working directory only'
+  status: supported
+  confidence: null
+- id: file-cursorrules-purpose-cursor-ide-rules-also
+  text: 'File**: `.cursorrules`, **Purpose**: Cursor IDE rules (also detected), **Scope**:
+    Working directory only'
+  status: supported
+  confidence: null
+- id: file-cursorrulesmdc-purpose-cursor-rule-file
+  text: 'File**: `.cursor/rules/*.mdc`, **Purpose**: Cursor rule files (also detected),
+    **Scope**: Working directory only'
+  status: supported
+  confidence: null
+- id: soulmd-is-the-agents-primary-identity-it-occupies-slot
+  text: 'SOUL.md** is the agent''s primary identity. It occupies slot #1 in the system
+    prompt, completely replacing the built-in default identity. Edit it to fully customize
+    who the agent is.'
+  status: supported
+  confidence: null
+- id: if-soulmd-is-missing-empty-or-cannot-be-loaded-hermes-fa
+  text: If SOUL.md is missing, empty, or cannot be loaded, Hermes falls back to a
+    built-in default identity.
+  status: supported
+  confidence: null
+- id: project-context-files-use-a-priority-system-only-one-typ
+  text: "Project context files use a priority system** \u2014 only ONE type is loaded\
+    \ (first match wins): `.hermes.md` \u2192 `AGENTS.md` \u2192 `CLAUDE.md` \u2192\
+    \ `.cursorrules`. SOUL.md is always loaded independently."
+  status: supported
+  confidence: null
+- id: agentsmd-is-hierarchical-if-subdirectories-also-have-age
+  text: 'AGENTS.md** is hierarchical: if subdirectories also have AGENTS.md, all are
+    combined.'
+  status: supported
+  confidence: null
+- id: hermes-automatically-seeds-a-default-soulmd-if-one-does-n
+  text: Hermes automatically seeds a default `SOUL.md` if one does not already exist.
+  status: supported
+  confidence: null
+- id: all-loaded-context-files-are-capped-at-20000-characters-wit
+  text: All loaded context files are capped at 20,000 characters with smart truncation.
+  status: supported
+  confidence: null
+- id: personality-soulmddocsuser-guidefeaturespersonalit
+  text: '[Personality & SOUL.md](/docs/user-guide/features/personality)'
+  status: supported
+  confidence: null
+- id: context-filesdocsuser-guidefeaturescontext-files
+  text: '[Context Files](/docs/user-guide/features/context-files)'
+  status: supported
+  confidence: null
+- id: context-default
+  text: 'Context**: Default'
+  status: supported
+  confidence: null
+- id: cli-hermes-current-directory-where-you-run-the-comm
+  text: 'CLI (`hermes`)****: Current directory where you run the command'
+  status: supported
+  confidence: null
+- id: messaging-gateway-home-directory-override-with-me
+  text: 'Messaging gateway****: Home directory `~` (override with `MESSAGING_CWD`)'
+  status: supported
+  confidence: null
+- id: docker-singularity-modal-ssh-users-home-director
+  text: 'Docker / Singularity / Modal / SSH****: User''s home directory inside the
+    container or remote machine'
+  status: supported
+  confidence: null
+---
+
+All settings are stored in the `~/.hermes/` directory for easy access.
+
+## Directory Structure[​](#directory-structure "Direct link to Directory Structure")
+
+```
+~/.hermes/
+├── config.yaml     # Settings (model, terminal, TTS, compression, etc.)
+├── .env            # API keys and secrets
+├── auth.json       # OAuth provider credentials (Nous Portal, etc.)
+├── SOUL.md         # Primary agent identity (slot #1 in system prompt)
+├── memories/       # Persistent memory (MEMORY.md, USER.md)
+├── skills/         # Agent-created skills (managed via skill_manage tool)
+├── cron/           # Scheduled jobs
+├── sessions/       # Gateway sessions
+└── logs/           # Logs (errors.log, gateway.log — secrets auto-redacted)
+```
+
+## Managing Configuration[​](#managing-configuration "Direct link to Managing Configuration")
+
+```
+hermes config              # View current configuration
+hermes config edit         # Open config.yaml in your editor
+hermes config set KEY VAL  # Set a specific value
+hermes config check        # Check for missing options (after updates)
+hermes config migrate      # Interactively add missing options
+
+# Examples:
+hermes config set model anthropic/claude-opus-4
+hermes config set terminal.backend docker
+hermes config set OPENROUTER_API_KEY sk-or-...  # Saves to .env
+```
+
+tip
+
+The `hermes config set` command automatically routes values to the right file — API keys are saved to `.env`, everything else to `config.yaml`.
+
+## Configuration Precedence[​](#configuration-precedence "Direct link to Configuration Precedence")
+
+Settings are resolved in this order (highest priority first):
+
+1. **CLI arguments** — e.g., `hermes chat --model anthropic/claude-sonnet-4` (per-invocation override)
+2. **`~/.hermes/config.yaml`** — the primary config file for all non-secret settings
+3. **`~/.hermes/.env`** — fallback for env vars; **required** for secrets (API keys, tokens, passwords)
+4. **Built-in defaults** — hardcoded safe defaults when nothing else is set
+
+Rule of Thumb
+
+Secrets (API keys, bot tokens, passwords) go in `.env`. Everything else (model, terminal backend, compression settings, memory limits, toolsets) goes in `config.yaml`. When both are set, `config.yaml` wins for non-secret settings.
+
+## Environment Variable Substitution[​](#environment-variable-substitution "Direct link to Environment Variable Substitution")
+
+You can reference environment variables in `config.yaml` using `${VAR_NAME}` syntax:
+
+```
+auxiliary:
+  vision:
+    api_key: ${GOOGLE_API_KEY}
+    base_url: ${CUSTOM_VISION_URL}
+
+delegation:
+  api_key: ${DELEGATION_KEY}
+```
+
+Multiple references in a single value work: `url: "${HOST}:${PORT}"`. If a referenced variable is not set, the placeholder is kept verbatim (`${UNDEFINED_VAR}` stays as-is). Only the `${VAR}` syntax is supported — bare `$VAR` is not expanded.
+
+For AI provider setup (OpenRouter, Anthropic, Copilot, custom endpoints, self-hosted LLMs, fallback models, etc.), see [AI Providers](/docs/integrations/providers).
+
+### Provider Timeouts[​](#provider-timeouts "Direct link to Provider Timeouts")
+
+You can set `providers.<id>.request_timeout_seconds` for a provider-wide request timeout, plus `providers.<id>.models.<model>.timeout_seconds` for a model-specific override. Applies to the primary turn client on every transport (OpenAI-wire, native Anthropic, Anthropic-compatible), the fallback chain, rebuilds after credential rotation, and (for OpenAI-wire) the per-request timeout kwarg — so the configured value wins over the legacy `HERMES_API_TIMEOUT` env var.
+
+You can also set `providers.<id>.stale_timeout_seconds` for the non-streaming stale-call detector, plus `providers.<id>.models.<model>.stale_timeout_seconds` for a model-specific override. This wins over the legacy `HERMES_API_CALL_STALE_TIMEOUT` env var.
+
+Leaving these unset keeps the legacy defaults (`HERMES_API_TIMEOUT=1800`s, `HERMES_API_CALL_STALE_TIMEOUT=300`s, native Anthropic 900s). Not currently wired for AWS Bedrock (both `bedrock_converse` and AnthropicBedrock SDK paths use boto3 with its own timeout configuration). See the commented example in [`cli-config.yaml.example`](https://github.com/NousResearch/hermes-agent/blob/main/cli-config.yaml.example).
+
+## Terminal Backend Configuration[​](#terminal-backend-configuration "Direct link to Terminal Backend Configuration")
+
+Hermes supports six terminal backends. Each determines where the agent's shell commands actually execute — your local machine, a Docker container, a remote server via SSH, a Modal cloud sandbox, a Daytona workspace, or a Singularity/Apptainer container.
+
+```
+terminal:
+  backend: local    # local | docker | ssh | modal | daytona | singularity
+  cwd: "."          # Working directory ("." = current dir for local, "/root" for containers)
+  timeout: 180      # Per-command timeout in seconds
+  env_passthrough: []  # Env var names to forward to sandboxed execution (terminal + execute_code)
+  singularity_image: "docker://nikolaik/python-nodejs:python3.11-nodejs20"  # Container image for Singularity backend
+  modal_image: "nikolaik/python-nodejs:python3.11-nodejs20"                 # Container image for Modal backend
+  daytona_image: "nikolaik/python-nodejs:python3.11-nodejs20"               # Container image for Daytona backend
+```
+
+For cloud sandboxes such as Modal and Daytona, `container_persistent: true` means Hermes will try to preserve filesystem state across sandbox recreation. It does not promise that the same live sandbox, PID space, or background processes will still be running later.
+
+### Backend Overview[​](#backend-overview "Direct link to Backend Overview")
+
+- **Backend**, **Where commands run**, **Isolation**, **Best for**
+- **Backend**: **local**, **Where commands run**: Your machine directly, **Isolation**: None, **Best for**: Development, personal use
+- **Backend**: **docker**, **Where commands run**: Docker container, **Isolation**: Full (namespaces, cap-drop), **Best for**: Safe sandboxing, CI/CD
+- **Backend**: **ssh**, **Where commands run**: Remote server via SSH, **Isolation**: Network boundary, **Best for**: Remote dev, powerful hardware
+- **Backend**: **modal**, **Where commands run**: Modal cloud sandbox, **Isolation**: Full (cloud VM), **Best for**: Ephemeral cloud compute, evals
+- **Backend**: **daytona**, **Where commands run**: Daytona workspace, **Isolation**: Full (cloud container), **Best for**: Managed cloud dev environments
+- **Backend**: **singularity**, **Where commands run**: Singularity/Apptainer container, **Isolation**: Namespaces (--containall), **Best for**: HPC clusters, shared machines
+
+### Local Backend[​](#local-backend "Direct link to Local Backend")
+
+The default. Commands run directly on your machine with no isolation. No special setup required.
+
+```
+terminal:
+  backend: local
+```
+
+warning
+
+The agent has the same filesystem access as your user account. Use `hermes tools` to disable tools you don't want, or switch to Docker for sandboxing.
+
+### Docker Backend[​](#docker-backend "Direct link to Docker Backend")
+
+Runs commands inside a Docker container with [[entity.security|Security]] hardening (all capabilities dropped, no privilege escalation, PID limits).
+
+```
+terminal:
+  backend: docker
+  docker_image: "nikolaik/python-nodejs:python3.11-nodejs20"
+  docker_mount_cwd_to_workspace: false  # Mount launch dir into /workspace
+  docker_forward_env:              # Env vars to forward into container
+    - "GITHUB_TOKEN"
+  docker_volumes:                  # Host directory mounts
+    - "/home/user/projects:/workspace/projects"
+    - "/home/user/data:/data:ro"   # :ro for read-only
+
+  # Resource limits
+  container_cpu: 1                 # CPU cores (0 = unlimited)
+  container_memory: 5120           # MB (0 = unlimited)
+  container_disk: 51200            # MB (requires overlay2 on XFS+pquota)
+  container_persistent: true       # Persist /workspace and /root across sessions
+```
+
+**Requirements:** Docker Desktop or Docker Engine installed and running. Hermes probes `$PATH` plus common macOS install locations (`/usr/local/bin/docker`, `/opt/homebrew/bin/docker`, Docker Desktop app bundle).
+
+**Container lifecycle:** Each session starts a long-lived container (`docker run -d ... sleep 2h`). Commands run via `docker exec` with a login shell. On cleanup, the container is stopped and removed.
+
+**[[entity.security|Security]] hardening:**
+
+- `--cap-drop ALL` with only `DAC_OVERRIDE`, `CHOWN`, `FOWNER` added back
+- `--[[entity.security|Security]]-opt no-new-privileges`
+- `--pids-limit 256`
+- Size-limited tmpfs for `/tmp` (512MB), `/var/tmp` (256MB), `/run` (64MB)
+
+**Credential forwarding:** Env vars listed in `docker_forward_env` are resolved from your shell environment first, then `~/.hermes/.env`. Skills can also declare `required_environment_variables` which are merged automatically.
+
+### SSH Backend[​](#ssh-backend "Direct link to SSH Backend")
+
+Runs commands on a remote server over SSH. Uses ControlMaster for connection reuse (5-minute idle keepalive). Persistent shell is enabled by default — state (cwd, env vars) survives across commands.
+
+```
+terminal:
+  backend: ssh
+  persistent_shell: true           # Keep a long-lived bash session (default: true)
+```
+
+**Required environment variables:**
+
+```
+TERMINAL_SSH_HOST=my-server.example.com
+TERMINAL_SSH_USER=ubuntu
+```
+
+**Optional:**
+
+- **Variable**, **Default**, **Description**
+- **Variable**: `TERMINAL_SSH_PORT`, **Default**: `22`, **Description**: SSH port
+- **Variable**: `TERMINAL_SSH_KEY`, **Default**: (system default), **Description**: Path to SSH private key
+- **Variable**: `TERMINAL_SSH_PERSISTENT`, **Default**: `true`, **Description**: Enable persistent shell
+
+**How it works:** Connects at init time with `BatchMode=yes` and `StrictHostKeyChecking=accept-new`. Persistent shell keeps a single `bash -l` process alive on the remote host, communicating via temporary files. Commands that need `stdin_data` or `sudo` automatically fall back to one-shot mode.
+
+### Modal Backend[​](#modal-backend "Direct link to Modal Backend")
+
+Runs commands in a [Modal](https://modal.com) cloud sandbox. Each task gets an isolated VM with configurable CPU, memory, and disk. Filesystem can be snapshot/restored across sessions.
+
+```
+terminal:
+  backend: modal
+  container_cpu: 1                 # CPU cores
+  container_memory: 5120           # MB (5GB)
+  container_disk: 51200            # MB (50GB)
+  container_persistent: true       # Snapshot/restore filesystem
+```
+
+**Required:** Either `MODAL_TOKEN_ID` + `MODAL_TOKEN_SECRET` environment variables, or a `~/.modal.toml` config file.
+
+**Persistence:** When enabled, the sandbox filesystem is snapshotted on cleanup and restored on next session. Snapshots are tracked in `~/.hermes/modal_snapshots.json`. This preserves filesystem state, not live processes, PID space, or background jobs.
+
+**Credential files:** Automatically mounted from `~/.hermes/` (OAuth tokens, etc.) and synced before each command.
+
+### Daytona Backend[​](#daytona-backend "Direct link to Daytona Backend")
+
+Runs commands in a [Daytona](https://daytona.io) managed workspace. Supports stop/resume for persistence.
+
+```
+terminal:
+  backend: daytona
+  container_cpu: 1                 # CPU cores
+  container_memory: 5120           # MB → converted to GiB
+  container_disk: 10240            # MB → converted to GiB (max 10 GiB)
+  container_persistent: true       # Stop/resume instead of delete
+```
+
+**Required:** `DAYTONA_API_KEY` environment variable.
+
+**Persistence:** When enabled, sandboxes are stopped (not deleted) on cleanup and resumed on next session. Sandbox names follow the pattern `hermes-{task_id}`.
+
+**Disk limit:** Daytona enforces a 10 GiB maximum. Requests above this are capped with a warning.
+
+### Singularity/Apptainer Backend[​](#singularityapptainer-backend "Direct link to Singularity/Apptainer Backend")
+
+Runs commands in a [Singularity/Apptainer](https://apptainer.org) container. Designed for HPC clusters and shared machines where Docker isn't available.
+
+```
+terminal:
+  backend: singularity
+  singularity_image: "docker://nikolaik/python-nodejs:python3.11-nodejs20"
+  container_cpu: 1                 # CPU cores
+  container_memory: 5120           # MB
+  container_persistent: true       # Writable overlay persists across sessions
+```
+
+**Requirements:** `apptainer` or `singularity` binary in `$PATH`.
+
+**Image handling:** Docker URLs (`docker://...`) are automatically converted to SIF files and cached. Existing `.sif` files are used directly.
+
+**Scratch directory:** Resolved in order: `TERMINAL_SCRATCH_DIR` → `TERMINAL_SANDBOX_DIR/singularity` → `/scratch/$USER/hermes-agent` (HPC convention) → `~/.hermes/sandboxes/singularity`.
+
+**Isolation:** Uses `--containall --no-home` for full namespace isolation without mounting the host home directory.
+
+### Common Terminal Backend Issues[​](#common-terminal-backend-issues "Direct link to Common Terminal Backend Issues")
+
+If terminal commands fail immediately or the terminal tool is reported as disabled:
+
+- **Local** — No special requirements. The safest default when getting started.
+- **Docker** — Run `docker version` to verify Docker is working. If it fails, fix Docker or `hermes config set terminal.backend local`.
+- **SSH** — Both `TERMINAL_SSH_HOST` and `TERMINAL_SSH_USER` must be set. Hermes logs a clear error if either is missing.
+- **Modal** — Needs `MODAL_TOKEN_ID` env var or `~/.modal.toml`. Run `hermes doctor` to check.
+- **Daytona** — Needs `DAYTONA_API_KEY`. The Daytona SDK handles server URL configuration.
+- **Singularity** — Needs `apptainer` or `singularity` in `$PATH`. Common on HPC clusters.
+
+When in doubt, set `terminal.backend` back to `local` and verify that commands run there first.
+
+### Docker Volume Mounts[​](#docker-volume-mounts "Direct link to Docker Volume Mounts")
+
+When using the Docker backend, `docker_volumes` lets you share host directories with the container. Each entry uses standard Docker `-v` syntax: `host_path:container_path[:options]`.
+
+```
+terminal:
+  backend: docker
+  docker_volumes:
+    - "/home/user/projects:/workspace/projects"   # Read-write (default)
+    - "/home/user/datasets:/data:ro"              # Read-only
+    - "/home/user/.hermes/cache/documents:/output" # Gateway-visible exports
+```
+
+This is useful for:
+
+- **Providing files** to the agent (datasets, configs, reference code)
+- **Receiving files** from the agent (generated code, reports, exports)
+- **Shared workspaces** where both you and the agent access the same files
+
+If you use a messaging gateway and want the agent to send generated files via
+`MEDIA:/...`, prefer a dedicated host-visible export mount such as
+`/home/user/.hermes/cache/documents:/output`.
+
+- Write files inside Docker to `/output/...`
+- Emit the **host path** in `MEDIA:`, for example:
+  `MEDIA:/home/user/.hermes/cache/documents/report.txt`
+- Do **not** emit `/workspace/...` or `/output/...` unless that exact path also
+  exists for the gateway process on the host
+
+warning
+
+YAML duplicate keys silently override earlier ones. If you already have a
+`docker_volumes:` block, merge new mounts into the same list instead of adding
+another `docker_volumes:` key later in the file.
+
+Can also be set via environment variable: `TERMINAL_DOCKER_VOLUMES='["/host:/container"]'` (JSON array).
+
+### Docker Credential Forwarding[​](#docker-credential-forwarding "Direct link to Docker Credential Forwarding")
+
+By default, Docker terminal sessions do not inherit arbitrary host credentials. If you need a specific token inside the container, add it to `terminal.docker_forward_env`.
+
+```
+terminal:
+  backend: docker
+  docker_forward_env:
+    - "GITHUB_TOKEN"
+    - "NPM_TOKEN"
+```
+
+Hermes resolves each listed variable from your current shell first, then falls back to `~/.hermes/.env` if it was saved with `hermes config set`.
+
+warning
+
+Anything listed in `docker_forward_env` becomes visible to commands run inside the container. Only forward credentials you are comfortable exposing to the terminal session.
+
+### Optional: Mount the Launch Directory into `/workspace`[​](#optional-mount-the-launch-directory-into-workspace "Direct link to optional-mount-the-launch-directory-into-workspace")
+
+Docker sandboxes stay isolated by default. Hermes does **not** pass your current host working directory into the container unless you explicitly opt in.
+
+Enable it in `config.yaml`:
+
+```
+terminal:
+  backend: docker
+  docker_mount_cwd_to_workspace: true
+```
+
+When enabled:
+
+- if you launch Hermes from `~/projects/my-app`, that host directory is bind-mounted to `/workspace`
+- the Docker backend starts in `/workspace`
+- file tools and terminal commands both see the same mounted project
+
+When disabled, `/workspace` stays sandbox-owned unless you explicitly mount something via `docker_volumes`.
+
+[[entity.security|Security]] tradeoff:
+
+- `false` preserves the sandbox boundary
+- `true` gives the sandbox direct access to the directory you launched Hermes from
+
+Use the opt-in only when you intentionally want the container to work on live host files.
+
+### Persistent Shell[​](#persistent-shell "Direct link to Persistent Shell")
+
+By default, each terminal command runs in its own subprocess — working directory, environment variables, and shell variables reset between commands. When **persistent shell** is enabled, a single long-lived bash process is kept alive across `execute()` calls so that state survives between commands.
+
+This is most useful for the **SSH backend**, where it also eliminates per-command connection overhead. Persistent shell is **enabled by default for SSH** and disabled for the local backend.
+
+```
+terminal:
+  persistent_shell: true   # default — enables persistent shell for SSH
+```
+
+To disable:
+
+```
+hermes config set terminal.persistent_shell false
+```
+
+**What persists across commands:**
+
+- Working directory (`cd /tmp` sticks for the next command)
+- Exported environment variables (`export FOO=bar`)
+- Shell variables (`MY_VAR=hello`)
+
+**Precedence:**
+
+- **Level**, **Variable**, **Default**
+- **Level**: Config, **Variable**: `terminal.persistent_shell`, **Default**: `true`
+- **Level**: SSH override, **Variable**: `TERMINAL_SSH_PERSISTENT`, **Default**: follows config
+- **Level**: Local override, **Variable**: `TERMINAL_LOCAL_PERSISTENT`, **Default**: `false`
+
+Per-backend environment variables take highest precedence. If you want persistent shell on the local backend too:
+
+```
+export TERMINAL_LOCAL_PERSISTENT=true
+```
+
+note
+
+Commands that require `stdin_data` or sudo automatically fall back to one-shot mode, since the persistent shell's stdin is already occupied by the IPC protocol.
+
+See [Code Execution](/docs/user-guide/features/code-execution) and the [Terminal section of the README](/docs/user-guide/features/tools) for details on each backend.
+
+## Skill Settings[​](#skill-settings "Direct link to Skill Settings")
+
+Skills can declare their own configuration settings via their SKILL.md frontmatter. These are non-secret values (paths, preferences, domain settings) stored under the `skills.config` namespace in `config.yaml`.
+
+```
+skills:
+  config:
+    myplugin:
+      path: ~/myplugin-data   # Example — each skill defines its own keys
+```
+
+**How skill settings work:**
+
+- `hermes config migrate` scans all enabled skills, finds unconfigured settings, and offers to prompt you
+- `hermes config show` displays all skill settings under "Skill Settings" with the skill they belong to
+- When a skill loads, its resolved config values are injected into the skill context automatically
+
+**Setting values manually:**
+
+```
+hermes config set skills.config.myplugin.path ~/myplugin-data
+```
+
+For details on declaring config settings in your own skills, see [Creating Skills — Config Settings](/docs/developer-guide/creating-skills#config-settings-configyaml).
+
+## Memory Configuration[​](#memory-configuration "Direct link to Memory Configuration")
+
+```
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  memory_char_limit: 2200   # ~800 tokens
+  user_char_limit: 1375     # ~500 tokens
+```
+
+## File Read Safety[​](#file-read-safety "Direct link to File Read Safety")
+
+Controls how much content a single `read_file` call can return. Reads that exceed the limit are rejected with an error telling the agent to use `offset` and `limit` for a smaller range. This prevents a single read of a minified JS bundle or large data file from flooding the context window.
+
+```
+file_read_max_chars: 100000  # default — ~25-35K tokens
+```
+
+Raise it if you're on a model with a large context window and frequently read big files. Lower it for small-context models to keep reads efficient:
+
+```
+# Large context model (200K+)
+file_read_max_chars: 200000
+
+# Small local model (16K context)
+file_read_max_chars: 30000
+```
+
+The agent also deduplicates file reads automatically — if the same file region is read twice and the file hasn't changed, a lightweight stub is returned instead of re-sending the content. This resets on context compression so the agent can re-read files after their content is summarized away.
+
+## Tool Output Truncation Limits[​](#tool-output-truncation-limits "Direct link to Tool Output Truncation Limits")
+
+Three related caps control how much raw output a tool can return before Hermes truncates it:
+
+```
+tool_output:
+  max_bytes: 50000        # terminal output cap (chars)
+  max_lines: 2000         # read_file pagination cap
+  max_line_length: 2000   # per-line cap in read_file's line-numbered view
+```
+
+- **`max_bytes`** — When a `terminal` command produces more than this many characters of combined stdout/stderr, Hermes keeps the first 40% and last 60% and inserts a `[OUTPUT TRUNCATED]` notice between them. Default `50000` (≈12-15K tokens across typical tokenisers).
+- **`max_lines`** — Upper bound on the `limit` parameter of a single `read_file` call. Requests above this are clamped so a single read can't flood the context window. Default `2000`.
+- **`max_line_length`** — Per-line cap applied when `read_file` emits the line-numbered view. Lines longer than this are truncated to this many chars followed by `... [truncated]`. Default `2000`.
+
+Raise the limits on models with large context windows that can afford more raw output per call. Lower them for small-context models to keep tool results compact:
+
+```
+# Large context model (200K+)
+tool_output:
+  max_bytes: 150000
+  max_lines: 5000
+
+# Small local model (16K context)
+tool_output:
+  max_bytes: 20000
+  max_lines: 500
+```
+
+## Git Worktree Isolation[​](#git-worktree-isolation "Direct link to Git Worktree Isolation")
+
+Enable isolated git worktrees for running multiple agents in parallel on the same repo:
+
+```
+worktree: true    # Always create a worktree (same as hermes -w)
+# worktree: false # Default — only when -w flag is passed
+```
+
+When enabled, each CLI session creates a fresh worktree under `.worktrees/` with its own branch. Agents can edit files, commit, push, and create PRs without interfering with each other. Clean worktrees are removed on exit; dirty ones are kept for manual recovery.
+
+You can also list gitignored files to copy into worktrees via `.worktreeinclude` in your repo root:
+
+```
+# .worktreeinclude
+.env
+.venv/
+node_modules/
+```
+
+## Context Compression[​](#context-compression "Direct link to Context Compression")
+
+Hermes automatically compresses long conversations to stay within your model's context window. The compression summarizer is a separate LLM call — you can point it at any provider or endpoint.
+
+All compression settings live in `config.yaml` (no environment variables).
+
+### Full reference[​](#full-reference "Direct link to Full reference")
+
+```
+compression:
+  enabled: true                                     # Toggle compression on/off
+  threshold: 0.50                                   # Compress at this % of context limit
+  target_ratio: 0.20                                # Fraction of threshold to preserve as recent tail
+  protect_last_n: 20                                # Min recent messages to keep uncompressed
+
+# The summarization model/provider is configured under auxiliary:
+auxiliary:
+  compression:
+    model: "google/gemini-3-flash-preview"          # Model for summarization
+    provider: "auto"                                # Provider: "auto", "openrouter", "nous", "codex", "main", etc.
+    base_url: null                                  # Custom OpenAI-compatible endpoint (overrides provider)
+```
+
+Legacy config migration
+
+Older configs with `compression.summary_model`, `compression.summary_provider`, and `compression.summary_base_url` are automatically migrated to `auxiliary.compression.*` on first load (config version 17). No manual action needed.
+
+### Common setups[​](#common-setups "Direct link to Common setups")
+
+**Default (auto-detect) — no configuration needed:**
+
+```
+compression:
+  enabled: true
+  threshold: 0.50
+```
+
+Uses the first available provider (OpenRouter → Nous → Codex) with Gemini Flash.
+
+**Force a specific provider** (OAuth or API-key based):
+
+```
+auxiliary:
+  compression:
+    provider: nous
+    model: gemini-3-flash
+```
+
+Works with any provider: `nous`, `openrouter`, `codex`, `anthropic`, `main`, etc.
+
+**Custom endpoint** (self-hosted, Ollama, zai, DeepSeek, etc.):
+
+```
+auxiliary:
+  compression:
+    model: glm-4.7
+    base_url: https://api.z.ai/api/coding/paas/v4
+```
+
+Points at a custom OpenAI-compatible endpoint. Uses `OPENAI_API_KEY` for auth.
+
+### How the three knobs interact[​](#how-the-three-knobs-interact "Direct link to How the three knobs interact")
+
+- **`auxiliary.compression.provider`**, **`auxiliary.compression.base_url`**, **Result**
+- **`auxiliary.compression.provider`**: `auto` (default), **`auxiliary.compression.base_url`**: not set, **Result**: Auto-detect best available provider
+- **`auxiliary.compression.provider`**: `nous` / `openrouter` / etc., **`auxiliary.compression.base_url`**: not set, **Result**: Force that provider, use its auth
+- **`auxiliary.compression.provider`**: any, **`auxiliary.compression.base_url`**: set, **Result**: Use the custom endpoint directly (provider ignored)
+
+Summary model context length requirement
+
+The summary model **must** have a context window at least as large as your main agent model's. The compressor sends the full middle section of the conversation to the summary model — if that model's context window is smaller than the main model's, the summarization call will fail with a context length error. When this happens, the middle turns are **dropped without a summary**, losing conversation context silently. If you override the model, verify its context length meets or exceeds your main model's.
+
+## Context Engine[​](#context-engine "Direct link to Context Engine")
+
+The context engine controls how conversations are managed when approaching the model's token limit. The built-in `compressor` engine uses lossy summarization (see [Context Compression](/docs/developer-guide/context-compression-and-caching)). Plugin engines can replace it with alternative strategies.
+
+```
+context:
+  engine: "compressor"    # default — built-in lossy summarization
+```
+
+To use a plugin engine (e.g., LCM for lossless context management):
+
+```
+context:
+  engine: "lcm"          # must match the plugin's name
+```
+
+Plugin engines are **never auto-activated** — you must explicitly set `context.engine` to the plugin name. Available engines can be browsed and selected via `hermes plugins` → Provider Plugins → Context Engine.
+
+See [Memory Providers](/docs/user-guide/features/memory-providers) for the analogous single-select system for memory plugins.
+
+## Iteration Budget Pressure[​](#iteration-budget-pressure "Direct link to Iteration Budget Pressure")
+
+When the agent is working on a complex task with many tool calls, it can burn through its iteration budget (default: 90 turns) without realizing it's running low. Budget pressure automatically warns the model as it approaches the limit:
+
+- **Threshold**, **Level**, **What the model sees**
+- **Threshold**: **70%**, **Level**: Caution, **What the model sees**: `[BUDGET: 63/90. 27 iterations left. Start consolidating.]`
+- **Threshold**: **90%**, **Level**: Warning, **What the model sees**: `[BUDGET WARNING: 81/90. Only 9 left. Respond NOW.]`
+
+Warnings are injected into the last tool result's JSON (as a `_budget_warning` field) rather than as separate messages — this preserves prompt caching and doesn't disrupt the conversation structure.
+
+```
+agent:
+  max_turns: 90                # Max iterations per conversation turn (default: 90)
+```
+
+Budget pressure is enabled by default. The agent sees warnings naturally as part of tool results, encouraging it to consolidate its work and deliver a response before running out of iterations.
+
+When the iteration budget is fully exhausted, the CLI shows a notification to the user: `⚠ Iteration budget reached (90/90) — response may be incomplete`. If the budget runs out during active work, the agent generates a summary of what was accomplished before stopping.
+
+### API Timeouts[​](#api-timeouts "Direct link to API Timeouts")
+
+Hermes has separate timeout layers for streaming, plus a stale detector for non-streaming calls. The stale detectors auto-adjust for local providers only when you leave them at their implicit defaults.
+
+- **Timeout**, **Default**, **Local providers**, **Config / env**
+- **Timeout**: Socket read timeout, **Default**: 120s, **Local providers**: Auto-raised to 1800s, **Config / env**: `HERMES_STREAM_READ_TIMEOUT`
+- **Timeout**: Stale stream detection, **Default**: 180s, **Local providers**: Auto-disabled, **Config / env**: `HERMES_STREAM_STALE_TIMEOUT`
+- **Timeout**: Stale non-stream detection, **Default**: 300s, **Local providers**: Auto-disabled when left implicit, **Config / env**: `providers.<id>.stale_timeout_seconds` or `HERMES_API_CALL_STALE_TIMEOUT`
+- **Timeout**: API call (non-streaming), **Default**: 1800s, **Local providers**: Unchanged, **Config / env**: `providers.<id>.request_timeout_seconds` / `timeout_seconds` or `HERMES_API_TIMEOUT`
+
+The **socket read timeout** controls how long httpx waits for the next chunk of data from the provider. Local LLMs can take minutes for prefill on large contexts before producing the first token, so Hermes raises this to 30 minutes when it detects a local endpoint. If you explicitly set `HERMES_STREAM_READ_TIMEOUT`, that value is always used regardless of endpoint detection.
+
+The **stale stream detection** kills connections that receive SSE keep-alive pings but no actual content. This is disabled entirely for local providers since they don't send keep-alive pings during prefill.
+
+The **stale non-stream detection** kills non-streaming calls that produce no response for too long. By default Hermes disables this on local endpoints to avoid false positives during long prefills. If you explicitly set `providers.<id>.stale_timeout_seconds`, `providers.<id>.models.<model>.stale_timeout_seconds`, or `HERMES_API_CALL_STALE_TIMEOUT`, that explicit value is honored even on local endpoints.
+
+## Context Pressure Warnings[​](#context-pressure-warnings "Direct link to Context Pressure Warnings")
+
+Separate from iteration budget pressure, context pressure tracks how close the conversation is to the **compaction threshold** — the point where context compression fires to summarize older messages. This helps both you and the agent understand when the conversation is getting long.
+
+- **Progress**, **Level**, **What happens**
+- **Progress**: **≥ 60%** to threshold, **Level**: Info, **What happens**: CLI shows a cyan progress bar; gateway sends an informational notice
+- **Progress**: **≥ 85%** to threshold, **Level**: Warning, **What happens**: CLI shows a bold yellow bar; gateway warns compaction is imminent
+
+In the CLI, context pressure appears as a progress bar in the tool output feed:
+
+```
+  ◐ context ████████████░░░░░░░░ 62% to compaction  48k threshold (50%) · approaching compaction
+```
+
+On messaging platforms, a plain-text notification is sent:
+
+```
+◐ Context: ████████████░░░░░░░░ 62% to compaction (threshold: 50% of window).
+```
+
+If auto-compression is disabled, the warning tells you context may be truncated instead.
+
+Context pressure is automatic — no configuration needed. It fires purely as a user-facing notification and does not modify the message stream or inject anything into the model's context.
+
+## Credential Pool Strategies[​](#credential-pool-strategies "Direct link to Credential Pool Strategies")
+
+When you have multiple API keys or OAuth tokens for the same provider, configure the rotation strategy:
+
+```
+credential_pool_strategies:
+  openrouter: round_robin    # cycle through keys evenly
+  anthropic: least_used      # always pick the least-used key
+```
+
+Options: `fill_first` (default), `round_robin`, `least_used`, `random`. See [Credential Pools](/docs/user-guide/features/credential-pools) for full documentation.
+
+## Auxiliary Models[​](#auxiliary-models "Direct link to Auxiliary Models")
+
+Hermes uses lightweight "auxiliary" models for side tasks like image analysis, web page summarization, and browser screenshot analysis. By default, these use **Gemini Flash** via auto-detection — you don't need to configure anything.
+
+### The universal config pattern[​](#the-universal-config-pattern "Direct link to The universal config pattern")
+
+Every model slot in Hermes — auxiliary tasks, compression, fallback — uses the same three knobs:
+
+- **Key**, **What it does**, **Default**
+- **Key**: `provider`, **What it does**: Which provider to use for auth and routing, **Default**: `"auto"`
+- **Key**: `model`, **What it does**: Which model to request, **Default**: provider's default
+- **Key**: `base_url`, **What it does**: Custom OpenAI-compatible endpoint (overrides provider), **Default**: not set
+
+When `base_url` is set, Hermes ignores the provider and calls that endpoint directly (using `api_key` or `OPENAI_API_KEY` for auth). When only `provider` is set, Hermes uses that provider's built-in auth and base URL.
+
+Available providers for auxiliary tasks: `auto`, `main`, plus any provider in the [provider registry](/docs/reference/environment-variables) — `openrouter`, `nous`, `openai-codex`, `copilot`, `copilot-acp`, `anthropic`, `gemini`, `google-gemini-cli`, `qwen-oauth`, `zai`, `kimi-coding`, `kimi-coding-cn`, `minimax`, `minimax-cn`, `deepseek`, `nvidia`, `xai`, `ollama-cloud`, `alibaba`, `bedrock`, `huggingface`, `arcee`, `xiaomi`, `kilocode`, `opencode-zen`, `opencode-go`, `ai-gateway` — or any named custom provider from your `custom_providers` list (e.g. `provider: "beans"`).
+
+`"main"` is for auxiliary tasks only
+
+The `"main"` provider option means "use whatever provider my main agent uses" — it's only valid inside `auxiliary:`, `compression:`, and `fallback_model:` configs. It is **not** a valid value for your top-level `model.provider` setting. If you use a custom OpenAI-compatible endpoint, set `provider: custom` in your `model:` section. See [AI Providers](/docs/integrations/providers) for all main model provider options.
+
+### Full auxiliary config reference[​](#full-auxiliary-config-reference "Direct link to Full auxiliary config reference")
+
+```
+auxiliary:
+  # Image analysis (vision_analyze tool + browser screenshots)
+  vision:
+    provider: "auto"           # "auto", "openrouter", "nous", "codex", "main", etc.
+    model: ""                  # e.g. "openai/gpt-4o", "google/gemini-2.5-flash"
+    base_url: ""               # Custom OpenAI-compatible endpoint (overrides provider)
+    api_key: ""                # API key for base_url (falls back to OPENAI_API_KEY)
+    timeout: 120               # seconds — LLM API call timeout; vision payloads need generous timeout
+    download_timeout: 30       # seconds — image HTTP download; increase for slow connections
+
+  # Web page summarization + browser page text extraction
+  web_extract:
+    provider: "auto"
+    model: ""                  # e.g. "google/gemini-2.5-flash"
+    base_url: ""
+    api_key: ""
+    timeout: 360               # seconds (6min) — per-attempt LLM summarization
+
+  # Dangerous command approval classifier
+  approval:
+    provider: "auto"
+    model: ""
+    base_url: ""
+    api_key: ""
+    timeout: 30                # seconds
+
+  # Context compression timeout (separate from compression.* config)
+  compression:
+    timeout: 120               # seconds — compression summarizes long conversations, needs more time
+
+  # Session search — summarizes past session matches
+  session_search:
+    provider: "auto"
+    model: ""
+    base_url: ""
+    api_key: ""
+    timeout: 30
+    max_concurrency: 3       # Limit parallel summaries to reduce request-burst 429s
+    extra_body: {}           # Provider-specific OpenAI-compatible request fields
+
+  # Skills hub — skill matching and search
+  skills_hub:
+    provider: "auto"
+    model: ""
+    base_url: ""
+    api_key: ""
+    timeout: 30
+
+  # MCP tool dispatch
+  mcp:
+    provider: "auto"
+    model: ""
+    base_url: ""
+    api_key: ""
+    timeout: 30
+
+  # Memory flush — summarizes conversation for persistent memory
+  flush_memories:
+    provider: "auto"
+    model: ""
+    base_url: ""
+    api_key: ""
+    timeout: 30
+```
+
+tip
+
+Each auxiliary task has a configurable `timeout` (in seconds). Defaults: vision 120s, web\_extract 360s, approval 30s, compression 120s. Increase these if you use slow local models for auxiliary tasks. Vision also has a separate `download_timeout` (default 30s) for the HTTP image download — increase this for slow connections or self-hosted image servers.
+
+info
+
+Context compression has its own `compression:` block for thresholds and an `auxiliary.compression:` block for model/provider settings — see [Context Compression](#context-compression) above. The fallback model uses a `fallback_model:` block — see [Fallback Model](/docs/integrations/providers#fallback-model). All three follow the same provider/model/base\_url pattern.
+
+### Session Search Tuning[​](#session-search-tuning "Direct link to Session Search Tuning")
+
+If you use a reasoning-heavy model for `auxiliary.session_search`, Hermes now gives you two built-in controls:
+
+- `auxiliary.session_search.max_concurrency`: limits how many matched sessions Hermes summarizes at once
+- `auxiliary.session_search.extra_body`: forwards provider-specific OpenAI-compatible request fields on the summarization calls
+
+Example:
+
+```
+auxiliary:
+  session_search:
+    provider: "main"
+    model: "glm-4.5-air"
+    timeout: 60
+    max_concurrency: 2
+    extra_body:
+      enable_thinking: false
+```
+
+Use `max_concurrency` when your provider rate-limits request bursts and you want `session_search` to trade some parallelism for stability.
+
+Use `extra_body` only when your provider documents OpenAI-compatible request-body fields you want Hermes to pass through for that task. Hermes forwards the object as-is.
+
+warning
+
+`extra_body` is only effective when your provider actually supports the field you send. If the provider does not expose a native OpenAI-compatible reasoning-off flag, Hermes cannot synthesize one on its behalf.
+
+### Changing the Vision Model[​](#changing-the-vision-model "Direct link to Changing the Vision Model")
+
+To use GPT-4o instead of Gemini Flash for image analysis:
+
+```
+auxiliary:
+  vision:
+    model: "openai/gpt-4o"
+```
+
+Or via environment variable (in `~/.hermes/.env`):
+
+```
+AUXILIARY_VISION_MODEL=openai/gpt-4o
+```
+
+### Provider Options[​](#provider-options "Direct link to Provider Options")
+
+These options apply to **auxiliary task configs** (`auxiliary:`, `compression:`, `fallback_model:`), not to your main `model.provider` setting.
+
+- **Provider**, **Description**, **Requirements**
+- **Provider**: `"auto"`, **Description**: Best available (default). Vision tries OpenRouter → Nous → Codex., **Requirements**: —
+- **Provider**: `"openrouter"`, **Description**: Force OpenRouter — routes to any model (Gemini, GPT-4o, Claude, etc.), **Requirements**: `OPENROUTER_API_KEY`
+- **Provider**: `"nous"`, **Description**: Force Nous Portal, **Requirements**: `hermes auth`
+- **Provider**: `"codex"`, **Description**: Force Codex OAuth (ChatGPT account). Supports vision (gpt-5.3-codex)., **Requirements**: `hermes model` → Codex
+- **Provider**: `"main"`, **Description**: Use your active custom/main endpoint. This can come from `OPENAI_BASE_URL` + `OPENAI_API_KEY` or from a custom endpoint saved via `hermes model` / `config.yaml`. Works with OpenAI, local models, or any OpenAI-compatible API. **Auxiliary tasks only — not valid for `model.provider`.**, **Requirements**: Custom endpoint credentials + base URL
+
+### Common Setups[​](#common-setups-1 "Direct link to Common Setups")
+
+**Using a direct custom endpoint** (clearer than `provider: "main"` for local/self-hosted APIs):
+
+```
+auxiliary:
+  vision:
+    base_url: "http://localhost:1234/v1"
+    api_key: "local-key"
+    model: "qwen2.5-vl"
+```
+
+`base_url` takes precedence over `provider`, so this is the most explicit way to route an auxiliary task to a specific endpoint. For direct endpoint overrides, Hermes uses the configured `api_key` or falls back to `OPENAI_API_KEY`; it does not reuse `OPENROUTER_API_KEY` for that custom endpoint.
+
+**Using OpenAI API key for vision:**
+
+```
+# In ~/.hermes/.env:
+# OPENAI_BASE_URL=https://api.openai.com/v1
+# OPENAI_API_KEY=sk-...
+
+auxiliary:
+  vision:
+    provider: "main"
+    model: "gpt-4o"       # or "gpt-4o-mini" for cheaper
+```
+
+**Using OpenRouter for vision** (route to any model):
+
+```
+auxiliary:
+  vision:
+    provider: "openrouter"
+    model: "openai/gpt-4o"      # or "google/gemini-2.5-flash", etc.
+```
+
+**Using Codex OAuth** (ChatGPT Pro/Plus account — no API key needed):
+
+```
+auxiliary:
+  vision:
+    provider: "codex"     # uses your ChatGPT OAuth token
+    # model defaults to gpt-5.3-codex (supports vision)
+```
+
+**Using a local/self-hosted model:**
+
+```
+auxiliary:
+  vision:
+    provider: "main"      # uses your active custom endpoint
+    model: "my-local-model"
+```
+
+`provider: "main"` uses whatever provider Hermes uses for normal chat — whether that's a named custom provider (e.g. `beans`), a built-in provider like `openrouter`, or a legacy `OPENAI_BASE_URL` endpoint.
+
+tip
+
+If you use Codex OAuth as your main model provider, vision works automatically — no extra configuration needed. Codex is included in the auto-detection chain for vision.
+
+warning
+
+**Vision requires a multimodal model.** If you set `provider: "main"`, make sure your endpoint supports multimodal/vision — otherwise image analysis will fail.
+
+### Environment Variables (legacy)[​](#environment-variables-legacy "Direct link to Environment Variables (legacy)")
+
+Auxiliary models can also be configured via environment variables. However, `config.yaml` is the preferred method — it's easier to manage and supports all options including `base_url` and `api_key`.
+
+- **Setting**: Environment Variable
+- **Vision provider**: `AUXILIARY_VISION_PROVIDER`
+- **Vision model**: `AUXILIARY_VISION_MODEL`
+- **Vision endpoint**: `AUXILIARY_VISION_BASE_URL`
+- **Vision API key**: `AUXILIARY_VISION_API_KEY`
+- **Web extract provider**: `AUXILIARY_WEB_EXTRACT_PROVIDER`
+- **Web extract model**: `AUXILIARY_WEB_EXTRACT_MODEL`
+- **Web extract endpoint**: `AUXILIARY_WEB_EXTRACT_BASE_URL`
+- **Web extract API key**: `AUXILIARY_WEB_EXTRACT_API_KEY`
+
+Compression and fallback model settings are config.yaml-only.
+
+tip
+
+Run `hermes config` to see your current auxiliary model settings. Overrides only show up when they differ from the defaults.
+
+## Reasoning Effort[​](#reasoning-effort "Direct link to Reasoning Effort")
+
+Control how much "thinking" the model does before responding:
+
+```
+agent:
+  reasoning_effort: ""   # empty = medium (default). Options: none, minimal, low, medium, high, xhigh (max)
+```
+
+When unset (default), reasoning effort defaults to "medium" — a balanced level that works well for most tasks. Setting a value overrides it — higher reasoning effort gives better results on complex tasks at the cost of more tokens and latency.
+
+You can also change the reasoning effort at runtime with the `/reasoning` command:
+
+```
+/reasoning           # Show current effort level and display state
+/reasoning high      # Set reasoning effort to high
+/reasoning none      # Disable reasoning
+/reasoning show      # Show model thinking above each response
+/reasoning hide      # Hide model thinking
+```
+
+## Tool-Use Enforcement[​](#tool-use-enforcement "Direct link to Tool-Use Enforcement")
+
+Some models occasionally describe intended actions as text instead of making tool calls ("I would run the tests..." instead of actually calling the terminal). Tool-use enforcement injects system prompt guidance that steers the model back to actually calling tools.
+
+```
+agent:
+  tool_use_enforcement: "auto"   # "auto" | true | false | ["model-substring", ...]
+```
+
+- **Value**: Behavior
+- **`"auto"` (default)**: Enabled for models matching: `gpt`, `codex`, `gemini`, `gemma`, `grok`. Disabled for all others (Claude, DeepSeek, Qwen, etc.).
+- **`true`**: Always enabled, regardless of model. Useful if you notice your current model describing actions instead of performing them.
+- **`false`**: Always disabled, regardless of model.
+- **`["gpt", "codex", "qwen", "llama"]`**: Enabled only when the model name contains one of the listed substrings (case-insensitive).
+
+### What it injects[​](#what-it-injects "Direct link to What it injects")
+
+When enabled, three layers of guidance may be added to the system prompt:
+
+1. **General tool-use enforcement** (all matched models) — instructs the model to make tool calls immediately instead of describing intentions, keep working until the task is complete, and never end a turn with a promise of future action.
+2. **OpenAI execution discipline** (GPT and Codex models only) — additional guidance addressing GPT-specific failure modes: abandoning work on partial results, skipping prerequisite lookups, hallucinating instead of using tools, and declaring "done" without verification.
+3. **Google operational guidance** (Gemini and Gemma models only) — conciseness, absolute paths, parallel tool calls, and verify-before-edit patterns.
+
+These are transparent to the user and only affect the system prompt. Models that already use tools reliably (like Claude) don't need this guidance, which is why `"auto"` excludes them.
+
+### When to turn it on[​](#when-to-turn-it-on "Direct link to When to turn it on")
+
+If you're using a model not in the default auto list and notice it frequently describes what it *would* do instead of doing it, set `tool_use_enforcement: true` or add the model substring to the list:
+
+```
+agent:
+  tool_use_enforcement: ["gpt", "codex", "gemini", "grok", "my-custom-model"]
+```
+
+## TTS Configuration[​](#tts-configuration "Direct link to TTS Configuration")
+
+```
+tts:
+  provider: "edge"              # "edge" | "elevenlabs" | "openai" | "minimax" | "mistral" | "gemini" | "xai" | "neutts"
+  speed: 1.0                    # Global speed multiplier (fallback for all providers)
+  edge:
+    voice: "en-US-AriaNeural"   # 322 voices, 74 languages
+    speed: 1.0                  # Speed multiplier (converted to rate percentage, e.g. 1.5 → +50%)
+  elevenlabs:
+    voice_id: "pNInz6obpgDQGcFmaJgB"
+    model_id: "eleven_multilingual_v2"
+  openai:
+    model: "gpt-4o-mini-tts"
+    voice: "alloy"              # alloy, echo, fable, onyx, nova, shimmer
+    speed: 1.0                  # Speed multiplier (clamped to 0.25–4.0 by the API)
+    base_url: "https://api.openai.com/v1"  # Override for OpenAI-compatible TTS endpoints
+  minimax:
+    speed: 1.0                  # Speech speed multiplier
+    # base_url: ""              # Optional: override for OpenAI-compatible TTS endpoints
+  mistral:
+    model: "voxtral-mini-tts-2603"
+    voice_id: "c69964a6-ab8b-4f8a-9465-ec0925096ec8"  # Paul - Neutral (default)
+  gemini:
+    model: "gemini-2.5-flash-preview-tts"   # or gemini-2.5-pro-preview-tts
+    voice: "Kore"               # 30 prebuilt voices: Zephyr, Puck, Kore, Enceladus, etc.
+  xai:
+    voice_id: "eve"             # xAI TTS voice
+    language: "en"              # ISO 639-1
+    sample_rate: 24000
+    bit_rate: 128000            # MP3 bitrate
+    # base_url: "https://api.x.ai/v1"
+  neutts:
+    ref_audio: ''
+    ref_text: ''
+    model: neuphonic/neutts-air-q4-gguf
+    device: cpu
+```
+
+This controls both the `text_to_speech` tool and spoken replies in voice mode (`/voice tts` in the CLI or messaging gateway).
+
+**Speed fallback hierarchy:** provider-specific speed (e.g. `tts.edge.speed`) → global `tts.speed` → `1.0` default. Set the global `tts.speed` to apply a uniform speed across all providers, or override per-provider for fine-grained control.
+
+## Display Settings[​](#display-settings "Direct link to Display Settings")
+
+```
+display:
+  tool_progress: all      # off | new | all | verbose
+  tool_progress_command: false  # Enable /verbose slash command in messaging gateway
+  tool_progress_overrides: {}  # Per-platform overrides (see below)
+  interim_assistant_messages: true  # Gateway: send natural mid-turn assistant updates as separate messages
+  skin: default           # Built-in or custom CLI skin (see user-guide/features/skins)
+  personality: "kawaii"  # Legacy cosmetic field still surfaced in some summaries
+  compact: false          # Compact output mode (less whitespace)
+  resume_display: full    # full (show previous messages on resume) | minimal (one-liner only)
+  bell_on_complete: false # Play terminal bell when agent finishes (great for long tasks)
+  show_reasoning: false   # Show model reasoning/thinking above each response (toggle with /reasoning show|hide)
+  streaming: false        # Stream tokens to terminal as they arrive (real-time output)
+  show_cost: false        # Show estimated $ cost in the CLI status bar
+  tool_preview_length: 0  # Max chars for tool call previews (0 = no limit, show full paths/commands)
+```
+
+- **Mode**: What you see
+- **`off`**: Silent — just the final response
+- **`new`**: Tool indicator only when the tool changes
+- **`all`**: Every tool call with a short preview (default)
+- **`verbose`**: Full args, results, and debug logs
+
+In the CLI, cycle through these modes with `/verbose`. To use `/verbose` in messaging platforms (Telegram, Discord, Slack, etc.), set `tool_progress_command: true` in the `display` section above. The command will then cycle the mode and save to config.
+
+### Per-platform progress overrides[​](#per-platform-progress-overrides "Direct link to Per-platform progress overrides")
+
+Different platforms have different verbosity needs. For example, Signal can't edit messages, so each progress update becomes a separate message — noisy. Use `tool_progress_overrides` to set per-platform modes:
+
+```
+display:
+  tool_progress: all          # global default
+  tool_progress_overrides:
+    signal: 'off'             # silence progress on Signal
+    telegram: verbose         # detailed progress on Telegram
+    slack: 'off'              # quiet in shared Slack workspace
+```
+
+Platforms without an override fall back to the global `tool_progress` value. Valid platform keys: `telegram`, `discord`, `slack`, `signal`, `whatsapp`, `matrix`, `mattermost`, `email`, `sms`, `homeassistant`, `dingtalk`, `feishu`, `wecom`, `weixin`, `bluebubbles`, `qqbot`.
+
+`interim_assistant_messages` is gateway-only. When enabled, Hermes sends completed mid-turn assistant updates as separate chat messages. This is independent from `tool_progress` and does not require gateway streaming.
+
+## Privacy[​](#privacy "Direct link to Privacy")
+
+```
+privacy:
+  redact_pii: false  # Strip PII from LLM context (gateway only)
+```
+
+When `redact_pii` is `true`, the gateway redacts personally identifiable information from the system prompt before sending it to the LLM on supported platforms:
+
+- **Field**: Treatment
+- **Phone numbers (user ID on WhatsApp/Signal)**: Hashed to `user_<12-char-sha256>`
+- **User IDs**: Hashed to `user_<12-char-sha256>`
+- **Chat IDs**: Numeric portion hashed, platform prefix preserved (`telegram:<hash>`)
+- **Home channel IDs**: Numeric portion hashed
+- **User names / usernames**: **Not affected** (user-chosen, publicly visible)
+
+**Platform support:** Redaction applies to WhatsApp, Signal, and Telegram. Discord and Slack are excluded because their mention systems (`<@user_id>`) require the real ID in the LLM context.
+
+Hashes are deterministic — the same user always maps to the same hash, so the model can still distinguish between users in group chats. Routing and delivery use the original values internally.
+
+## Speech-to-Text (STT)[​](#speech-to-text-stt "Direct link to Speech-to-Text (STT)")
+
+```
+stt:
+  provider: "local"            # "local" | "groq" | "openai" | "mistral"
+  local:
+    model: "base"              # tiny, base, small, medium, large-v3
+  openai:
+    model: "whisper-1"         # whisper-1 | gpt-4o-mini-transcribe | gpt-4o-transcribe
+  # model: "whisper-1"         # Legacy fallback key still respected
+```
+
+Provider behavior:
+
+- `local` uses `faster-whisper` running on your machine. Install it separately with `pip install faster-whisper`.
+- `groq` uses Groq's Whisper-compatible endpoint and reads `GROQ_API_KEY`.
+- `openai` uses the OpenAI speech API and reads `VOICE_TOOLS_OPENAI_KEY`.
+
+If the requested provider is unavailable, Hermes falls back automatically in this order: `local` → `groq` → `openai`.
+
+Groq and OpenAI model overrides are environment-driven:
+
+```
+STT_GROQ_MODEL=whisper-large-v3-turbo
+STT_OPENAI_MODEL=whisper-1
+GROQ_BASE_URL=https://api.groq.com/openai/v1
+STT_OPENAI_BASE_URL=https://api.openai.com/v1
+```
+
+## Voice Mode (CLI)[​](#voice-mode-cli "Direct link to Voice Mode (CLI)")
+
+```
+voice:
+  record_key: "ctrl+b"         # Push-to-talk key inside the CLI
+  max_recording_seconds: 120    # Hard stop for long recordings
+  auto_tts: false               # Enable spoken replies automatically when /voice on
+  beep_enabled: true            # Play record start/stop beeps in CLI voice mode
+  silence_threshold: 200        # RMS threshold for speech detection
+  silence_duration: 3.0         # Seconds of silence before auto-stop
+```
+
+Use `/voice on` in the CLI to enable microphone mode, `record_key` to start/stop recording, and `/voice tts` to toggle spoken replies. See [Voice Mode](/docs/user-guide/features/voice-mode) for end-to-end setup and platform-specific behavior.
+
+## Streaming[​](#streaming "Direct link to Streaming")
+
+Stream tokens to the terminal or messaging platforms as they arrive, instead of waiting for the full response.
+
+### CLI Streaming[​](#cli-streaming "Direct link to CLI Streaming")
+
+```
+display:
+  streaming: true         # Stream tokens to terminal in real-time
+  show_reasoning: true    # Also stream reasoning/thinking tokens (optional)
+```
+
+When enabled, responses appear token-by-token inside a streaming box. Tool calls are still captured silently. If the provider doesn't support streaming, it falls back to the normal display automatically.
+
+### Gateway Streaming (Telegram, Discord, Slack)[​](#gateway-streaming-telegram-discord-slack "Direct link to Gateway Streaming (Telegram, Discord, Slack)")
+
+```
+streaming:
+  enabled: true           # Enable progressive message editing
+  transport: edit         # "edit" (progressive message editing) or "off"
+  edit_interval: 0.3      # Seconds between message edits
+  buffer_threshold: 40    # Characters before forcing an edit flush
+  cursor: " ▉"            # Cursor shown during streaming
+```
+
+When enabled, the bot sends a message on the first token, then progressively edits it as more tokens arrive. Platforms that don't support message editing (Signal, Email, Home Assistant) are auto-detected on the first attempt — streaming is gracefully disabled for that session with no flood of messages.
+
+For separate natural mid-turn assistant updates without progressive token editing, set `display.interim_assistant_messages: true`.
+
+**Overflow handling:** If the streamed text exceeds the platform's message length limit (~4096 chars), the current message is finalized and a new one starts automatically.
+
+note
+
+Streaming is disabled by default. Enable it in `~/.hermes/config.yaml` to try the streaming UX.
+
+## Group Chat Session Isolation[​](#group-chat-session-isolation "Direct link to Group Chat Session Isolation")
+
+Control whether shared chats keep one conversation per room or one conversation per participant:
+
+```
+group_sessions_per_user: true  # true = per-user isolation in groups/channels, false = one shared session per chat
+```
+
+- `true` is the default and recommended setting. In Discord channels, Telegram groups, Slack channels, and similar shared contexts, each sender gets their own session when the platform provides a user ID.
+- `false` reverts to the old shared-room behavior. That can be useful if you explicitly want Hermes to treat a channel like one collaborative conversation, but it also means users share context, token costs, and interrupt state.
+- Direct messages are unaffected. Hermes still keys DMs by chat/DM ID as usual.
+- Threads stay isolated from their parent channel either way; with `true`, each participant also gets their own session inside the thread.
+
+For the behavior details and examples, see [Sessions](/docs/user-guide/sessions) and the [Discord guide](/docs/user-guide/messaging/discord).
+
+## Unauthorized DM Behavior[​](#unauthorized-dm-behavior "Direct link to Unauthorized DM Behavior")
+
+Control what Hermes does when an unknown user sends a direct message:
+
+```
+unauthorized_dm_behavior: pair
+
+whatsapp:
+  unauthorized_dm_behavior: ignore
+```
+
+- `pair` is the default. Hermes denies access, but replies with a one-time pairing code in DMs.
+- `ignore` silently drops unauthorized DMs.
+- Platform sections override the global default, so you can keep pairing enabled broadly while making one platform quieter.
+
+## Quick Commands[​](#quick-commands "Direct link to Quick Commands")
+
+Define custom commands that run shell commands without invoking the LLM — zero token usage, instant execution. Especially useful from messaging platforms (Telegram, Discord, etc.) for quick server checks or utility scripts.
+
+```
+quick_commands:
+  status:
+    type: exec
+    command: systemctl status hermes-agent
+  disk:
+    type: exec
+    command: df -h /
+  update:
+    type: exec
+    command: cd ~/.hermes/hermes-agent && git pull && pip install -e .
+  gpu:
+    type: exec
+    command: nvidia-smi --query-gpu=name,utilization.gpu,memory.used,memory.total --format=csv,noheader
+```
+
+Usage: type `/status`, `/disk`, `/update`, or `/gpu` in the CLI or any messaging platform. The command runs locally on the host and returns the output directly — no LLM call, no tokens consumed.
+
+- **30-second timeout** — long-running commands are killed with an error message
+- **Priority** — quick commands are checked before skill commands, so you can override skill names
+- **Autocomplete** — quick commands are resolved at dispatch time and are not shown in the built-in slash-command autocomplete tables
+- **Type** — only `exec` is supported (runs a shell command); other types show an error
+- **Works everywhere** — CLI, Telegram, Discord, Slack, WhatsApp, Signal, Email, Home Assistant
+
+## Human Delay[​](#human-delay "Direct link to Human Delay")
+
+Simulate human-like response pacing in messaging platforms:
+
+```
+human_delay:
+  mode: "off"                  # off | natural | custom
+  min_ms: 800                  # Minimum delay (custom mode)
+  max_ms: 2500                 # Maximum delay (custom mode)
+```
+
+## Code Execution[​](#code-execution "Direct link to Code Execution")
+
+Configure the `execute_code` tool:
+
+```
+code_execution:
+  mode: project                # project (default) | strict
+  timeout: 300                 # Max execution time in seconds
+  max_tool_calls: 50           # Max tool calls within code execution
+```
+
+**`mode`** controls the working directory and Python interpreter for scripts:
+
+- **`project`** (default) — scripts run in the session's working directory with the active virtualenv/conda env's python. Project deps (`pandas`, `torch`, project packages) and relative paths (`.env`, `./data.csv`) resolve naturally, matching what `terminal()` sees.
+- **`strict`** — scripts run in a temp staging directory with `sys.executable` (Hermes's own python). Maximum reproducibility, but project deps and relative paths won't resolve.
+
+Environment scrubbing (strips `*_API_KEY`, `*_TOKEN`, `*_SECRET`, `*_PASSWORD`, `*_CREDENTIAL`, `*_PASSWD`, `*_AUTH`) and the tool whitelist apply identically in both modes — switching mode does not change the [[entity.security|Security]] posture.
+
+## Web Search Backends[​](#web-search-backends "Direct link to Web Search Backends")
+
+The `web_search`, `web_extract`, and `web_crawl` tools support four backend providers. Configure the backend in `config.yaml` or via `hermes tools`:
+
+```
+web:
+  backend: firecrawl    # firecrawl | parallel | tavily | exa
+```
+
+- **Backend**, **Env Var**, **Search**, **Extract**, **Crawl**
+- **Backend**: **Firecrawl** (default), **Env Var**: `FIRECRAWL_API_KEY`, **Search**: ✔, **Extract**: ✔, **Crawl**: ✔
+- **Backend**: **Parallel**, **Env Var**: `PARALLEL_API_KEY`, **Search**: ✔, **Extract**: ✔, **Crawl**: —
+- **Backend**: **Tavily**, **Env Var**: `TAVILY_API_KEY`, **Search**: ✔, **Extract**: ✔, **Crawl**: ✔
+- **Backend**: **Exa**, **Env Var**: `EXA_API_KEY`, **Search**: ✔, **Extract**: ✔, **Crawl**: —
+
+**Backend selection:** If `web.backend` is not set, the backend is auto-detected from available API keys. If only `EXA_API_KEY` is set, Exa is used. If only `TAVILY_API_KEY` is set, Tavily is used. If only `PARALLEL_API_KEY` is set, Parallel is used. Otherwise Firecrawl is the default.
+
+**Self-hosted Firecrawl:** Set `FIRECRAWL_API_URL` to point at your own instance. When a custom URL is set, the API key becomes optional (set `USE_DB_AUTHENTICATION=false` on the server to disable auth).
+
+**Parallel search modes:** Set `PARALLEL_SEARCH_MODE` to control search behavior — `fast`, `one-shot`, or `agentic` (default: `agentic`).
+
+**Exa:** Set `EXA_API_KEY` in `~/.hermes/.env`. Supports `category` filtering (`company`, `research paper`, `news`, `people`, `personal site`, `pdf`) and domain/date filters.
+
+## Browser[​](#browser "Direct link to Browser")
+
+Configure browser automation behavior:
+
+```
+browser:
+  inactivity_timeout: 120        # Seconds before auto-closing idle sessions
+  command_timeout: 30             # Timeout in seconds for browser commands (screenshot, navigate, etc.)
+  record_sessions: false         # Auto-record browser sessions as WebM videos to ~/.hermes/browser_recordings/
+  # Optional CDP override — when set, Hermes attaches directly to your own
+  # Chrome (via /browser connect) rather than starting a headless browser.
+  cdp_url: ""
+  # Dialog supervisor — controls how native JS dialogs (alert / confirm / prompt)
+  # are handled when a CDP backend is attached (Browserbase, local Chrome via
+  # /browser connect). Ignored on Camofox and default local agent-browser mode.
+  dialog_policy: must_respond    # must_respond | auto_dismiss | auto_accept
+  dialog_timeout_s: 300          # Safety auto-dismiss under must_respond (seconds)
+  camofox:
+    managed_persistence: false   # When true, Camofox sessions persist cookies/logins across restarts
+```
+
+**Dialog policies:**
+
+- `must_respond` (default) — capture the dialog, surface it in `browser_snapshot.pending_dialogs`, and wait for the agent to call `browser_dialog(action=...)`. After `dialog_timeout_s` seconds with no response, the dialog is auto-dismissed to prevent the page's JS thread from stalling forever.
+- `auto_dismiss` — capture, dismiss immediately. The agent still sees the dialog record in `browser_snapshot.recent_dialogs` with `closed_by="auto_policy"` after the fact.
+- `auto_accept` — capture, accept immediately. Useful for pages with aggressive `beforeunload` prompts.
+
+See the [browser feature page](/docs/user-guide/features/browser#browser_dialog) for the full dialog workflow.
+
+The browser toolset supports multiple providers. See the [Browser feature page](/docs/user-guide/features/browser) for details on Browserbase, Browser Use, and local Chrome CDP setup.
+
+## Timezone[​](#timezone "Direct link to Timezone")
+
+Override the server-local timezone with an IANA timezone string. Affects timestamps in logs, cron scheduling, and system prompt time injection.
+
+```
+timezone: "America/New_York"   # IANA timezone (default: "" = server-local time)
+```
+
+Supported values: any IANA timezone identifier (e.g. `America/New_York`, `Europe/London`, `Asia/Kolkata`, `UTC`). Leave empty or omit for server-local time.
+
+## Discord[​](#discord "Direct link to Discord")
+
+Configure Discord-specific behavior for the messaging gateway:
+
+```
+discord:
+  require_mention: true          # Require @mention to respond in server channels
+  free_response_channels: ""     # Comma-separated channel IDs where bot responds without @mention
+  auto_thread: true              # Auto-create threads on @mention in channels
+```
+
+- `require_mention` — when `true` (default), the bot only responds in server channels when mentioned with `@BotName`. DMs always work without mention.
+- `free_response_channels` — comma-separated list of channel IDs where the bot responds to every message without requiring a mention.
+- `auto_thread` — when `true` (default), mentions in channels automatically create a thread for the conversation, keeping channels clean (similar to Slack threading).
+
+## [[entity.security|Security]][​](#[[entity.security|Security]] "Direct link to [[entity.security|Security]]")
+
+Pre-execution [[entity.security|Security]] scanning and secret redaction:
+
+```
+[[entity.security|Security]]:
+  redact_secrets: true           # Redact API key patterns in tool output and logs
+  tirith_enabled: true           # Enable Tirith [[entity.security|Security]] scanning for terminal commands
+  tirith_path: "tirith"          # Path to tirith binary (default: "tirith" in $PATH)
+  tirith_timeout: 5              # Seconds to wait for tirith scan before timing out
+  tirith_fail_open: true         # Allow command execution if tirith is unavailable
+  website_blocklist:             # See Website Blocklist section below
+    enabled: false
+    domains: []
+    shared_files: []
+```
+
+- `redact_secrets` — automatically detects and redacts patterns that look like API keys, tokens, and passwords in tool output before it enters the conversation context and logs.
+- `tirith_enabled` — when `true`, terminal commands are scanned by [Tirith](https://github.com/StackGuardian/tirith) before execution to detect potentially dangerous operations.
+- `tirith_path` — path to the tirith binary. Set this if tirith is installed in a non-standard location.
+- `tirith_timeout` — maximum seconds to wait for a tirith scan. Commands proceed if the scan times out.
+- `tirith_fail_open` — when `true` (default), commands are allowed to execute if tirith is unavailable or fails. Set to `false` to block commands when tirith cannot verify them.
+
+## Website Blocklist[​](#website-blocklist "Direct link to Website Blocklist")
+
+Block specific domains from being accessed by the agent's web and browser tools:
+
+```
+[[entity.security|Security]]:
+  website_blocklist:
+    enabled: false               # Enable URL blocking (default: false)
+    domains:                     # List of blocked domain patterns
+      - "*.internal.company.com"
+      - "admin.example.com"
+      - "*.local"
+    shared_files:                # Load additional rules from external files
+      - "/etc/hermes/blocked-sites.txt"
+```
+
+When enabled, any URL matching a blocked domain pattern is rejected before the web or browser tool executes. This applies to `web_search`, `web_extract`, `browser_navigate`, and any tool that accesses URLs.
+
+Domain rules support:
+
+- Exact domains: `admin.example.com`
+- Wildcard subdomains: `*.internal.company.com` (blocks all subdomains)
+- TLD wildcards: `*.local`
+
+Shared files contain one domain rule per line (blank lines and `#` comments are ignored). Missing or unreadable files log a warning but don't disable other web tools.
+
+The policy is cached for 30 seconds, so config changes take effect quickly without restart.
+
+## Smart Approvals[​](#smart-approvals "Direct link to Smart Approvals")
+
+Control how Hermes handles potentially dangerous commands:
+
+```
+approvals:
+  mode: manual   # manual | smart | off
+```
+
+- **Mode**: Behavior
+- **`manual` (default)**: Prompt the user before executing any flagged command. In the CLI, shows an interactive approval dialog. In messaging, queues a pending approval request.
+- **`smart`**: Use an auxiliary LLM to assess whether a flagged command is actually dangerous. Low-risk commands are auto-approved with session-level persistence. Genuinely risky commands are escalated to the user.
+- **`off`**: Skip all approval checks. Equivalent to `HERMES_YOLO_MODE=true`. **Use with caution.**
+
+Smart mode is particularly useful for reducing approval fatigue — it lets the agent work more autonomously on safe operations while still catching genuinely destructive commands.
+
+warning
+
+Setting `approvals.mode: off` disables all safety checks for terminal commands. Only use this in trusted, sandboxed environments.
+
+## Checkpoints[​](#checkpoints "Direct link to Checkpoints")
+
+Automatic filesystem snapshots before destructive file operations. See the [Checkpoints & Rollback](/docs/user-guide/checkpoints-and-rollback) for details.
+
+```
+checkpoints:
+  enabled: true                  # Enable automatic checkpoints (also: hermes --checkpoints)
+  max_snapshots: 50              # Max checkpoints to keep per directory
+```
+
+## Delegation[​](#delegation "Direct link to Delegation")
+
+Configure subagent behavior for the delegate tool:
+
+```
+delegation:
+  # model: "google/gemini-3-flash-preview"  # Override model (empty = inherit parent)
+  # provider: "openrouter"                  # Override provider (empty = inherit parent)
+  # base_url: "http://localhost:1234/v1"    # Direct OpenAI-compatible endpoint (takes precedence over provider)
+  # api_key: "local-key"                    # API key for base_url (falls back to OPENAI_API_KEY)
+  max_concurrent_children: 3                # Parallel children per batch (floor 1, no ceiling). Also via DELEGATION_MAX_CONCURRENT_CHILDREN env var.
+  max_spawn_depth: 1                        # Delegation tree depth cap (1-3, clamped). 1 = flat (default): parent spawns leaves that cannot delegate. 2 = orchestrator children can spawn leaf grandchildren. 3 = three levels.
+  orchestrator_enabled: true                # Global kill switch. When false, role="orchestrator" is ignored and every child is forced to leaf regardless of max_spawn_depth.
+```
+
+**Subagent provider:model override:** By default, subagents inherit the parent agent's provider and model. Set `delegation.provider` and `delegation.model` to route subagents to a different provider:model pair — e.g., use a cheap/fast model for narrowly-scoped subtasks while your primary agent runs an expensive reasoning model.
+
+**Direct endpoint override:** If you want the obvious custom-endpoint path, set `delegation.base_url`, `delegation.api_key`, and `delegation.model`. That sends subagents directly to that OpenAI-compatible endpoint and takes precedence over `delegation.provider`. If `delegation.api_key` is omitted, Hermes falls back to `OPENAI_API_KEY` only.
+
+The delegation provider uses the same credential resolution as CLI/gateway startup. All configured providers are supported: `openrouter`, `nous`, `copilot`, `zai`, `kimi-coding`, `minimax`, `minimax-cn`. When a provider is set, the system automatically resolves the correct base URL, API key, and API mode — no manual credential wiring needed.
+
+**Precedence:** `delegation.base_url` in config → `delegation.provider` in config → parent provider (inherited). `delegation.model` in config → parent model (inherited). Setting just `model` without `provider` changes only the model name while keeping the parent's credentials (useful for switching models within the same provider like OpenRouter).
+
+**Width and depth:** `max_concurrent_children` caps how many subagents run in parallel per batch (default `3`, floor of 1, no ceiling). Can also be set via the `DELEGATION_MAX_CONCURRENT_CHILDREN` env var. When the model submits a `tasks` array longer than the cap, `delegate_task` returns a tool error explaining the limit rather than silently truncating. `max_spawn_depth` controls the delegation tree depth (clamped to 1-3). At the default `1`, delegation is flat: children cannot spawn grandchildren, and passing `role="orchestrator"` silently degrades to `leaf`. Raise to `2` so orchestrator children can spawn leaf grandchildren; `3` for three-level trees. The agent opts into orchestration per call via `role="orchestrator"`; `orchestrator_enabled: false` forces every child back to leaf regardless. Cost scales multiplicatively — at `max_spawn_depth: 3` with `max_concurrent_children: 3`, the tree can reach 3×3×3 = 27 concurrent leaf agents. See [Subagent Delegation → Depth Limit and Nested Orchestration](/docs/user-guide/features/delegation#depth-limit-and-nested-orchestration) for usage patterns.
+
+## Clarify[​](#clarify "Direct link to Clarify")
+
+Configure the clarification prompt behavior:
+
+```
+clarify:
+  timeout: 120                 # Seconds to wait for user clarification response
+```
+
+## Context Files (SOUL.md, AGENTS.md)[​](#context-files-soulmd-agentsmd "Direct link to Context Files (SOUL.md, AGENTS.md)")
+
+Hermes uses two different context scopes:
+
+- **File**, **Purpose**, **Scope**
+- **File**: `SOUL.md`, **Purpose**: **Primary agent identity** — defines who the agent is (slot #1 in the system prompt), **Scope**: `~/.hermes/SOUL.md` or `$HERMES_HOME/SOUL.md`
+- **File**: `.hermes.md` / `HERMES.md`, **Purpose**: Project-specific instructions (highest priority), **Scope**: Walks to git root
+- **File**: `AGENTS.md`, **Purpose**: Project-specific instructions, coding conventions, **Scope**: Recursive directory walk
+- **File**: `CLAUDE.md`, **Purpose**: Claude Code context files (also detected), **Scope**: Working directory only
+- **File**: `.cursorrules`, **Purpose**: Cursor IDE rules (also detected), **Scope**: Working directory only
+- **File**: `.cursor/rules/*.mdc`, **Purpose**: Cursor rule files (also detected), **Scope**: Working directory only
+
+- **SOUL.md** is the agent's primary identity. It occupies slot #1 in the system prompt, completely replacing the built-in default identity. Edit it to fully customize who the agent is.
+- If SOUL.md is missing, empty, or cannot be loaded, Hermes falls back to a built-in default identity.
+- **Project context files use a priority system** — only ONE type is loaded (first match wins): `.hermes.md` → `AGENTS.md` → `CLAUDE.md` → `.cursorrules`. SOUL.md is always loaded independently.
+- **AGENTS.md** is hierarchical: if subdirectories also have AGENTS.md, all are combined.
+- Hermes automatically seeds a default `SOUL.md` if one does not already exist.
+- All loaded context files are capped at 20,000 characters with smart truncation.
+
+See also:
+
+- [Personality & SOUL.md](/docs/user-guide/features/personality)
+- [Context Files](/docs/user-guide/features/context-files)
+
+## Working Directory[​](#working-directory "Direct link to Working Directory")
+
+- **Context**: Default
+- ****CLI (`hermes`)****: Current directory where you run the command
+- ****Messaging gateway****: Home directory `~` (override with `MESSAGING_CWD`)
+- ****Docker / Singularity / Modal / SSH****: User's home directory inside the container or remote machine
+
+Override the working directory:
+
+```
+# In ~/.hermes/.env or ~/.hermes/config.yaml:
+MESSAGING_CWD=/home/myuser/projects    # Gateway sessions
+TERMINAL_CWD=/workspace                # All terminal sessions
+```

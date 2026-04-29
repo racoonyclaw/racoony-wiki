@@ -9,14 +9,6348 @@ status: active
 
 ## Generated
 <!-- openclaw:wiki:lint:start -->
-- Errors: 0
-- Warnings: 2
+- Errors: 14
+- Warnings: 3768
+
+### Errors
+- `concepts/index.md`: Missing `id` frontmatter.
+- `concepts/index.md`: Missing `pageType` frontmatter.
+- `entities/configuration.md`: Missing `id` frontmatter.
+- `entities/configuration.md`: Missing `pageType` frontmatter.
+- `entities/features-overview.md`: Missing `id` frontmatter.
+- `entities/features-overview.md`: Missing `pageType` frontmatter.
+- `entities/index.md`: Missing `id` frontmatter.
+- `entities/index.md`: Missing `pageType` frontmatter.
+- `reports/index.md`: Missing `id` frontmatter.
+- `reports/index.md`: Missing `pageType` frontmatter.
+- `sources/index.md`: Missing `id` frontmatter.
+- `sources/index.md`: Missing `pageType` frontmatter.
+- `syntheses/index.md`: Missing `id` frontmatter.
+- `syntheses/index.md`: Missing `pageType` frontmatter.
 
 ### Warnings
+- `concepts/anomem-postmortem.md`: Page freshness needs review (missing updatedAt).
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `doe-argonne-greet-model-corn-ethanol-reduces-life-cycle-g` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `lark-et-al-2022-pnas-corn-ethanol-is-at-least-24-more` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-empirical-camp-lark-et-al-uses-satellite-data-showing` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-modeling-camp-doeargonne-uses-economic-models-that-as` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `this-is-the-single-largest-driver-of-the-difference-between` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `industry-critics-argue-the-lark-study-understates-yield-gain` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `lark-et-al-respond-that-their-satellite-data-captures-actua` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `ethanol-production-creates-distillers-grains-that-replace-an` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-value-of-this-credit-is-disputed-between-the-two-camps` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `what-would-farmers-have-planted-if-not-corn-for-ethanol-the` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `different-assumptions-produce-wildly-different-results` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `both-sides-have-published-in-peer-reviewed-journals` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `lark-et-al-were-funded-by-national-wildlife-federation-env` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `industry-funded-studies-are-funded-by-groups-with-a-financia` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-scientific-community-remains-genuinely-split-this-is-n` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `reuters-feb-14-2022-reported-the-lark-studys-findings-t` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-article-sparked-significant-pushback-from-the-ethanol-in` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `multiple-outlets-axios-cleantechnica-cnet-des-moines-reg` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `us-renewable-fuel-standard-rfs` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `biofuel-lifecycle-analysis` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `indirect-land-use-change-iluc` is missing structured evidence.
+- `concepts/index.md`: Non-source page is missing `sourceIds` provenance.
+- `concepts/index.md`: Page freshness needs review (missing updatedAt).
+- `concepts/project-guidelines.md`: Page freshness needs review (missing updatedAt).
+- `concepts/prompt-weapon-generator-game.md`: Page freshness needs review (missing updatedAt).
+- `concepts/self-hosted-infra.md`: Page freshness needs review (missing updatedAt).
+- `concepts/uncensored-ai-models.md`: Claim `9-cli-methods-basic-advanced-recommended-aggressive` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `116-model-presets-across-5-compute-tiers` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `license-agpl-30-never-import-as-python-library-always` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `models-under-1b-params-respond-poorly-to-abliteration-3b` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `qwen-25-7b-uncensored-coding-logic` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `deepseek-r1-distill-7b-abliterated-reasoning-model` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `gemma-3-4b-heretic-ultra-compact` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `llama-31-8b-various-uncensored-variants` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `mistral-7b-various-uncensored-variants` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `gpt-oss-20b-heretic-creative-writing-roleplay` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `gemma-3-27b-abliterated-frequently-cited-as-best-all-aroun` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `mistral-nemo-12b-uncensored-balanced-generalist` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `qwen3-30b-abliterated-rivals-larger-models` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `llama-32-8x3b-moe-dark-champion-moe-speed-20b-quality` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `llama-4-70b-abliterated-near-gpt-4-level` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `dolphin-30-llama-70b` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `loki-70b-heretic-v2-narrative-depth` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `nous-hermes-3-llama-31-405b-frontier-open-weights` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `dolphin-cognitive-computations-high-compliance-fine-tu` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `heretic-davidau-mradermacher-aggressively-de-aligned` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `dark-champion-davidau-moe-abliterated` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `wizard-vicuna-thebloke-classic-uncensored-most-downlo` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `nous-hermes-nousresearch-creative-writing-roleplay` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `juggernaut-xl-all-around-photorealism-69gb-safetensors` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `realistic-vision-xl-photorealistic-people` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `pony-diffusion-xl-character-art-huge-lora-ecosystem` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `dreamshaper-xl-artistic-fantasy` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `sdxl-unstable-diffusers-nsfw-focus` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `comfortable-llama-32-3b-3gb-gemma-3-4b-4gb-qwen` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `tight-but-possible-mistral-nemo-12b-10gb-gemma-3-12b` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `not-viable-gpt-oss-20b-gemma-3-27b-qwen3-30b-anything` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `sd-15-10-20-secimage-low-ram-pressure` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `sdxl-30-90-secimage-medium-high-ram-pressure` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `flux-not-viable-oom-on-16gb` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `llm-uncensoring-abliterate-with-obliteratus-need-gpu-or-d` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `image-gen-uncensoring-just-disable-safety-checker-use-com` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `mac-with-16gb-7-8b-llms-max-sdxl-for-images-max` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `for-low-spec-machines-downloading-pre-built-models-is-smart` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/2017-lexus-rx-350.md`: Claim `type-35l-v6-dohc-24v-vvt-iw` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `horsepower-295-hp-6300-rpm` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `torque-267-lb-ft-4700-rpm` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `type-0w-20-full-synthetic-oem-recommended` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `capacity-5760-quarts-5457-liters-confirm-with` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `drive-front-wheel-drive-fwd` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `transmission-automatic-8-speed` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `steering-left-hand-drive-us-market` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `owner-randomstixs-wife` is missing structured evidence.
+- `entities/ai-providers.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/ai-providers.md`: Broken wikilink target `/docs/user-guide/features/tool-gateway`.
+- `entities/ai-providers.md`: Broken wikilink target `/docs/user-guide/features/tts`.
+- `entities/ai-providers.md`: Broken wikilink target `/docs/guides/aws-bedrock`.
+- `entities/ai-providers.md`: Broken wikilink target `/docs/user-guide/features/fallback-providers`.
+- `entities/ai-providers.md`: Claim `pkce-authorization-code-flow-against-accountsgooglecom` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `browser-callback-at-http1270018085oauth2callback-wi` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `tokens-stored-at-hermesauthgoogle-oauthjson-chmod-060` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `automatic-refresh-60-s-before-expiry` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `headless-environments-ssh-hermes-headless1-paste-mode` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `inflight-refresh-deduplication-two-concurrent-requests-won` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `invalid-grant-revoked-refresh-credential-file-wiped-use` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `traffic-goes-to-httpscloudcode-pagoogleapiscomv1intern` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `request-body-wrapped-project-model-user-prompt-id-reques` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `openai-shaped-messages-tools-tool-choice-are-translate` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `responses-translated-back-to-openai-shape-so-the-rest-of-her` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `provider-claude-and---provider-claude-code-also-work-as-shor` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `port-8000` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `max-model-len-65536` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `tensor-parallel-size-2` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `enable-auto-tool-choice` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `tool-call-parser-hermes` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `model-meta-llamallama-31-70b-instruct` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `port-30000` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `context-length-65536` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `tool-call-parser-qwen` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `jinja--fa` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `m-modelsqwen25-coder-32b-instruct-q4-k-mgguf` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `port-8080---host-0000` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `jinja-is-required-for-tool-calling` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `model-name-best` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `model-name-best` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `name-my-local-llm` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `youre-using-ollama-with-a-custom-num-ctx-thats-lower-than` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `you-want-to-limit-context-below-the-models-maximum-eg-8` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `youre-running-behind-a-proxy-that-doesnt-expose-v1models` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `name-local` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `name-work` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `name-anthropic-proxy` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `configuration-general-configuration-directory-structure` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `environment-variables-complete-reference-of-all-environmen` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `google-gemini-via-oauth-google-gemini-cli` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `two-commands-for-model-management` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `anthropic-native` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `github-copilot` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `first-class-chinese-ai-providers` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `xai-grok-responses-api-prompt-caching` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `ollama-cloud-managed-ollama-models-oauth-api-key` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `aws-bedrock` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `qwen-portal-oauth` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `nvidia-nim` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `hugging-face-inference-providers` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `custom-self-hosted-llm-providerscustom--self-hosted-ll` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `general-setup` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `switching-models-with-model` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `ollama-local-models-zero-config` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `vllm-high-performance-gpu-inference` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `sglang-fast-serving-with-radixattention` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `llamacpp-llama-server-cpu-metal-inference` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `lm-studio-desktop-app-with-local-models` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `wsl2-networking-windows-users` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `troubleshooting-local-models` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `litellm-proxy-multi-provider-gateway` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `clawrouter-cost-optimized-routing` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `other-compatible-providers` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `context-length-detection` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `named-custom-providers` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `choosing-the-right-setup` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `optional-api-keysoptional-api-keysself-hosting-fire` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `self-hosting-firecrawl` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `openrouter-provider-routingopenrouter-provider-routing` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `fallback-modelfallback-model` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `see-alsosee-also` is missing structured evidence.
+- `entities/android-termux.md`: Claim cluster `hermes-doctor` has competing variants across 2 pages.
+- `entities/android-termux.md`: Claim cluster `ripgrep-fast-file-search` has competing variants across 2 pages.
+- `entities/android-termux.md`: Claim `the-hermes-cli` is missing structured evidence.
+- `entities/android-termux.md`: Claim `cron-support` is missing structured evidence.
+- `entities/android-termux.md`: Claim `ptybackground-terminal-support` is missing structured evidence.
+- `entities/android-termux.md`: Claim `telegram-gateway-support-manual-best-effort-background-ru` is missing structured evidence.
+- `entities/android-termux.md`: Claim `mcp-support` is missing structured evidence.
+- `entities/android-termux.md`: Claim `honcho-memory-support` is missing structured evidence.
+- `entities/android-termux.md`: Claim `acp-support` is missing structured evidence.
+- `entities/android-termux.md`: Claim `all-is-not-supported-on-android-today` is missing structured evidence.
+- `entities/android-termux.md`: Claim `the-voice-extra-is-blocked-by-faster-whisper---ctranslate2` is missing structured evidence.
+- `entities/android-termux.md`: Claim `automatic-browser-playwright-bootstrap-is-skipped-in-the-t` is missing structured evidence.
+- `entities/android-termux.md`: Claim `docker-based-terminal-isolation-is-not-available-inside-term` is missing structured evidence.
+- `entities/android-termux.md`: Claim `android-may-still-suspend-termux-background-jobs-so-gateway` is missing structured evidence.
+- `entities/android-termux.md`: Claim `uses-pkg-for-system-packages` is missing structured evidence.
+- `entities/android-termux.md`: Claim `creates-the-venv-with-python--m-venv` is missing structured evidence.
+- `entities/android-termux.md`: Claim `installs-termux-with-pip` is missing structured evidence.
+- `entities/android-termux.md`: Claim `links-hermes-into-prefixbin-so-it-stays-on-your-termux-p` is missing structured evidence.
+- `entities/android-termux.md`: Claim `skips-the-untested-browser-whatsapp-bootstrap` is missing structured evidence.
+- `entities/android-termux.md`: Claim `python-runtime-venv-support` is missing structured evidence.
+- `entities/android-termux.md`: Claim `git-cloneupdate-the-repo` is missing structured evidence.
+- `entities/android-termux.md`: Claim `clang-rust-make-pkg-config-libffi-openssl-needed-to-b` is missing structured evidence.
+- `entities/android-termux.md`: Claim `nodejs-optional-node-runtime-for-experiments-beyond-the-te` is missing structured evidence.
+- `entities/android-termux.md`: Claim `ripgrep-fast-file-search` is missing structured evidence.
+- `entities/android-termux.md`: Claim `ffmpeg-media-tts-conversions` is missing structured evidence.
+- `entities/android-termux.md`: Claim `voice-pulls-faster-whisper` is missing structured evidence.
+- `entities/android-termux.md`: Claim `faster-whisper-depends-on-ctranslate2` is missing structured evidence.
+- `entities/android-termux.md`: Claim `ctranslate2-does-not-publish-android-wheels` is missing structured evidence.
+- `entities/android-termux.md`: Claim `docker-backend-is-unavailable` is missing structured evidence.
+- `entities/android-termux.md`: Claim `local-voice-transcription-via-faster-whisper-is-unavailable` is missing structured evidence.
+- `entities/android-termux.md`: Claim `browser-automation-setup-is-intentionally-skipped-by-the-ins` is missing structured evidence.
+- `entities/android-termux.md`: Claim `some-optional-extras-may-work-but-only-termux-is-curre` is missing structured evidence.
+- `entities/android-termux.md`: Claim `your-android-version` is missing structured evidence.
+- `entities/android-termux.md`: Claim `termux-info` is missing structured evidence.
+- `entities/android-termux.md`: Claim `python---version` is missing structured evidence.
+- `entities/android-termux.md`: Claim `hermes-doctor` is missing structured evidence.
+- `entities/android-termux.md`: Claim `the-exact-install-command-and-full-error-output` is missing structured evidence.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/prompt-assembly`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/provider-runtime`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/adding-providers`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/tools-runtime`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/session-storage`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/gateway-internals`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/context-compression-and-caching`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/acp-internals`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/environments`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/agent-loop`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/prompt-assembly`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/provider-runtime`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/adding-providers`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/tools-runtime`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/session-storage`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/gateway-internals`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/context-compression-and-caching`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/acp-internals`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/environments`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/agent-loop`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/prompt-assembly`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/context-compression-and-caching`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/provider-runtime`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/tools-runtime`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/session-storage`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/gateway-internals`.
+- `entities/architecture.md`: Broken wikilink target `/docs/guides/build-a-hermes-plugin`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/memory-provider-plugin`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/cron-internals`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/acp-internals`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/environments`.
+- `entities/architecture.md`: Broken wikilink target `/docs/developer-guide/trajectory-format`.
+- `entities/architecture.md`: Claim `this-page-orient-yourself` is missing structured evidence.
+- `entities/architecture.md`: Claim `agent-loop-internalsdocsdeveloper-guideagent-loop` is missing structured evidence.
+- `entities/architecture.md`: Claim `prompt-assemblydocsdeveloper-guideprompt-assembly` is missing structured evidence.
+- `entities/architecture.md`: Claim `provider-runtime-resolutiondocsdeveloper-guideprovider` is missing structured evidence.
+- `entities/architecture.md`: Claim `adding-providersdocsdeveloper-guideadding-providers` is missing structured evidence.
+- `entities/architecture.md`: Claim `tools-runtimedocsdeveloper-guidetools-runtime-too` is missing structured evidence.
+- `entities/architecture.md`: Claim `session-storagedocsdeveloper-guidesession-storage` is missing structured evidence.
+- `entities/architecture.md`: Claim `gateway-internalsdocsdeveloper-guidegateway-internals` is missing structured evidence.
+- `entities/architecture.md`: Claim `context-compression-amp-prompt-cachingdocsdeveloper-g` is missing structured evidence.
+- `entities/architecture.md`: Claim `acp-internalsdocsdeveloper-guideacp-internals-ide` is missing structured evidence.
+- `entities/architecture.md`: Claim `environments-benchmarks-amp-data-generationdocsdevel` is missing structured evidence.
+- `entities/architecture.md`: Claim `prompt-builderpy-assembles-the-system-prompt-from-pe` is missing structured evidence.
+- `entities/architecture.md`: Claim `prompt-cachingpy-applies-anthropic-cache-breakpoints` is missing structured evidence.
+- `entities/architecture.md`: Claim `context-compressorpy-summarizes-middle-conversation-t` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `a-mac-always-on-running-bluebubbles-server` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `apple-id-signed-into-messagesapp-on-that-mac` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `bluebubbles-server-v100-webhooks-require-this-version` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `network-connectivity-between-hermes-and-the-bluebubbles-serv` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `server-url-eg-http1921681101234` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `server-password` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `inbound-bluebubbles-sends-webhook-events-to-a-local-listene` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `outbound-hermes-sends-messages-via-the-bluebubbles-rest-api` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `media-images-voice-messages-videos-and-documents-are-sup` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `images-photos-appear-natively-in-the-imessage-conversation` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `voice-messages-audio-files-sent-as-imessage-voice-messages` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `videos-video-attachments` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `documents-files-sent-as-imessage-attachments` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `tapback-reactions` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `typing-indicators` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `read-receipts` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `creating-new-chats-by-address` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `verify-the-server-url-is-correct-and-the-mac-is-on` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `check-that-bluebubbles-server-is-running` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `ensure-network-connectivity-firewall-port-forwarding` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `check-that-the-webhook-is-registered-in-bluebubbles-server` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `verify-the-webhook-url-is-reachable-from-the-mac` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `check-hermes-logs-gateway-for-webhook-errors-or-hermes-logs` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `install-the-private-api-helper-docsbluebubblesapp` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `basic-messaging-works-without-it-only-reactions-typing-a` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `1-install-bluebubbles-server` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `2-get-your-server-url-and-password` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `3-configure-hermes` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `4-authorize-users` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `5-start-the-gateway` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `how-it-workshow-it-works` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `environment-variablesenvironment-variables` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `featuresfeaturestext-messagingrich-mediat` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `text-messaging` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `rich-media` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `tapback-reactions` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `typing-indicators` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `read-receipts` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `chat-addressing` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `private-apiprivate-api` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `troubleshootingtroubleshootingcannot-reach-server` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `cannot-reach-server` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `messages-not-arriving` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `private-api-helper-not-connected` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/reference/slash-commands`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/user-guide/sessions`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/user-guide/features/skins`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/reference/slash-commands`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/user-guide/tui`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/reference/faq`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/user-guide/features/credential-pools`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/user-guide/features/acp`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/developer-guide/acp-internals`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/reference/mcp-config-reference`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/user-guide/features/mcp`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/user-guide/features/plugins`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/guides/build-a-hermes-plugin`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/guides/migrate-from-openclaw`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/user-guide/features/web-dashboard`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/reference/slash-commands`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/user-guide/sessions`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/cli-commands-reference.md`: Broken wikilink target `/docs/user-guide/features/skins`.
+- `entities/cli-commands-reference.md`: Claim cluster `force-does-not-override-a-dangerous-scan-verdict` has competing variants across 2 pages.
+- `entities/cli-commands-reference.md`: Claim `add-a-new-provider-openrouter-anthropic-copilot-deepse` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `log-into-oauth-backed-providers-anthropic-copilot-codex` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `enter-or-update-api-keys` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `pick-from-provider-specific-model-lists` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `configure-a-customself-hosted-endpoint` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `save-the-new-default-into-config` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `hermes-dump----version-080-202648-af4abd2f` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `reporting-a-bug-on-github-paste-the-dump-into-your-issue` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `asking-for-help-in-discord-share-it-in-a-code-block` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `comparing-your-setup-to-someone-elsex27s` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `quick-sanity-check-when-something-isnx27t-working` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `force-can-override-non-dangerous-policy-blocks-for-third` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `force-does-not-override-a-dangerous-scan-verdict` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `source-skills-sh-searches-the-public-skillssh-directo` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `source-well-known-lets-you-point-hermes-at-a-site-exposi` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `general-plugins-multi-select-checkboxes-to-enabledisabl` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `provider-plugins-single-select-configuration-for-memory` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `memoryprovider-active-memory-provider-empty-built-in` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `contextengine-active-context-engine-quotcompressor` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `slash-commands-referencedocsreferenceslash-commands` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `cli-interfacedocsuser-guidecli` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `sessionsdocsuser-guidesessions` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `skills-systemdocsuser-guidefeaturesskills` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `skins-amp-themesdocsuser-guidefeaturesskins` is missing structured evidence.
+- `entities/cli-interface.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/cli-interface.md`: Broken wikilink target `./tui`.
+- `entities/cli-interface.md`: Claim `model-name-current-model-truncated-if-longer-than-26-ch` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `token-count-context-tokens-used-max-context-window` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `context-bar-visual-fill-indicator-with-color-coded-thres` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `cost-estimated-session-cost-or-na-for-unknownzero-pri` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `duration-elapsed-session-time` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `full-layout-at-76-columns` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `compact-at-5275-columns` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `minimal-model-duration-only-below-52-columns` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `green-50-plenty-of-room` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `yellow-5080-getting-full` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `orange-8095-approaching-limit` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `red-95-near-overflow-consider-compress` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `help-show-command-help` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `model-show-or-change-the-current-model` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `tools-list-currently-available-tools` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `skills-browse-browse-the-skills-hub-and-official-option` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `background-prompt-run-a-prompt-in-a-separate-backgrou` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `skin-show-or-switch-the-active-cli-skin` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `voice-on-enable-cli-voice-mode-press-ctrlb-to-record` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `voice-tts-toggle-spoken-playback-for-hermes-replies` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `reasoning-high-increase-reasoning-effort` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `title-my-session-name-the-current-session` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `type-a-new-message-enter-while-the-agent-is-working-it-i` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `ctrlc-interrupt-the-current-operation-press-twice-with` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `interrupt-default-your-message-interrupts-the-curren` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `queue-your-message-is-silently-queued-and-sent-as-the` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `session-metadata-id-title-timestamps-token-counters` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `message-history` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `lineage-across-compressedresumed-sessions` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `full-text-search-indexes-used-by-session-search` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `isolated-conversation-the-background-agent-has-no-knowle` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `same-configuration-the-background-agent-inherits-your-mo` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `non-blocking-your-foreground-session-stays-fully-interac` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `multiple-tasks-you-can-run-several-background-tasks-simu` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `long-running-research-background-research-the-latest-d` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `file-processing-background-analyze-all-python-files-in` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `parallel-investigations-start-multiple-background-tasks` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `suppresses-verbose-logging-from-tools` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `enables-kawaii-style-animated-feedback` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `keeps-output-clean-and-user-friendly` is missing structured evidence.
+- `entities/configuration.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/configuration.md`: Broken wikilink target `entity.security`.
+- `entities/configuration.md`: Broken wikilink target `entity.security`.
+- `entities/configuration.md`: Broken wikilink target `entity.security`.
+- `entities/configuration.md`: Broken wikilink target `entity.security`.
+- `entities/configuration.md`: Broken wikilink target `entity.security`.
+- `entities/configuration.md`: Broken wikilink target `entity.security`.
+- `entities/configuration.md`: Broken wikilink target `entity.security`.
+- `entities/configuration.md`: Broken wikilink target `entity.security`.
+- `entities/configuration.md`: Broken wikilink target `entity.security`.
+- `entities/configuration.md`: Broken wikilink target `entity.security`.
+- `entities/configuration.md`: Broken wikilink target `entity.security`.
+- `entities/configuration.md`: Broken wikilink target `entity.security`.
+- `entities/configuration.md`: Broken wikilink target `entity.security`.
+- `entities/configuration.md`: Broken wikilink target `entity.security`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/personality`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/context-files`.
+- `entities/configuration.md`: Broken wikilink target `/docs/integrations/providers`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/code-execution`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/configuration.md`: Broken wikilink target `/docs/developer-guide/creating-skills`.
+- `entities/configuration.md`: Broken wikilink target `/docs/developer-guide/context-compression-and-caching`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/memory-providers`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/credential-pools`.
+- `entities/configuration.md`: Broken wikilink target `/docs/reference/environment-variables`.
+- `entities/configuration.md`: Broken wikilink target `/docs/integrations/providers`.
+- `entities/configuration.md`: Broken wikilink target `/docs/integrations/providers`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/voice-mode`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/sessions`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/messaging/discord`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/browser`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/browser`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/checkpoints-and-rollback`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/delegation`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/personality`.
+- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/context-files`.
+- `entities/configuration.md`: Page freshness needs review (missing updatedAt).
+- `entities/contributing.md`: Broken wikilink target `/docs/developer-guide/adding-tools`.
+- `entities/contributing.md`: Broken wikilink target `/docs/developer-guide/creating-skills`.
+- `entities/contributing.md`: Broken wikilink target `/docs/developer-guide/adding-providers`.
+- `entities/contributing.md`: Broken wikilink target `/docs/developer-guide/creating-skills`.
+- `entities/contributing.md`: Broken wikilink target `/docs/developer-guide/adding-tools`.
+- `entities/contributing.md`: Broken wikilink target `/docs/developer-guide/creating-skills`.
+- `entities/contributing.md`: Broken wikilink target `/docs/developer-guide/adding-providers`.
+- `entities/contributing.md`: Claim `bug-fixes-crashes-incorrect-behavior-data-loss` is missing structured evidence.
+- `entities/contributing.md`: Claim `cross-platform-compatibility-macos-different-linux-dist` is missing structured evidence.
+- `entities/contributing.md`: Claim `security-hardening-shell-injection-prompt-injection-pa` is missing structured evidence.
+- `entities/contributing.md`: Claim `performance-and-robustness-retry-logic-error-handling` is missing structured evidence.
+- `entities/contributing.md`: Claim `new-skills-broadly-useful-ones-see-creating-skillsd` is missing structured evidence.
+- `entities/contributing.md`: Claim `new-tools-rarely-needed-most-capabilities-should-be-ski` is missing structured evidence.
+- `entities/contributing.md`: Claim `documentation-fixes-clarifications-new-examples` is missing structured evidence.
+- `entities/contributing.md`: Claim `building-a-new-tool-start-with-adding-toolsdocsdevelop` is missing structured evidence.
+- `entities/contributing.md`: Claim `building-a-new-skill-start-with-creating-skillsdocsdev` is missing structured evidence.
+- `entities/contributing.md`: Claim `building-a-new-inference-provider-start-with-adding-provid` is missing structured evidence.
+- `entities/contributing.md`: Claim `pep-8-with-practical-exceptions-no-strict-line-length-enf` is missing structured evidence.
+- `entities/contributing.md`: Claim `comments-only-when-explaining-non-obvious-intent-trade-o` is missing structured evidence.
+- `entities/contributing.md`: Claim `error-handling-catch-specific-exceptions-use-loggerwar` is missing structured evidence.
+- `entities/contributing.md`: Claim `cross-platform-never-assume-unix-see-below` is missing structured evidence.
+- `entities/contributing.md`: Claim `profile-safe-paths-never-hardcode-hermes-use-get` is missing structured evidence.
+- `entities/contributing.md`: Claim `always-use-shlexquote-when-interpolating-user-input-int` is missing structured evidence.
+- `entities/contributing.md`: Claim `resolve-symlinks-with-ospathrealpath-before-access-con` is missing structured evidence.
+- `entities/contributing.md`: Claim `donx27t-log-secrets` is missing structured evidence.
+- `entities/contributing.md`: Claim `catch-broad-exceptions-around-tool-execution` is missing structured evidence.
+- `entities/contributing.md`: Claim `test-on-all-platforms-if-your-change-touches-file-paths-or-p` is missing structured evidence.
+- `entities/contributing.md`: Claim `run-tests-pytest-tests--v` is missing structured evidence.
+- `entities/contributing.md`: Claim `test-manually-run-hermes-and-exercise-the-code-path-you` is missing structured evidence.
+- `entities/contributing.md`: Claim `check-cross-platform-impact-consider-macos-and-different` is missing structured evidence.
+- `entities/contributing.md`: Claim `keep-prs-focused-one-logical-change-per-pr` is missing structured evidence.
+- `entities/contributing.md`: Claim `what-changed-and-why` is missing structured evidence.
+- `entities/contributing.md`: Claim `how-to-test-it` is missing structured evidence.
+- `entities/contributing.md`: Claim `what-platforms-you-tested-on` is missing structured evidence.
+- `entities/contributing.md`: Claim `reference-any-related-issues` is missing structured evidence.
+- `entities/contributing.md`: Claim `use-github-issueshttpsgithubcomnousresearchhermes-a` is missing structured evidence.
+- `entities/contributing.md`: Claim `include-os-python-version-hermes-version-hermes-version` is missing structured evidence.
+- `entities/contributing.md`: Claim `include-steps-to-reproduce` is missing structured evidence.
+- `entities/contributing.md`: Claim `check-existing-issues-before-creating-duplicates` is missing structured evidence.
+- `entities/contributing.md`: Claim `for-security-vulnerabilities-please-report-privately` is missing structured evidence.
+- `entities/contributing.md`: Claim `discord-discordggnousresearchhttpsdiscordggnous` is missing structured evidence.
+- `entities/contributing.md`: Claim `github-discussions-for-design-proposals-and-architecture` is missing structured evidence.
+- `entities/contributing.md`: Claim `skills-hub-upload-specialized-skills-and-share-with-the-c` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/dingtalk-setup.md`: Broken wikilink target `/docs/user-guide/security`.
+- `entities/dingtalk-setup.md`: Claim cluster `group-sessions-per-user-true-keeps-each-participants-conte` has competing variants across 3 pages.
+- `entities/dingtalk-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/dingtalk-setup.md`: Claim cluster `troubleshootingtroubleshootingbot-is-not-responding` has competing variants across 3 pages.
+- `entities/dingtalk-setup.md`: Claim `each-dm-gets-its-own-session` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `each-user-in-a-shared-group-chat-gets-their-own-session-insi` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `dingtalk-stream-dingtalks-official-sdk-for-stream-mode-w` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `alibabacloud-dingtalk-dingtalk-openapi-sdk-for-ai-cards-e` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `app-name-eg-hermes-agent` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `description-optional` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `after-creating-navigate-to-credentials-basic-info-to` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `qr-code-device-flow-recommended-scan-the-qr-that-prints-i` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `manual-paste-if-you-already-have-credentials-or-qr-scannin` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `group-sessions-per-user-true-keeps-each-participants-conte` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `thinking-added-when-the-bot-starts-processing-your-messag` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `done-added-when-the-response-is-complete-replaces-the-th` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `stream-mode-no-public-url-domain-name-or-webhook-server-n` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `ai-cards-optionally-reply-with-rich-ai-cards-instead-of-pla` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `emoji-reactions-automatic-thinkingdone-reactions-for-pro` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `markdown-responses-replies-are-formatted-in-dingtalks-mark` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `media-support-images-and-files-in-incoming-messages-are-aut` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `message-deduplication-the-adapter-deduplicates-messages-wit` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `auto-reconnection-if-the-stream-connection-drops-the-adapt` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `message-length-limit-responses-are-capped-at-20000-charact` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `session-model-in-dingtalk` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `prerequisitesprerequisites` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `step-1-create-a-dingtalk-appstep-1-create-a-dingtalk-ap` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `step-2-enable-the-robot-capabilitystep-2-enable-the-rob` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `step-3-find-your-dingtalk-user-idstep-3-find-your-dingt` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `step-4-configure-hermes-agentstep-4-configure-hermes-ag` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `option-a-interactive-setup-recommended` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `option-b-manual-configuration` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `start-the-gateway` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `featuresfeaturesai-cardsemoji-reactionsdi` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `emoji-reactions` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `display-settings` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `troubleshootingtroubleshootingbot-is-not-responding` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `bot-is-not-responding-to-messages` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `dingtalk-stream-not-installed-error` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `dingtalk-client-id-and-dingtalk-client-secret-required` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `stream-disconnects-reconnection-loops` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `bot-is-offline` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `no-session-webhook-available` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `notesnotes` is missing structured evidence.
+- `entities/discord-setup.md`: Broken wikilink target `[entity.security`.
+- `entities/discord-setup.md`: Broken wikilink target `entity.security`.
+- `entities/discord-setup.md`: Broken wikilink target `entity.messaging-gateway`.
+- `entities/discord-setup.md`: Broken wikilink target `entity.security`.
+- `entities/discord-setup.md`: Broken wikilink target `entity.security`.
+- `entities/discord-setup.md`: Broken wikilink target `[entity.security`.
+- `entities/discord-setup.md`: Broken wikilink target `entity.security`.
+- `entities/discord-setup.md`: Broken wikilink target `[entity.security`.
+- `entities/discord-setup.md`: Broken wikilink target `entity.security`.
+- `entities/discord-setup.md`: Claim cluster `one-persons-in-flight-run-can-interrupt-another-persons-fo` has competing variants across 3 pages.
+- `entities/discord-setup.md`: Claim `each-dm-gets-its-own-session` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `each-server-thread-gets-its-own-session-namespace` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `each-user-in-a-shared-channel-gets-their-own-session-inside` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `users-share-context-growth-and-token-costs` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `one-persons-long-tool-heavy-task-can-bloat-everyone-elses` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `one-persons-in-flight-run-can-interrupt-another-persons-fo` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `alice-interrupting-her-own-in-flight-request-only-affects-al` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `bob-can-keep-talking-in-the-same-channel-without-inheriting` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `the-whole-room-shares-one-running-agent-slot-for-that-channe` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `follow-up-messages-from-different-people-can-interrupt-or-qu` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `set-public-bot-to-on-required-to-use-the-discord-provided` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `leave-require-oauth2-code-grant-set-to-off` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `without-message-content-intent-your-bot-receives-message-ev` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `without-server-members-intent-the-bot-cannot-resolve-userna` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `if-your-bot-is-in-fewer-than-100-servers-you-can-simply-tog` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `if-your-bot-is-in-100-or-more-servers-discord-requires-you` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `scopes-select-bot-and-applicationscommands` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `permissions-select-the-permissions-listed-below` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `view-channels-see-the-channels-it-has-access-to` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `send-messages-respond-to-your-messages` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `embed-links-format-rich-responses` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `attach-files-send-images-audio-and-file-outputs` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `read-message-history-maintain-conversation-context` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `send-messages-in-threads-respond-in-thread-conversations` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `add-reactions-react-to-messages-for-acknowledgment` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `1234567890` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `9876543210` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `added-when-the-bot-starts-processing-your-message` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `added-when-the-response-is-delivered-successfully` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `added-if-an-error-occurs-during-processing` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `1234567890` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `9876543210` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `1234567890-bot-responds-inline-here` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `exact-threadchannel-id-matches-win` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `if-a-message-arrives-inside-a-thread-or-forum-post-and-that` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `prompts-are-applied-ephemerally-at-runtime-so-changing-them` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `off-no-progress-messages` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `new-only-show-the-first-tool-call-per-turn` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `all-show-all-tool-calls-truncated-to-40-characters-in-gat` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `verbose-show-full-tool-call-details-can-produce-long-mess` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `each-skill-becomes-a-discord-slash-command-eg-code-revi` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `skills-accept-an-optional-args-string-parameter` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `discord-has-a-limit-of-100-application-commands-per-bot-if` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `skills-are-registered-during-bot-startup-alongside-built-in` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `incoming-voice-messages-are-automatically-transcribed-using` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `text-to-speech-use-voice-tts-to-have-the-bot-send-spoken-a` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `discord-voice-channels-hermes-can-also-join-a-voice-channel` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `voice-mode` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `use-voice-mode-with-hermes` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `thread-name-is-derived-from-the-first-line-of-the-message-m` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `attachments-ride-along-on-the-starter-message-of-the-new-thr` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `one-call-one-thread-each-forum-send-creates-a-new-thread` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `detection-is-three-layered-the-channel-directory-cache-firs` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `or-with-user-allowlist-a-user-is-authorized-if-their-id-is` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `server-members-intent-auto-enabled-when-discord-allowed-rol` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `role-ids-not-names-grab-them-from-discord-user-settings` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `dm-fallback-in-dms-the-role-check-scans-mutual-guilds-a-us` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `discord-gateway-model` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `session-model-in-discord` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `interrupts-and-concurrency` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-1-create-a-discord-applicationstep-1-create-a-disc` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-2-create-the-botstep-2-create-the-bot` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-3-enable-privileged-gateway-intentsstep-3-enable-p` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-4-get-the-bot-tokenstep-4-get-the-bot-token` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-5-generate-the-invite-urlstep-5-generate-the-invit` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `option-a-using-the-installation-tab-recommended` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `option-b-manual-url` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `required-permissions` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `recommended-additional-permissions` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `permission-integers` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-6-invite-to-your-serverstep-6-invite-to-your-serve` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-7-find-your-discord-user-idstep-7-find-your-discor` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-8-configure-hermes-agentstep-8-configure-hermes-ag` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `option-a-interactive-setup-recommended` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `option-b-manual-configuration` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `configuration-referenceconfiguration-referenceenvir` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `environment-variables-env` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `config-file-configyaml` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `interactive-model-pickerinteractive-model-picker` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `native-slash-commands-for-skillsnative-slash-commands-fo` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `home-channelhome-channelusing-the-slash-command` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `using-the-slash-command` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `manual-configuration` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `voice-messagesvoice-messages` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `forum-channelsforum-channels` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `troubleshootingtroubleshootingbot-is-online-but-not` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `bot-is-online-but-not-responding-to-messages` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `disallowed-intents-error-on-startup` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `bot-cant-see-messages-in-a-specific-channel` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `403-forbidden-errors` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `bot-is-offline` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `user-not-allowed-bot-ignores-you` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `people-in-the-same-channel-are-sharing-context-unexpectedly` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `securitysecurityrole-based-access-controlmenti` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `role-based-access-control` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `mention-control` is missing structured evidence.
+- `entities/email-setup.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/email-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/email-setup.md`: Claim `a-dedicated-email-account-for-your-hermes-agent-dont-use-y` is missing structured evidence.
+- `entities/email-setup.md`: Claim `imap-enabled-on-the-email-account` is missing structured evidence.
+- `entities/email-setup.md`: Claim `an-app-password-if-using-gmail-or-another-provider-with-2fa` is missing structured evidence.
+- `entities/email-setup.md`: Claim `imap-host-and-port-usually-port-993-with-ssl` is missing structured evidence.
+- `entities/email-setup.md`: Claim `smtp-host-and-port-usually-port-587-with-starttls` is missing structured evidence.
+- `entities/email-setup.md`: Claim `whether-app-passwords-are-required` is missing structured evidence.
+- `entities/email-setup.md`: Claim `images-jpeg-png-gif-webp-available-to-the-vision-tool` is missing structured evidence.
+- `entities/email-setup.md`: Claim `documents-pdf-zip-etc-available-for-file-access` is missing structured evidence.
+- `entities/email-setup.md`: Claim `html-only-emails-have-tags-stripped-for-plain-text-extract` is missing structured evidence.
+- `entities/email-setup.md`: Claim `self-messages-are-filtered-out-to-prevent-reply-loops` is missing structured evidence.
+- `entities/email-setup.md`: Claim `automatednoreply-senders-are-silently-ignored-noreply` is missing structured evidence.
+- `entities/email-setup.md`: Claim `in-reply-to-and-references-headers-maintain-the-thread` is missing structured evidence.
+- `entities/email-setup.md`: Claim `subject-line-preserved-with-re-prefix-no-double-re-re` is missing structured evidence.
+- `entities/email-setup.md`: Claim `message-id-generated-with-the-agents-domain` is missing structured evidence.
+- `entities/email-setup.md`: Claim `responses-are-sent-as-plain-text-utf-8` is missing structured evidence.
+- `entities/email-setup.md`: Claim `use-app-passwords-instead-of-your-main-password-required-fo` is missing structured evidence.
+- `entities/email-setup.md`: Claim `set-email-allowed-users-to-restrict-who-can-interact-with-th` is missing structured evidence.
+- `entities/email-setup.md`: Claim `the-password-is-stored-in-hermesenv-protect-this-file` is missing structured evidence.
+- `entities/email-setup.md`: Claim `imap-uses-ssl-port-993-and-smtp-uses-starttls-port-587-b` is missing structured evidence.
+- `entities/email-setup.md`: Claim `gmail-setup` is missing structured evidence.
+- `entities/email-setup.md`: Claim `outlook-microsoft-365` is missing structured evidence.
+- `entities/email-setup.md`: Claim `other-providers` is missing structured evidence.
+- `entities/email-setup.md`: Claim `step-1-configure-hermesstep-1-configure-hermesmanu` is missing structured evidence.
+- `entities/email-setup.md`: Claim `manual-configuration` is missing structured evidence.
+- `entities/email-setup.md`: Claim `step-2-start-the-gatewaystep-2-start-the-gateway` is missing structured evidence.
+- `entities/email-setup.md`: Claim `how-it-workshow-it-worksreceiving-messagessend` is missing structured evidence.
+- `entities/email-setup.md`: Claim `receiving-messages` is missing structured evidence.
+- `entities/email-setup.md`: Claim `sending-replies` is missing structured evidence.
+- `entities/email-setup.md`: Claim `file-attachments` is missing structured evidence.
+- `entities/email-setup.md`: Claim `skipping-attachments` is missing structured evidence.
+- `entities/email-setup.md`: Claim `access-controlaccess-control` is missing structured evidence.
+- `entities/email-setup.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/email-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/email-setup.md`: Claim `environment-variables-referenceenvironment-variables-ref` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `entity.security`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `[entity.security`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `entity.security`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `[entity.messaging-gateway`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `[entity.security`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `entity.security`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `entity.messaging-gateway`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `entity.messaging-gateway`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/slash-commands`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/profile-commands`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/environment-variables`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/tools-reference`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/toolsets-reference`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/mcp-config-reference`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/skills-catalog`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/optional-skills-catalog`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/faq`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/features/mcp`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/mcp-config-reference`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/skills`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/slash-commands`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/profile-commands`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/environment-variables`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/tools-reference`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/toolsets-reference`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/mcp-config-reference`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/skills-catalog`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/optional-skills-catalog`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/faq`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/environment-variables`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/guides/local-llm-on-mac`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/features/memory`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/features/code-execution`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/integrations/providers`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/features/mcp`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/mcp-config-reference`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/features/delegation`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/profiles`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/messaging/whatsapp`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/optional-skills-catalog`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/faq-troubleshooting.md`: Claim `using-hermesdocsuser-guidecli` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `featuresdocsuser-guidefeaturesoverview` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `messaging-platformsdocsuser-guidemessaging` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `integrationsdocsintegrations` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `guides-tutorialsdocsguidestips` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `developer-guidedocsdeveloper-guidecontributing` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `referencedocsreferencecli-commandscli-commands-refer` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `slash-commands-referencedocsreferenceslash-commands` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `profile-commands-referencedocsreferenceprofile-command` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `environment-variablesdocsreferenceenvironment-variable` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `built-in-tools-referencedocsreferencetools-reference` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `toolsets-referencedocsreferencetoolsets-reference` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `mcp-config-referencedocsreferencemcp-config-reference` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `bundled-skills-catalogdocsreferenceskills-catalog` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `optional-skills-catalogdocsreferenceoptional-skills-ca` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `faq-troubleshootingdocsreferencefaq` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `docs` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `faq-troubleshooting` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `openrouterhttpsopenrouterai-access-hundreds-of-mo` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `nous-portal-nous-researchs-own-inference-endpoint` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `openai-gpt-4o-o1-o3-etc` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `anthropic-claude-models-via-openrouter-or-compatible-prox` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `google-gemini-models-via-openrouter-or-compatible-proxy` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `zai-zhipuai-glm-models` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `kimi-moonshot-ai-kimi-models` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `minimax-global-and-china-endpoints` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `local-models-via-ollamahttpsollamacom-vllmhtt` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `memory-stores-facts-things-the-agent-knows-about-you-your` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `skills-store-procedures-step-by-step-instructions-for-how` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `upgrading-your-provider-plan` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `switching-to-a-different-model-or-provider` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `using-hermes-chat---provider-to-route-to-a-different-back` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `ask-the-agent-to-use-a-safer-alternative` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `see-the-full-list-of-dangerous-patterns-in-the-[[entity.security|Security]]-doc` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `avoid-sudo-in-messaging-ask-the-agent-to-find-alternativ` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `if-you-must-use-sudo-configure-passwordless-sudo-for-spec` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `or-switch-to-the-terminal-interface-for-administrative-tasks` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `verify-your-bot-token-is-valid-with-hermes-gateway-setup` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `check-gateway-logs-cat-hermeslogsgatewaylog-tail` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `for-webhook-based-platforms-slack-whatsapp-ensure-your-s` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `open-etcwslconf-create-it-if-it-doesnt-exist` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `from-powershell-wsl---shutdown` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `reopen-your-wsl-terminal` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `verify-systemctl-is-system-running-should-say-running-o` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `create-a-task-that-runs-wsl--d-ubuntu----bash--lc-hermes-g` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `set-it-to-trigger-on-user-logon` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `try-a-fastersmaller-model-hermes-chat---model-openrouter` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `reduce-active-toolsets-hermes-chat--t-terminal` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `check-your-network-latency-to-the-provider` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `for-local-models-ensure-you-have-enough-gpu-vram` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `check-gatewayagent-logs-for-mcp-connection-errors` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `ensure-the-server-responds-to-the-toolslist-rpc-method` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `review-any-toolsinclude-toolsexclude-toolsresource` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `remember-that-resourceprompt-utility-tools-are-only-registe` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `use-reload-mcp-after-changing-config` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `mcp-model-context-protocoldocsuser-guidefeaturesmcp` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `use-mcp-with-hermesdocsguidesuse-mcp-with-hermes` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `mcp-config-referencedocsreferencemcp-config-reference` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `increase-the-timeout-in-your-mcp-server-config-if-supported` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `check-if-the-mcp-server-process-is-still-running` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `for-remote-http-mcp-servers-check-network-connectivity` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `off-only-the-final-response-no-tool-calls-no-reasoning` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `new-shows-new-tool-calls-as-they-happen-brief-one-liner` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `all-shows-all-tool-activity-including-results` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `verbose-full-detail-including-tool-arguments-and-outputs` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `search-existing-issues-github-issueshttpsgithubcomn` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `ask-the-community-nous-research-discordhttpsdiscordg` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `file-a-bug-report-include-your-os-python-version-python3` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `does-it-work-on-windowsdoes-it-work-on-windows` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `does-it-work-on-android-termuxdoes-it-work-on-android` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `is-my-data-sent-anywhereis-my-data-sent-anywhere` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `can-i-use-it-offline-with-local-modelscan-i-use-it-of` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `how-much-does-it-costhow-much-does-it-cost` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `can-multiple-people-use-one-instancecan-multiple-people` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `what39s-the-difference-between-memory-and-skillswhat` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `can-i-use-it-in-my-own-python-projectcan-i-use-it-in-my` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `troubleshootingtroubleshootinginstallation-issuesin` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `provider-model-issuesprovider--model-issues` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `terminal-issuesterminal-issues` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `messaging-issuesmessaging-issues` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `performance-issuesperformance-issues` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `mcp-issuesmcp-issues` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `profilesprofileshow-do-profiles-differ-from-just-setti` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `can-two-profiles-share-the-same-bot-tokencan-two-profil` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `do-profiles-share-memory-or-sessionsdo-profiles-share-m` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `what-happens-when-i-run-hermes-updatewhat-happens-whe` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `can-i-move-a-profile-to-a-different-machinecan-i-move-a` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `how-many-profiles-can-i-runhow-many-profiles-can-i-run` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `workflows-patternsworkflows--patternsusing-different` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `running-multiple-agents-on-one-whatsapp-number-per-chat-bi` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `controlling-what-shows-up-in-telegram-hiding-logs-and-reas` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `managing-skills-on-telegram-slash-command-limitmanagin` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `shared-thread-sessions-multiple-users-one-conversation` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `exporting-hermes-to-another-machineexporting-hermes-to-a` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `permission-denied-when-reloading-shell-after-installperm` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `error-400-on-first-agent-runerror-400-on-first-agent-run` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `still-stuckstill-stuck` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `user-guidedocsuser-guidecli` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `developer-guidedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
+- `entities/features-context-files.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/features-context-files.md`: Broken wikilink target `/docs/user-guide/features/personality`.
+- `entities/features-context-files.md`: Claim `file-purpose-discovery` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `file-hermesmd-hermesmd-purpose-project` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `file-agentsmd-purpose-project-instructions-co` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `file-claudemd-purpose-claude-code-context-file` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `file-soulmd-purpose-global-personality-and-ton` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `file-cursorrules-purpose-cursor-ide-coding-con` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `file-cursorrulesmdc-purpose-cursor-ide-ru` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `no-system-prompt-bloat-subdirectory-hints-only-appear-wh` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `prompt-cache-preservation-the-system-prompt-stays-stable` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `frontend-nextjs-14-with-app-router-in-frontend` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `backend-fastapi-in-backend-uses-sqlalchemy-orm` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `database-postgresql-16` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `deployment-docker-compose-on-a-hetzner-vps` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `use-typescript-strict-mode-for-all-frontend-code` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `python-code-follows-pep-8-use-type-hints-everywhere` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `all-api-endpoints-return-json-with-data-error-meta-sha` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `tests-go-in-tests-directories-frontend-or-tests` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `never-modify-migration-files-directly-use-alembic-commands` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `the-envlocal-file-has-real-api-keys-dont-commit-it` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `frontend-port-is-3000-backend-is-8000-db-is-5432` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `hermessoulmd` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `or-hermes-homesoulmd-if-you-run-hermes-with-a-custom-ho` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `hermes-seeds-a-default-soulmd-automatically-if-one-does-n` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `hermes-loads-soulmd-only-from-hermes-home` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `hermes-does-not-probe-the-working-directory-for-soulmd` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `if-the-file-is-empty-nothing-from-soulmd-is-added-to-the` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `if-the-file-has-content-the-content-is-injected-verbatim-af` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `instruction-override-attempts-ignore-previous-instructio` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `deception-patterns-do-not-tell-the-user` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `system-prompt-overrides-system-prompt-override` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `hidden-html-comments----ignore-instructions` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `hidden-div-elements-div-styledisplaynone` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `credential-exfiltration-curl-api-key` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `secret-file-access-cat-env-cat-credentials` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `invisible-characters-zero-width-spaces-bidirectional-ove` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `limit-value` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `max-chars-per-file-20000-7000-tokens` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `head-truncation-ratio-70` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `tail-truncation-ratio-20` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `truncation-marker-10-shows-char-counts-and-suggests-usi` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `use-pnpm-not-npm-for-package-management` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `components-go-in-srccomponents-pages-in-srcapp` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `use-tailwind-css-never-inline-styles` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `run-tests-with-pnpm-test` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `use-poetry-for-dependency-management` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `run-the-dev-server-with-poetry-run-uvicorn-mainapp---reloa` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `all-endpoints-need-openapi-docstrings` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `database-models-are-in-models-schemas-in-schemas` is missing structured evidence.
+- `entities/features-mcp.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/features-mcp.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/features-mcp.md`: Broken wikilink target `/docs/reference/slash-commands`.
+- `entities/features-mcp.md`: Broken wikilink target `/docs/reference/faq`.
+- `entities/features-mcp.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/features-mcp.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/features-mcp.md`: Broken wikilink target `/docs/reference/slash-commands`.
+- `entities/features-mcp.md`: Broken wikilink target `/docs/reference/faq`.
+- `entities/features-mcp.md`: Claim `access-to-external-tool-ecosystems-without-writing-a-native` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `local-stdio-servers-and-remote-http-mcp-servers-in-the-same` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `automatic-tool-discovery-and-registration-at-startup` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `utility-wrappers-for-mcp-resources-and-prompts-when-supporte` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `per-server-filtering-so-you-can-expose-only-the-mcp-tools-yo` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `the-server-is-installed-locally` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `you-want-low-latency-access-to-local-resources` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `you-are-following-mcp-server-docs-that-show-command-args` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `the-mcp-server-is-hosted-elsewhere` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `your-organization-exposes-internal-mcp-endpoints` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `you-do-not-want-hermes-spawning-a-local-subprocess-for-that` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-type-meaning` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-command-type-string-meaning-executable` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-args-type-list-meaning-arguments-for-th` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-env-type-mapping-meaning-environment-va` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-url-type-string-meaning-http-mcp-endpoi` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-headers-type-mapping-meaning-http-heade` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-timeout-type-number-meaning-tool-call-t` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-connect-timeout-type-number-meaning-ini` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-enabled-type-bool-meaning-if-false-h` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-tools-type-mapping-meaning-per-server-t` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `server-mcp-tool-registered-name` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `server-filesystem-mcp-tool-read-file-registe` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `server-github-mcp-tool-create-issue-register` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `server-my-api-mcp-tool-querydata-registered` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `list-resources` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `read-resource` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `list-prompts` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `get-prompt` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `mcp-github-list-resources` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `mcp-github-get-prompt` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `hermes-only-registers-resource-utilities-if-the-mcp-session` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `hermes-only-registers-prompt-utilities-if-the-mcp-session-ac` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `toolsresources-false-disables-list-resources-and-read` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `toolsprompts-false-disables-list-prompts-and-get-prom` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `disable-dangerous-tools-you-do-not-want-the-model-to-see` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `expose-only-a-minimal-whitelist-for-a-sensitive-server` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `disable-resourceprompt-wrappers-when-you-do-not-want-that-s` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `the-server-failed-to-connect` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `discovery-failed` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `your-filter-config-excluded-the-tools` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `the-utility-capability-does-not-exist-on-that-server` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `the-server-is-disabled-with-enabled-false` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `you-want-claude-code-cursor-or-another-coding-agent-to-sen` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `you-want-a-single-mcp-server-that-bridges-to-all-of-hermess` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `you-already-have-a-running-hermes-gateway-with-connected-pla` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `tool-description` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `conversations-list-list-active-messaging-conversations` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `conversation-get-get-detailed-info-about-one-conversati` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `messages-read-read-recent-message-history-for-a-convers` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `attachments-fetch-extract-non-text-attachments-images` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `events-poll-poll-for-new-conversation-events-since-a-cu` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `events-wait-long-poll-block-until-the-next-event-arri` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `messages-send-send-a-message-through-a-platform-eg` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `channels-list-list-available-messaging-targets-across-a` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `permissions-list-open-list-pending-approval-requests-ob` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `permissions-respond-allow-or-deny-a-pending-approval-re` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `stdio-transport-only-no-http-mcp-transport-yet` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `event-polling-at-200ms-intervals-via-mtime-optimized-db-pol` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `no-claudechannel-push-notification-protocol-yet` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `text-only-sends-no-mediaattachment-sending-through-messag` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `use-mcp-with-hermesdocsguidesuse-mcp-with-hermes` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `cli-commandsdocsreferencecli-commands` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `slash-commandsdocsreferenceslash-commands` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `faqdocsreferencefaq` is missing structured evidence.
+- `entities/features-memory.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/features-memory.md`: Broken wikilink target `/docs/user-guide/features/memory-providers`.
+- `entities/features-memory.md`: Claim `file-purpose-char-limit` is missing structured evidence.
+- `entities/features-memory.md`: Claim `file-memorymd-purpose-agents-personal-notes` is missing structured evidence.
+- `entities/features-memory.md`: Claim `file-usermd-purpose-user-profile-your-prefer` is missing structured evidence.
+- `entities/features-memory.md`: Claim `a-header-showing-which-store-memory-or-user-profile` is missing structured evidence.
+- `entities/features-memory.md`: Claim `usage-percentage-and-character-counts-so-the-agent-knows-cap` is missing structured evidence.
+- `entities/features-memory.md`: Claim `individual-entries-separated-by-section-sign-delimiter` is missing structured evidence.
+- `entities/features-memory.md`: Claim `entries-can-be-multiline` is missing structured evidence.
+- `entities/features-memory.md`: Claim `add-add-a-new-memory-entry` is missing structured evidence.
+- `entities/features-memory.md`: Claim `replace-replace-an-existing-entry-with-updated-content` is missing structured evidence.
+- `entities/features-memory.md`: Claim `remove-remove-an-entry-thats-no-longer-relevant-uses-s` is missing structured evidence.
+- `entities/features-memory.md`: Claim `environment-facts-os-tools-project-structure` is missing structured evidence.
+- `entities/features-memory.md`: Claim `project-conventions-and-configuration` is missing structured evidence.
+- `entities/features-memory.md`: Claim `tool-quirks-and-workarounds-discovered` is missing structured evidence.
+- `entities/features-memory.md`: Claim `completed-task-diary-entries` is missing structured evidence.
+- `entities/features-memory.md`: Claim `skills-and-techniques-that-worked` is missing structured evidence.
+- `entities/features-memory.md`: Claim `name-role-timezone` is missing structured evidence.
+- `entities/features-memory.md`: Claim `communication-preferences-concise-vs-detailed-format-prefe` is missing structured evidence.
+- `entities/features-memory.md`: Claim `pet-peeves-and-things-to-avoid` is missing structured evidence.
+- `entities/features-memory.md`: Claim `workflow-habits` is missing structured evidence.
+- `entities/features-memory.md`: Claim `technical-skill-level` is missing structured evidence.
+- `entities/features-memory.md`: Claim `user-preferences-i-prefer-typescript-over-javascript` is missing structured evidence.
+- `entities/features-memory.md`: Claim `environment-facts-this-server-runs-debian-12-with-postgr` is missing structured evidence.
+- `entities/features-memory.md`: Claim `corrections-dont-use-sudo-for-docker-commands-user-i` is missing structured evidence.
+- `entities/features-memory.md`: Claim `conventions-project-uses-tabs-120-char-line-width-goog` is missing structured evidence.
+- `entities/features-memory.md`: Claim `completed-work-migrated-database-from-mysql-to-postgresq` is missing structured evidence.
+- `entities/features-memory.md`: Claim `explicit-requests-remember-that-my-api-key-rotation-happ` is missing structured evidence.
+- `entities/features-memory.md`: Claim `trivialobvious-info-user-asked-about-python-too-vagu` is missing structured evidence.
+- `entities/features-memory.md`: Claim `easily-re-discovered-facts-python-312-supports-f-string` is missing structured evidence.
+- `entities/features-memory.md`: Claim `raw-data-dumps-large-code-blocks-log-files-data-tables` is missing structured evidence.
+- `entities/features-memory.md`: Claim `session-specific-ephemera-temporary-file-paths-one-off-d` is missing structured evidence.
+- `entities/features-memory.md`: Claim `information-already-in-context-files-soulmd-and-agentsm` is missing structured evidence.
+- `entities/features-memory.md`: Claim `store-limit-typical-entries` is missing structured evidence.
+- `entities/features-memory.md`: Claim `store-memory-limit-2200-chars-typical-entries` is missing structured evidence.
+- `entities/features-memory.md`: Claim `store-user-limit-1375-chars-typical-entries` is missing structured evidence.
+- `entities/features-memory.md`: Claim `all-cli-and-messaging-sessions-are-stored-in-sqlite-her` is missing structured evidence.
+- `entities/features-memory.md`: Claim `search-queries-return-relevant-past-conversations-with-gemin` is missing structured evidence.
+- `entities/features-memory.md`: Claim `the-agent-can-find-things-it-discussed-weeks-ago-even-if-th` is missing structured evidence.
+- `entities/features-memory.md`: Claim `feature-persistent-memory-session-search` is missing structured evidence.
+- `entities/features-memory.md`: Claim `feature-capacity-persistent-memory-1300-token` is missing structured evidence.
+- `entities/features-memory.md`: Claim `feature-speed-persistent-memory-instant-in-sys` is missing structured evidence.
+- `entities/features-memory.md`: Claim `feature-use-case-persistent-memory-key-facts-al` is missing structured evidence.
+- `entities/features-memory.md`: Claim `feature-management-persistent-memory-manually-c` is missing structured evidence.
+- `entities/features-memory.md`: Claim `feature-token-cost-persistent-memory-fixed-per` is missing structured evidence.
+- `entities/features-overview.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-tools`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-skills`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-memory`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-context-files`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-context-files`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-context-files`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-checkpoints`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-checkpoints`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-delegation`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-code-execution`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-hooks`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-batch-processing`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-voice-mode`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-browser`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-vision`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-image-generation`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-mcp`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-mcp`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-mcp`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-mcp`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-provider-routing`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-fallback-providers`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-credential-pools`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-memory-providers`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-api-server`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-acp`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-acp`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-acp`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-rl-training`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-personality`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-personality`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-personality`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-personality`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-personality`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-plugins`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-plugins`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-plugins`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-memory-providers`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-plugins`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-memory`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-browser`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-tools`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-skills`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-memory`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-context-files`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-context-files`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-context-files`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-checkpoints`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-checkpoints`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-delegation`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-code-execution`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-hooks`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-batch-processing`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-voice-mode`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-browser`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-browser`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-vision`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-image-generation`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-mcp`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-mcp`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-mcp`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-provider-routing`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-fallback-providers`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-credential-pools`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-memory-providers`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-api-server`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-acp`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-acp`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-acp`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-rl-training`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-personality`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-personality`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-personality`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-personality`.
+- `entities/features-overview.md`: Broken wikilink target `[entity.features-plugins`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-plugins`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-plugins`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-memory-providers`.
+- `entities/features-overview.md`: Broken wikilink target `entity.features-plugins`.
+- `entities/features-overview.md`: Broken wikilink target `/docs/user-guide/features/cron`.
+- `entities/features-overview.md`: Broken wikilink target `/docs/user-guide/features/skins`.
+- `entities/features-overview.md`: Broken wikilink target `/docs/user-guide/features/cron`.
+- `entities/features-overview.md`: Broken wikilink target `/docs/user-guide/features/skins`.
+- `entities/features-overview.md`: Page freshness needs review (missing updatedAt).
+- `entities/features-personality.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/features-personality.md`: Broken wikilink target `/docs/user-guide/features/context-files`.
+- `entities/features-personality.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/features-personality.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/features-personality.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/features-personality.md`: Broken wikilink target `/docs/user-guide/features/context-files`.
+- `entities/features-personality.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/features-personality.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/features-personality.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/features-personality.md`: Broken wikilink target `/docs/user-guide/features/skins`.
+- `entities/features-personality.md`: Claim `soulmd-a-durable-persona-file-that-lives-in-hermes-hom` is missing structured evidence.
+- `entities/features-personality.md`: Claim `built-in-or-custom-personality-presets-session-level-sy` is missing structured evidence.
+- `entities/features-personality.md`: Claim `soulmd-is-the-agents-primary-identity-it-occupies-slot` is missing structured evidence.
+- `entities/features-personality.md`: Claim `hermes-creates-a-starter-soulmd-automatically-if-one-does` is missing structured evidence.
+- `entities/features-personality.md`: Claim `existing-user-soulmd-files-are-never-overwritten` is missing structured evidence.
+- `entities/features-personality.md`: Claim `hermes-loads-soulmd-only-from-hermes-home` is missing structured evidence.
+- `entities/features-personality.md`: Claim `hermes-does-not-look-in-the-current-working-directory-for-s` is missing structured evidence.
+- `entities/features-personality.md`: Claim `if-soulmd-exists-but-is-empty-or-cannot-be-loaded-herme` is missing structured evidence.
+- `entities/features-personality.md`: Claim `if-soulmd-has-content-that-content-is-injected-verbatim` is missing structured evidence.
+- `entities/features-personality.md`: Claim `soulmd-is-not-duplicated-in-the-context-files-section` is missing structured evidence.
+- `entities/features-personality.md`: Claim `edit-hermessoulmd-to-change-hermes-default-personal` is missing structured evidence.
+- `entities/features-personality.md`: Claim `communication-style` is missing structured evidence.
+- `entities/features-personality.md`: Claim `level-of-directness` is missing structured evidence.
+- `entities/features-personality.md`: Claim `default-interaction-style` is missing structured evidence.
+- `entities/features-personality.md`: Claim `what-to-avoid-stylistically` is missing structured evidence.
+- `entities/features-personality.md`: Claim `how-hermes-should-handle-uncertainty-disagreement-or-ambig` is missing structured evidence.
+- `entities/features-personality.md`: Claim `one-off-project-instructions` is missing structured evidence.
+- `entities/features-personality.md`: Claim `file-paths` is missing structured evidence.
+- `entities/features-personality.md`: Claim `repo-conventions` is missing structured evidence.
+- `entities/features-personality.md`: Claim `temporary-workflow-details` is missing structured evidence.
+- `entities/features-personality.md`: Claim `stable-across-contexts` is missing structured evidence.
+- `entities/features-personality.md`: Claim `broad-enough-to-apply-in-many-conversations` is missing structured evidence.
+- `entities/features-personality.md`: Claim `specific-enough-to-materially-shape-the-voice` is missing structured evidence.
+- `entities/features-personality.md`: Claim `focused-on-communication-and-identity-not-task-specific-ins` is missing structured evidence.
+- `entities/features-personality.md`: Claim `be-direct-without-being-cold` is missing structured evidence.
+- `entities/features-personality.md`: Claim `prefer-substance-over-filler` is missing structured evidence.
+- `entities/features-personality.md`: Claim `push-back-when-something-is-a-bad-idea` is missing structured evidence.
+- `entities/features-personality.md`: Claim `admit-uncertainty-plainly` is missing structured evidence.
+- `entities/features-personality.md`: Claim `keep-explanations-compact-unless-depth-is-useful` is missing structured evidence.
+- `entities/features-personality.md`: Claim `sycophancy` is missing structured evidence.
+- `entities/features-personality.md`: Claim `hype-language` is missing structured evidence.
+- `entities/features-personality.md`: Claim `repeating-the-users-framing-if-its-wrong` is missing structured evidence.
+- `entities/features-personality.md`: Claim `overexplaining-obvious-things` is missing structured evidence.
+- `entities/features-personality.md`: Claim `prefer-simple-systems-over-clever-systems` is missing structured evidence.
+- `entities/features-personality.md`: Claim `care-about-operational-reality-not-idealized-architecture` is missing structured evidence.
+- `entities/features-personality.md`: Claim `treat-edge-cases-as-part-of-the-design-not-cleanup` is missing structured evidence.
+- `entities/features-personality.md`: Claim `prompt-injection-scanning` is missing structured evidence.
+- `entities/features-personality.md`: Claim `truncation-if-it-is-too-large` is missing structured evidence.
+- `entities/features-personality.md`: Claim `communication-defaults` is missing structured evidence.
+- `entities/features-personality.md`: Claim `personality-level-behavior` is missing structured evidence.
+- `entities/features-personality.md`: Claim `project-architecture` is missing structured evidence.
+- `entities/features-personality.md`: Claim `coding-conventions` is missing structured evidence.
+- `entities/features-personality.md`: Claim `tool-preferences` is missing structured evidence.
+- `entities/features-personality.md`: Claim `repo-specific-workflows` is missing structured evidence.
+- `entities/features-personality.md`: Claim `commands-ports-paths-deployment-notes` is missing structured evidence.
+- `entities/features-personality.md`: Claim `if-it-should-follow-you-everywhere-it-belongs-in-soulmd` is missing structured evidence.
+- `entities/features-personality.md`: Claim `if-it-belongs-to-a-project-it-belongs-in-agentsmd` is missing structured evidence.
+- `entities/features-personality.md`: Claim `soulmd-baseline-voice` is missing structured evidence.
+- `entities/features-personality.md`: Claim `personality-temporary-mode-switch` is missing structured evidence.
+- `entities/features-personality.md`: Claim `keep-a-pragmatic-default-soul-then-use-personality-teache` is missing structured evidence.
+- `entities/features-personality.md`: Claim `keep-a-concise-soul-then-use-personality-creative-for-br` is missing structured evidence.
+- `entities/features-personality.md`: Claim `name-description` is missing structured evidence.
+- `entities/features-personality.md`: Claim `helpful-friendly-general-purpose-assistant` is missing structured evidence.
+- `entities/features-personality.md`: Claim `concise-brief-to-the-point-responses` is missing structured evidence.
+- `entities/features-personality.md`: Claim `technical-detailed-accurate-technical-expert` is missing structured evidence.
+- `entities/features-personality.md`: Claim `creative-innovative-outside-the-box-thinking` is missing structured evidence.
+- `entities/features-personality.md`: Claim `teacher-patient-educator-with-clear-examples` is missing structured evidence.
+- `entities/features-personality.md`: Claim `kawaii-cute-expressions-sparkles-and-enthusiasm` is missing structured evidence.
+- `entities/features-personality.md`: Claim `catgirl-neko-chan-with-cat-like-expressions-nya` is missing structured evidence.
+- `entities/features-personality.md`: Claim `pirate-captain-hermes-tech-savvy-buccaneer` is missing structured evidence.
+- `entities/features-personality.md`: Claim `shakespeare-bardic-prose-with-dramatic-flair` is missing structured evidence.
+- `entities/features-personality.md`: Claim `surfer-totally-chill-bro-vibes` is missing structured evidence.
+- `entities/features-personality.md`: Claim `noir-hard-boiled-detective-narration` is missing structured evidence.
+- `entities/features-personality.md`: Claim `uwu-maximum-cute-with-uwu-speak` is missing structured evidence.
+- `entities/features-personality.md`: Claim `philosopher-deep-contemplation-on-every-query` is missing structured evidence.
+- `entities/features-personality.md`: Claim `hype-maximum-energy-and-enthusiasm` is missing structured evidence.
+- `entities/features-personality.md`: Claim `a-stable-voice` is missing structured evidence.
+- `entities/features-personality.md`: Claim `project-specific-behavior-where-it-belongs` is missing structured evidence.
+- `entities/features-personality.md`: Claim `temporary-control-when-needed` is missing structured evidence.
+- `entities/features-personality.md`: Claim `context-filesdocsuser-guidefeaturescontext-files` is missing structured evidence.
+- `entities/features-personality.md`: Claim `configurationdocsuser-guideconfiguration` is missing structured evidence.
+- `entities/features-personality.md`: Claim `tips-best-practicesdocsguidestips` is missing structured evidence.
+- `entities/features-personality.md`: Claim `soulmd-guidedocsguidesuse-soul-with-hermes` is missing structured evidence.
+- `entities/features-personality.md`: Claim `soulmd-agentsystem-prompt-and-personality-affect` is missing structured evidence.
+- `entities/features-personality.md`: Claim `displayskin-and-skin-affect-how-hermes-looks-in-the-te` is missing structured evidence.
+- `entities/features-skills.md`: Broken wikilink target `/docs/reference/skills-catalog`.
+- `entities/features-skills.md`: Broken wikilink target `/docs/reference/optional-skills-catalog`.
+- `entities/features-skills.md`: Broken wikilink target `/docs/reference/optional-skills-catalog`.
+- `entities/features-skills.md`: Broken wikilink target `/docs/reference/skills-catalog`.
+- `entities/features-skills.md`: Broken wikilink target `/docs/reference/optional-skills-catalog`.
+- `entities/features-skills.md`: Broken wikilink target `/docs/user-guide/security`.
+- `entities/features-skills.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/features-skills.md`: Broken wikilink target `/docs/developer-guide/creating-skills`.
+- `entities/features-skills.md`: Broken wikilink target `/docs/reference/optional-skills-catalog`.
+- `entities/features-skills.md`: Claim cluster `force-does-not-override-a-dangerous-scan-verdict` has competing variants across 2 pages.
+- `entities/features-skills.md`: Claim `bundled-skills-catalogdocsreferenceskills-catalog` is missing structured evidence.
+- `entities/features-skills.md`: Claim `official-optional-skills-catalogdocsreferenceoptional` is missing structured evidence.
+- `entities/features-skills.md`: Claim `key-mysetting` is missing structured evidence.
+- `entities/features-skills.md`: Claim `known-failure-modes-and-fixes` is missing structured evidence.
+- `entities/features-skills.md`: Claim `value-matches` is missing structured evidence.
+- `entities/features-skills.md`: Claim `macos-macos-darwin` is missing structured evidence.
+- `entities/features-skills.md`: Claim `linux-linux` is missing structured evidence.
+- `entities/features-skills.md`: Claim `windows-windows` is missing structured evidence.
+- `entities/features-skills.md`: Claim `field-behavior` is missing structured evidence.
+- `entities/features-skills.md`: Claim `fallback-for-toolsets-skill-is-hidden-when-the-list` is missing structured evidence.
+- `entities/features-skills.md`: Claim `fallback-for-tools-same-but-checks-individual-tools-in` is missing structured evidence.
+- `entities/features-skills.md`: Claim `requires-toolsets-skill-is-hidden-when-the-listed-t` is missing structured evidence.
+- `entities/features-skills.md`: Claim `requires-tools-same-but-checks-individual-tools` is missing structured evidence.
+- `entities/features-skills.md`: Claim `name-tenor-api-key` is missing structured evidence.
+- `entities/features-skills.md`: Claim `key-mypluginpath` is missing structured evidence.
+- `entities/features-skills.md`: Claim `agentsskills` is missing structured evidence.
+- `entities/features-skills.md`: Claim `homesharedteam-skills` is missing structured evidence.
+- `entities/features-skills.md`: Claim `skills-reposkills` is missing structured evidence.
+- `entities/features-skills.md`: Claim `read-only-external-dirs-are-only-scanned-for-skill-discov` is missing structured evidence.
+- `entities/features-skills.md`: Claim `local-precedence-if-the-same-skill-name-exists-in-both-th` is missing structured evidence.
+- `entities/features-skills.md`: Claim `full-integration-external-skills-appear-in-the-system-pro` is missing structured evidence.
+- `entities/features-skills.md`: Claim `non-existent-paths-are-silently-skipped-if-a-configured-d` is missing structured evidence.
+- `entities/features-skills.md`: Claim `after-completing-a-complex-task-5-tool-calls-successfully` is missing structured evidence.
+- `entities/features-skills.md`: Claim `when-it-hit-errors-or-dead-ends-and-found-the-working-path` is missing structured evidence.
+- `entities/features-skills.md`: Claim `when-the-user-corrected-its-approach` is missing structured evidence.
+- `entities/features-skills.md`: Claim `when-it-discovered-a-non-trivial-workflow` is missing structured evidence.
+- `entities/features-skills.md`: Claim `action-use-for-key-params` is missing structured evidence.
+- `entities/features-skills.md`: Claim `action-create-use-for-new-skill-from-scratch-k` is missing structured evidence.
+- `entities/features-skills.md`: Claim `action-patch-use-for-targeted-fixes-preferred` is missing structured evidence.
+- `entities/features-skills.md`: Claim `action-edit-use-for-major-structural-rewrites` is missing structured evidence.
+- `entities/features-skills.md`: Claim `action-delete-use-for-remove-a-skill-entirely` is missing structured evidence.
+- `entities/features-skills.md`: Claim `action-write-file-use-for-addupdate-supporting-f` is missing structured evidence.
+- `entities/features-skills.md`: Claim `action-remove-file-use-for-remove-a-supporting-fi` is missing structured evidence.
+- `entities/features-skills.md`: Claim `source-example-notes` is missing structured evidence.
+- `entities/features-skills.md`: Claim `source-official-example-officialsecurity1passw` is missing structured evidence.
+- `entities/features-skills.md`: Claim `source-skills-sh-example-skills-shvercel-labsa` is missing structured evidence.
+- `entities/features-skills.md`: Claim `source-well-known-example-well-knownhttpsmin` is missing structured evidence.
+- `entities/features-skills.md`: Claim `source-github-example-openaiskillsk8s-note` is missing structured evidence.
+- `entities/features-skills.md`: Claim `source-clawhub-lobehub-claude-marketplace-exam` is missing structured evidence.
+- `entities/features-skills.md`: Claim `catalog-official-optional-skills-catalogdocsreference` is missing structured evidence.
+- `entities/features-skills.md`: Claim `source-in-repo-optional-skills` is missing structured evidence.
+- `entities/features-skills.md`: Claim `directory-skillsshhttpsskillssh` is missing structured evidence.
+- `entities/features-skills.md`: Claim `clitooling-repo-vercel-labsskillshttpsgithubcomve` is missing structured evidence.
+- `entities/features-skills.md`: Claim `official-vercel-skills-repo-vercel-labsagent-skillshttp` is missing structured evidence.
+- `entities/features-skills.md`: Claim `example-live-endpoint-mintlify-docs-skills-indexhttps` is missing structured evidence.
+- `entities/features-skills.md`: Claim `reference-server-implementation-vercel-labsskills-handler` is missing structured evidence.
+- `entities/features-skills.md`: Claim `openaiskillshttpsgithubcomopenaiskills` is missing structured evidence.
+- `entities/features-skills.md`: Claim `anthropicsskillshttpsgithubcomanthropicsskills` is missing structured evidence.
+- `entities/features-skills.md`: Claim `voltagentawesome-agent-skillshttpsgithubcomvoltagen` is missing structured evidence.
+- `entities/features-skills.md`: Claim `garrytangstackhttpsgithubcomgarrytangstack` is missing structured evidence.
+- `entities/features-skills.md`: Claim `site-clawhubaihttpsclawhubai` is missing structured evidence.
+- `entities/features-skills.md`: Claim `hermes-source-id-clawhub` is missing structured evidence.
+- `entities/features-skills.md`: Claim `anthropicsskillshttpsgithubcomanthropicsskills` is missing structured evidence.
+- `entities/features-skills.md`: Claim `aiskillstoremarketplacehttpsgithubcomaiskillstorem` is missing structured evidence.
+- `entities/features-skills.md`: Claim `site-lobehubhttpslobehubcom` is missing structured evidence.
+- `entities/features-skills.md`: Claim `public-agents-index-chat-agentslobehubcomhttpschat` is missing structured evidence.
+- `entities/features-skills.md`: Claim `backing-repo-lobehublobe-chat-agentshttpsgithubcom` is missing structured evidence.
+- `entities/features-skills.md`: Claim `hermes-source-id-lobehub` is missing structured evidence.
+- `entities/features-skills.md`: Claim `skillssh-detail-page-url` is missing structured evidence.
+- `entities/features-skills.md`: Claim `install-command` is missing structured evidence.
+- `entities/features-skills.md`: Claim `weekly-installs` is missing structured evidence.
+- `entities/features-skills.md`: Claim `upstream-security-audit-statuses` is missing structured evidence.
+- `entities/features-skills.md`: Claim `well-known-indexendpoint-urls` is missing structured evidence.
+- `entities/features-skills.md`: Claim `force-can-override-policy-blocks-for-cautionwarn-style` is missing structured evidence.
+- `entities/features-skills.md`: Claim `force-does-not-override-a-dangerous-scan-verdict` is missing structured evidence.
+- `entities/features-skills.md`: Claim `official-optional-skills-official-are-treated-as-bui` is missing structured evidence.
+- `entities/features-skills.md`: Claim `level-source-policy` is missing structured evidence.
+- `entities/features-skills.md`: Claim `level-builtin-source-ships-with-hermes-policy` is missing structured evidence.
+- `entities/features-skills.md`: Claim `level-official-source-optional-skills-in-the-r` is missing structured evidence.
+- `entities/features-skills.md`: Claim `level-trusted-source-trusted-registriesrepos-suc` is missing structured evidence.
+- `entities/features-skills.md`: Claim `level-community-source-everything-else-skillss` is missing structured evidence.
+- `entities/features-skills.md`: Claim `unchanged-safe-to-pull-upstream-changes-copy-the-new-bu` is missing structured evidence.
+- `entities/features-skills.md`: Claim `changed-treated-as-user-modified-and-skipped-forever` is missing structured evidence.
+- `entities/features-tools.md`: Broken wikilink target `/docs/user-guide/features/plugins`.
+- `entities/features-tools.md`: Broken wikilink target `/docs/reference/tools-reference`.
+- `entities/features-tools.md`: Broken wikilink target `/docs/reference/toolsets-reference`.
+- `entities/features-tools.md`: Broken wikilink target `/docs/user-guide/features/tool-gateway`.
+- `entities/features-tools.md`: Broken wikilink target `/docs/reference/toolsets-reference`.
+- `entities/features-tools.md`: Claim `category-examples-description` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-web-examples-web-search-web-extrac` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-terminal-files-examples-terminal` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-browser-examples-browser-navigate` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-media-examples-vision-analyze-imag` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-agent-orchestration-examples-todo` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-memory-recall-examples-memory-se` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-automation-delivery-examples-cronjo` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-integrations-examples-ha-mcp-serv` is missing structured evidence.
+- `entities/features-tools.md`: Claim `backend-description-use-case` is missing structured evidence.
+- `entities/features-tools.md`: Claim `backend-local-description-run-on-your-machine-de` is missing structured evidence.
+- `entities/features-tools.md`: Claim `backend-docker-description-isolated-containers` is missing structured evidence.
+- `entities/features-tools.md`: Claim `backend-ssh-description-remote-server-use-case` is missing structured evidence.
+- `entities/features-tools.md`: Claim `backend-singularity-description-hpc-containers` is missing structured evidence.
+- `entities/features-tools.md`: Claim `backend-modal-description-cloud-execution-use` is missing structured evidence.
+- `entities/features-tools.md`: Claim `backend-daytona-description-cloud-sandbox-workspa` is missing structured evidence.
+- `entities/features-tools.md`: Claim `read-only-root-filesystem-docker` is missing structured evidence.
+- `entities/features-tools.md`: Claim `all-linux-capabilities-dropped` is missing structured evidence.
+- `entities/features-tools.md`: Claim `no-privilege-escalation` is missing structured evidence.
+- `entities/features-tools.md`: Claim `pid-limits-256-processes` is missing structured evidence.
+- `entities/features-tools.md`: Claim `full-namespace-isolation` is missing structured evidence.
+- `entities/features-tools.md`: Claim `persistent-workspace-via-volumes-not-writable-root-layer` is missing structured evidence.
+- `entities/features-voice-mode.md`: Broken wikilink target `/docs/user-guide/messaging/telegram`.
+- `entities/features-voice-mode.md`: Broken wikilink target `/docs/user-guide/messaging/discord`.
+- `entities/features-voice-mode.md`: Broken wikilink target `/docs/guides/use-voice-mode-with-hermes`.
+- `entities/features-voice-mode.md`: Broken wikilink target `/docs/getting-started/installation`.
+- `entities/features-voice-mode.md`: Broken wikilink target `/docs/user-guide/messaging/telegram`.
+- `entities/features-voice-mode.md`: Broken wikilink target `/docs/user-guide/messaging/discord`.
+- `entities/features-voice-mode.md`: Broken wikilink target `/docs/user-guide/messaging/discord`.
+- `entities/features-voice-mode.md`: Claim `feature-platform-description` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `feature-interactive-voice-platform-cli-descr` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `feature-auto-voice-reply-platform-telegram-dis` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `feature-voice-channel-platform-discord-descr` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `extra-packages-required-for` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `extra-voice-packages-sounddevice-numpy-re` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `extra-messaging-packages-discordpyvoice-py` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `extra-tts-premium-packages-elevenlabs-requir` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `dependency-purpose-required-for` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `dependency-portaudio-purpose-microphone-input-a` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `dependency-ffmpeg-purpose-audio-format-conversi` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `dependency-opus-purpose-discord-voice-codec` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `dependency-espeak-ng-purpose-phonemizer-backend` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `telegram-setup-guidedocsuser-guidemessagingtelegram` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `discord-setup-guidedocsuser-guidemessagingdiscord` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `mode-how-to-talk-mention-required-setup` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `mode-direct-message-dm-how-to-talk-open-the-b` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `mode-server-channel-how-to-talk-type-in-a-text` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `mode-command-behavior` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `mode-off-command-voice-off-behavior-text` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `mode-voice-only-command-voice-on-behavior` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `mode-all-command-voice-tts-behavior-spea` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `platform-format-notes` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `platform-telegram-format-voice-bubble-opusogg` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `platform-discord-format-native-voice-bubble-op` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `permission-purpose-required` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `permission-connect-purpose-join-voice-channels` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `permission-speak-purpose-play-tts-audio-in-voic` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `permission-use-voice-activity-purpose-detect-wh` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `level-integer-whats-included` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `level-text-only-integer-274878286912-whats-in` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `level-text-voice-integer-274881432640-whats` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `intent-purpose` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `presence-intent-detect-user-onlineoffline-status` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `server-members-intent-map-voice-ssrc-identifiers-to-dis` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `message-content-intent-read-text-message-content-in-cha` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `macos-opthomebrewliblibopusdylib` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `linux-libopusso0` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `transcripts-appear-in-the-text-channel-voice-user-what` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `agent-responses-are-sent-as-text-in-the-channel-and-spoken-i` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `the-text-channel-is-the-one-where-voice-join-was-issued` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-model-speed-quality-cost-a` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-local-model-base-speed-fast-d` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-local-model-small-speed-medium` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-local-model-large-v3-speed-slo` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-groq-model-whisper-large-v3-turbo` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-groq-model-whisper-large-v3-speed` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-openai-model-whisper-1-speed-f` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-openai-model-gpt-4o-transcribe-sp` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-quality-cost-latency-key-requir` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-edge-tts-quality-good-cost-free` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-elevenlabs-quality-excellent-cost` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-openai-tts-quality-good-cost-pai` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-neutts-quality-good-cost-free` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `check-your-discord-user-id-is-in-discord-allowed-users` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `make-sure-youre-not-muted-in-discord` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `the-bot-needs-a-speaking-event-from-discord-before-it-can-ma` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `verify-stt-is-available-install-faster-whisper-no-key-ne` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `check-the-llm-model-is-configured-and-accessible` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `review-gateway-logs-tail--f-hermeslogsgatewaylog` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `tts-provider-may-be-failing-check-api-key-and-quota` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `edge-tts-free-no-key-is-the-default-fallback` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `check-logs-for-tts-errors` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `use-a-quieter-environment` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `adjust-silence-threshold-in-config-higher-less-sensitiv` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `try-a-different-stt-model` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `websocket-recommended-hermes-opens-the-outbound-connectio` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `webhook-useful-when-you-want-feishulark-to-push-events-in` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `feishu-httpsopenfeishucn` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `lark-httpsopenlarksuitecom` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `create-a-new-app` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `in-credentials-basic-info-copy-the-app-id-and-a` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `enable-the-bot-capability-for-the-app` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `run-hermes-gateway-setup-select-feishu-lark-and-ente` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `feishu-for-feishu-china` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `lark-for-lark-international` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `button-clicks-become-card-button-key-value` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `the-actions-value-payload-from-the-card-definition-is-inclu` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `card-actions-are-deduplicated-with-a-15-minute-window-to-pre` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `fetches-the-document-content-and-comment-timeline-in-paralle` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `runs-the-agent-with-the-feishu-doc-feishu-drive-toolsets-s` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `chunks-replies-at-4000-chars-and-posts-them-back-as-threaded` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `caches-per-document-sessions-for-1-hour-with-a-50-message-ca` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `allowlist-a-static-list-of-users-tenants` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `pairing-static-list-runtime-approved-store-useful-for-r` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `subscribe-to-drivenoticecomment-add-v1-in-event-subscripti` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `grant-the-docsdocreadonly-and-drivedrivereadonly-scopes` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `ogg-opus-uploaded-as-opus-audio` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `mp4-mov-avi-m4v-uploaded-as-mp4-media` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `pdf-docx-xlsx-pptx-uploaded-with-their-docume` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `everything-else-uploaded-as-a-generic-stream-file` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `window-60-second-sliding-window` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `limit-120-requests-per-window-per-app-id-path-ip-triple` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `tracking-cap-up-to-4096-unique-keys-tracked-prevents-unbou` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `body-size-limit-1-mb-maximum` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `body-read-timeout-30-seconds` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `content-type-enforcement-only-applicationjson-is-accepted` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `ou-admin-open-id` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `ou-user-open-id-1` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `ou-user-open-id-2` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `ou-blocked-user` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `recommended-scan-to-create-one-command` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `alternative-manual-setup` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `step-2-choose-a-connection-modestep-2-choose-a-connecti` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `recommended-websocket-mode` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `optional-webhook-mode` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `step-3-configure-hermesstep-3-configure-hermesopti` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `option-a-interactive-setup` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `option-b-manual-configuration` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `step-4-start-the-gatewaystep-4-start-the-gateway` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `home-chathome-chat` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `securitysecurityuser-allowlistwebhook-encrypti` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `user-allowlist` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `webhook-encryption-key` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `verification-token` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `group-message-policygroup-message-policybot-identit` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `bot-identity-for-mention-gating` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `interactive-card-actionsinteractive-card-actionsreq` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `required-feishu-app-configuration` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `document-comment-intelligent-replydocument-comment-intel` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `3-tier-access-control` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `required-feishu-app-configuration` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `media-supportmedia-supportinbound-receivingout` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `inbound-receiving` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `outbound-sending` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `markdown-rendering-and-post-fallbackmarkdown-rendering-a` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `processing-status-reactionsprocessing-status-reactions` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `burst-protection-and-batchingburst-protection-and-batchi` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `text-batching` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `media-batching` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `per-chat-serialization` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `rate-limiting-webhook-moderate-limiting-webhook-mode` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `webhook-anomaly-tracking` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `websocket-tuningwebsocket-tuning` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `per-group-access-controlper-group-access-control` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `deduplicationdeduplication` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `all-environment-variablesall-environment-variables` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `toolsettoolset` is missing structured evidence.
+- `entities/hermes-agent-faq.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/skills`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/slash-commands`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/profile-commands`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/environment-variables`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/tools-reference`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/toolsets-reference`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/mcp-config-reference`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/skills-catalog`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/optional-skills-catalog`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/faq`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/environment-variables`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/guides/local-llm-on-mac`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/features/memory`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/features/code-execution`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/integrations/providers`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/security`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/features/mcp`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/mcp-config-reference`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/features/delegation`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/profiles`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/messaging/whatsapp`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/optional-skills-catalog`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/hermes-agent-faq.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-faq.md`: Page freshness needs review (missing updatedAt).
+- `entities/hermes-agent-installation.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/skills`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/getting-started/installation`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/getting-started/nix-setup`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/getting-started/updating`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/getting-started/learning-path`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/getting-started/nix-setup`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/hermes-agent-installation.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-installation.md`: Page freshness needs review (missing updatedAt).
+- `entities/hermes-agent-learning-path.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/skills`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/installation`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/nix-setup`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/updating`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/learning-path`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/installation`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/installation`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/sessions`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/messaging`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/memory`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/cron`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/developer-guide/adding-tools`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/developer-guide/creating-skills`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/rl-training`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/installation`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/code-execution`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/context-files`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/installation`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/messaging`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/messaging/telegram`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/messaging/discord`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/voice-mode`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/guides/use-voice-mode-with-hermes`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/security`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/guides/daily-briefing-bot`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/guides/team-telegram-assistant`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/cron`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/batch-processing`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/delegation`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/hooks`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/mcp`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/developer-guide/adding-tools`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/developer-guide/creating-skills`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/rl-training`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/provider-routing`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/installation`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/guides/python-library`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/sessions`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/memory`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/context-files`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/mcp`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/cron`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/delegation`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/code-execution`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/browser`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/hooks`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/batch-processing`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/rl-training`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/provider-routing`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/features/memory`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/security`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/sessions`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/updating`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/hermes-agent-learning-path.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-learning-path.md`: Page freshness needs review (missing updatedAt).
+- `entities/hermes-agent-quickstart.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/skills`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/getting-started/installation`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/getting-started/nix-setup`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/getting-started/updating`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/getting-started/learning-path`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/getting-started/installation`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/integrations/providers`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/integrations/providers`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/tui`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/telegram`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/discord`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/slack`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/whatsapp`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/signal`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/email`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/homeassistant`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/features/voice-mode`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/features/acp`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/integrations/providers`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/getting-started/installation`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/hermes-agent-quickstart.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-quickstart.md`: Page freshness needs review (missing updatedAt).
+- `entities/hermes-agent-tips.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/skills`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/local-llm-on-mac`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/daily-briefing-bot`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/team-telegram-assistant`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/python-library`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/use-voice-mode-with-hermes`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/build-a-hermes-plugin`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/automate-with-cron`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/automation-templates`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/cron-troubleshooting`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/work-with-skills`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/delegation-patterns`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/github-pr-review-agent`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/webhook-github-pr-review`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/migrate-from-openclaw`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/aws-bedrock`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/user-guide/features/credential-pools`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/guides/local-llm-on-mac`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/hermes-agent-tips.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-tips.md`: Page freshness needs review (missing updatedAt).
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/skills`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/local-llm-on-mac`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/daily-briefing-bot`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/team-telegram-assistant`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/python-library`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/use-voice-mode-with-hermes`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/build-a-hermes-plugin`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/automate-with-cron`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/automation-templates`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/cron-troubleshooting`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/work-with-skills`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/delegation-patterns`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/github-pr-review-agent`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/webhook-github-pr-review`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/migrate-from-openclaw`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/aws-bedrock`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/features/mcp`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/reference/faq`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/reference/slash-commands`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/python-library`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Page freshness needs review (missing updatedAt).
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/skills`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/local-llm-on-mac`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/daily-briefing-bot`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/team-telegram-assistant`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/python-library`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/use-voice-mode-with-hermes`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/build-a-hermes-plugin`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/automate-with-cron`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/automation-templates`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/cron-troubleshooting`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/work-with-skills`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/delegation-patterns`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/github-pr-review-agent`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/webhook-github-pr-review`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/migrate-from-openclaw`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/aws-bedrock`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/features/voice-mode`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/features/voice-mode`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/messaging`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/messaging/discord`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/messaging/telegram`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/build-a-hermes-plugin`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Page freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim cluster `location` has competing variants across 2 pages.
+- `entities/hindsight-memory-server.md`: Page freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim `location` freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim `api-port` freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim `database` freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim `llm-provider` freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim `api-key` freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim `volumes` freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim `compose-fix` freshness needs review (missing updatedAt).
+- `entities/home-assistant-integration.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/home-assistant-integration.md`: Claim `domain-optional-filter-by-entity-domain-light-switch` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `area-optional-filter-by-arearoom-name-matches-against` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `entity-id-required-the-entity-to-query-eg-lightlivi` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `domain-optional-filter-by-domain-eg-light-climate` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `domain-required-service-domain-light-switch-climate` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `service-required-service-name-turn-on-turn-off-toggle` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `entity-id-optional-target-entity-eg-lightliving-roo` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `data-optional-additional-parameters-as-a-json-object` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `binary-sensor` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `alarm-control-panel` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `sensorfront-door-battery` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `sensoruptime` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `sensorcpu-usage` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `sensormemory-usage` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `websocket-with-30-second-heartbeat-for-real-time-events` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `automatic-reconnection-with-backoff-5s-10s-30s-60s` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `rest-api-for-outbound-notifications-separate-session-to-avo` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `authorization-ha-events-are-always-authorized-no-user-all` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `shell-command-arbitrary-shell-commands` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `command-line-sensorsswitches-that-execute-commands` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `python-script-scripted-python-execution` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `pyscript-broader-scripting-integration` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `hassio-addon-control-host-shutdownreboot` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `rest-command-http-requests-from-ha-server-ssrf-vector` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `1-create-a-long-lived-access-token` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `2-configure-environment-variables` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `3-start-the-gateway` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `available-toolsavailable-toolsha-list-entities` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `ha-list-entities` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `ha-get-state` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `ha-list-services` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `ha-call-service` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `gateway-platform-real-time-eventsgateway-platform-real` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `event-filtering` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `event-formatting` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `agent-responses` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `connection-management` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `example-automationsexample-automationsmorning-routi` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `morning-routine` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `security-check` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `reactive-automation-via-gateway-events` is missing structured evidence.
+- `entities/honda-civic-2016-ex-t-maintenance.md`: Page freshness needs review (missing updatedAt).
+- `entities/index.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/index.md`: Page freshness needs review (missing updatedAt).
+- `entities/installation.md`: Broken wikilink target `entity.quickstart`.
+- `entities/installation.md`: Broken wikilink target `entity.quickstart`.
+- `entities/installation.md`: Broken wikilink target `[entity.quickstart`.
+- `entities/installation.md`: Broken wikilink target `entity.quickstart`.
+- `entities/installation.md`: Broken wikilink target `entity.quickstart`.
+- `entities/installation.md`: Broken wikilink target `entity.quickstart`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/installation`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/nix-setup`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/updating`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/learning-path`.
+- `entities/installation.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/installation.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/installation.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/installation.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/installation.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/installation.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/installation.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/installation.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/installation.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/installation.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/installation.md`: Broken wikilink target `/docs/`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/[[entity.quickstart|Quickstart]]`.
+- `entities/installation.md`: Broken wikilink target `/docs/skills`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/[[entity.quickstart|Quickstart]]`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/installation`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/nix-setup`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/updating`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/learning-path`.
+- `entities/installation.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/installation.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/installation.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/installation.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/installation.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/installation.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/installation.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/nix-setup`.
+- `entities/installation.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/[[entity.quickstart|Quickstart]]`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/installation.md`: Broken wikilink target `/docs/getting-started/[[entity.quickstart|Quickstart]]`.
+- `entities/installation.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/installation.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/installation.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/installation.md`: Claim cluster `installationdocsgetting-startedinstallation` has competing variants across 6 pages.
+- `entities/installation.md`: Claim cluster `ripgrep-fast-file-search` has competing variants across 2 pages.
+- `entities/installation.md`: Claim `installationdocsgetting-startedinstallation` is missing structured evidence.
+- `entities/installation.md`: Claim `android-termuxdocsgetting-startedtermux` is missing structured evidence.
+- `entities/installation.md`: Claim `nix-nixos-setupdocsgetting-startednix-setup` is missing structured evidence.
+- `entities/installation.md`: Claim `updating-uninstallingdocsgetting-startedupdating` is missing structured evidence.
+- `entities/installation.md`: Claim `learning-pathdocsgetting-startedlearning-path` is missing structured evidence.
+- `entities/installation.md`: Claim `using-hermesdocsuser-guidecli` is missing structured evidence.
+- `entities/installation.md`: Claim `featuresdocsuser-guidefeaturesoverview` is missing structured evidence.
+- `entities/installation.md`: Claim `messaging-platformsdocsuser-guidemessaging` is missing structured evidence.
+- `entities/installation.md`: Claim `integrationsdocsintegrations` is missing structured evidence.
+- `entities/installation.md`: Claim `guides-tutorialsdocsguidestips` is missing structured evidence.
+- `entities/installation.md`: Claim `developer-guidedocsdeveloper-guidecontributing` is missing structured evidence.
+- `entities/installation.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/installation.md`: Claim `docs` is missing structured evidence.
+- `entities/installation.md`: Claim `getting-started` is missing structured evidence.
+- `entities/installation.md`: Claim `installation` is missing structured evidence.
+- `entities/installation.md`: Claim `uses-termux-pkg-for-system-dependencies-git-python` is missing structured evidence.
+- `entities/installation.md`: Claim `creates-the-virtualenv-with-python--m-venv` is missing structured evidence.
+- `entities/installation.md`: Claim `exports-android-api-level-automatically-for-android-wheel` is missing structured evidence.
+- `entities/installation.md`: Claim `installs-a-curated-termux-extra-with-pip` is missing structured evidence.
+- `entities/installation.md`: Claim `skips-the-untested-browser-whatsapp-bootstrap-by-default` is missing structured evidence.
+- `entities/installation.md`: Claim `uv-fast-python-package-manager` is missing structured evidence.
+- `entities/installation.md`: Claim `python-311-via-uv-no-sudo-needed` is missing structured evidence.
+- `entities/installation.md`: Claim `nodejs-v22-for-browser-automation-and-whatsapp-bridge` is missing structured evidence.
+- `entities/installation.md`: Claim `ripgrep-fast-file-search` is missing structured evidence.
+- `entities/installation.md`: Claim `ffmpeg-audio-format-conversion-for-tts` is missing structured evidence.
+- `entities/installation.md`: Claim `android-termuxandroid--termux` is missing structured evidence.
+- `entities/installation.md`: Claim `what-the-installer-doeswhat-the-installer-does` is missing structured evidence.
+- `entities/installation.md`: Claim `after-installationafter-installation` is missing structured evidence.
+- `entities/installation.md`: Claim `prerequisitesprerequisites` is missing structured evidence.
+- `entities/installation.md`: Claim `manual-developer-installationmanual--developer-install` is missing structured evidence.
+- `entities/installation.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/installation.md`: Claim `user-guidedocsuser-guidecli` is missing structured evidence.
+- `entities/installation.md`: Claim `developer-guidedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/installation.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/installation.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
+- `entities/installation.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
+- `entities/installation.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
+- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/getting-started/nix-setup`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/getting-started/updating`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/getting-started/learning-path`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/code-execution`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/context-files`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/messaging`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/messaging/telegram`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/messaging/discord`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/voice-mode`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/guides/use-voice-mode-with-hermes`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/security`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/guides/daily-briefing-bot`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/guides/team-telegram-assistant`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/cron`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/batch-processing`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/delegation`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/hooks`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/mcp`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/adding-tools`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/creating-skills`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/rl-training`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/provider-routing`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/guides/python-library`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/sessions`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/memory`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/security`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/sessions`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/getting-started/[[entity.quickstart|Quickstart]]`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/skills`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/getting-started/[[entity.quickstart|Quickstart]]`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/getting-started/nix-setup`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/getting-started/updating`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/getting-started/learning-path`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/sessions`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/messaging`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/memory`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/cron`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/adding-tools`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/creating-skills`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/rl-training`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/code-execution`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/context-files`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/messaging`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/messaging/telegram`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/messaging/discord`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/voice-mode`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/guides/use-voice-mode-with-hermes`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/security`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/guides/daily-briefing-bot`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/guides/team-telegram-assistant`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/cron`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/batch-processing`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/delegation`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/hooks`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/mcp`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/adding-tools`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/creating-skills`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/rl-training`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/provider-routing`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/guides/python-library`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/sessions`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/memory`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/context-files`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/mcp`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/cron`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/delegation`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/code-execution`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/browser`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/hooks`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/batch-processing`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/rl-training`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/provider-routing`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/features/memory`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/security`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/sessions`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/getting-started/updating`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/getting-started/[[entity.quickstart|Quickstart]]`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/learning-path.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/learning-path.md`: Claim cluster `discord-setupdocsuser-guidemessagingdiscord` has competing variants across 2 pages.
+- `entities/learning-path.md`: Claim cluster `installationdocsgetting-startedinstallation` has competing variants across 6 pages.
+- `entities/learning-path.md`: Claim cluster `installationdocsgetting-startedinstallation` has competing variants across 6 pages.
+- `entities/learning-path.md`: Claim cluster `installationdocsgetting-startedinstallation` has competing variants across 6 pages.
+- `entities/learning-path.md`: Claim cluster `installationdocsgetting-startedinstallation` has competing variants across 6 pages.
+- `entities/learning-path.md`: Claim cluster `telegram-setupdocsuser-guidemessagingtelegram` has competing variants across 2 pages.
+- `entities/learning-path.md`: Claim `installationdocsgetting-startedinstallation` is missing structured evidence.
+- `entities/learning-path.md`: Claim `android-termuxdocsgetting-startedtermux` is missing structured evidence.
+- `entities/learning-path.md`: Claim `nix-nixos-setupdocsgetting-startednix-setup` is missing structured evidence.
+- `entities/learning-path.md`: Claim `updating-uninstallingdocsgetting-startedupdating` is missing structured evidence.
+- `entities/learning-path.md`: Claim `learning-pathdocsgetting-startedlearning-path` is missing structured evidence.
+- `entities/learning-path.md`: Claim `using-hermesdocsuser-guidecli` is missing structured evidence.
+- `entities/learning-path.md`: Claim `featuresdocsuser-guidefeaturesoverview` is missing structured evidence.
+- `entities/learning-path.md`: Claim `messaging-platformsdocsuser-guidemessaging` is missing structured evidence.
+- `entities/learning-path.md`: Claim `integrationsdocsintegrations` is missing structured evidence.
+- `entities/learning-path.md`: Claim `guides-tutorialsdocsguidestips` is missing structured evidence.
+- `entities/learning-path.md`: Claim `developer-guidedocsdeveloper-guidecontributing` is missing structured evidence.
+- `entities/learning-path.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/learning-path.md`: Claim `docs` is missing structured evidence.
+- `entities/learning-path.md`: Claim `getting-started` is missing structured evidence.
+- `entities/learning-path.md`: Claim `learning-path` is missing structured evidence.
+- `entities/learning-path.md`: Claim `know-your-level-jump-to-the-experience-level-tableby-ex` is missing structured evidence.
+- `entities/learning-path.md`: Claim `have-a-specific-goal-skip-to-by-use-caseby-use-case-an` is missing structured evidence.
+- `entities/learning-path.md`: Claim `just-browsing-check-the-key-featureskey-features-at-a-g` is missing structured evidence.
+- `entities/learning-path.md`: Claim `installationdocsgetting-startedinstallation` is missing structured evidence.
+- `entities/learning-path.md`: Claim `quickstartdocsgetting-startedquickstart` is missing structured evidence.
+- `entities/learning-path.md`: Claim `cli-usagedocsuser-guidecli` is missing structured evidence.
+- `entities/learning-path.md`: Claim `code-executiondocsuser-guidefeaturescode-execution` is missing structured evidence.
+- `entities/learning-path.md`: Claim `context-filesdocsuser-guidefeaturescontext-files` is missing structured evidence.
+- `entities/learning-path.md`: Claim `tips-tricksdocsguidestips` is missing structured evidence.
+- `entities/learning-path.md`: Claim `installationdocsgetting-startedinstallation` is missing structured evidence.
+- `entities/learning-path.md`: Claim `configurationdocsuser-guideconfiguration` is missing structured evidence.
+- `entities/learning-path.md`: Claim `messaging-overviewdocsuser-guidemessaging` is missing structured evidence.
+- `entities/learning-path.md`: Claim `telegram-setupdocsuser-guidemessagingtelegram` is missing structured evidence.
+- `entities/learning-path.md`: Claim `discord-setupdocsuser-guidemessagingdiscord` is missing structured evidence.
+- `entities/learning-path.md`: Claim `voice-modedocsuser-guidefeaturesvoice-mode` is missing structured evidence.
+- `entities/learning-path.md`: Claim `use-voice-mode-with-hermesdocsguidesuse-voice-mode-wit` is missing structured evidence.
+- `entities/learning-path.md`: Claim `securitydocsuser-guidesecurity` is missing structured evidence.
+- `entities/learning-path.md`: Claim `daily-briefing-botdocsguidesdaily-briefing-bot` is missing structured evidence.
+- `entities/learning-path.md`: Claim `team-telegram-assistantdocsguidesteam-telegram-assista` is missing structured evidence.
+- `entities/learning-path.md`: Claim `quickstartdocsgetting-startedquickstart` is missing structured evidence.
+- `entities/learning-path.md`: Claim `cron-schedulingdocsuser-guidefeaturescron` is missing structured evidence.
+- `entities/learning-path.md`: Claim `batch-processingdocsuser-guidefeaturesbatch-processin` is missing structured evidence.
+- `entities/learning-path.md`: Claim `delegationdocsuser-guidefeaturesdelegation` is missing structured evidence.
+- `entities/learning-path.md`: Claim `hooksdocsuser-guidefeatureshooks` is missing structured evidence.
+- `entities/learning-path.md`: Claim `tools-overviewdocsuser-guidefeaturestools` is missing structured evidence.
+- `entities/learning-path.md`: Claim `skills-overviewdocsuser-guidefeaturesskills` is missing structured evidence.
+- `entities/learning-path.md`: Claim `mcp-model-context-protocoldocsuser-guidefeaturesmcp` is missing structured evidence.
+- `entities/learning-path.md`: Claim `architecturedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/learning-path.md`: Claim `adding-toolsdocsdeveloper-guideadding-tools` is missing structured evidence.
+- `entities/learning-path.md`: Claim `creating-skillsdocsdeveloper-guidecreating-skills` is missing structured evidence.
+- `entities/learning-path.md`: Claim `quickstartdocsgetting-startedquickstart` is missing structured evidence.
+- `entities/learning-path.md`: Claim `configurationdocsuser-guideconfiguration` is missing structured evidence.
+- `entities/learning-path.md`: Claim `rl-trainingdocsuser-guidefeaturesrl-training` is missing structured evidence.
+- `entities/learning-path.md`: Claim `provider-routingdocsuser-guidefeaturesprovider-routin` is missing structured evidence.
+- `entities/learning-path.md`: Claim `architecturedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/learning-path.md`: Claim `installationdocsgetting-startedinstallation` is missing structured evidence.
+- `entities/learning-path.md`: Claim `quickstartdocsgetting-startedquickstart` is missing structured evidence.
+- `entities/learning-path.md`: Claim `python-library-guidedocsguidespython-library` is missing structured evidence.
+- `entities/learning-path.md`: Claim `architecturedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/learning-path.md`: Claim `toolsdocsuser-guidefeaturestools` is missing structured evidence.
+- `entities/learning-path.md`: Claim `sessionsdocsuser-guidesessions` is missing structured evidence.
+- `entities/learning-path.md`: Claim `just-finished-installing-head-to-the-quickstartdocsg` is missing structured evidence.
+- `entities/learning-path.md`: Claim `completed-the-[[entity.quickstart|Quickstart]]-read-cli-usagedocsuser-guid` is missing structured evidence.
+- `entities/learning-path.md`: Claim `comfortable-with-the-basics-explore-toolsdocsuser-gu` is missing structured evidence.
+- `entities/learning-path.md`: Claim `setting-up-for-a-team-read-securitydocsuser-guidese` is missing structured evidence.
+- `entities/learning-path.md`: Claim `ready-to-build-jump-into-the-developer-guidedocsdeve` is missing structured evidence.
+- `entities/learning-path.md`: Claim `want-practical-examples-check-out-the-guidesdocsguid` is missing structured evidence.
+- `entities/learning-path.md`: Claim `by-experience-levelby-experience-level` is missing structured evidence.
+- `entities/learning-path.md`: Claim `by-use-caseby-use-casei-want-a-cli-coding-assistant` is missing structured evidence.
+- `entities/learning-path.md`: Claim `i-want-a-telegramdiscord-boti-want-a-telegramdiscord` is missing structured evidence.
+- `entities/learning-path.md`: Claim `i-want-to-automate-tasksi-want-to-automate-tasks` is missing structured evidence.
+- `entities/learning-path.md`: Claim `i-want-to-build-custom-toolsskillsi-want-to-build-cus` is missing structured evidence.
+- `entities/learning-path.md`: Claim `i-want-to-train-modelsi-want-to-train-models` is missing structured evidence.
+- `entities/learning-path.md`: Claim `i-want-to-use-it-as-a-python-libraryi-want-to-use-it-a` is missing structured evidence.
+- `entities/learning-path.md`: Claim `key-features-at-a-glancekey-features-at-a-glance` is missing structured evidence.
+- `entities/learning-path.md`: Claim `what-to-read-nextwhat-to-read-next` is missing structured evidence.
+- `entities/learning-path.md`: Claim `user-guidedocsuser-guidecli` is missing structured evidence.
+- `entities/learning-path.md`: Claim `developer-guidedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/learning-path.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/learning-path.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
+- `entities/learning-path.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
+- `entities/learning-path.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
+- `entities/lexus-rx-350-2017.md`: Page freshness needs review (missing updatedAt).
+- `entities/lolok-site.md`: Page freshness needs review (missing updatedAt).
+- `entities/lolok-site.md`: Claim `type` freshness needs review (missing updatedAt).
+- `entities/lolok-site.md`: Claim `port` freshness needs review (missing updatedAt).
+- `entities/lolok-site.md`: Claim `deployment` freshness needs review (missing updatedAt).
+- `entities/lolok-site.md`: Claim `static-server` freshness needs review (missing updatedAt).
+- `entities/lost-lands-2026.md`: Claim cluster `location` has competing variants across 2 pages.
+- `entities/lost-lands-2026.md`: Page freshness needs review (missing updatedAt).
+- `entities/lost-lands-2026.md`: Claim `dates` freshness needs review (missing updatedAt).
+- `entities/lost-lands-2026.md`: Claim `location` freshness needs review (missing updatedAt).
+- `entities/lost-lands-2026.md`: Claim `cost` freshness needs review (missing updatedAt).
+- `entities/lost-lands-2026.md`: Claim `ticket-type` freshness needs review (missing updatedAt).
+- `entities/macvm.md`: Page freshness needs review (missing updatedAt).
+- `entities/matrix-setup.md`: Broken wikilink target `/docs/user-guide/security`.
+- `entities/matrix-setup.md`: Claim cluster `group-sessions-per-user-true-keeps-each-participants-conte` has competing variants across 3 pages.
+- `entities/matrix-setup.md`: Claim cluster `one-persons-in-flight-run-can-interrupt-another-persons-fo` has competing variants across 3 pages.
+- `entities/matrix-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/matrix-setup.md`: Claim cluster `troubleshootingtroubleshootingbot-is-not-responding` has competing variants across 3 pages.
+- `entities/matrix-setup.md`: Claim `each-dm-gets-its-own-session` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `each-thread-gets-its-own-session-namespace` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `each-user-in-a-shared-room-gets-their-own-session-inside-tha` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `users-share-context-growth-and-token-costs` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `one-persons-long-tool-heavy-task-can-bloat-everyone-elses` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `one-persons-in-flight-run-can-interrupt-another-persons-fo` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `abc123matrixorg` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `h-content-type-applicationjson` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `group-sessions-per-user-true-keeps-each-participants-conte` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `stores-encryption-keys-in-hermesplatformsmatrixstore` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `uploads-device-keys-on-first-connection` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `decrypts-incoming-messages-and-encrypts-outgoing-messages-au` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `auto-joins-encrypted-rooms-when-invited` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `api-server-host0000-binds-to-all-interfaces-so-the-docke` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `api-server-key-is-required-for-non-loopback-binding-pick-a` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `the-api-server-runs-on-port-8642-by-default-change-with-api` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `matrix-storeroothermesplatformsmatrixstore` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `any-homeserver-works-with-synapse-conduit-dendrite-matri` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `federation-if-youre-on-a-federated-homeserver-the-bot-can` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `auto-join-the-bot-automatically-accepts-room-invites-and-jo` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `media-support-hermes-can-send-and-receive-images-audio-vi` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `native-voice-messages-msc3245-the-matrix-adapter-automati` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `session-model-in-matrix` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `mention-and-threading-configuration` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `step-1-create-a-bot-accountstep-1-create-a-bot-account` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `option-a-register-on-your-homeserver-recommended` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `option-b-use-matrixorg-or-another-public-homeserver` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `option-c-use-your-own-account` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `step-2-get-an-access-tokenstep-2-get-an-access-token` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `option-a-access-token-recommended` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `option-b-password-login` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `step-3-find-your-matrix-user-idstep-3-find-your-matrix` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `step-4-configure-hermes-agentstep-4-configure-hermes-ag` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `option-a-interactive-setup-recommended` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `option-b-manual-configuration` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `start-the-gateway` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `end-to-end-encryption-e2eeend-to-end-encryption-e2ee` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `requirements` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `enable-e2ee` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `cross-signing-verification-recommended` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `home-roomhome-roomusing-the-slash-commandmanua` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `using-the-slash-command` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `manual-configuration` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `troubleshootingtroubleshootingbot-is-not-responding` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `bot-is-not-responding-to-messages` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `failed-to-authenticate-whoami-failed-on-startup` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `mautrix-not-installed-error` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `encryption-errors-could-not-decrypt-event` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `upgrading-from-a-previous-version-with-e2ee` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `proxy-mode-e2ee-on-macosproxy-mode-e2ee-on-macosh` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `how-it-works` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `step-1-configure-the-host-macos` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `step-2-configure-the-docker-container-linux-vm` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `step-3-start-both` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `configuration-reference` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `works-for-any-platform` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `sync-issues-bot-falls-behind` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `bot-is-offline` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `user-not-allowed-bot-ignores-you` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `notesnotes` is missing structured evidence.
+- `entities/mattermost-setup.md`: Broken wikilink target `/docs/user-guide/security`.
+- `entities/mattermost-setup.md`: Claim cluster `group-sessions-per-user-true-keeps-each-participants-conte` has competing variants across 3 pages.
+- `entities/mattermost-setup.md`: Claim cluster `one-persons-in-flight-run-can-interrupt-another-persons-fo` has competing variants across 3 pages.
+- `entities/mattermost-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/mattermost-setup.md`: Claim cluster `troubleshootingtroubleshootingbot-is-not-responding` has competing variants across 3 pages.
+- `entities/mattermost-setup.md`: Claim `each-dm-gets-its-own-session` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `each-thread-gets-its-own-session-namespace` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `each-user-in-a-shared-channel-gets-their-own-session-inside` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `users-share-context-growth-and-token-costs` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `one-persons-long-tool-heavy-task-can-bloat-everyone-elses` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `one-persons-in-flight-run-can-interrupt-another-persons-fo` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `username-eg-hermes` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `display-name-eg-hermes-agent` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `description-optional` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `role-member-is-sufficient` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `click-create-bot-account` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `mattermost-will-display-the-bot-token-copy-it-immedia` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `group-sessions-per-user-true-keeps-each-participants-conte` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `self-hosted-friendly-works-with-any-self-hosted-mattermost` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `no-extra-dependencies-the-adapter-uses-aiohttp-for-http-and` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `team-edition-compatible-works-with-both-mattermost-team-edi` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `session-model-in-mattermost` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `step-1-enable-bot-accountsstep-1-enable-bot-accounts` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `step-2-create-a-bot-accountstep-2-create-a-bot-account` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `step-3-add-the-bot-to-channelsstep-3-add-the-bot-to-cha` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `step-4-find-your-mattermost-user-idstep-4-find-your-mat` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `step-5-configure-hermes-agentstep-5-configure-hermes-ag` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `option-a-interactive-setup-recommended` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `option-b-manual-configuration` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `start-the-gateway` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `home-channelhome-channelusing-the-slash-command` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `using-the-slash-command` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `manual-configuration` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `reply-modereply-mode` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `mention-behaviormention-behavior` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `troubleshootingtroubleshootingbot-is-not-responding` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `bot-is-not-responding-to-messages` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `403-forbidden-errors` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `websocket-disconnects-reconnection-loops` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `failed-to-authenticate-on-startup` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `bot-is-offline` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `user-not-allowed-bot-ignores-you` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `per-channel-promptsper-channel-prompts` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `notesnotes` is missing structured evidence.
+- `entities/messaging-gateway.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/messaging-gateway.md`: Broken wikilink target `entity.telegram-setup`.
+- `entities/messaging-gateway.md`: Broken wikilink target `entity.discord-setup`.
+- `entities/messaging-gateway.md`: Broken wikilink target `[entity.security`.
+- `entities/messaging-gateway.md`: Broken wikilink target `entity.security`.
+- `entities/messaging-gateway.md`: Broken wikilink target `entity.security`.
+- `entities/messaging-gateway.md`: Broken wikilink target `entity.security`.
+- `entities/messaging-gateway.md`: Broken wikilink target `entity.telegram-setup`.
+- `entities/messaging-gateway.md`: Broken wikilink target `entity.discord-setup`.
+- `entities/messaging-gateway.md`: Broken wikilink target `[entity.security`.
+- `entities/messaging-gateway.md`: Broken wikilink target `entity.security`.
+- `entities/messaging-gateway.md`: Broken wikilink target `/docs/user-guide/features/voice-mode`.
+- `entities/messaging-gateway.md`: Broken wikilink target `/docs/guides/use-voice-mode-with-hermes`.
+- `entities/messaging-gateway.md`: Claim `in-progress-terminal-commands-are-killed-immediately-sigter` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `tool-calls-are-cancelled-only-the-currently-executing-one` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `multiple-messages-are-combined-messages-sent-during-interr` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `stop-command-interrupts-without-queuing-a-follow-up-messa` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `isolated-session-the-background-agent-has-its-own-session` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `same-configuration-inherits-your-model-provider-toolsets` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `non-blocking-your-main-chat-stays-fully-interactive-send` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `result-delivery-when-the-task-finishes-the-result-is-sent` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `server-monitoring-background-check-the-health-of-all-ser` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `long-builds-background-build-and-deploy-the-staging-envi` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `research-tasks-background-research-competitor-pricing-an` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `file-operations-background-organize-the-photos-in-down` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `path-your-full-shell-path-at-install-time-with-the-venv-b` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `virtual-env-points-to-the-python-virtualenv-so-tools-can-r` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `hermes-home-scopes-the-gateway-to-your-hermes-installation` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `slack-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `whatsapp-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `signal-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `sms-setup-twilio` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `email-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `home-assistant-integration` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `mattermost-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `matrix-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `dingtalk-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `feishulark-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `wecom-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `wecom-callback-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `weixin-setup-wechat` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `bluebubbles-setup-imessage` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `qqbot-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `open-webui-api-server` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `session-persistence` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `reset-policies` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `securitysecuritydm-pairing-alternative-to-allowlist` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `dm-pairing-alternative-to-allowlists` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `interrupting-the-agentinterrupting-the-agent` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `tool-progress-notificationstool-progress-notifications` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `background-sessionsbackground-sessionshow-it-works` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `how-it-works` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `background-process-notifications` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `service-managementservice-managementlinux-systemd` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `linux-systemd` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `macos-launchd` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `platform-specific-toolsetsplatform-specific-toolsets` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `next-stepsnext-steps` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Broken wikilink target `entity.installation`.
+- `entities/nix-nixos-setup.md`: Claim `pre-built-binary-with-all-deps-then-use-the-standard-cli-w` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `declarative-config-hardened-systemd-service-managed-secret` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `everything-above-plus-a-persistent-ubuntu-container-where-t` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `nix-with-flakes-enabled-determinate-nix-recommended-enabl` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `api-keys-for-the-services-you-want-to-use-at-minimum-an-op` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `hardened-systemd-service-on-the-host` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `nonewprivileges-protectsystemstrict-privatetmp` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `agent-cannot-self-install-packages` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `persistent-ubuntu-container-with-nixstore-bind-mounted` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `container-isolation-runs-as-unprivileged-user-inside` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `agent-can-self-install-packages-apt-pip-npm-installs-pers` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `change-the-llm-model-settingsmodeldefault-anthropi` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `use-a-different-provider-endpoint-settingsmodelbase-ur` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `add-api-keys-environmentfiles-with-sops-nix-or-agenix` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `give-the-agent-a-personality-manage-statedirhermess` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `add-mcp-tool-servers-mcpserversname` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `mount-host-directories-into-container-containerextravol` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `pass-gpu-access-to-container-containerextraoptions-wit` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `use-podman-instead-of-docker-containerbackend-podma` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `share-state-between-host-cli-and-container-containerhos` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `hermes-setup-config-is-declarative` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `hermes-config-edit-config-is-generated-from-settings` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `hermes-config-set-key-value-config-is-generated-from` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `hermes-gateway-install-the-systemd-service-is-managed-by` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `hermes-gateway-uninstall-the-systemd-service-is-managed` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `systemctl-restart-hermes-agent-container-not-recreated-a` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `nixos-rebuild-switch-code-change-container-not-recreate` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `host-reboot-container-not-recreated-all-state-persists` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `nix-collect-garbage-container-not-recreated-gc-root-al` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `image-change-containerimage-container-is-recreated-d` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `environmentenvironmentfiles-change-container-not-recreat` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `cannot-save-configuration-managed-by-nixos-edit-configu` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `container-recreated-unexpectedly-expected-writable-lay` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `hermes-version-shows-old-version-container-not-restarted` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `permission-denied-on-varlibhermes-use-docker-exec-or` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `nix-collect-garbage-removed-hermes-gc-root-missing-res` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `no-container-with-name-or-id-hermes-agent-podman-add` is missing structured evidence.
+- `entities/open-webui-integration.md`: Broken wikilink target `/docs/user-guide/profiles`.
+- `entities/open-webui-integration.md`: Claim `e-openai-api-base-urlhttphostdockerinternal8642v1` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `e-openai-api-keyyour-secret-key` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `add-hosthostdockerinternalhost-gateway` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `v-open-webuiappbackenddata` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `name-open-webui` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `restart-always` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `30008080` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `open-webuiappbackenddata` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `openai-api-base-urlhttphostdockerinternal8642v1` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `openai-api-keyyour-secret-key` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `hostdockerinternalhost-gateway` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `url-httphostdockerinternal8642v1` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `api-key-your-key-or-any-non-empty-value-eg-not-needed` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `click-the-checkmark-to-verify-the-connection` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `check-the-url-has-v1-suffix-httphostdockerinternal86` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `verify-the-gateway-is-running-curl-httplocalhost8642he` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `check-model-listing-curl-httplocalhost8642v1models-sh` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `docker-networking-from-inside-docker-localhost-means-the-c` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `1-enable-the-api-server` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `2-start-hermes-agent-gateway` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `3-start-open-webui` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `4-open-the-ui` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `docker-compose-setupdocker-compose-setup` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `configuring-via-the-admin-uiconfiguring-via-the-admin-ui` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `api-type-chat-completions-vs-responsesapi-type-chat-com` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `using-chat-completions-recommended` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `using-responses-api` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `how-it-workshow-it-works` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `configuration-referenceconfiguration-referenceherme` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `hermes-agent-api-server` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `open-webui` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `troubleshootingtroubleshootingno-models-appear-in-t` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `no-models-appear-in-the-dropdown` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `connection-test-passes-but-no-models-load` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `response-takes-a-long-time` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `invalid-api-key-errors` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `multi-user-setup-with-profilesmulti-user-setup-with-prof` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `1-create-profiles-and-configure-api-servers` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `2-start-each-gateway` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `3-add-connections-in-open-webui` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `linux-docker-no-docker-desktoplinux-docker-no-docker-d` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `receive-messages-via-a-persistent-websocket-connection-to-th` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `send-text-and-markdown-replies-via-the-rest-api` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `download-and-process-images-voice-messages-and-file-attach` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `transcribe-voice-messages-using-tencents-built-in-asr-or-a` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `create-a-new-application-and-note-your-app-id-and-app-secret` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `enable-the-required-intents-c2c-messages-group--messages` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `configure-your-bot-in-sandbox-mode-for-testing-or-publish-f` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `user-openid-1` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `group-openid-1` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `zhipuglm-zai-default-provider-uses-glm-asr-model` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `openai-whisper-set-qq-stt-base-url-and-qq-stt-model` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `any-openai-compatible-stt-endpoint` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `invalid-app-id-secret-double-check-your-credentials-at-q` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `missing-permissions-ensure-the-bot-has-the-required-intent` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `sandbox-only-bot-if-the-bot-is-in-sandbox-mode-it-can-onl` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `verify-the-bots-intents-are-enabled-at-qqqcom` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `check-qq-allowed-users-if-dm-access-is-restricted` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `for-group-messages-ensure-the-bot-is-mentioned-group-poli` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `check-qqbot-home-channel-for-cronnotification-delivery` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `ensure-aiohttp-and-httpx-are-installed-pip-install-aiohttp` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `check-network-connectivity-to-apisgroupqqcom-and-the-webs` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `review-gateway-logs-for-detailed-error-messages-and-reconnec` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `interactive-setup` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `manual-configuration` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `environment-variablesenvironment-variables` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `advanced-configurationadvanced-configuration` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `voice-messages-sttvoice-messages-stt` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `troubleshootingtroubleshootingbot-disconnects-immed` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `bot-disconnects-immediately-quick-disconnect` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `voice-messages-not-transcribed` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `messages-not-delivered` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `connection-errors` is missing structured evidence.
+- `entities/quickstart.md`: Broken wikilink target `[entity.installation`.
+- `entities/quickstart.md`: Broken wikilink target `entity.installation`.
+- `entities/quickstart.md`: Broken wikilink target `[entity.installation`.
+- `entities/quickstart.md`: Broken wikilink target `entity.installation`.
+- `entities/quickstart.md`: Broken wikilink target `entity.installation`.
+- `entities/quickstart.md`: Broken wikilink target `[entity.installation`.
+- `entities/quickstart.md`: Broken wikilink target `entity.installation`.
+- `entities/quickstart.md`: Broken wikilink target `entity.installation`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/nix-setup`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/updating`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/learning-path`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/integrations/providers`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/skills`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/nix-setup`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/updating`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/learning-path`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/termux`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/integrations/providers`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/integrations/providers`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/tui`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/telegram`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/discord`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/slack`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/whatsapp`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/signal`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/email`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/homeassistant`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/features/voice-mode`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/features/acp`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/features/tools`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/integrations/providers`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/features/skills`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/[[entity.installation|Installation]]`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/quickstart.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/quickstart.md`: Claim cluster `hermes-doctor` has competing variants across 2 pages.
+- `entities/quickstart.md`: Claim cluster `installationdocsgetting-startedinstallation` has competing variants across 6 pages.
+- `entities/quickstart.md`: Claim `installationdocsgetting-startedinstallation` is missing structured evidence.
+- `entities/quickstart.md`: Claim `android-termuxdocsgetting-startedtermux` is missing structured evidence.
+- `entities/quickstart.md`: Claim `nix-nixos-setupdocsgetting-startednix-setup` is missing structured evidence.
+- `entities/quickstart.md`: Claim `updating-uninstallingdocsgetting-startedupdating` is missing structured evidence.
+- `entities/quickstart.md`: Claim `learning-pathdocsgetting-startedlearning-path` is missing structured evidence.
+- `entities/quickstart.md`: Claim `using-hermesdocsuser-guidecli` is missing structured evidence.
+- `entities/quickstart.md`: Claim `featuresdocsuser-guidefeaturesoverview` is missing structured evidence.
+- `entities/quickstart.md`: Claim `messaging-platformsdocsuser-guidemessaging` is missing structured evidence.
+- `entities/quickstart.md`: Claim `integrationsdocsintegrations` is missing structured evidence.
+- `entities/quickstart.md`: Claim `guides-tutorialsdocsguidestips` is missing structured evidence.
+- `entities/quickstart.md`: Claim `developer-guidedocsdeveloper-guidecontributing` is missing structured evidence.
+- `entities/quickstart.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/quickstart.md`: Claim `docs` is missing structured evidence.
+- `entities/quickstart.md`: Claim `getting-started` is missing structured evidence.
+- `entities/quickstart.md`: Claim `quickstart` is missing structured evidence.
+- `entities/quickstart.md`: Claim `brand-new-and-want-the-shortest-path-to-a-working-setup` is missing structured evidence.
+- `entities/quickstart.md`: Claim `switching-providers-and-dont-want-to-lose-time-to-config-mi` is missing structured evidence.
+- `entities/quickstart.md`: Claim `setting-up-hermes-for-a-team-bot-or-always-on-workflow` is missing structured evidence.
+- `entities/quickstart.md`: Claim `tired-of-it-installed-but-it-still-does-nothing` is missing structured evidence.
+- `entities/quickstart.md`: Claim `secrets-and-tokens-hermesenv` is missing structured evidence.
+- `entities/quickstart.md`: Claim `non-secret-settings-hermesconfigyaml` is missing structured evidence.
+- `entities/quickstart.md`: Claim `the-banner-shows-your-chosen-modelprovider` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-replies-without-error` is missing structured evidence.
+- `entities/quickstart.md`: Claim `it-can-use-a-tool-if-needed-terminal-file-read-web-search` is missing structured evidence.
+- `entities/quickstart.md`: Claim `the-conversation-continues-normally-for-more-than-one-turn` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-tools-tune-tool-access-per-platform` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-skills-browse-and-install-reusable-workflows` is missing structured evidence.
+- `entities/quickstart.md`: Claim `cron-only-after-your-bot-or-cli-setup-is-stable` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-doctor` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-model` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-setup` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-sessions-list` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes---continue` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-gateway-status` is missing structured evidence.
+- `entities/quickstart.md`: Claim `cli-guidedocsuser-guidecli-master-the-terminal-inte` is missing structured evidence.
+- `entities/quickstart.md`: Claim `configurationdocsuser-guideconfiguration-customize` is missing structured evidence.
+- `entities/quickstart.md`: Claim `messaging-gatewaydocsuser-guidemessaging-connect-t` is missing structured evidence.
+- `entities/quickstart.md`: Claim `tools-toolsetsdocsuser-guidefeaturestools-explor` is missing structured evidence.
+- `entities/quickstart.md`: Claim `ai-providersdocsintegrationsproviders-full-provider` is missing structured evidence.
+- `entities/quickstart.md`: Claim `skills-systemdocsuser-guidefeaturesskills-reusable` is missing structured evidence.
+- `entities/quickstart.md`: Claim `tips-best-practicesdocsguidestips-power-user-tips` is missing structured evidence.
+- `entities/quickstart.md`: Claim `the-fastest-paththe-fastest-path` is missing structured evidence.
+- `entities/quickstart.md`: Claim `1-install-hermes-agent1-install-hermes-agent` is missing structured evidence.
+- `entities/quickstart.md`: Claim `2-choose-a-provider2-choose-a-providerhow-settings-ar` is missing structured evidence.
+- `entities/quickstart.md`: Claim `3-run-your-first-chat3-run-your-first-chat` is missing structured evidence.
+- `entities/quickstart.md`: Claim `4-verify-sessions-work4-verify-sessions-work` is missing structured evidence.
+- `entities/quickstart.md`: Claim `5-try-key-features5-try-key-featuresuse-the-terminal` is missing structured evidence.
+- `entities/quickstart.md`: Claim `slash-commandsslash-commands` is missing structured evidence.
+- `entities/quickstart.md`: Claim `multi-line-inputmulti-line-input` is missing structured evidence.
+- `entities/quickstart.md`: Claim `interrupt-the-agentinterrupt-the-agent` is missing structured evidence.
+- `entities/quickstart.md`: Claim `6-add-the-next-layer6-add-the-next-layerbot-or-shared` is missing structured evidence.
+- `entities/quickstart.md`: Claim `automation-and-toolsautomation-and-tools` is missing structured evidence.
+- `entities/quickstart.md`: Claim `sandboxed-terminalsandboxed-terminal` is missing structured evidence.
+- `entities/quickstart.md`: Claim `voice-modevoice-mode` is missing structured evidence.
+- `entities/quickstart.md`: Claim `skillsskills` is missing structured evidence.
+- `entities/quickstart.md`: Claim `mcp-serversmcp-servers` is missing structured evidence.
+- `entities/quickstart.md`: Claim `editor-integration-acpeditor-integration-acp` is missing structured evidence.
+- `entities/quickstart.md`: Claim `common-failure-modescommon-failure-modes` is missing structured evidence.
+- `entities/quickstart.md`: Claim `recovery-toolkitrecovery-toolkit` is missing structured evidence.
+- `entities/quickstart.md`: Claim `quick-referencequick-reference` is missing structured evidence.
+- `entities/quickstart.md`: Claim `next-stepsnext-steps` is missing structured evidence.
+- `entities/quickstart.md`: Claim `user-guidedocsuser-guidecli` is missing structured evidence.
+- `entities/quickstart.md`: Claim `developer-guidedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/quickstart.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/quickstart.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
+- `entities/quickstart.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
+- `entities/quickstart.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
+- `entities/randomstix-health.md`: Page freshness needs review (missing updatedAt).
 - `entities/randomstix.md`: Claim cluster `email` has competing variants across 2 pages.
+- `entities/randomstix.md`: Page freshness needs review (missing updatedAt).
+- `entities/randomstix.md`: Claim `name` freshness needs review (missing updatedAt).
+- `entities/randomstix.md`: Claim `email` freshness needs review (missing updatedAt).
+- `entities/randomstix.md`: Claim `discord-handle` freshness needs review (missing updatedAt).
+- `entities/randomstix.md`: Claim `timezone` freshness needs review (missing updatedAt).
+- `entities/searxng.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/searxng.md`: Page freshness needs review (missing updatedAt).
+- `entities/security.md`: Broken wikilink target `entity.messaging-gateway`.
+- `entities/security.md`: Broken wikilink target `entity.configuration`.
+- `entities/security.md`: Broken wikilink target `entity.configuration`.
+- `entities/security.md`: Broken wikilink target `entity.configuration`.
+- `entities/security.md`: Broken wikilink target `/docs/user-guide/[[entity.configuration|Configuration]]`.
+- `entities/security.md`: Claim `mode-behavior` is missing structured evidence.
+- `entities/security.md`: Claim `manual-default-always-prompt-the-user-for-approval-on` is missing structured evidence.
+- `entities/security.md`: Claim `smart-use-an-auxiliary-llm-to-assess-risk-low-risk-com` is missing structured evidence.
+- `entities/security.md`: Claim `off-disable-all-approval-checks-equivalent-to-running` is missing structured evidence.
+- `entities/security.md`: Claim `pattern-description` is missing structured evidence.
+- `entities/security.md`: Claim `rm--r-rm---recursive-recursive-delete` is missing structured evidence.
+- `entities/security.md`: Claim `rm-delete-in-root-path` is missing structured evidence.
+- `entities/security.md`: Claim `chmod-777666-ow-aw-worldother-writable-perm` is missing structured evidence.
+- `entities/security.md`: Claim `chmod---recursive-with-unsafe-perms-recursive-worldoth` is missing structured evidence.
+- `entities/security.md`: Claim `chown--r-root-chown---recursive-root-recursive-chow` is missing structured evidence.
+- `entities/security.md`: Claim `mkfs-format-filesystem` is missing structured evidence.
+- `entities/security.md`: Claim `dd-if-disk-copy` is missing structured evidence.
+- `entities/security.md`: Claim `devsd-write-to-block-device` is missing structured evidence.
+- `entities/security.md`: Claim `drop-tabledatabase-sql-drop` is missing structured evidence.
+- `entities/security.md`: Claim `delete-from-without-where-sql-delete-without-where` is missing structured evidence.
+- `entities/security.md`: Claim `truncate-table-sql-truncate` is missing structured evidence.
+- `entities/security.md`: Claim `etc-overwrite-system-config` is missing structured evidence.
+- `entities/security.md`: Claim `systemctl-stopdisablemask-stopdisable-system-service` is missing structured evidence.
+- `entities/security.md`: Claim `kill--9--1-kill-all-processes` is missing structured evidence.
+- `entities/security.md`: Claim `pkill--9-force-kill-processes` is missing structured evidence.
+- `entities/security.md`: Claim `fork-bomb-patterns-fork-bombs` is missing structured evidence.
+- `entities/security.md`: Claim `bash--c-sh--c-zsh--c-ksh--c-shell-command-e` is missing structured evidence.
+- `entities/security.md`: Claim `python--e-perl--e-ruby--e-node--c-script-ex` is missing structured evidence.
+- `entities/security.md`: Claim `curl-sh-wget` is missing structured evidence.
+- `entities/security.md`: Claim `bash-curl-sh-wget-execute-remote-scri` is missing structured evidence.
+- `entities/security.md`: Claim `tee-to-etc-ssh-hermesenv-overwrite-s` is missing structured evidence.
+- `entities/security.md`: Claim `to-etc-ssh-hermesenv-overwr` is missing structured evidence.
+- `entities/security.md`: Claim `xargs-rm-xargs-with-rm` is missing structured evidence.
+- `entities/security.md`: Claim `find--exec-rm-find--delete-find-with-destructive-ac` is missing structured evidence.
+- `entities/security.md`: Claim `cpmvinstall-to-etc-copymove-file-into-system` is missing structured evidence.
+- `entities/security.md`: Claim `sed--i-sed---in-place-on-etc-in-place-edit-of-s` is missing structured evidence.
+- `entities/security.md`: Claim `pkillkillall-hermesgateway-self-termination-prevent` is missing structured evidence.
+- `entities/security.md`: Claim `gateway-run-with-disownnohupsetsid-prevents` is missing structured evidence.
+- `entities/security.md`: Claim `once-allow-this-single-execution` is missing structured evidence.
+- `entities/security.md`: Claim `session-allow-this-pattern-for-the-rest-of-the-session` is missing structured evidence.
+- `entities/security.md`: Claim `always-add-to-permanent-allowlist-saved-to-configyaml` is missing structured evidence.
+- `entities/security.md`: Claim `deny-default-block-the-command` is missing structured evidence.
+- `entities/security.md`: Claim `reply-yes-y-approve-ok-or-go-to-appr` is missing structured evidence.
+- `entities/security.md`: Claim `reply-no-n-deny-or-cancel-to-deny` is missing structured evidence.
+- `entities/security.md`: Claim `pair-is-the-default-unauthorized-dms-get-a-pairing-code-r` is missing structured evidence.
+- `entities/security.md`: Claim `ignore-silently-drops-unauthorized-dms` is missing structured evidence.
+- `entities/security.md`: Claim `platform-sections-override-the-global-default-so-you-can-ke` is missing structured evidence.
+- `entities/security.md`: Claim `feature-details` is missing structured evidence.
+- `entities/security.md`: Claim `code-format-8-char-from-32-char-unambiguous-alphabet-no` is missing structured evidence.
+- `entities/security.md`: Claim `randomness-cryptographic-secretschoice` is missing structured evidence.
+- `entities/security.md`: Claim `code-ttl-1-hour-expiry` is missing structured evidence.
+- `entities/security.md`: Claim `rate-limiting-1-request-per-user-per-10-minutes` is missing structured evidence.
+- `entities/security.md`: Claim `pending-limit-max-3-pending-codes-per-platform` is missing structured evidence.
+- `entities/security.md`: Claim `lockout-5-failed-approval-attempts-1-hour-lockout` is missing structured evidence.
+- `entities/security.md`: Claim `file-security-chmod-0600-on-all-pairing-data-files` is missing structured evidence.
+- `entities/security.md`: Claim `logging-codes-are-never-logged-to-stdout` is missing structured evidence.
+- `entities/security.md`: Claim `platform-pendingjson-pending-pairing-requests` is missing structured evidence.
+- `entities/security.md`: Claim `platform-approvedjson-approved-users` is missing structured evidence.
+- `entities/security.md`: Claim `rate-limitsjson-rate-limit-and-lockout-tracking` is missing structured evidence.
+- `entities/security.md`: Claim `persistent-mode-container-persistent-true-bind-mount` is missing structured evidence.
+- `entities/security.md`: Claim `ephemeral-mode-container-persistent-false-uses-tmpfs` is missing structured evidence.
+- `entities/security.md`: Claim `backend-isolation-dangerous-cmd-check-best-fo` is missing structured evidence.
+- `entities/security.md`: Claim `backend-local-isolation-none-runs-on-host` is missing structured evidence.
+- `entities/security.md`: Claim `backend-ssh-isolation-remote-machine-dangero` is missing structured evidence.
+- `entities/security.md`: Claim `backend-docker-isolation-container-dangerous` is missing structured evidence.
+- `entities/security.md`: Claim `backend-singularity-isolation-container-dang` is missing structured evidence.
+- `entities/security.md`: Claim `backend-modal-isolation-cloud-sandbox-danger` is missing structured evidence.
+- `entities/security.md`: Claim `backend-daytona-isolation-cloud-sandbox-dang` is missing structured evidence.
+- `entities/security.md`: Claim `name-tenor-api-key` is missing structured evidence.
+- `entities/security.md`: Claim `my-custom-key` is missing structured evidence.
+- `entities/security.md`: Claim `another-token` is missing structured evidence.
+- `entities/security.md`: Claim `path-google-tokenjson` is missing structured evidence.
+- `entities/security.md`: Claim `path-google-client-secretjson` is missing structured evidence.
+- `entities/security.md`: Claim `docker-read-only-bind-mounts--v-hostcontainerro` is missing structured evidence.
+- `entities/security.md`: Claim `modal-mounted-at-sandbox-creation-synced-before-each-co` is missing structured evidence.
+- `entities/security.md`: Claim `local-no-action-needed-files-already-accessible` is missing structured evidence.
+- `entities/security.md`: Claim `google-tokenjson` is missing structured evidence.
+- `entities/security.md`: Claim `my-custom-oauth-tokenjson` is missing structured evidence.
+- `entities/security.md`: Claim `sandbox-default-filter-passthrough-override` is missing structured evidence.
+- `entities/security.md`: Claim `sandbox-execute-code-default-filter-blocks-var` is missing structured evidence.
+- `entities/security.md`: Claim `sandbox-terminal-local-default-filter-blocks` is missing structured evidence.
+- `entities/security.md`: Claim `sandbox-terminal-docker-default-filter-no-hos` is missing structured evidence.
+- `entities/security.md`: Claim `sandbox-terminal-modal-default-filter-no-host` is missing structured evidence.
+- `entities/security.md`: Claim `sandbox-mcp-default-filter-blocks-everything-ex` is missing structured evidence.
+- `entities/security.md`: Claim `the-passthrough-only-affects-vars-you-or-your-skills-explici` is missing structured evidence.
+- `entities/security.md`: Claim `credential-files-are-mounted-read-only-into-docker-conta` is missing structured evidence.
+- `entities/security.md`: Claim `skills-guard-scans-skill-content-for-suspicious-env-access-p` is missing structured evidence.
+- `entities/security.md`: Claim `missingunset-vars-are-never-registered-you-cant-leak-what` is missing structured evidence.
+- `entities/security.md`: Claim `hermes-infrastructure-secrets-provider-api-keys-gateway-to` is missing structured evidence.
+- `entities/security.md`: Claim `github-pats-ghp` is missing structured evidence.
+- `entities/security.md`: Claim `openai-style-keys-sk` is missing structured evidence.
+- `entities/security.md`: Claim `bearer-tokens` is missing structured evidence.
+- `entities/security.md`: Claim `token-key-api-key-password-secret-paramet` is missing structured evidence.
+- `entities/security.md`: Claim `internalcompanycom` is missing structured evidence.
+- `entities/security.md`: Claim `adminexamplecom` is missing structured evidence.
+- `entities/security.md`: Claim `etchermesblocked-sitestxt` is missing structured evidence.
+- `entities/security.md`: Claim `private-networks-rfc-1918-100008-172160012` is missing structured evidence.
+- `entities/security.md`: Claim `loopback-1270008-1` is missing structured evidence.
+- `entities/security.md`: Claim `link-local-1692540016-includes-cloud-metadata-at` is missing structured evidence.
+- `entities/security.md`: Claim `cgnat-shared-address-space-rfc-6598-100640010` is missing structured evidence.
+- `entities/security.md`: Claim `cloud-metadata-hostnames-metadatagoogleinternal-met` is missing structured evidence.
+- `entities/security.md`: Claim `reserved-multicast-and-unspecified-addresses` is missing structured evidence.
+- `entities/security.md`: Claim `homograph-url-spoofing-internationalized-domain-attacks` is missing structured evidence.
+- `entities/security.md`: Claim `pipe-to-interpreter-patterns-curl-bash-wget-sh` is missing structured evidence.
+- `entities/security.md`: Claim `terminal-injection-attacks` is missing structured evidence.
+- `entities/security.md`: Claim `instructions-to-ignoredisregard-prior-instructions` is missing structured evidence.
+- `entities/security.md`: Claim `hidden-html-comments-with-suspicious-keywords` is missing structured evidence.
+- `entities/security.md`: Claim `attempts-to-read-secrets-env-credentials-netrc` is missing structured evidence.
+- `entities/security.md`: Claim `credential-exfiltration-via-curl` is missing structured evidence.
+- `entities/security.md`: Claim `invisible-unicode-characters-zero-width-spaces-bidirection` is missing structured evidence.
+- `entities/signal-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/signal-setup.md`: Claim `signal-cli-java-based-signal-client-github` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `java-17-runtime-required-by-signal-cli` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `a-phone-number-with-signal-installed-for-linking-as-a-secon` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `images-png-jpeg-gif-webp-auto-detected-via-magic-bytes` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `audio-mp3-ogg-wav-m4a-voice-messages-transcribed-if-wh` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `documents-pdf-zip-and-other-file-types` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `images-send-image-file-sends-png-jpeg-gif-webp-as-nativ` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `voice-send-voice-sends-audio-files-ogg-mp3-wav-m4a-aa` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `video-send-video-sends-mp4-video-files` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `documents-send-document-sends-any-file-type-pdf-zip-etc` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `15551234567-1554567` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `this-applies-to-both-hermes-gateway-logs-and-the-global-reda` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `note-to-self-messages-arrive-as-syncmessagesentmessage-en` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `the-adapter-detects-when-these-are-addressed-to-the-bots-ow` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `echo-back-protection-sent-timestamp-tracking-prevents-infi` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `the-connection-drops-with-exponential-backoff-2s-60s` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `no-activity-is-detected-for-120-seconds-pings-signal-cli-to` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `phone-numbers-are-redacted-in-all-log-output` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `use-dm-pairing-or-explicit-allowlists-for-safe-onboarding-of` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `keep-groups-disabled-unless-you-specifically-need-group-supp` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `signals-end-to-end-encryption-protects-message-content-in-t` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `the-signal-cli-session-data-in-localsharesignal-cli-co` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `installing-signal-cli` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `step-1-link-your-signal-accountstep-1-link-your-signal` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `step-2-start-the-signal-cli-daemonstep-2-start-the-sign` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `step-3-configure-hermesstep-3-configure-hermesmanu` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `manual-configuration` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `access-controlaccess-controldm-accessgroup-acc` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `group-access` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `featuresfeaturesattachmentstyping-indicators` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `attachments` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `typing-indicators` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `phone-number-redaction` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `note-to-self-single-number-setup` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `health-monitoring` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `environment-variables-referenceenvironment-variables-ref` is missing structured evidence.
+- `entities/slack-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/slack-setup.md`: Claim `name-it-something-like-hermes-socket-the-name-doesnt-matte` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `add-the-connectionswrite-scope` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `click-generate` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `copy-the-token-it-starts-with-xapp--this-is-your-slack` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `hey-hermes` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `the-first-token-in-the-list-is-the-primary-token-used-for-t` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `each-token-is-authenticated-via-authtest-on-startup-the-ga` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `when-a-message-arrives-hermes-uses-the-correct-workspace-sp` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `the-primary-bot-user-id-from-the-first-token-is-used-for-b` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `incoming-voiceaudio-messages-are-automatically-transcribed` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `outgoing-tts-responses-are-sent-as-audio-file-attachments` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `tokens-should-be-stored-in-hermesenv-file-permissions` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `rotate-tokens-periodically-via-the-slack-app-settings` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `audit-who-has-access-to-your-hermes-config-directory` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `socket-mode-means-no-public-endpoint-is-exposed-one-less-a` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `thread-reply-behavior` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `session-isolation` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `mention-trigger-behavior` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `unauthorized-user-handling` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `voice-transcription` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `full-example` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `home-channelhome-channel` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `multi-workspace-supportmulti-workspace-supportconfi` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `configuration` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `oauth-token-file` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `how-it-works` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `voice-messagesvoice-messages` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `per-channel-promptsper-channel-prompts` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `troubleshootingtroubleshootingquick-checklist` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `quick-checklist` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Broken wikilink target `/docs/reference/skills-catalog`.
+- `entities/sms-setup-twilio.md`: Claim `twilio-account-sign-up-at-twiliocom-free-trial-available` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `a-twilio-phone-number-with-sms-capability` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `a-publicly-accessible-server-twilio-sends-webhooks-to-your` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `aiohttp-pip-install-hermes-agentsms` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `webhook-httpsyour-server8080webhookstwilio` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `http-method-post` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `plain-text-only-markdown-is-automatically-stripped-since-s` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `1600-character-limit-longer-responses-are-split-across-mul` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `echo-prevention-messages-from-your-own-twilio-number-are-i` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `phone-number-redaction-phone-numbers-are-redacted-in-logs` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `interactive-setup-recommended` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `manual-setup` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `step-3-configure-twilio-webhookstep-3-configure-twilio` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `step-4-start-the-gatewaystep-4-start-the-gateway` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `environment-variablesenvironment-variables` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `sms-specific-behaviorsms-specific-behavior` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `securitysecuritywebhook-signature-validationus` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `webhook-signature-validation` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `user-allowlists` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `troubleshootingtroubleshootingmessages-not-arriving` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `messages-not-arriving` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `replies-not-sending` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `webhook-port-conflicts` is missing structured evidence.
+- `entities/stdin.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/telegram-setup.md`: Broken wikilink target `[entity.security`.
+- `entities/telegram-setup.md`: Broken wikilink target `entity.security`.
+- `entities/telegram-setup.md`: Broken wikilink target `services`.
+- `entities/telegram-setup.md`: Broken wikilink target `services.ports`.
+- `entities/telegram-setup.md`: Broken wikilink target `entity.security`.
+- `entities/telegram-setup.md`: Broken wikilink target `entity.security`.
+- `entities/telegram-setup.md`: Broken wikilink target `[entity.security`.
+- `entities/telegram-setup.md`: Broken wikilink target `entity.security`.
+- `entities/telegram-setup.md`: Broken wikilink target `[entity.security`.
+- `entities/telegram-setup.md`: Broken wikilink target `entity.security`.
+- `entities/telegram-setup.md`: Broken wikilink target `/docs/user-guide/messaging`.
+- `entities/telegram-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/telegram-setup.md`: Claim `messages-that-start-with-a-command` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `replies-directly-to-the-bots-own-messages` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `service-messages-member-joinsleaves-pinned-messages-etc` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `messages-in-channels-where-the-bot-is-an-admin` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `the-agent-writes-a-file-inside-docker-to-workspacereportt` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `the-model-emits-mediaworkspacereporttxt` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `telegram-delivery-fails-because-workspacereporttxt-only-e` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `homeuserhermescachedocumentsoutput` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `write-files-inside-docker-to-output` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `emit-the-host-visible-path-in-media-for-example` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `local-uses-faster-whisper-on-the-machine-running-hermes-no` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `groq-uses-groq-whisper-and-requires-groq-api-key` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `openai-uses-openai-whisper-and-requires-voice-tools-openai-k` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `openai-and-elevenlabs-produce-opus-natively-no-extra-setup` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `edge-tts-the-default-free-provider-outputs-mp3-and-require` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `slash-commands` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `replies-to-one-of-the-bots-messages` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `botusername-mentions` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `matches-for-one-of-your-configured-regex-wake-words-in-teleg` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `use-telegramignored-threads-to-keep-hermes-silent-in-specif` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `if-telegramrequire-mention-is-left-unset-or-false-hermes-k` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `schompyb` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `patterns-use-python-regular-expressions` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `matching-is-case-insensitive` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `patterns-are-checked-against-both-text-messages-and-media-ca` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `invalid-regex-patterns-are-ignored-with-a-warning-in-the-gat` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `if-you-want-a-pattern-to-match-only-at-the-start-of-a-messag` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `topic-website-work-on-your-production-web-service` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `topic-research-literature-review-and-paper-exploration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `topic-general-miscellaneous-tasks-and-quick-questions` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `chat-id-123456789-your-telegram-user-id` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `name-general` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `name-website` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `name-research` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `engineering-topic-auto-loads-the-software-development-skil` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `research-topic-auto-loads-the-arxiv-skill` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `general-topic-no-skill-general-purpose-assistant` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `chat-id--1001234567890-supergroup-id` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `name-engineering` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `name-research` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `name-general` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `bot-api-94-feb-2026-private-chat-topics-bots-can-creat` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `privacy-policy-telegram-now-requires-bots-to-have-a-privacy` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `message-streaming-bot-api-9x-added-support-for-streaming-l` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `149154167220` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `when-the-bot-starts-processing-your-message` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `when-the-response-is-delivered-successfully` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `if-an-error-occurs-during-processing` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `message-in-topic-42-inside-group--1001234567890-uses-topic` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `message-in-topic-99-no-explicit-entry-falls-back-to-grou` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `message-in-a-group-with-no-entry-no-channel-prompt-applied` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `how-to-disable-privacy-mode` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `step-4-find-your-user-idstep-4-find-your-user-id` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `step-5-configure-hermesstep-5-configure-hermesopti` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `option-a-interactive-setup-recommended` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `option-b-manual-configuration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `start-the-gateway` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `sending-generated-files-from-docker-backed-terminalssend` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `webhook-modewebhook-modeconfigurationcloud-dep` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `configuration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `cloud-deployment-example-flyio` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `proxy-supportproxy-support` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `home-channelhome-channel` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `voice-messagesvoice-messagesincoming-voice-speech-t` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `incoming-voice-speech-to-text` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `outgoing-voice-text-to-speech` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `group-chat-usagegroup-chat-usageexample-group-trigg` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `example-group-trigger-configuration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `notes-on-mention-patterns` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `private-chat-topics-bot-api-94private-chat-topics-bot` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `configuration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `how-it-works` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `skill-binding` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `group-forum-topic-skill-bindinggroup-forum-topic-skill-b` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `configuration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `how-it-works` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `differences-from-dm-topics` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `recent-bot-api-featuresrecent-bot-api-features` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `interactive-model-pickerinteractive-model-picker` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `dns-over-https-fallback-ipsdns-over-https-fallback-ips` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `how-it-works` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `configuration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `proxy-supportproxy-support-1supported-variables` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `supported-variables` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `configuration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `message-reactionsmessage-reactions` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `per-channel-promptsper-channel-prompts` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `exec-approvalexec-approval` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/tips-best-practices.md`: Broken wikilink target `entity.quickstart`.
+- `entities/tips-best-practices.md`: Broken wikilink target `entity.quickstart`.
+- `entities/tips-best-practices.md`: Broken wikilink target `entity.quickstart`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/local-llm-on-mac`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/daily-briefing-bot`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/team-telegram-assistant`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/python-library`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/use-voice-mode-with-hermes`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/build-a-hermes-plugin`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/automate-with-cron`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/automation-templates`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/cron-troubleshooting`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/work-with-skills`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/delegation-patterns`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/github-pr-review-agent`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/webhook-github-pr-review`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/migrate-from-openclaw`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/aws-bedrock`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/getting-started/[[entity.quickstart|Quickstart]]`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/skills`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/getting-started/[[entity.quickstart|Quickstart]]`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/local-llm-on-mac`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/daily-briefing-bot`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/team-telegram-assistant`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/python-library`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/use-voice-mode-with-hermes`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/build-a-hermes-plugin`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/automate-with-cron`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/automation-templates`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/cron-troubleshooting`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/work-with-skills`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/delegation-patterns`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/github-pr-review-agent`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/webhook-github-pr-review`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/migrate-from-openclaw`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/aws-bedrock`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/user-guide/features/credential-pools`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/guides/local-llm-on-mac`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/getting-started/[[entity.quickstart|Quickstart]]`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/tips-best-practices.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/tips-best-practices.md`: Claim `using-hermesdocsuser-guidecli` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `featuresdocsuser-guidefeaturesoverview` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `messaging-platformsdocsuser-guidemessaging` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `integrationsdocsintegrations` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `guides-tutorialsdocsguidestipstips-best-practice` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `run-local-llms-on-macdocsguideslocal-llm-on-mac` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `tutorial-daily-briefing-botdocsguidesdaily-briefing-b` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `tutorial-team-telegram-assistantdocsguidesteam-telegr` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `using-hermes-as-a-python-librarydocsguidespython-libra` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-mcp-with-hermesdocsguidesuse-mcp-with-hermes` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-soulmd-with-hermesdocsguidesuse-soul-with-hermes` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-voice-mode-with-hermesdocsguidesuse-voice-mode-wit` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `build-a-plugindocsguidesbuild-a-hermes-plugin` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `automate-anything-with-crondocsguidesautomate-with-cro` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `automation-templatesdocsguidesautomation-templates` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `cron-troubleshootingdocsguidescron-troubleshooting` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `working-with-skillsdocsguideswork-with-skills` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `delegation-parallel-workdocsguidesdelegation-pattern` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `tutorial-github-pr-review-agentdocsguidesgithub-pr-re` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `github-pr-reviews-via-webhookdocsguideswebhook-github` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `migrate-from-openclawdocsguidesmigrate-from-openclaw` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `aws-bedrockdocsguidesaws-bedrock` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `developer-guidedocsdeveloper-guidecontributing` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `docs` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `guides-tutorials` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `tips-best-practices` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `prefer-opening-files-with-an-explicit-utf-8-encoding` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `in-powershell-you-can-also-switch-the-current-session-to-ut` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `provide-context-up-frontprovide-context-up-front` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-context-files-for-recurring-instructionsuse-context` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `let-the-agent-use-its-toolslet-the-agent-use-its-tools` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-skills-for-complex-workflowsuse-skills-for-complex-w` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `cli-power-user-tipscli-power-user-tipsmulti-line-input` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `paste-detectionpaste-detection` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `interrupt-and-redirectinterrupt-and-redirect` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `resume-sessions-with--cresume-sessions-with--c` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `clipboard-image-pasteclipboard-image-paste` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `slash-command-autocompleteslash-command-autocomplete` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `context-filescontext-filesagentsmd-your-project39` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `soulmd-customize-personalitysoulmd-customize-personali` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `cursorrules-compatibilitycursorrules-compatibility` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `discoverydiscovery` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `memory-skillsmemory--skillsmemory-vs-skills-what-g` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `when-to-create-skillswhen-to-create-skills` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `managing-memory-capacitymanaging-memory-capacity` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `let-the-agent-rememberlet-the-agent-remember` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `performance-costperformance--costdon39t-break-the` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-compress-before-hitting-limitsuse-compress-before-h` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `delegate-for-parallel-workdelegate-for-parallel-work` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-execute-code-for-batch-operationsuse-execute-code-fo` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `choose-the-right-modelchoose-the-right-model` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `messaging-tipsmessaging-tipsset-a-home-channelset-a` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-title-to-organize-sessionsuse-title-to-organize-ses` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `dm-pairing-for-team-accessdm-pairing-for-team-access` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `tool-progress-display-modestool-progress-display-modes` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `securitysecurityuse-docker-for-untrusted-codeuse-do` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `avoid-windows-encoding-pitfallsavoid-windows-encoding-pi` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `review-before-choosing-alwaysreview-before-choosing-al` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `command-approval-is-your-safety-netcommand-approval-is-y` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-allowlists-for-messaging-botsuse-allowlists-for-mess` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `user-guidedocsuser-guidecli` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `developer-guidedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
+- `entities/updating-uninstalling.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/updating-uninstalling.md`: Claim `the-update-ignores-sighup-so-closing-your-ssh-session-or-te` is missing structured evidence.
+- `entities/updating-uninstalling.md`: Claim `all-output-is-mirrored-to-hermeslogsupdatelog-while` is missing structured evidence.
+- `entities/updating-uninstalling.md`: Claim `ctrl-c-sigint-and-system-shutdown-sigterm-are-still-hono` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/local-llm-on-mac`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/daily-briefing-bot`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/team-telegram-assistant`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/python-library`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/use-voice-mode-with-hermes`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/build-a-hermes-plugin`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/automate-with-cron`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/automation-templates`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/cron-troubleshooting`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/work-with-skills`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/delegation-patterns`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/github-pr-review-agent`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/webhook-github-pr-review`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/migrate-from-openclaw`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/aws-bedrock`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/features/mcp`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/reference/faq`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/reference/slash-commands`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/skills`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/local-llm-on-mac`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/daily-briefing-bot`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/team-telegram-assistant`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/python-library`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/use-voice-mode-with-hermes`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/build-a-hermes-plugin`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/automate-with-cron`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/automation-templates`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/cron-troubleshooting`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/work-with-skills`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/delegation-patterns`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/github-pr-review-agent`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/webhook-github-pr-review`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/migrate-from-openclaw`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/aws-bedrock`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/features/mcp`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/reference/faq`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/reference/slash-commands`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/python-library`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/use-mcp-with-hermes.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/use-mcp-with-hermes.md`: Claim `using-hermesdocsuser-guidecli` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `featuresdocsuser-guidefeaturesoverview` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `messaging-platformsdocsuser-guidemessaging` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `integrationsdocsintegrations` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `guides-tutorialsdocsguidestipstips-best-practice` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `run-local-llms-on-macdocsguideslocal-llm-on-mac` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `tutorial-daily-briefing-botdocsguidesdaily-briefing-b` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `tutorial-team-telegram-assistantdocsguidesteam-telegr` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `using-hermes-as-a-python-librarydocsguidespython-libra` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `use-mcp-with-hermesdocsguidesuse-mcp-with-hermes` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `use-soulmd-with-hermesdocsguidesuse-soul-with-hermes` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `use-voice-mode-with-hermesdocsguidesuse-voice-mode-wit` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `build-a-plugindocsguidesbuild-a-hermes-plugin` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `automate-anything-with-crondocsguidesautomate-with-cro` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `automation-templatesdocsguidesautomation-templates` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `cron-troubleshootingdocsguidescron-troubleshooting` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `working-with-skillsdocsguideswork-with-skills` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `delegation-parallel-workdocsguidesdelegation-pattern` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `tutorial-github-pr-review-agentdocsguidesgithub-pr-re` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `github-pr-reviews-via-webhookdocsguideswebhook-github` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `migrate-from-openclawdocsguidesmigrate-from-openclaw` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `aws-bedrockdocsguidesaws-bedrock` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `developer-guidedocsdeveloper-guidecontributing` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `docs` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `guides-tutorials` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `use-mcp-with-hermes` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `a-tool-already-exists-in-mcp-form-and-you-do-not-want-to-bui` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `you-want-hermes-to-operate-against-a-local-or-remote-system` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `you-want-fine-grained-per-server-exposure-control` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `you-want-to-connect-hermes-to-internal-apis-databases-or-c` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `a-built-in-hermes-tool-already-solves-the-job-well` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `the-server-exposes-a-huge-dangerous-tool-surface-and-you-are` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `you-only-need-one-very-narrow-integration-and-a-native-tool` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `hermes-remains-the-agent` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `mcp-servers-contribute-tools` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `hermes-discovers-those-tools-at-startup-or-reload-time` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `the-model-can-use-them-like-normal-tools` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `you-control-how-much-of-each-server-is-visible` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `hermes-bannerstatus-should-show-mcp-integration-when-config` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `ask-hermes-what-tools-it-has-available` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `use-reload-mcp-after-config-changes` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `check-logs-if-the-server-failed-to-connect` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `server-native-mcp-tools` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `filtered-with` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `toolsexclude` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `hermes-added-utility-wrappers` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `filtered-with` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `toolsprompts` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `list-resources` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `read-resource` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `list-prompts` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `get-prompt` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `your-config-allows-them-and` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `the-mcp-server-session-actually-supports-those-capabilities` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `use-toolsinclude` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `start-with-the-smallest-set-possible` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `filesystem-server-rooted-to-one-project-dir-not-your-whole` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `git-server-pointed-at-one-repo` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `internal-api-server-with-read-heavy-tool-exposure-by-default` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `includeexclude-lists` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `enabled-flags` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `resourcesprompts-toggles` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `auth-headers-env` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `filtered-by-toolsinclude` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `excluded-by-toolsexclude` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `utility-wrappers-disabled-via-resources-false-or-prompts` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `server-does-not-actually-support-resourcesprompts` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `enabled-false-was-not-left-in-config` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `commandruntime-exists-npx-uvx-etc` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `http-endpoint-is-reachable` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `auth-env-or-headers-are-correct` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `filesystem` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `fetch-documentation-mcp-servers` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `one-narrow-internal-api` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `giant-business-systems-with-lots-of-destructive-actions-and` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `anything-you-do-not-understand-well-enough-to-constrain` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `mcp-model-context-protocoldocsuser-guidefeaturesmcp` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `faqdocsreferencefaq` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `slash-commandsdocsreferenceslash-commands` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `mental-modelmental-model` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `step-1-install-mcp-supportstep-1-install-mcp-support` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `step-2-add-one-server-firststep-2-add-one-server-first` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `step-3-verify-mcp-loadedstep-3-verify-mcp-loaded` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `step-4-start-filtering-immediatelystep-4-start-filterin` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `example-blacklist-dangerous-actionsexample-blacklist-da` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `example-disable-utility-wrappers-tooexample-disable-uti` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `what-does-filtering-actually-affectwhat-does-filtering` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `common-patternscommon-patternspattern-1-local-project` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `pattern-2-github-triage-assistantpattern-2-github-triag` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `pattern-3-internal-api-assistantpattern-3-internal-api` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `pattern-4-documentation-knowledge-serverspattern-4-do` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `tutorial-end-to-end-setup-with-filteringtutorial-end-to` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `phase-2-expand-only-when-neededphase-2-expand-only-when` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `phase-3-add-a-second-server-with-different-policyphase` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `safe-usage-recommendationssafe-usage-recommendationspr` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `disable-unused-utilitiesdisable-unused-utilities` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `keep-servers-scoped-narrowlykeep-servers-scoped-narrowly` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `reload-after-config-changesreload-after-config-changes` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `troubleshooting-by-symptomtroubleshooting-by-symptomt` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `the-server-is-configured-but-nothing-loadsthe-server-i` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `why-do-i-see-fewer-tools-than-the-mcp-server-advertises` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `how-do-i-remove-an-mcp-server-without-deleting-the-config` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `recommended-first-mcp-setupsrecommended-first-mcp-setups` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `related-docsrelated-docs` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `user-guidedocsuser-guidecli` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `developer-guidedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `[entity.discord-setup`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `[entity.telegram-setup`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `[entity.discord-setup`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `[entity.telegram-setup`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/local-llm-on-mac`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/daily-briefing-bot`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/team-telegram-assistant`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/python-library`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/use-voice-mode-with-hermes`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/build-a-hermes-plugin`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/automate-with-cron`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/automation-templates`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/cron-troubleshooting`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/work-with-skills`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/delegation-patterns`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/github-pr-review-agent`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/webhook-github-pr-review`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/migrate-from-openclaw`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/aws-bedrock`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/features/voice-mode`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/messaging`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/skills`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/features/overview`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/messaging/`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/integrations/`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/tips`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/local-llm-on-mac`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/daily-briefing-bot`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/team-telegram-assistant`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/python-library`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/use-mcp-with-hermes`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/use-voice-mode-with-hermes`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/build-a-hermes-plugin`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/automate-with-cron`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/automation-templates`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/cron-troubleshooting`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/work-with-skills`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/delegation-patterns`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/github-pr-review-agent`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/webhook-github-pr-review`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/migrate-from-openclaw`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/aws-bedrock`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/developer-guide/contributing`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/features/voice-mode`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/features/voice-mode`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/messaging`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/configuration`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/use-soul-with-hermes`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/guides/build-a-hermes-plugin`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/getting-started/quickstart`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/cli`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/developer-guide/architecture`.
+- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/reference/cli-commands`.
+- `entities/use-voice-mode-with-hermes.md`: Claim cluster `discord-setupdocsuser-guidemessagingdiscord` has competing variants across 2 pages.
+- `entities/use-voice-mode-with-hermes.md`: Claim cluster `telegram-setupdocsuser-guidemessagingtelegram` has competing variants across 2 pages.
+- `entities/use-voice-mode-with-hermes.md`: Claim `using-hermesdocsuser-guidecli` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `featuresdocsuser-guidefeaturesoverview` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `messaging-platformsdocsuser-guidemessaging` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `integrationsdocsintegrations` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `guides-tutorialsdocsguidestipstips-best-practice` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `run-local-llms-on-macdocsguideslocal-llm-on-mac` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `tutorial-daily-briefing-botdocsguidesdaily-briefing-b` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `tutorial-team-telegram-assistantdocsguidesteam-telegr` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `using-hermes-as-a-python-librarydocsguidespython-libra` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-mcp-with-hermesdocsguidesuse-mcp-with-hermes` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-soulmd-with-hermesdocsguidesuse-soul-with-hermes` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-voice-mode-with-hermesdocsguidesuse-voice-mode-wit` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `build-a-plugindocsguidesbuild-a-hermes-plugin` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `automate-anything-with-crondocsguidesautomate-with-cro` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `automation-templatesdocsguidesautomation-templates` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `cron-troubleshootingdocsguidescron-troubleshooting` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `working-with-skillsdocsguideswork-with-skills` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `delegation-parallel-workdocsguidesdelegation-pattern` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `tutorial-github-pr-review-agentdocsguidesgithub-pr-re` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `github-pr-reviews-via-webhookdocsguideswebhook-github` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `migrate-from-openclawdocsguidesmigrate-from-openclaw` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `aws-bedrockdocsguidesaws-bedrock` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `developer-guidedocsdeveloper-guidecontributing` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `docs` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `guides-tutorials` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-voice-mode-with-hermes` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-want-a-hands-free-cli-workflow` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-want-spoken-responses-in-telegram-or-discord` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-want-hermes-sitting-in-a-discord-voice-channel-for-live` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-want-quick-idea-capture-debugging-or-back-and-forth-wh` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `get-text-working-first` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `enable-voice-replies-second` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `move-to-discord-voice-channels-last-if-you-want-the-full-exp` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `hermes-starts` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `your-provider-is-configured` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `the-agent-can-answer-text-prompts-normally` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `portaudio-microphone-input-playback-for-cli-voice-mode` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `ffmpeg-audio-conversion-for-tts-and-messaging-delivery` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `opus-discord-voice-codec-support` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `espeak-ng-phonemizer-backend-for-neutts` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `stt-provider-local` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `tts-provider-edge` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `local-best-default-for-privacy-and-zero-cost-use` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `groq-very-fast-cloud-transcription` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `openai-good-paid-fallback` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `edge-free-and-good-enough-for-most-users` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `neutts-free-localon-device-tts` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `elevenlabs-best-quality` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `openai-good-middle-ground` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `mistral-multilingual-native-opus` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `press-ctrlb` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `wait-for-silence-detection-to-stop-recording-automatically` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `hermes-transcribes-and-responds` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `if-tts-is-on-it-speaks-the-answer` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `the-loop-can-automatically-restart-for-continuous-use` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `read-the-last-error-again` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `explain-the-root-cause-in-simpler-terms` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `now-give-me-the-exact-fix` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `walking-around-while-thinking` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `dictating-half-formed-ideas` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `asking-hermes-to-structure-your-thoughts-in-real-time` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `voice-on-if-you-want-spoken-replies-only-for-voice-origin` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `voice-tts-if-you-want-a-full-spoken-assistant-all-the-tim` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-are-away-from-your-machine` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-want-to-send-voice-notes-and-get-quick-spoken-replies` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-want-hermes-to-function-like-a-portable-research-or-ops` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `preferably-use-voice-activity` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `presence-intent` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `server-members-intent` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `message-content-intent` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `users-speak-in-the-vc` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `hermes-detects-speech-boundaries` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `transcripts-are-posted-in-the-associated-text-channel` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `hermes-responds-in-text-and-audio` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `the-text-channel-is-the-one-where-voice-join-was-issued` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `keep-discord-allowed-users-tight` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-a-dedicated-bottesting-channel-at-first` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `verify-stt-and-tts-work-in-ordinary-text-chat-voice-mode-bef` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `stt-local-large-v3-or-groq-whisper-large-v3` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `tts-elevenlabs` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `stt-local-base-or-groq` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `stt-local` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `your-discord-user-id-is-in-discord-allowed-users` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-are-not-muted` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `privileged-intents-are-enabled` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `the-bot-has-connectspeak-permissions` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `tts-provider-config` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `api-key-quota-for-elevenlabs-or-openai` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `ffmpeg-install-for-edge-conversion-paths` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `quieter-environment` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `higher-silence-threshold` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `different-stt-providermodel` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `shorter-clearer-utterances` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `get-text-hermes-working` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `install-hermes-agentvoice` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-cli-voice-mode-with-local-stt-edge-tts` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `then-enable-voice-on-in-telegram-or-discord` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `only-after-that-try-discord-vc-mode` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `voice-mode-feature-referencedocsuser-guidefeaturesvoi` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `messaging-gatewaydocsuser-guidemessaging` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `discord-setupdocsuser-guidemessagingdiscord` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `telegram-setupdocsuser-guidemessagingtelegram` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `configurationdocsuser-guideconfiguration` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `choose-your-voice-mode-setupchoose-your-voice-mode-setup` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `step-1-make-sure-normal-hermes-works-firststep-1-make-s` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `step-2-install-the-right-extrasstep-2-install-the-right` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `messaging-platformsmessaging-platforms` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `premium-elevenlabs-ttspremium-elevenlabs-tts` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `local-neutts-optionallocal-neutts-optional` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `everythingeverything` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `step-3-install-system-dependenciesstep-3-install-system` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `ubuntu-debianubuntu--debian` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `step-4-choose-stt-and-tts-providersstep-4-choose-stt-an` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `environment-file-exampleenvironment-file-example` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `provider-recommendationsprovider-recommendations` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `if-you-use-hermes-setupif-you-use-hermes-setup` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `step-5-recommended-configstep-5-recommended-config` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-case-1-cli-voice-modeuse-case-1-cli-voice-mode` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `turn-it-onturn-it-onrecording-flowrecording-flow` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `useful-commandsuseful-commands` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `good-cli-workflowsgood-cli-workflows` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `tuning-cli-behaviortuning-cli-behaviorsilence-threshol` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `silence-durationsilence-duration` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `record-keyrecord-key` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-case-2-voice-replies-in-telegram-or-discorduse-case` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `turn-on-voice-repliesturn-on-voice-replies` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `modesmodes` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `when-to-use-which-modewhen-to-use-which-mode` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `good-messaging-workflowsgood-messaging-workflows` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-case-3-discord-voice-channelsuse-case-3-discord-voi` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `required-discord-permissionsrequired-discord-permissions` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `join-and-leavejoin-and-leavewhat-happens-when-joined` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `best-practices-for-discord-vc-usebest-practices-for-disc` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `voice-quality-recommendationsvoice-quality-recommendatio` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `best-speed-convenience-setupbest-speed--convenience-se` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `best-zero-cost-setupbest-zero-cost-setup` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `common-failure-modescommon-failure-modesno-audio-devi` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `bot-joins-but-hears-nothingbot-joins-but-hears-nothing` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `it-transcribes-but-does-not-speakit-transcribes-but-do` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `whisper-outputs-garbagewhisper-outputs-garbage` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `it-works-in-dms-but-not-in-server-channelsit-works-in` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `suggested-first-week-setupsuggested-first-week-setup` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `where-to-read-nextwhere-to-read-next` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `user-guidedocsuser-guidecli` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `developer-guidedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
+- `entities/webhooks.md`: Claim `pull-requesttitle-resolves-to-payloadpull-requestti` is missing structured evidence.
+- `entities/webhooks.md`: Claim `repositoryfull-name-resolves-to-payloadrepositoryfu` is missing structured evidence.
+- `entities/webhooks.md`: Claim `raw-special-token-that-dumps-the-entire-payload-as-i` is missing structured evidence.
+- `entities/webhooks.md`: Claim `missing-keys-are-left-as-the-literal-key-string-no-error` is missing structured evidence.
+- `entities/webhooks.md`: Claim `nested-dicts-and-lists-are-json-serialized-and-truncated-at` is missing structured evidence.
+- `entities/webhooks.md`: Claim `external-service-push-supabasefirebase-webhook-fires-on-a` is missing structured evidence.
+- `entities/webhooks.md`: Claim `monitoring-alerts-datadoggrafana-alert-webhook-push-to` is missing structured evidence.
+- `entities/webhooks.md`: Claim `inter-agent-pings-agent-a-notifies-agent-bs-user-that-a-l` is missing structured evidence.
+- `entities/webhooks.md`: Claim `background-job-completion-cron-job-finishes-post-result` is missing structured evidence.
+- `entities/webhooks.md`: Claim `zero-llm-tokens-the-agent-is-never-invoked` is missing structured evidence.
+- `entities/webhooks.md`: Claim `sub-second-delivery-a-single-adapter-call-no-reasoning-lo` is missing structured evidence.
+- `entities/webhooks.md`: Claim `same-security-as-agent-mode-hmac-auth-rate-limits-idempo` is missing structured evidence.
+- `entities/webhooks.md`: Claim `synchronous-response-the-post-returns-200-ok-once-delivery` is missing structured evidence.
+- `entities/webhooks.md`: Claim `deliver-telegram` is missing structured evidence.
+- `entities/webhooks.md`: Claim `deliver-chat-id-123456789` is missing structured evidence.
+- `entities/webhooks.md`: Claim `deliver-only` is missing structured evidence.
+- `entities/webhooks.md`: Claim `prompt-new-match-matchuser-name-matched-with-you` is missing structured evidence.
+- `entities/webhooks.md`: Claim `description-antenna-match-notifications` is missing structured evidence.
+- `entities/webhooks.md`: Claim `deliver-only-true-requires-deliver-to-be-a-real-target-del` is missing structured evidence.
+- `entities/webhooks.md`: Claim `the-skills-field-is-ignored-in-direct-delivery-mode-no-agen` is missing structured evidence.
+- `entities/webhooks.md`: Claim `template-rendering-uses-the-same-dotnotation-syntax-as-ag` is missing structured evidence.
+- `entities/webhooks.md`: Claim `idempotency-uses-the-same-x-github-delivery-x-request-id-h` is missing structured evidence.
+- `entities/webhooks.md`: Claim `events-issues` is missing structured evidence.
+- `entities/webhooks.md`: Claim `prompt-new-issue-issuenumber-issuetitlenby-issue` is missing structured evidence.
+- `entities/webhooks.md`: Claim `deliver-telegram` is missing structured evidence.
+- `entities/webhooks.md`: Claim `deliver-chat-id--100123456789` is missing structured evidence.
+- `entities/webhooks.md`: Claim `description-triage-new-github-issues` is missing structured evidence.
+- `entities/webhooks.md`: Claim `subscriptions-are-stored-in-hermeswebhook-subscriptions` is missing structured evidence.
+- `entities/webhooks.md`: Claim `the-webhook-adapter-hot-reloads-this-file-on-each-incoming-r` is missing structured evidence.
+- `entities/webhooks.md`: Claim `static-routes-from-configyaml-always-take-precedence-over-d` is missing structured evidence.
+- `entities/webhooks.md`: Claim `dynamic-subscriptions-use-the-same-route-format-and-capabili` is missing structured evidence.
+- `entities/webhooks.md`: Claim `no-gateway-restart-required-subscribe-and-its-immediately` is missing structured evidence.
+- `entities/webhooks.md`: Claim `github-x-hub-signature-256-header-hmac-sha256-hex-digest` is missing structured evidence.
+- `entities/webhooks.md`: Claim `gitlab-x-gitlab-token-header-plain-secret-string-match` is missing structured evidence.
+- `entities/webhooks.md`: Claim `generic-x-webhook-signature-header-raw-hmac-sha256-hex-di` is missing structured evidence.
+- `entities/webhooks.md`: Claim `verify-the-port-is-exposed-and-accessible-from-the-webhook-s` is missing structured evidence.
+- `entities/webhooks.md`: Claim `check-firewall-rules-port-8644-or-your-configured-port-m` is missing structured evidence.
+- `entities/webhooks.md`: Claim `verify-the-url-path-matches-httpyour-server8644webhook` is missing structured evidence.
+- `entities/webhooks.md`: Claim `use-the-health-endpoint-to-confirm-the-server-is-running` is missing structured evidence.
+- `entities/webhooks.md`: Claim `ensure-the-secret-in-your-route-config-exactly-matches-the-s` is missing structured evidence.
+- `entities/webhooks.md`: Claim `for-github-the-secret-is-hmac-based-check-x-hub-signature` is missing structured evidence.
+- `entities/webhooks.md`: Claim `for-gitlab-the-secret-is-a-plain-token-match-check-x-gitl` is missing structured evidence.
+- `entities/webhooks.md`: Claim `check-gateway-logs-for-invalid-signature-warnings` is missing structured evidence.
+- `entities/webhooks.md`: Claim `check-that-the-event-type-is-in-your-routes-events-list` is missing structured evidence.
+- `entities/webhooks.md`: Claim `github-events-use-values-like-pull-request-push-issues-th` is missing structured evidence.
+- `entities/webhooks.md`: Claim `gitlab-events-use-values-like-merge-request-push-the-x-git` is missing structured evidence.
+- `entities/webhooks.md`: Claim `if-events-is-empty-or-not-set-all-events-are-accepted` is missing structured evidence.
+- `entities/webhooks.md`: Claim `run-the-gateway-in-foreground-to-see-logs-hermes-gateway-ru` is missing structured evidence.
+- `entities/webhooks.md`: Claim `check-that-the-prompt-template-is-rendering-correctly` is missing structured evidence.
+- `entities/webhooks.md`: Claim `verify-the-delivery-target-is-configured-and-connected` is missing structured evidence.
+- `entities/webhooks.md`: Claim `the-idempotency-cache-should-prevent-this-check-that-the-w` is missing structured evidence.
+- `entities/webhooks.md`: Claim `delivery-ids-are-cached-for-1-hour` is missing structured evidence.
+- `entities/webhooks.md`: Claim `run-gh-auth-login-on-the-gateway-host` is missing structured evidence.
+- `entities/webhooks.md`: Claim `ensure-the-authenticated-github-user-has-write-access-to-the` is missing structured evidence.
+- `entities/webhooks.md`: Claim `check-that-gh-is-installed-and-on-the-path` is missing structured evidence.
+- `entities/webhooks.md`: Claim `via-setup-wizard` is missing structured evidence.
+- `entities/webhooks.md`: Claim `via-environment-variables` is missing structured evidence.
+- `entities/webhooks.md`: Claim `verify-the-server` is missing structured evidence.
+- `entities/webhooks.md`: Claim `configuring-routesconfiguring-routesroute-propertie` is missing structured evidence.
+- `entities/webhooks.md`: Claim `route-properties` is missing structured evidence.
+- `entities/webhooks.md`: Claim `full-example` is missing structured evidence.
+- `entities/webhooks.md`: Claim `prompt-templates` is missing structured evidence.
+- `entities/webhooks.md`: Claim `forum-topic-delivery` is missing structured evidence.
+- `entities/webhooks.md`: Claim `github-pr-review-step-by-stepgithub-pr-review1-cr` is missing structured evidence.
+- `entities/webhooks.md`: Claim `1-create-the-webhook-in-github` is missing structured evidence.
+- `entities/webhooks.md`: Claim `2-add-the-route-config` is missing structured evidence.
+- `entities/webhooks.md`: Claim `3-ensure-gh-cli-is-authenticated` is missing structured evidence.
+- `entities/webhooks.md`: Claim `4-test-it` is missing structured evidence.
+- `entities/webhooks.md`: Claim `gitlab-webhook-setupgitlab-webhook-setup1-create-th` is missing structured evidence.
+- `entities/webhooks.md`: Claim `1-create-the-webhook-in-gitlab` is missing structured evidence.
+- `entities/webhooks.md`: Claim `2-add-the-route-config` is missing structured evidence.
+- `entities/webhooks.md`: Claim `delivery-optionsdelivery-options` is missing structured evidence.
+- `entities/webhooks.md`: Claim `direct-delivery-modedirect-delivery-modewhen-to-use` is missing structured evidence.
+- `entities/webhooks.md`: Claim `when-to-use-direct-delivery` is missing structured evidence.
+- `entities/webhooks.md`: Claim `example-telegram-push-from-supabase` is missing structured evidence.
+- `entities/webhooks.md`: Claim `example-dynamic-subscription-via-cli` is missing structured evidence.
+- `entities/webhooks.md`: Claim `response-codes` is missing structured evidence.
+- `entities/webhooks.md`: Claim `configuration-gotchas` is missing structured evidence.
+- `entities/webhooks.md`: Claim `dynamic-subscriptions-clidynamic-subscriptionscre` is missing structured evidence.
+- `entities/webhooks.md`: Claim `create-a-subscription` is missing structured evidence.
+- `entities/webhooks.md`: Claim `list-subscriptions` is missing structured evidence.
+- `entities/webhooks.md`: Claim `remove-a-subscription` is missing structured evidence.
+- `entities/webhooks.md`: Claim `test-a-subscription` is missing structured evidence.
+- `entities/webhooks.md`: Claim `how-dynamic-subscriptions-work` is missing structured evidence.
+- `entities/webhooks.md`: Claim `agent-driven-subscriptions` is missing structured evidence.
+- `entities/webhooks.md`: Claim `securitysecurityhmac-signature-validationsecre` is missing structured evidence.
+- `entities/webhooks.md`: Claim `hmac-signature-validation` is missing structured evidence.
+- `entities/webhooks.md`: Claim `secret-is-required` is missing structured evidence.
+- `entities/webhooks.md`: Claim `rate-limiting` is missing structured evidence.
+- `entities/webhooks.md`: Claim `idempotency` is missing structured evidence.
+- `entities/webhooks.md`: Claim `body-size-limits` is missing structured evidence.
+- `entities/webhooks.md`: Claim `prompt-injection-risk` is missing structured evidence.
+- `entities/webhooks.md`: Claim `troubleshootingtroubleshootingwebhook-not-arriving` is missing structured evidence.
+- `entities/webhooks.md`: Claim `webhook-not-arriving` is missing structured evidence.
+- `entities/webhooks.md`: Claim `signature-validation-failing` is missing structured evidence.
+- `entities/webhooks.md`: Claim `event-being-ignored` is missing structured evidence.
+- `entities/webhooks.md`: Claim `agent-not-responding` is missing structured evidence.
+- `entities/webhooks.md`: Claim `duplicate-responses` is missing structured evidence.
+- `entities/webhooks.md`: Claim `gh-cli-errors-github-comment-delivery` is missing structured evidence.
+- `entities/webhooks.md`: Claim `environment-variablesenvironment-variables` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim cluster `access-policiesaccess-policiesdm-policygroup-p` has competing variants across 2 pages.
+- `entities/wecom-enterprise-wechat.md`: Claim cluster `media-supportmedia-supportinbound-receivingaes` has competing variants across 2 pages.
+- `entities/wecom-enterprise-wechat.md`: Claim `a-wecom-organization-account` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `an-ai-bot-created-in-the-wecom-admin-console` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `the-bot-id-and-secret-from-the-bots-credentials-page` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `python-packages-aiohttp-and-httpx` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `bot-credentials-via-qr-scan-or-manual-entry` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `access-control-settings-allowlist-pairing-mode-or-open-ac` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `home-channel-for-notifications` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `websocket-transport-persistent-connection-no-public-endpo` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `dm-and-group-messaging-configurable-access-policies` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `per-group-sender-allowlists-fine-grained-control-over-who` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `media-support-images-files-voice-video-upload-and-downl` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `aes-encrypted-media-automatic-decryption-for-inbound-attac` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `quote-context-preserves-reply-threading` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `markdown-rendering-rich-text-responses` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `reply-mode-streaming-correlates-responses-to-inbound-messa` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `auto-reconnect-exponential-backoff-on-connection-drops` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `group-id-1` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `group-id-2` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `user-alice` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `user-bob` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `user-charlie` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `user-admin` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `when-an-inbound-media-item-includes-an-aeskey-field-the-ada` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `the-aes-key-is-the-base64-decoded-value-of-the-aeskey-field` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `the-iv-is-derived-from-the-first-16-bytes-of-the-key` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `this-requires-the-cryptography-python-package-pip-install-c` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `images-10-mb-sent-as-file` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `videos-10-mb-sent-as-file` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `voice-2-mb-sent-as-file` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `non-amr-audio-sent-as-file-wecom-only-supports-amr-for-na` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `step-1-create-an-ai-bot` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `step-2-configure-hermes` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `step-3-start-the-gateway` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `featuresfeatures` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `configuration-optionsconfiguration-options` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `access-policiesaccess-policiesdm-policygroup-p` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `group-policy` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `per-group-sender-allowlists` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `media-supportmedia-supportinbound-receivingaes` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `inbound-receiving` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `aes-encrypted-media-decryption` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `outbound-sending` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `reply-mode-stream-responsesreply-mode-stream-responses` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `connection-and-reconnectionconnection-and-reconnection` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `connection-lifecycle` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `reconnection-behavior` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `deduplication` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `all-environment-variablesall-environment-variables` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/weixin-wechat.md`: Broken wikilink target `/docs/user-guide/messaging/wecom`.
+- `entities/weixin-wechat.md`: Claim cluster `access-policiesaccess-policiesdm-policygroup-p` has competing variants across 2 pages.
+- `entities/weixin-wechat.md`: Claim cluster `media-supportmedia-supportinbound-receivingaes` has competing variants across 2 pages.
+- `entities/weixin-wechat.md`: Claim `a-personal-wechat-account` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `python-packages-aiohttp-and-cryptography` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `terminal-qr-rendering-is-included-when-hermes-is-installed-w` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `long-poll-transport-no-public-endpoint-webhook-or-websoc` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `qr-code-login-scan-to-connect-setup-via-hermes-gateway-set` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `dm-and-group-messaging-configurable-access-policies` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `media-support-images-video-files-and-voice-messages` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `aes-128-ecb-encrypted-cdn-automatic-encryptiondecryption` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `context-token-persistence-disk-backed-reply-continuity-acr` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `markdown-formatting-preserves-markdown-including-headers` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `smart-message-chunking-messages-stay-as-a-single-bubble-wh` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `typing-indicators-shows-typing-status-in-the-wechat-cli` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `ssrf-protection-outbound-media-urls-are-validated-before-d` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `message-deduplication-5-minute-sliding-window-prevents-dou` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `automatic-retry-with-backoff-recovers-from-transient-api-e` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `inbound-encrypted-media-is-downloaded-from-the-cdn-using-en` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `outbound-files-are-encrypted-locally-with-a-random-aes-128` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `the-aes-key-is-16-bytes-128-bit-keys-may-arrive-as-raw-ba` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `this-requires-the-cryptography-python-package` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `tokens-are-saved-per-accountpeer-to-hermesweixinaccoun` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `on-startup-previously-saved-tokens-are-restored` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `every-inbound-message-updates-the-stored-token-for-that-send` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `outbound-messages-automatically-include-the-latest-context-t` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `headers-stay-as-markdown-headings` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `tables-stay-as-markdown-tables` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `code-fences-stay-as-fenced-code-blocks` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `excessive-blank-lines-are-collapsed-to-double-newlines-outsi` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `maximum-message-length-4000-characters` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `messages-under-the-limit-stay-intact-even-when-they-contain` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `oversized-messages-split-at-logical-boundaries-paragraphs` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `code-fences-are-kept-intact-whenever-possible-never-split-m` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `oversized-individual-blocks-fall-back-to-the-base-adapters` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `a-03-s-inter-chunk-delay-prevents-wechat-rate-limit-drops-w` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `1-run-the-setup-wizard` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `2-configure-environment-variables` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `3-start-the-gateway` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `featuresfeatures` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `configuration-optionsconfiguration-options` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `access-policiesaccess-policiesdm-policygroup-p` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `group-policy` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `media-supportmedia-supportinbound-receivingaes` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `inbound-receiving` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `aes-128-ecb-encrypted-cdn` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `outbound-sending` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `context-token-persistencecontext-token-persistence` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `markdown-formattingmarkdown-formatting` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `message-chunkingmessage-chunking` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `typing-indicatorstyping-indicators` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `long-poll-connectionlong-poll-connectionhow-it-work` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `how-it-works` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `retry-behavior` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `deduplication` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `token-lock` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `all-environment-variablesall-environment-variables` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/whatsapp-setup.md`: Broken wikilink target `/docs/reference/environment-variables`.
+- `entities/whatsapp-setup.md`: Broken wikilink target `/docs/user-guide/security`.
+- `entities/whatsapp-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/whatsapp-setup.md`: Claim `use-a-dedicated-phone-number-for-the-bot-not-your-personal` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `dont-send-bulkspam-messages-keep-usage-conversational` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `dont-automate-outbound-messaging-to-people-who-havent-mess` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `nodejs-v18-and-npm-the-whatsapp-bridge-runs-as-a-nodejs` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `a-phone-with-whatsapp-installed-for-scanning-the-qr-code` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `unauthorized-dm-behavior-pair-is-the-global-default-unknow` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `whatsappunauthorized-dm-behavior-ignore-makes-whatsapp-sta` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `sessions-survive-restarts-you-dont-need-to-re-scan-the-qr` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `the-session-data-includes-encryption-keys-and-device-credent` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `do-not-share-or-commit-this-session-directory-it-grants-fu` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `incoming-voice-messages-ogg-opus-are-automatically-trans` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `outgoing-tts-responses-are-sent-as-mp3-audio-file-attachmen` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `agent-responses-are-prefixed-with-hermes-agent-by-defaul` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `the-hermesplatformswhatsappsession-directory-contains` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `set-file-permissions-chmod-700-hermesplatformswhatsapp` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `use-a-dedicated-phone-number-for-the-bot-to-isolate-risk-fro` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `if-you-suspect-compromise-unlink-the-device-from-whatsapp` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `phone-numbers-in-logs-are-partially-redacted-but-review-you` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `whatsapp-compatible-markdown` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `tool-progress` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `reports/lint.md`: Broken wikilink target `entity.security`.
+- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
+- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
+- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
+- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
+- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
+- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
+- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
+- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
+- `reports/lint.md`: Broken wikilink target `entity.installation`.
+- `reports/lint.md`: Broken wikilink target `entity.configuration`.
+- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
+- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
+- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
+- `reports/lint.md`: Broken wikilink target `entity.security`.
+- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `corn-based-ethanol-produced-under-the-us-renewable-fuel-stan` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-primary-driver-is-land-use-change-converting-grassland` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `corn-ethanol-production-has-negatively-affected-water-qualit` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `even-without-considering-international-indirect-land-use-eff` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `tyler-j-lark-university-of-wisconsin-madison-lead-author` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `nathan-p-hendricks-kansas-state-university` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `aaron-smith-university-of-california-davis` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `nicholas-pates-kansas-state-university` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `seth-a-spawn-lee-university-of-wisconsin-madison-univer` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `matthew-bougie-university-of-wisconsin-madison` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `eric-g-booth-university-of-wisconsin-madison` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `christopher-j-kucharik-university-of-wisconsin-madison` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `holly-k-gibbs-university-of-wisconsin-madison` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `national-wildlife-federation` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `us-department-of-energy` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `proceedings-of-the-national-academy-of-sciences-pnas` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `peer-reviewed-impact-factor-12` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `published-february-2022` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-renewable-fuels-association-and-growth-energy-published` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `lark-et-al-published-a-reply-in-pnas-defending-their-method` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-ethanol-industry-rebuttals-are-funded-by-industry-groups` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-studys-findings-contradict-lifecycle-analysis-models-fr` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-study-uses-empirical-satellite-data-and-land-use-records` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-scientific-community-remains-divided-the-debate-betwee` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-study-only-covers-data-up-to-approximately-2016-not-cap` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-24-worse-figure-is-at-the-high-end-of-the-range-the` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-finding-is-at-one-extreme-of-a-genuinely-divided-scienti` is missing structured evidence.
+- `sources/index.md`: Page freshness needs review (missing updatedAt).
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `oak-spp-quercus-white-oak-red-oak-post-oak-pin-oak` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `tulip-poplar-liriodendron-tulipifera-ncs-tallest-nati` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `black-gum-nyssa-sylvatica-great-fall-color-tolerates` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `american-hornbeam-carpinus-caroliniana-musclewood-com` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `bald-cypress-taxodium-distichum-deciduous-conifer-lov` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `flowering-dogwood-cornus-florida-spring-favorite-whit` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `redbud-cercis-canadensis-purple-pink-spring-blooms` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `serviceberry-amelanchier-arborea-white-spring-flowers` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `fringe-tree-chionanthus-virginicus-fragrant-white-flow` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `loblolly-pine-pinus-taeda-ubiquitous-in-the-nc-piedmon` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `eastern-red-cedar-juniperus-virginiana-dioecious-good` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `american-holly-ilex-opaca-classic-evergreen-with-red-b` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `pawpaw-asimina-triloba-edible-fruit-host-for-zebra-sw` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `sassafras-sassafras-albidum-unique-mitten-shaped-leave` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `green-hawthorn-crataegus-viridis-white-spring-blooms` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `nc-state-extension-identification-of-common-trees-of-nort` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `trees-for-the-trianglehttpswwwtreesforthetriangleorg` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `nc-native-plant-society-recommended-native-specieshttps` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `city-of-raleigh-possible-street-trees-pdfhttpscityof` is missing structured evidence.
+- `syntheses/index.md`: Non-source page is missing `sourceIds` provenance.
+- `syntheses/index.md`: Page freshness needs review (missing updatedAt).
 - `syntheses/racoony-ops.md`: Claim cluster `email` has competing variants across 2 pages.
+- `syntheses/racoony-ops.md`: Page freshness needs review (missing updatedAt).
+- `syntheses/racoony-ops.md`: Claim `identity` freshness needs review (missing updatedAt).
+- `syntheses/racoony-ops.md`: Claim `email` freshness needs review (missing updatedAt).
+- `syntheses/racoony-ops.md`: Claim `user-email` freshness needs review (missing updatedAt).
 
 ### Contradictions
+- `entities/android-termux.md`: Claim cluster `hermes-doctor` has competing variants across 2 pages.
+- `entities/android-termux.md`: Claim cluster `ripgrep-fast-file-search` has competing variants across 2 pages.
+- `entities/cli-commands-reference.md`: Claim cluster `force-does-not-override-a-dangerous-scan-verdict` has competing variants across 2 pages.
+- `entities/dingtalk-setup.md`: Claim cluster `group-sessions-per-user-true-keeps-each-participants-conte` has competing variants across 3 pages.
+- `entities/dingtalk-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/dingtalk-setup.md`: Claim cluster `troubleshootingtroubleshootingbot-is-not-responding` has competing variants across 3 pages.
+- `entities/discord-setup.md`: Claim cluster `one-persons-in-flight-run-can-interrupt-another-persons-fo` has competing variants across 3 pages.
+- `entities/email-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/features-skills.md`: Claim cluster `force-does-not-override-a-dangerous-scan-verdict` has competing variants across 2 pages.
+- `entities/hindsight-memory-server.md`: Claim cluster `location` has competing variants across 2 pages.
+- `entities/home-assistant-integration.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/installation.md`: Claim cluster `installationdocsgetting-startedinstallation` has competing variants across 6 pages.
+- `entities/installation.md`: Claim cluster `ripgrep-fast-file-search` has competing variants across 2 pages.
+- `entities/learning-path.md`: Claim cluster `discord-setupdocsuser-guidemessagingdiscord` has competing variants across 2 pages.
+- `entities/learning-path.md`: Claim cluster `installationdocsgetting-startedinstallation` has competing variants across 6 pages.
+- `entities/learning-path.md`: Claim cluster `installationdocsgetting-startedinstallation` has competing variants across 6 pages.
+- `entities/learning-path.md`: Claim cluster `installationdocsgetting-startedinstallation` has competing variants across 6 pages.
+- `entities/learning-path.md`: Claim cluster `installationdocsgetting-startedinstallation` has competing variants across 6 pages.
+- `entities/learning-path.md`: Claim cluster `telegram-setupdocsuser-guidemessagingtelegram` has competing variants across 2 pages.
+- `entities/lost-lands-2026.md`: Claim cluster `location` has competing variants across 2 pages.
+- `entities/matrix-setup.md`: Claim cluster `group-sessions-per-user-true-keeps-each-participants-conte` has competing variants across 3 pages.
+- `entities/matrix-setup.md`: Claim cluster `one-persons-in-flight-run-can-interrupt-another-persons-fo` has competing variants across 3 pages.
+- `entities/matrix-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/matrix-setup.md`: Claim cluster `troubleshootingtroubleshootingbot-is-not-responding` has competing variants across 3 pages.
+- `entities/mattermost-setup.md`: Claim cluster `group-sessions-per-user-true-keeps-each-participants-conte` has competing variants across 3 pages.
+- `entities/mattermost-setup.md`: Claim cluster `one-persons-in-flight-run-can-interrupt-another-persons-fo` has competing variants across 3 pages.
+- `entities/mattermost-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/mattermost-setup.md`: Claim cluster `troubleshootingtroubleshootingbot-is-not-responding` has competing variants across 3 pages.
+- `entities/quickstart.md`: Claim cluster `hermes-doctor` has competing variants across 2 pages.
+- `entities/quickstart.md`: Claim cluster `installationdocsgetting-startedinstallation` has competing variants across 6 pages.
 - `entities/randomstix.md`: Claim cluster `email` has competing variants across 2 pages.
+- `entities/signal-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/slack-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/telegram-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
+- `entities/use-voice-mode-with-hermes.md`: Claim cluster `discord-setupdocsuser-guidemessagingdiscord` has competing variants across 2 pages.
+- `entities/use-voice-mode-with-hermes.md`: Claim cluster `telegram-setupdocsuser-guidemessagingtelegram` has competing variants across 2 pages.
+- `entities/wecom-enterprise-wechat.md`: Claim cluster `access-policiesaccess-policiesdm-policygroup-p` has competing variants across 2 pages.
+- `entities/wecom-enterprise-wechat.md`: Claim cluster `media-supportmedia-supportinbound-receivingaes` has competing variants across 2 pages.
+- `entities/weixin-wechat.md`: Claim cluster `access-policiesaccess-policiesdm-policygroup-p` has competing variants across 2 pages.
+- `entities/weixin-wechat.md`: Claim cluster `media-supportmedia-supportinbound-receivingaes` has competing variants across 2 pages.
+- `entities/whatsapp-setup.md`: Claim cluster `securitysecurity` has competing variants across 9 pages.
 - `syntheses/racoony-ops.md`: Claim cluster `email` has competing variants across 2 pages.
+
+### Quality Follow-Up
+- `concepts/anomem-postmortem.md`: Page freshness needs review (missing updatedAt).
+- `concepts/index.md`: Page freshness needs review (missing updatedAt).
+- `concepts/project-guidelines.md`: Page freshness needs review (missing updatedAt).
+- `concepts/prompt-weapon-generator-game.md`: Page freshness needs review (missing updatedAt).
+- `concepts/self-hosted-infra.md`: Page freshness needs review (missing updatedAt).
+- `entities/configuration.md`: Page freshness needs review (missing updatedAt).
+- `entities/features-overview.md`: Page freshness needs review (missing updatedAt).
+- `entities/hermes-agent-faq.md`: Page freshness needs review (missing updatedAt).
+- `entities/hermes-agent-installation.md`: Page freshness needs review (missing updatedAt).
+- `entities/hermes-agent-learning-path.md`: Page freshness needs review (missing updatedAt).
+- `entities/hermes-agent-quickstart.md`: Page freshness needs review (missing updatedAt).
+- `entities/hermes-agent-tips.md`: Page freshness needs review (missing updatedAt).
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Page freshness needs review (missing updatedAt).
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Page freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Page freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim `location` freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim `api-port` freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim `database` freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim `llm-provider` freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim `api-key` freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim `volumes` freshness needs review (missing updatedAt).
+- `entities/hindsight-memory-server.md`: Claim `compose-fix` freshness needs review (missing updatedAt).
+- `entities/honda-civic-2016-ex-t-maintenance.md`: Page freshness needs review (missing updatedAt).
+- `entities/index.md`: Page freshness needs review (missing updatedAt).
+- `entities/lexus-rx-350-2017.md`: Page freshness needs review (missing updatedAt).
+- `entities/lolok-site.md`: Page freshness needs review (missing updatedAt).
+- `entities/lolok-site.md`: Claim `type` freshness needs review (missing updatedAt).
+- `entities/lolok-site.md`: Claim `port` freshness needs review (missing updatedAt).
+- `entities/lolok-site.md`: Claim `deployment` freshness needs review (missing updatedAt).
+- `entities/lolok-site.md`: Claim `static-server` freshness needs review (missing updatedAt).
+- `entities/lost-lands-2026.md`: Page freshness needs review (missing updatedAt).
+- `entities/lost-lands-2026.md`: Claim `dates` freshness needs review (missing updatedAt).
+- `entities/lost-lands-2026.md`: Claim `location` freshness needs review (missing updatedAt).
+- `entities/lost-lands-2026.md`: Claim `cost` freshness needs review (missing updatedAt).
+- `entities/lost-lands-2026.md`: Claim `ticket-type` freshness needs review (missing updatedAt).
+- `entities/macvm.md`: Page freshness needs review (missing updatedAt).
+- `entities/randomstix-health.md`: Page freshness needs review (missing updatedAt).
+- `entities/randomstix.md`: Page freshness needs review (missing updatedAt).
+- `entities/randomstix.md`: Claim `name` freshness needs review (missing updatedAt).
+- `entities/randomstix.md`: Claim `email` freshness needs review (missing updatedAt).
+- `entities/randomstix.md`: Claim `discord-handle` freshness needs review (missing updatedAt).
+- `entities/randomstix.md`: Claim `timezone` freshness needs review (missing updatedAt).
+- `entities/searxng.md`: Page freshness needs review (missing updatedAt).
+- `sources/index.md`: Page freshness needs review (missing updatedAt).
+- `syntheses/index.md`: Page freshness needs review (missing updatedAt).
+- `syntheses/racoony-ops.md`: Page freshness needs review (missing updatedAt).
+- `syntheses/racoony-ops.md`: Claim `identity` freshness needs review (missing updatedAt).
+- `syntheses/racoony-ops.md`: Claim `email` freshness needs review (missing updatedAt).
+- `syntheses/racoony-ops.md`: Claim `user-email` freshness needs review (missing updatedAt).
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `doe-argonne-greet-model-corn-ethanol-reduces-life-cycle-g` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `lark-et-al-2022-pnas-corn-ethanol-is-at-least-24-more` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-empirical-camp-lark-et-al-uses-satellite-data-showing` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-modeling-camp-doeargonne-uses-economic-models-that-as` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `this-is-the-single-largest-driver-of-the-difference-between` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `industry-critics-argue-the-lark-study-understates-yield-gain` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `lark-et-al-respond-that-their-satellite-data-captures-actua` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `ethanol-production-creates-distillers-grains-that-replace-an` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-value-of-this-credit-is-disputed-between-the-two-camps` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `what-would-farmers-have-planted-if-not-corn-for-ethanol-the` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `different-assumptions-produce-wildly-different-results` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `both-sides-have-published-in-peer-reviewed-journals` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `lark-et-al-were-funded-by-national-wildlife-federation-env` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `industry-funded-studies-are-funded-by-groups-with-a-financia` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-scientific-community-remains-genuinely-split-this-is-n` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `reuters-feb-14-2022-reported-the-lark-studys-findings-t` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-article-sparked-significant-pushback-from-the-ethanol-in` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `multiple-outlets-axios-cleantechnica-cnet-des-moines-reg` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `us-renewable-fuel-standard-rfs` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `biofuel-lifecycle-analysis` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `indirect-land-use-change-iluc` is missing structured evidence.
+- `concepts/index.md`: Non-source page is missing `sourceIds` provenance.
+- `concepts/uncensored-ai-models.md`: Claim `9-cli-methods-basic-advanced-recommended-aggressive` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `116-model-presets-across-5-compute-tiers` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `license-agpl-30-never-import-as-python-library-always` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `models-under-1b-params-respond-poorly-to-abliteration-3b` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `qwen-25-7b-uncensored-coding-logic` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `deepseek-r1-distill-7b-abliterated-reasoning-model` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `gemma-3-4b-heretic-ultra-compact` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `llama-31-8b-various-uncensored-variants` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `mistral-7b-various-uncensored-variants` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `gpt-oss-20b-heretic-creative-writing-roleplay` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `gemma-3-27b-abliterated-frequently-cited-as-best-all-aroun` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `mistral-nemo-12b-uncensored-balanced-generalist` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `qwen3-30b-abliterated-rivals-larger-models` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `llama-32-8x3b-moe-dark-champion-moe-speed-20b-quality` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `llama-4-70b-abliterated-near-gpt-4-level` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `dolphin-30-llama-70b` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `loki-70b-heretic-v2-narrative-depth` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `nous-hermes-3-llama-31-405b-frontier-open-weights` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `dolphin-cognitive-computations-high-compliance-fine-tu` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `heretic-davidau-mradermacher-aggressively-de-aligned` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `dark-champion-davidau-moe-abliterated` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `wizard-vicuna-thebloke-classic-uncensored-most-downlo` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `nous-hermes-nousresearch-creative-writing-roleplay` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `juggernaut-xl-all-around-photorealism-69gb-safetensors` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `realistic-vision-xl-photorealistic-people` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `pony-diffusion-xl-character-art-huge-lora-ecosystem` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `dreamshaper-xl-artistic-fantasy` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `sdxl-unstable-diffusers-nsfw-focus` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `comfortable-llama-32-3b-3gb-gemma-3-4b-4gb-qwen` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `tight-but-possible-mistral-nemo-12b-10gb-gemma-3-12b` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `not-viable-gpt-oss-20b-gemma-3-27b-qwen3-30b-anything` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `sd-15-10-20-secimage-low-ram-pressure` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `sdxl-30-90-secimage-medium-high-ram-pressure` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `flux-not-viable-oom-on-16gb` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `llm-uncensoring-abliterate-with-obliteratus-need-gpu-or-d` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `image-gen-uncensoring-just-disable-safety-checker-use-com` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `mac-with-16gb-7-8b-llms-max-sdxl-for-images-max` is missing structured evidence.
+- `concepts/uncensored-ai-models.md`: Claim `for-low-spec-machines-downloading-pre-built-models-is-smart` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/2017-lexus-rx-350.md`: Claim `type-35l-v6-dohc-24v-vvt-iw` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `horsepower-295-hp-6300-rpm` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `torque-267-lb-ft-4700-rpm` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `type-0w-20-full-synthetic-oem-recommended` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `capacity-5760-quarts-5457-liters-confirm-with` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `drive-front-wheel-drive-fwd` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `transmission-automatic-8-speed` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `steering-left-hand-drive-us-market` is missing structured evidence.
+- `entities/2017-lexus-rx-350.md`: Claim `owner-randomstixs-wife` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `pkce-authorization-code-flow-against-accountsgooglecom` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `browser-callback-at-http1270018085oauth2callback-wi` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `tokens-stored-at-hermesauthgoogle-oauthjson-chmod-060` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `automatic-refresh-60-s-before-expiry` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `headless-environments-ssh-hermes-headless1-paste-mode` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `inflight-refresh-deduplication-two-concurrent-requests-won` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `invalid-grant-revoked-refresh-credential-file-wiped-use` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `traffic-goes-to-httpscloudcode-pagoogleapiscomv1intern` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `request-body-wrapped-project-model-user-prompt-id-reques` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `openai-shaped-messages-tools-tool-choice-are-translate` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `responses-translated-back-to-openai-shape-so-the-rest-of-her` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `provider-claude-and---provider-claude-code-also-work-as-shor` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `port-8000` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `max-model-len-65536` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `tensor-parallel-size-2` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `enable-auto-tool-choice` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `tool-call-parser-hermes` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `model-meta-llamallama-31-70b-instruct` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `port-30000` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `context-length-65536` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `tool-call-parser-qwen` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `jinja--fa` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `m-modelsqwen25-coder-32b-instruct-q4-k-mgguf` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `port-8080---host-0000` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `jinja-is-required-for-tool-calling` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `model-name-best` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `model-name-best` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `name-my-local-llm` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `youre-using-ollama-with-a-custom-num-ctx-thats-lower-than` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `you-want-to-limit-context-below-the-models-maximum-eg-8` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `youre-running-behind-a-proxy-that-doesnt-expose-v1models` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `name-local` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `name-work` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `name-anthropic-proxy` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `configuration-general-configuration-directory-structure` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `environment-variables-complete-reference-of-all-environmen` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `google-gemini-via-oauth-google-gemini-cli` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `two-commands-for-model-management` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `anthropic-native` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `github-copilot` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `first-class-chinese-ai-providers` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `xai-grok-responses-api-prompt-caching` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `ollama-cloud-managed-ollama-models-oauth-api-key` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `aws-bedrock` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `qwen-portal-oauth` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `nvidia-nim` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `hugging-face-inference-providers` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `custom-self-hosted-llm-providerscustom--self-hosted-ll` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `general-setup` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `switching-models-with-model` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `ollama-local-models-zero-config` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `vllm-high-performance-gpu-inference` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `sglang-fast-serving-with-radixattention` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `llamacpp-llama-server-cpu-metal-inference` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `lm-studio-desktop-app-with-local-models` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `wsl2-networking-windows-users` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `troubleshooting-local-models` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `litellm-proxy-multi-provider-gateway` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `clawrouter-cost-optimized-routing` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `other-compatible-providers` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `context-length-detection` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `named-custom-providers` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `choosing-the-right-setup` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `optional-api-keysoptional-api-keysself-hosting-fire` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `self-hosting-firecrawl` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `openrouter-provider-routingopenrouter-provider-routing` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `fallback-modelfallback-model` is missing structured evidence.
+- `entities/ai-providers.md`: Claim `see-alsosee-also` is missing structured evidence.
+- `entities/android-termux.md`: Claim `the-hermes-cli` is missing structured evidence.
+- `entities/android-termux.md`: Claim `cron-support` is missing structured evidence.
+- `entities/android-termux.md`: Claim `ptybackground-terminal-support` is missing structured evidence.
+- `entities/android-termux.md`: Claim `telegram-gateway-support-manual-best-effort-background-ru` is missing structured evidence.
+- `entities/android-termux.md`: Claim `mcp-support` is missing structured evidence.
+- `entities/android-termux.md`: Claim `honcho-memory-support` is missing structured evidence.
+- `entities/android-termux.md`: Claim `acp-support` is missing structured evidence.
+- `entities/android-termux.md`: Claim `all-is-not-supported-on-android-today` is missing structured evidence.
+- `entities/android-termux.md`: Claim `the-voice-extra-is-blocked-by-faster-whisper---ctranslate2` is missing structured evidence.
+- `entities/android-termux.md`: Claim `automatic-browser-playwright-bootstrap-is-skipped-in-the-t` is missing structured evidence.
+- `entities/android-termux.md`: Claim `docker-based-terminal-isolation-is-not-available-inside-term` is missing structured evidence.
+- `entities/android-termux.md`: Claim `android-may-still-suspend-termux-background-jobs-so-gateway` is missing structured evidence.
+- `entities/android-termux.md`: Claim `uses-pkg-for-system-packages` is missing structured evidence.
+- `entities/android-termux.md`: Claim `creates-the-venv-with-python--m-venv` is missing structured evidence.
+- `entities/android-termux.md`: Claim `installs-termux-with-pip` is missing structured evidence.
+- `entities/android-termux.md`: Claim `links-hermes-into-prefixbin-so-it-stays-on-your-termux-p` is missing structured evidence.
+- `entities/android-termux.md`: Claim `skips-the-untested-browser-whatsapp-bootstrap` is missing structured evidence.
+- `entities/android-termux.md`: Claim `python-runtime-venv-support` is missing structured evidence.
+- `entities/android-termux.md`: Claim `git-cloneupdate-the-repo` is missing structured evidence.
+- `entities/android-termux.md`: Claim `clang-rust-make-pkg-config-libffi-openssl-needed-to-b` is missing structured evidence.
+- `entities/android-termux.md`: Claim `nodejs-optional-node-runtime-for-experiments-beyond-the-te` is missing structured evidence.
+- `entities/android-termux.md`: Claim `ripgrep-fast-file-search` is missing structured evidence.
+- `entities/android-termux.md`: Claim `ffmpeg-media-tts-conversions` is missing structured evidence.
+- `entities/android-termux.md`: Claim `voice-pulls-faster-whisper` is missing structured evidence.
+- `entities/android-termux.md`: Claim `faster-whisper-depends-on-ctranslate2` is missing structured evidence.
+- `entities/android-termux.md`: Claim `ctranslate2-does-not-publish-android-wheels` is missing structured evidence.
+- `entities/android-termux.md`: Claim `docker-backend-is-unavailable` is missing structured evidence.
+- `entities/android-termux.md`: Claim `local-voice-transcription-via-faster-whisper-is-unavailable` is missing structured evidence.
+- `entities/android-termux.md`: Claim `browser-automation-setup-is-intentionally-skipped-by-the-ins` is missing structured evidence.
+- `entities/android-termux.md`: Claim `some-optional-extras-may-work-but-only-termux-is-curre` is missing structured evidence.
+- `entities/android-termux.md`: Claim `your-android-version` is missing structured evidence.
+- `entities/android-termux.md`: Claim `termux-info` is missing structured evidence.
+- `entities/android-termux.md`: Claim `python---version` is missing structured evidence.
+- `entities/android-termux.md`: Claim `hermes-doctor` is missing structured evidence.
+- `entities/android-termux.md`: Claim `the-exact-install-command-and-full-error-output` is missing structured evidence.
+- `entities/architecture.md`: Claim `this-page-orient-yourself` is missing structured evidence.
+- `entities/architecture.md`: Claim `agent-loop-internalsdocsdeveloper-guideagent-loop` is missing structured evidence.
+- `entities/architecture.md`: Claim `prompt-assemblydocsdeveloper-guideprompt-assembly` is missing structured evidence.
+- `entities/architecture.md`: Claim `provider-runtime-resolutiondocsdeveloper-guideprovider` is missing structured evidence.
+- `entities/architecture.md`: Claim `adding-providersdocsdeveloper-guideadding-providers` is missing structured evidence.
+- `entities/architecture.md`: Claim `tools-runtimedocsdeveloper-guidetools-runtime-too` is missing structured evidence.
+- `entities/architecture.md`: Claim `session-storagedocsdeveloper-guidesession-storage` is missing structured evidence.
+- `entities/architecture.md`: Claim `gateway-internalsdocsdeveloper-guidegateway-internals` is missing structured evidence.
+- `entities/architecture.md`: Claim `context-compression-amp-prompt-cachingdocsdeveloper-g` is missing structured evidence.
+- `entities/architecture.md`: Claim `acp-internalsdocsdeveloper-guideacp-internals-ide` is missing structured evidence.
+- `entities/architecture.md`: Claim `environments-benchmarks-amp-data-generationdocsdevel` is missing structured evidence.
+- `entities/architecture.md`: Claim `prompt-builderpy-assembles-the-system-prompt-from-pe` is missing structured evidence.
+- `entities/architecture.md`: Claim `prompt-cachingpy-applies-anthropic-cache-breakpoints` is missing structured evidence.
+- `entities/architecture.md`: Claim `context-compressorpy-summarizes-middle-conversation-t` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `a-mac-always-on-running-bluebubbles-server` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `apple-id-signed-into-messagesapp-on-that-mac` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `bluebubbles-server-v100-webhooks-require-this-version` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `network-connectivity-between-hermes-and-the-bluebubbles-serv` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `server-url-eg-http1921681101234` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `server-password` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `inbound-bluebubbles-sends-webhook-events-to-a-local-listene` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `outbound-hermes-sends-messages-via-the-bluebubbles-rest-api` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `media-images-voice-messages-videos-and-documents-are-sup` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `images-photos-appear-natively-in-the-imessage-conversation` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `voice-messages-audio-files-sent-as-imessage-voice-messages` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `videos-video-attachments` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `documents-files-sent-as-imessage-attachments` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `tapback-reactions` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `typing-indicators` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `read-receipts` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `creating-new-chats-by-address` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `verify-the-server-url-is-correct-and-the-mac-is-on` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `check-that-bluebubbles-server-is-running` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `ensure-network-connectivity-firewall-port-forwarding` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `check-that-the-webhook-is-registered-in-bluebubbles-server` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `verify-the-webhook-url-is-reachable-from-the-mac` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `check-hermes-logs-gateway-for-webhook-errors-or-hermes-logs` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `install-the-private-api-helper-docsbluebubblesapp` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `basic-messaging-works-without-it-only-reactions-typing-a` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `1-install-bluebubbles-server` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `2-get-your-server-url-and-password` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `3-configure-hermes` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `4-authorize-users` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `5-start-the-gateway` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `how-it-workshow-it-works` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `environment-variablesenvironment-variables` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `featuresfeaturestext-messagingrich-mediat` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `text-messaging` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `rich-media` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `tapback-reactions` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `typing-indicators` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `read-receipts` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `chat-addressing` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `private-apiprivate-api` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `troubleshootingtroubleshootingcannot-reach-server` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `cannot-reach-server` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `messages-not-arriving` is missing structured evidence.
+- `entities/bluebubbles-imessage.md`: Claim `private-api-helper-not-connected` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `add-a-new-provider-openrouter-anthropic-copilot-deepse` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `log-into-oauth-backed-providers-anthropic-copilot-codex` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `enter-or-update-api-keys` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `pick-from-provider-specific-model-lists` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `configure-a-customself-hosted-endpoint` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `save-the-new-default-into-config` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `hermes-dump----version-080-202648-af4abd2f` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `reporting-a-bug-on-github-paste-the-dump-into-your-issue` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `asking-for-help-in-discord-share-it-in-a-code-block` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `comparing-your-setup-to-someone-elsex27s` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `quick-sanity-check-when-something-isnx27t-working` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `force-can-override-non-dangerous-policy-blocks-for-third` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `force-does-not-override-a-dangerous-scan-verdict` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `source-skills-sh-searches-the-public-skillssh-directo` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `source-well-known-lets-you-point-hermes-at-a-site-exposi` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `general-plugins-multi-select-checkboxes-to-enabledisabl` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `provider-plugins-single-select-configuration-for-memory` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `memoryprovider-active-memory-provider-empty-built-in` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `contextengine-active-context-engine-quotcompressor` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `slash-commands-referencedocsreferenceslash-commands` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `cli-interfacedocsuser-guidecli` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `sessionsdocsuser-guidesessions` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `skills-systemdocsuser-guidefeaturesskills` is missing structured evidence.
+- `entities/cli-commands-reference.md`: Claim `skins-amp-themesdocsuser-guidefeaturesskins` is missing structured evidence.
+- `entities/cli-interface.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/cli-interface.md`: Claim `model-name-current-model-truncated-if-longer-than-26-ch` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `token-count-context-tokens-used-max-context-window` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `context-bar-visual-fill-indicator-with-color-coded-thres` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `cost-estimated-session-cost-or-na-for-unknownzero-pri` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `duration-elapsed-session-time` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `full-layout-at-76-columns` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `compact-at-5275-columns` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `minimal-model-duration-only-below-52-columns` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `green-50-plenty-of-room` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `yellow-5080-getting-full` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `orange-8095-approaching-limit` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `red-95-near-overflow-consider-compress` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `help-show-command-help` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `model-show-or-change-the-current-model` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `tools-list-currently-available-tools` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `skills-browse-browse-the-skills-hub-and-official-option` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `background-prompt-run-a-prompt-in-a-separate-backgrou` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `skin-show-or-switch-the-active-cli-skin` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `voice-on-enable-cli-voice-mode-press-ctrlb-to-record` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `voice-tts-toggle-spoken-playback-for-hermes-replies` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `reasoning-high-increase-reasoning-effort` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `title-my-session-name-the-current-session` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `type-a-new-message-enter-while-the-agent-is-working-it-i` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `ctrlc-interrupt-the-current-operation-press-twice-with` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `interrupt-default-your-message-interrupts-the-curren` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `queue-your-message-is-silently-queued-and-sent-as-the` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `session-metadata-id-title-timestamps-token-counters` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `message-history` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `lineage-across-compressedresumed-sessions` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `full-text-search-indexes-used-by-session-search` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `isolated-conversation-the-background-agent-has-no-knowle` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `same-configuration-the-background-agent-inherits-your-mo` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `non-blocking-your-foreground-session-stays-fully-interac` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `multiple-tasks-you-can-run-several-background-tasks-simu` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `long-running-research-background-research-the-latest-d` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `file-processing-background-analyze-all-python-files-in` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `parallel-investigations-start-multiple-background-tasks` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `suppresses-verbose-logging-from-tools` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `enables-kawaii-style-animated-feedback` is missing structured evidence.
+- `entities/cli-interface.md`: Claim `keeps-output-clean-and-user-friendly` is missing structured evidence.
+- `entities/configuration.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/contributing.md`: Claim `bug-fixes-crashes-incorrect-behavior-data-loss` is missing structured evidence.
+- `entities/contributing.md`: Claim `cross-platform-compatibility-macos-different-linux-dist` is missing structured evidence.
+- `entities/contributing.md`: Claim `security-hardening-shell-injection-prompt-injection-pa` is missing structured evidence.
+- `entities/contributing.md`: Claim `performance-and-robustness-retry-logic-error-handling` is missing structured evidence.
+- `entities/contributing.md`: Claim `new-skills-broadly-useful-ones-see-creating-skillsd` is missing structured evidence.
+- `entities/contributing.md`: Claim `new-tools-rarely-needed-most-capabilities-should-be-ski` is missing structured evidence.
+- `entities/contributing.md`: Claim `documentation-fixes-clarifications-new-examples` is missing structured evidence.
+- `entities/contributing.md`: Claim `building-a-new-tool-start-with-adding-toolsdocsdevelop` is missing structured evidence.
+- `entities/contributing.md`: Claim `building-a-new-skill-start-with-creating-skillsdocsdev` is missing structured evidence.
+- `entities/contributing.md`: Claim `building-a-new-inference-provider-start-with-adding-provid` is missing structured evidence.
+- `entities/contributing.md`: Claim `pep-8-with-practical-exceptions-no-strict-line-length-enf` is missing structured evidence.
+- `entities/contributing.md`: Claim `comments-only-when-explaining-non-obvious-intent-trade-o` is missing structured evidence.
+- `entities/contributing.md`: Claim `error-handling-catch-specific-exceptions-use-loggerwar` is missing structured evidence.
+- `entities/contributing.md`: Claim `cross-platform-never-assume-unix-see-below` is missing structured evidence.
+- `entities/contributing.md`: Claim `profile-safe-paths-never-hardcode-hermes-use-get` is missing structured evidence.
+- `entities/contributing.md`: Claim `always-use-shlexquote-when-interpolating-user-input-int` is missing structured evidence.
+- `entities/contributing.md`: Claim `resolve-symlinks-with-ospathrealpath-before-access-con` is missing structured evidence.
+- `entities/contributing.md`: Claim `donx27t-log-secrets` is missing structured evidence.
+- `entities/contributing.md`: Claim `catch-broad-exceptions-around-tool-execution` is missing structured evidence.
+- `entities/contributing.md`: Claim `test-on-all-platforms-if-your-change-touches-file-paths-or-p` is missing structured evidence.
+- `entities/contributing.md`: Claim `run-tests-pytest-tests--v` is missing structured evidence.
+- `entities/contributing.md`: Claim `test-manually-run-hermes-and-exercise-the-code-path-you` is missing structured evidence.
+- `entities/contributing.md`: Claim `check-cross-platform-impact-consider-macos-and-different` is missing structured evidence.
+- `entities/contributing.md`: Claim `keep-prs-focused-one-logical-change-per-pr` is missing structured evidence.
+- `entities/contributing.md`: Claim `what-changed-and-why` is missing structured evidence.
+- `entities/contributing.md`: Claim `how-to-test-it` is missing structured evidence.
+- `entities/contributing.md`: Claim `what-platforms-you-tested-on` is missing structured evidence.
+- `entities/contributing.md`: Claim `reference-any-related-issues` is missing structured evidence.
+- `entities/contributing.md`: Claim `use-github-issueshttpsgithubcomnousresearchhermes-a` is missing structured evidence.
+- `entities/contributing.md`: Claim `include-os-python-version-hermes-version-hermes-version` is missing structured evidence.
+- `entities/contributing.md`: Claim `include-steps-to-reproduce` is missing structured evidence.
+- `entities/contributing.md`: Claim `check-existing-issues-before-creating-duplicates` is missing structured evidence.
+- `entities/contributing.md`: Claim `for-security-vulnerabilities-please-report-privately` is missing structured evidence.
+- `entities/contributing.md`: Claim `discord-discordggnousresearchhttpsdiscordggnous` is missing structured evidence.
+- `entities/contributing.md`: Claim `github-discussions-for-design-proposals-and-architecture` is missing structured evidence.
+- `entities/contributing.md`: Claim `skills-hub-upload-specialized-skills-and-share-with-the-c` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/dingtalk-setup.md`: Claim `each-dm-gets-its-own-session` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `each-user-in-a-shared-group-chat-gets-their-own-session-insi` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `dingtalk-stream-dingtalks-official-sdk-for-stream-mode-w` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `alibabacloud-dingtalk-dingtalk-openapi-sdk-for-ai-cards-e` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `app-name-eg-hermes-agent` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `description-optional` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `after-creating-navigate-to-credentials-basic-info-to` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `qr-code-device-flow-recommended-scan-the-qr-that-prints-i` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `manual-paste-if-you-already-have-credentials-or-qr-scannin` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `group-sessions-per-user-true-keeps-each-participants-conte` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `thinking-added-when-the-bot-starts-processing-your-messag` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `done-added-when-the-response-is-complete-replaces-the-th` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `stream-mode-no-public-url-domain-name-or-webhook-server-n` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `ai-cards-optionally-reply-with-rich-ai-cards-instead-of-pla` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `emoji-reactions-automatic-thinkingdone-reactions-for-pro` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `markdown-responses-replies-are-formatted-in-dingtalks-mark` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `media-support-images-and-files-in-incoming-messages-are-aut` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `message-deduplication-the-adapter-deduplicates-messages-wit` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `auto-reconnection-if-the-stream-connection-drops-the-adapt` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `message-length-limit-responses-are-capped-at-20000-charact` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `session-model-in-dingtalk` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `prerequisitesprerequisites` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `step-1-create-a-dingtalk-appstep-1-create-a-dingtalk-ap` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `step-2-enable-the-robot-capabilitystep-2-enable-the-rob` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `step-3-find-your-dingtalk-user-idstep-3-find-your-dingt` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `step-4-configure-hermes-agentstep-4-configure-hermes-ag` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `option-a-interactive-setup-recommended` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `option-b-manual-configuration` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `start-the-gateway` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `featuresfeaturesai-cardsemoji-reactionsdi` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `emoji-reactions` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `display-settings` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `troubleshootingtroubleshootingbot-is-not-responding` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `bot-is-not-responding-to-messages` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `dingtalk-stream-not-installed-error` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `dingtalk-client-id-and-dingtalk-client-secret-required` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `stream-disconnects-reconnection-loops` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `bot-is-offline` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `no-session-webhook-available` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/dingtalk-setup.md`: Claim `notesnotes` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `each-dm-gets-its-own-session` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `each-server-thread-gets-its-own-session-namespace` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `each-user-in-a-shared-channel-gets-their-own-session-inside` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `users-share-context-growth-and-token-costs` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `one-persons-long-tool-heavy-task-can-bloat-everyone-elses` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `one-persons-in-flight-run-can-interrupt-another-persons-fo` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `alice-interrupting-her-own-in-flight-request-only-affects-al` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `bob-can-keep-talking-in-the-same-channel-without-inheriting` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `the-whole-room-shares-one-running-agent-slot-for-that-channe` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `follow-up-messages-from-different-people-can-interrupt-or-qu` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `set-public-bot-to-on-required-to-use-the-discord-provided` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `leave-require-oauth2-code-grant-set-to-off` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `without-message-content-intent-your-bot-receives-message-ev` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `without-server-members-intent-the-bot-cannot-resolve-userna` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `if-your-bot-is-in-fewer-than-100-servers-you-can-simply-tog` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `if-your-bot-is-in-100-or-more-servers-discord-requires-you` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `scopes-select-bot-and-applicationscommands` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `permissions-select-the-permissions-listed-below` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `view-channels-see-the-channels-it-has-access-to` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `send-messages-respond-to-your-messages` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `embed-links-format-rich-responses` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `attach-files-send-images-audio-and-file-outputs` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `read-message-history-maintain-conversation-context` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `send-messages-in-threads-respond-in-thread-conversations` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `add-reactions-react-to-messages-for-acknowledgment` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `1234567890` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `9876543210` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `added-when-the-bot-starts-processing-your-message` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `added-when-the-response-is-delivered-successfully` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `added-if-an-error-occurs-during-processing` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `1234567890` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `9876543210` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `1234567890-bot-responds-inline-here` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `exact-threadchannel-id-matches-win` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `if-a-message-arrives-inside-a-thread-or-forum-post-and-that` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `prompts-are-applied-ephemerally-at-runtime-so-changing-them` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `off-no-progress-messages` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `new-only-show-the-first-tool-call-per-turn` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `all-show-all-tool-calls-truncated-to-40-characters-in-gat` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `verbose-show-full-tool-call-details-can-produce-long-mess` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `each-skill-becomes-a-discord-slash-command-eg-code-revi` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `skills-accept-an-optional-args-string-parameter` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `discord-has-a-limit-of-100-application-commands-per-bot-if` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `skills-are-registered-during-bot-startup-alongside-built-in` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `incoming-voice-messages-are-automatically-transcribed-using` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `text-to-speech-use-voice-tts-to-have-the-bot-send-spoken-a` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `discord-voice-channels-hermes-can-also-join-a-voice-channel` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `voice-mode` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `use-voice-mode-with-hermes` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `thread-name-is-derived-from-the-first-line-of-the-message-m` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `attachments-ride-along-on-the-starter-message-of-the-new-thr` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `one-call-one-thread-each-forum-send-creates-a-new-thread` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `detection-is-three-layered-the-channel-directory-cache-firs` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `or-with-user-allowlist-a-user-is-authorized-if-their-id-is` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `server-members-intent-auto-enabled-when-discord-allowed-rol` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `role-ids-not-names-grab-them-from-discord-user-settings` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `dm-fallback-in-dms-the-role-check-scans-mutual-guilds-a-us` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `discord-gateway-model` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `session-model-in-discord` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `interrupts-and-concurrency` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-1-create-a-discord-applicationstep-1-create-a-disc` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-2-create-the-botstep-2-create-the-bot` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-3-enable-privileged-gateway-intentsstep-3-enable-p` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-4-get-the-bot-tokenstep-4-get-the-bot-token` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-5-generate-the-invite-urlstep-5-generate-the-invit` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `option-a-using-the-installation-tab-recommended` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `option-b-manual-url` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `required-permissions` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `recommended-additional-permissions` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `permission-integers` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-6-invite-to-your-serverstep-6-invite-to-your-serve` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-7-find-your-discord-user-idstep-7-find-your-discor` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `step-8-configure-hermes-agentstep-8-configure-hermes-ag` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `option-a-interactive-setup-recommended` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `option-b-manual-configuration` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `configuration-referenceconfiguration-referenceenvir` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `environment-variables-env` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `config-file-configyaml` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `interactive-model-pickerinteractive-model-picker` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `native-slash-commands-for-skillsnative-slash-commands-fo` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `home-channelhome-channelusing-the-slash-command` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `using-the-slash-command` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `manual-configuration` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `voice-messagesvoice-messages` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `forum-channelsforum-channels` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `troubleshootingtroubleshootingbot-is-online-but-not` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `bot-is-online-but-not-responding-to-messages` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `disallowed-intents-error-on-startup` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `bot-cant-see-messages-in-a-specific-channel` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `403-forbidden-errors` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `bot-is-offline` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `user-not-allowed-bot-ignores-you` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `people-in-the-same-channel-are-sharing-context-unexpectedly` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `securitysecurityrole-based-access-controlmenti` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `role-based-access-control` is missing structured evidence.
+- `entities/discord-setup.md`: Claim `mention-control` is missing structured evidence.
+- `entities/email-setup.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/email-setup.md`: Claim `a-dedicated-email-account-for-your-hermes-agent-dont-use-y` is missing structured evidence.
+- `entities/email-setup.md`: Claim `imap-enabled-on-the-email-account` is missing structured evidence.
+- `entities/email-setup.md`: Claim `an-app-password-if-using-gmail-or-another-provider-with-2fa` is missing structured evidence.
+- `entities/email-setup.md`: Claim `imap-host-and-port-usually-port-993-with-ssl` is missing structured evidence.
+- `entities/email-setup.md`: Claim `smtp-host-and-port-usually-port-587-with-starttls` is missing structured evidence.
+- `entities/email-setup.md`: Claim `whether-app-passwords-are-required` is missing structured evidence.
+- `entities/email-setup.md`: Claim `images-jpeg-png-gif-webp-available-to-the-vision-tool` is missing structured evidence.
+- `entities/email-setup.md`: Claim `documents-pdf-zip-etc-available-for-file-access` is missing structured evidence.
+- `entities/email-setup.md`: Claim `html-only-emails-have-tags-stripped-for-plain-text-extract` is missing structured evidence.
+- `entities/email-setup.md`: Claim `self-messages-are-filtered-out-to-prevent-reply-loops` is missing structured evidence.
+- `entities/email-setup.md`: Claim `automatednoreply-senders-are-silently-ignored-noreply` is missing structured evidence.
+- `entities/email-setup.md`: Claim `in-reply-to-and-references-headers-maintain-the-thread` is missing structured evidence.
+- `entities/email-setup.md`: Claim `subject-line-preserved-with-re-prefix-no-double-re-re` is missing structured evidence.
+- `entities/email-setup.md`: Claim `message-id-generated-with-the-agents-domain` is missing structured evidence.
+- `entities/email-setup.md`: Claim `responses-are-sent-as-plain-text-utf-8` is missing structured evidence.
+- `entities/email-setup.md`: Claim `use-app-passwords-instead-of-your-main-password-required-fo` is missing structured evidence.
+- `entities/email-setup.md`: Claim `set-email-allowed-users-to-restrict-who-can-interact-with-th` is missing structured evidence.
+- `entities/email-setup.md`: Claim `the-password-is-stored-in-hermesenv-protect-this-file` is missing structured evidence.
+- `entities/email-setup.md`: Claim `imap-uses-ssl-port-993-and-smtp-uses-starttls-port-587-b` is missing structured evidence.
+- `entities/email-setup.md`: Claim `gmail-setup` is missing structured evidence.
+- `entities/email-setup.md`: Claim `outlook-microsoft-365` is missing structured evidence.
+- `entities/email-setup.md`: Claim `other-providers` is missing structured evidence.
+- `entities/email-setup.md`: Claim `step-1-configure-hermesstep-1-configure-hermesmanu` is missing structured evidence.
+- `entities/email-setup.md`: Claim `manual-configuration` is missing structured evidence.
+- `entities/email-setup.md`: Claim `step-2-start-the-gatewaystep-2-start-the-gateway` is missing structured evidence.
+- `entities/email-setup.md`: Claim `how-it-workshow-it-worksreceiving-messagessend` is missing structured evidence.
+- `entities/email-setup.md`: Claim `receiving-messages` is missing structured evidence.
+- `entities/email-setup.md`: Claim `sending-replies` is missing structured evidence.
+- `entities/email-setup.md`: Claim `file-attachments` is missing structured evidence.
+- `entities/email-setup.md`: Claim `skipping-attachments` is missing structured evidence.
+- `entities/email-setup.md`: Claim `access-controlaccess-control` is missing structured evidence.
+- `entities/email-setup.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/email-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/email-setup.md`: Claim `environment-variables-referenceenvironment-variables-ref` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `using-hermesdocsuser-guidecli` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `featuresdocsuser-guidefeaturesoverview` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `messaging-platformsdocsuser-guidemessaging` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `integrationsdocsintegrations` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `guides-tutorialsdocsguidestips` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `developer-guidedocsdeveloper-guidecontributing` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `referencedocsreferencecli-commandscli-commands-refer` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `slash-commands-referencedocsreferenceslash-commands` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `profile-commands-referencedocsreferenceprofile-command` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `environment-variablesdocsreferenceenvironment-variable` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `built-in-tools-referencedocsreferencetools-reference` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `toolsets-referencedocsreferencetoolsets-reference` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `mcp-config-referencedocsreferencemcp-config-reference` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `bundled-skills-catalogdocsreferenceskills-catalog` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `optional-skills-catalogdocsreferenceoptional-skills-ca` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `faq-troubleshootingdocsreferencefaq` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `docs` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `faq-troubleshooting` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `openrouterhttpsopenrouterai-access-hundreds-of-mo` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `nous-portal-nous-researchs-own-inference-endpoint` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `openai-gpt-4o-o1-o3-etc` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `anthropic-claude-models-via-openrouter-or-compatible-prox` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `google-gemini-models-via-openrouter-or-compatible-proxy` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `zai-zhipuai-glm-models` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `kimi-moonshot-ai-kimi-models` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `minimax-global-and-china-endpoints` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `local-models-via-ollamahttpsollamacom-vllmhtt` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `memory-stores-facts-things-the-agent-knows-about-you-your` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `skills-store-procedures-step-by-step-instructions-for-how` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `upgrading-your-provider-plan` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `switching-to-a-different-model-or-provider` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `using-hermes-chat---provider-to-route-to-a-different-back` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `ask-the-agent-to-use-a-safer-alternative` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `see-the-full-list-of-dangerous-patterns-in-the-[[entity.security|Security]]-doc` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `avoid-sudo-in-messaging-ask-the-agent-to-find-alternativ` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `if-you-must-use-sudo-configure-passwordless-sudo-for-spec` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `or-switch-to-the-terminal-interface-for-administrative-tasks` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `verify-your-bot-token-is-valid-with-hermes-gateway-setup` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `check-gateway-logs-cat-hermeslogsgatewaylog-tail` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `for-webhook-based-platforms-slack-whatsapp-ensure-your-s` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `open-etcwslconf-create-it-if-it-doesnt-exist` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `from-powershell-wsl---shutdown` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `reopen-your-wsl-terminal` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `verify-systemctl-is-system-running-should-say-running-o` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `create-a-task-that-runs-wsl--d-ubuntu----bash--lc-hermes-g` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `set-it-to-trigger-on-user-logon` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `try-a-fastersmaller-model-hermes-chat---model-openrouter` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `reduce-active-toolsets-hermes-chat--t-terminal` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `check-your-network-latency-to-the-provider` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `for-local-models-ensure-you-have-enough-gpu-vram` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `check-gatewayagent-logs-for-mcp-connection-errors` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `ensure-the-server-responds-to-the-toolslist-rpc-method` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `review-any-toolsinclude-toolsexclude-toolsresource` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `remember-that-resourceprompt-utility-tools-are-only-registe` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `use-reload-mcp-after-changing-config` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `mcp-model-context-protocoldocsuser-guidefeaturesmcp` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `use-mcp-with-hermesdocsguidesuse-mcp-with-hermes` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `mcp-config-referencedocsreferencemcp-config-reference` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `increase-the-timeout-in-your-mcp-server-config-if-supported` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `check-if-the-mcp-server-process-is-still-running` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `for-remote-http-mcp-servers-check-network-connectivity` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `off-only-the-final-response-no-tool-calls-no-reasoning` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `new-shows-new-tool-calls-as-they-happen-brief-one-liner` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `all-shows-all-tool-activity-including-results` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `verbose-full-detail-including-tool-arguments-and-outputs` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `search-existing-issues-github-issueshttpsgithubcomn` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `ask-the-community-nous-research-discordhttpsdiscordg` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `file-a-bug-report-include-your-os-python-version-python3` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `does-it-work-on-windowsdoes-it-work-on-windows` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `does-it-work-on-android-termuxdoes-it-work-on-android` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `is-my-data-sent-anywhereis-my-data-sent-anywhere` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `can-i-use-it-offline-with-local-modelscan-i-use-it-of` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `how-much-does-it-costhow-much-does-it-cost` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `can-multiple-people-use-one-instancecan-multiple-people` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `what39s-the-difference-between-memory-and-skillswhat` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `can-i-use-it-in-my-own-python-projectcan-i-use-it-in-my` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `troubleshootingtroubleshootinginstallation-issuesin` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `provider-model-issuesprovider--model-issues` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `terminal-issuesterminal-issues` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `messaging-issuesmessaging-issues` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `performance-issuesperformance-issues` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `mcp-issuesmcp-issues` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `profilesprofileshow-do-profiles-differ-from-just-setti` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `can-two-profiles-share-the-same-bot-tokencan-two-profil` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `do-profiles-share-memory-or-sessionsdo-profiles-share-m` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `what-happens-when-i-run-hermes-updatewhat-happens-whe` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `can-i-move-a-profile-to-a-different-machinecan-i-move-a` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `how-many-profiles-can-i-runhow-many-profiles-can-i-run` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `workflows-patternsworkflows--patternsusing-different` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `running-multiple-agents-on-one-whatsapp-number-per-chat-bi` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `controlling-what-shows-up-in-telegram-hiding-logs-and-reas` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `managing-skills-on-telegram-slash-command-limitmanagin` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `shared-thread-sessions-multiple-users-one-conversation` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `exporting-hermes-to-another-machineexporting-hermes-to-a` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `permission-denied-when-reloading-shell-after-installperm` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `error-400-on-first-agent-runerror-400-on-first-agent-run` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `still-stuckstill-stuck` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `user-guidedocsuser-guidecli` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `developer-guidedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
+- `entities/features-context-files.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/features-context-files.md`: Claim `file-purpose-discovery` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `file-hermesmd-hermesmd-purpose-project` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `file-agentsmd-purpose-project-instructions-co` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `file-claudemd-purpose-claude-code-context-file` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `file-soulmd-purpose-global-personality-and-ton` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `file-cursorrules-purpose-cursor-ide-coding-con` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `file-cursorrulesmdc-purpose-cursor-ide-ru` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `no-system-prompt-bloat-subdirectory-hints-only-appear-wh` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `prompt-cache-preservation-the-system-prompt-stays-stable` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `frontend-nextjs-14-with-app-router-in-frontend` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `backend-fastapi-in-backend-uses-sqlalchemy-orm` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `database-postgresql-16` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `deployment-docker-compose-on-a-hetzner-vps` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `use-typescript-strict-mode-for-all-frontend-code` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `python-code-follows-pep-8-use-type-hints-everywhere` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `all-api-endpoints-return-json-with-data-error-meta-sha` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `tests-go-in-tests-directories-frontend-or-tests` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `never-modify-migration-files-directly-use-alembic-commands` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `the-envlocal-file-has-real-api-keys-dont-commit-it` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `frontend-port-is-3000-backend-is-8000-db-is-5432` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `hermessoulmd` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `or-hermes-homesoulmd-if-you-run-hermes-with-a-custom-ho` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `hermes-seeds-a-default-soulmd-automatically-if-one-does-n` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `hermes-loads-soulmd-only-from-hermes-home` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `hermes-does-not-probe-the-working-directory-for-soulmd` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `if-the-file-is-empty-nothing-from-soulmd-is-added-to-the` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `if-the-file-has-content-the-content-is-injected-verbatim-af` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `instruction-override-attempts-ignore-previous-instructio` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `deception-patterns-do-not-tell-the-user` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `system-prompt-overrides-system-prompt-override` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `hidden-html-comments----ignore-instructions` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `hidden-div-elements-div-styledisplaynone` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `credential-exfiltration-curl-api-key` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `secret-file-access-cat-env-cat-credentials` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `invisible-characters-zero-width-spaces-bidirectional-ove` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `limit-value` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `max-chars-per-file-20000-7000-tokens` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `head-truncation-ratio-70` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `tail-truncation-ratio-20` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `truncation-marker-10-shows-char-counts-and-suggests-usi` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `use-pnpm-not-npm-for-package-management` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `components-go-in-srccomponents-pages-in-srcapp` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `use-tailwind-css-never-inline-styles` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `run-tests-with-pnpm-test` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `use-poetry-for-dependency-management` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `run-the-dev-server-with-poetry-run-uvicorn-mainapp---reloa` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `all-endpoints-need-openapi-docstrings` is missing structured evidence.
+- `entities/features-context-files.md`: Claim `database-models-are-in-models-schemas-in-schemas` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `access-to-external-tool-ecosystems-without-writing-a-native` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `local-stdio-servers-and-remote-http-mcp-servers-in-the-same` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `automatic-tool-discovery-and-registration-at-startup` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `utility-wrappers-for-mcp-resources-and-prompts-when-supporte` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `per-server-filtering-so-you-can-expose-only-the-mcp-tools-yo` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `the-server-is-installed-locally` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `you-want-low-latency-access-to-local-resources` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `you-are-following-mcp-server-docs-that-show-command-args` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `the-mcp-server-is-hosted-elsewhere` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `your-organization-exposes-internal-mcp-endpoints` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `you-do-not-want-hermes-spawning-a-local-subprocess-for-that` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-type-meaning` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-command-type-string-meaning-executable` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-args-type-list-meaning-arguments-for-th` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-env-type-mapping-meaning-environment-va` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-url-type-string-meaning-http-mcp-endpoi` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-headers-type-mapping-meaning-http-heade` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-timeout-type-number-meaning-tool-call-t` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-connect-timeout-type-number-meaning-ini` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-enabled-type-bool-meaning-if-false-h` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `key-tools-type-mapping-meaning-per-server-t` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `server-mcp-tool-registered-name` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `server-filesystem-mcp-tool-read-file-registe` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `server-github-mcp-tool-create-issue-register` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `server-my-api-mcp-tool-querydata-registered` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `list-resources` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `read-resource` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `list-prompts` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `get-prompt` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `mcp-github-list-resources` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `mcp-github-get-prompt` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `hermes-only-registers-resource-utilities-if-the-mcp-session` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `hermes-only-registers-prompt-utilities-if-the-mcp-session-ac` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `toolsresources-false-disables-list-resources-and-read` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `toolsprompts-false-disables-list-prompts-and-get-prom` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `disable-dangerous-tools-you-do-not-want-the-model-to-see` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `expose-only-a-minimal-whitelist-for-a-sensitive-server` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `disable-resourceprompt-wrappers-when-you-do-not-want-that-s` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `the-server-failed-to-connect` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `discovery-failed` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `your-filter-config-excluded-the-tools` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `the-utility-capability-does-not-exist-on-that-server` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `the-server-is-disabled-with-enabled-false` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `you-want-claude-code-cursor-or-another-coding-agent-to-sen` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `you-want-a-single-mcp-server-that-bridges-to-all-of-hermess` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `you-already-have-a-running-hermes-gateway-with-connected-pla` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `tool-description` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `conversations-list-list-active-messaging-conversations` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `conversation-get-get-detailed-info-about-one-conversati` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `messages-read-read-recent-message-history-for-a-convers` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `attachments-fetch-extract-non-text-attachments-images` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `events-poll-poll-for-new-conversation-events-since-a-cu` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `events-wait-long-poll-block-until-the-next-event-arri` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `messages-send-send-a-message-through-a-platform-eg` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `channels-list-list-available-messaging-targets-across-a` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `permissions-list-open-list-pending-approval-requests-ob` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `permissions-respond-allow-or-deny-a-pending-approval-re` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `stdio-transport-only-no-http-mcp-transport-yet` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `event-polling-at-200ms-intervals-via-mtime-optimized-db-pol` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `no-claudechannel-push-notification-protocol-yet` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `text-only-sends-no-mediaattachment-sending-through-messag` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `use-mcp-with-hermesdocsguidesuse-mcp-with-hermes` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `cli-commandsdocsreferencecli-commands` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `slash-commandsdocsreferenceslash-commands` is missing structured evidence.
+- `entities/features-mcp.md`: Claim `faqdocsreferencefaq` is missing structured evidence.
+- `entities/features-memory.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/features-memory.md`: Claim `file-purpose-char-limit` is missing structured evidence.
+- `entities/features-memory.md`: Claim `file-memorymd-purpose-agents-personal-notes` is missing structured evidence.
+- `entities/features-memory.md`: Claim `file-usermd-purpose-user-profile-your-prefer` is missing structured evidence.
+- `entities/features-memory.md`: Claim `a-header-showing-which-store-memory-or-user-profile` is missing structured evidence.
+- `entities/features-memory.md`: Claim `usage-percentage-and-character-counts-so-the-agent-knows-cap` is missing structured evidence.
+- `entities/features-memory.md`: Claim `individual-entries-separated-by-section-sign-delimiter` is missing structured evidence.
+- `entities/features-memory.md`: Claim `entries-can-be-multiline` is missing structured evidence.
+- `entities/features-memory.md`: Claim `add-add-a-new-memory-entry` is missing structured evidence.
+- `entities/features-memory.md`: Claim `replace-replace-an-existing-entry-with-updated-content` is missing structured evidence.
+- `entities/features-memory.md`: Claim `remove-remove-an-entry-thats-no-longer-relevant-uses-s` is missing structured evidence.
+- `entities/features-memory.md`: Claim `environment-facts-os-tools-project-structure` is missing structured evidence.
+- `entities/features-memory.md`: Claim `project-conventions-and-configuration` is missing structured evidence.
+- `entities/features-memory.md`: Claim `tool-quirks-and-workarounds-discovered` is missing structured evidence.
+- `entities/features-memory.md`: Claim `completed-task-diary-entries` is missing structured evidence.
+- `entities/features-memory.md`: Claim `skills-and-techniques-that-worked` is missing structured evidence.
+- `entities/features-memory.md`: Claim `name-role-timezone` is missing structured evidence.
+- `entities/features-memory.md`: Claim `communication-preferences-concise-vs-detailed-format-prefe` is missing structured evidence.
+- `entities/features-memory.md`: Claim `pet-peeves-and-things-to-avoid` is missing structured evidence.
+- `entities/features-memory.md`: Claim `workflow-habits` is missing structured evidence.
+- `entities/features-memory.md`: Claim `technical-skill-level` is missing structured evidence.
+- `entities/features-memory.md`: Claim `user-preferences-i-prefer-typescript-over-javascript` is missing structured evidence.
+- `entities/features-memory.md`: Claim `environment-facts-this-server-runs-debian-12-with-postgr` is missing structured evidence.
+- `entities/features-memory.md`: Claim `corrections-dont-use-sudo-for-docker-commands-user-i` is missing structured evidence.
+- `entities/features-memory.md`: Claim `conventions-project-uses-tabs-120-char-line-width-goog` is missing structured evidence.
+- `entities/features-memory.md`: Claim `completed-work-migrated-database-from-mysql-to-postgresq` is missing structured evidence.
+- `entities/features-memory.md`: Claim `explicit-requests-remember-that-my-api-key-rotation-happ` is missing structured evidence.
+- `entities/features-memory.md`: Claim `trivialobvious-info-user-asked-about-python-too-vagu` is missing structured evidence.
+- `entities/features-memory.md`: Claim `easily-re-discovered-facts-python-312-supports-f-string` is missing structured evidence.
+- `entities/features-memory.md`: Claim `raw-data-dumps-large-code-blocks-log-files-data-tables` is missing structured evidence.
+- `entities/features-memory.md`: Claim `session-specific-ephemera-temporary-file-paths-one-off-d` is missing structured evidence.
+- `entities/features-memory.md`: Claim `information-already-in-context-files-soulmd-and-agentsm` is missing structured evidence.
+- `entities/features-memory.md`: Claim `store-limit-typical-entries` is missing structured evidence.
+- `entities/features-memory.md`: Claim `store-memory-limit-2200-chars-typical-entries` is missing structured evidence.
+- `entities/features-memory.md`: Claim `store-user-limit-1375-chars-typical-entries` is missing structured evidence.
+- `entities/features-memory.md`: Claim `all-cli-and-messaging-sessions-are-stored-in-sqlite-her` is missing structured evidence.
+- `entities/features-memory.md`: Claim `search-queries-return-relevant-past-conversations-with-gemin` is missing structured evidence.
+- `entities/features-memory.md`: Claim `the-agent-can-find-things-it-discussed-weeks-ago-even-if-th` is missing structured evidence.
+- `entities/features-memory.md`: Claim `feature-persistent-memory-session-search` is missing structured evidence.
+- `entities/features-memory.md`: Claim `feature-capacity-persistent-memory-1300-token` is missing structured evidence.
+- `entities/features-memory.md`: Claim `feature-speed-persistent-memory-instant-in-sys` is missing structured evidence.
+- `entities/features-memory.md`: Claim `feature-use-case-persistent-memory-key-facts-al` is missing structured evidence.
+- `entities/features-memory.md`: Claim `feature-management-persistent-memory-manually-c` is missing structured evidence.
+- `entities/features-memory.md`: Claim `feature-token-cost-persistent-memory-fixed-per` is missing structured evidence.
+- `entities/features-overview.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/features-personality.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/features-personality.md`: Claim `soulmd-a-durable-persona-file-that-lives-in-hermes-hom` is missing structured evidence.
+- `entities/features-personality.md`: Claim `built-in-or-custom-personality-presets-session-level-sy` is missing structured evidence.
+- `entities/features-personality.md`: Claim `soulmd-is-the-agents-primary-identity-it-occupies-slot` is missing structured evidence.
+- `entities/features-personality.md`: Claim `hermes-creates-a-starter-soulmd-automatically-if-one-does` is missing structured evidence.
+- `entities/features-personality.md`: Claim `existing-user-soulmd-files-are-never-overwritten` is missing structured evidence.
+- `entities/features-personality.md`: Claim `hermes-loads-soulmd-only-from-hermes-home` is missing structured evidence.
+- `entities/features-personality.md`: Claim `hermes-does-not-look-in-the-current-working-directory-for-s` is missing structured evidence.
+- `entities/features-personality.md`: Claim `if-soulmd-exists-but-is-empty-or-cannot-be-loaded-herme` is missing structured evidence.
+- `entities/features-personality.md`: Claim `if-soulmd-has-content-that-content-is-injected-verbatim` is missing structured evidence.
+- `entities/features-personality.md`: Claim `soulmd-is-not-duplicated-in-the-context-files-section` is missing structured evidence.
+- `entities/features-personality.md`: Claim `edit-hermessoulmd-to-change-hermes-default-personal` is missing structured evidence.
+- `entities/features-personality.md`: Claim `communication-style` is missing structured evidence.
+- `entities/features-personality.md`: Claim `level-of-directness` is missing structured evidence.
+- `entities/features-personality.md`: Claim `default-interaction-style` is missing structured evidence.
+- `entities/features-personality.md`: Claim `what-to-avoid-stylistically` is missing structured evidence.
+- `entities/features-personality.md`: Claim `how-hermes-should-handle-uncertainty-disagreement-or-ambig` is missing structured evidence.
+- `entities/features-personality.md`: Claim `one-off-project-instructions` is missing structured evidence.
+- `entities/features-personality.md`: Claim `file-paths` is missing structured evidence.
+- `entities/features-personality.md`: Claim `repo-conventions` is missing structured evidence.
+- `entities/features-personality.md`: Claim `temporary-workflow-details` is missing structured evidence.
+- `entities/features-personality.md`: Claim `stable-across-contexts` is missing structured evidence.
+- `entities/features-personality.md`: Claim `broad-enough-to-apply-in-many-conversations` is missing structured evidence.
+- `entities/features-personality.md`: Claim `specific-enough-to-materially-shape-the-voice` is missing structured evidence.
+- `entities/features-personality.md`: Claim `focused-on-communication-and-identity-not-task-specific-ins` is missing structured evidence.
+- `entities/features-personality.md`: Claim `be-direct-without-being-cold` is missing structured evidence.
+- `entities/features-personality.md`: Claim `prefer-substance-over-filler` is missing structured evidence.
+- `entities/features-personality.md`: Claim `push-back-when-something-is-a-bad-idea` is missing structured evidence.
+- `entities/features-personality.md`: Claim `admit-uncertainty-plainly` is missing structured evidence.
+- `entities/features-personality.md`: Claim `keep-explanations-compact-unless-depth-is-useful` is missing structured evidence.
+- `entities/features-personality.md`: Claim `sycophancy` is missing structured evidence.
+- `entities/features-personality.md`: Claim `hype-language` is missing structured evidence.
+- `entities/features-personality.md`: Claim `repeating-the-users-framing-if-its-wrong` is missing structured evidence.
+- `entities/features-personality.md`: Claim `overexplaining-obvious-things` is missing structured evidence.
+- `entities/features-personality.md`: Claim `prefer-simple-systems-over-clever-systems` is missing structured evidence.
+- `entities/features-personality.md`: Claim `care-about-operational-reality-not-idealized-architecture` is missing structured evidence.
+- `entities/features-personality.md`: Claim `treat-edge-cases-as-part-of-the-design-not-cleanup` is missing structured evidence.
+- `entities/features-personality.md`: Claim `prompt-injection-scanning` is missing structured evidence.
+- `entities/features-personality.md`: Claim `truncation-if-it-is-too-large` is missing structured evidence.
+- `entities/features-personality.md`: Claim `communication-defaults` is missing structured evidence.
+- `entities/features-personality.md`: Claim `personality-level-behavior` is missing structured evidence.
+- `entities/features-personality.md`: Claim `project-architecture` is missing structured evidence.
+- `entities/features-personality.md`: Claim `coding-conventions` is missing structured evidence.
+- `entities/features-personality.md`: Claim `tool-preferences` is missing structured evidence.
+- `entities/features-personality.md`: Claim `repo-specific-workflows` is missing structured evidence.
+- `entities/features-personality.md`: Claim `commands-ports-paths-deployment-notes` is missing structured evidence.
+- `entities/features-personality.md`: Claim `if-it-should-follow-you-everywhere-it-belongs-in-soulmd` is missing structured evidence.
+- `entities/features-personality.md`: Claim `if-it-belongs-to-a-project-it-belongs-in-agentsmd` is missing structured evidence.
+- `entities/features-personality.md`: Claim `soulmd-baseline-voice` is missing structured evidence.
+- `entities/features-personality.md`: Claim `personality-temporary-mode-switch` is missing structured evidence.
+- `entities/features-personality.md`: Claim `keep-a-pragmatic-default-soul-then-use-personality-teache` is missing structured evidence.
+- `entities/features-personality.md`: Claim `keep-a-concise-soul-then-use-personality-creative-for-br` is missing structured evidence.
+- `entities/features-personality.md`: Claim `name-description` is missing structured evidence.
+- `entities/features-personality.md`: Claim `helpful-friendly-general-purpose-assistant` is missing structured evidence.
+- `entities/features-personality.md`: Claim `concise-brief-to-the-point-responses` is missing structured evidence.
+- `entities/features-personality.md`: Claim `technical-detailed-accurate-technical-expert` is missing structured evidence.
+- `entities/features-personality.md`: Claim `creative-innovative-outside-the-box-thinking` is missing structured evidence.
+- `entities/features-personality.md`: Claim `teacher-patient-educator-with-clear-examples` is missing structured evidence.
+- `entities/features-personality.md`: Claim `kawaii-cute-expressions-sparkles-and-enthusiasm` is missing structured evidence.
+- `entities/features-personality.md`: Claim `catgirl-neko-chan-with-cat-like-expressions-nya` is missing structured evidence.
+- `entities/features-personality.md`: Claim `pirate-captain-hermes-tech-savvy-buccaneer` is missing structured evidence.
+- `entities/features-personality.md`: Claim `shakespeare-bardic-prose-with-dramatic-flair` is missing structured evidence.
+- `entities/features-personality.md`: Claim `surfer-totally-chill-bro-vibes` is missing structured evidence.
+- `entities/features-personality.md`: Claim `noir-hard-boiled-detective-narration` is missing structured evidence.
+- `entities/features-personality.md`: Claim `uwu-maximum-cute-with-uwu-speak` is missing structured evidence.
+- `entities/features-personality.md`: Claim `philosopher-deep-contemplation-on-every-query` is missing structured evidence.
+- `entities/features-personality.md`: Claim `hype-maximum-energy-and-enthusiasm` is missing structured evidence.
+- `entities/features-personality.md`: Claim `a-stable-voice` is missing structured evidence.
+- `entities/features-personality.md`: Claim `project-specific-behavior-where-it-belongs` is missing structured evidence.
+- `entities/features-personality.md`: Claim `temporary-control-when-needed` is missing structured evidence.
+- `entities/features-personality.md`: Claim `context-filesdocsuser-guidefeaturescontext-files` is missing structured evidence.
+- `entities/features-personality.md`: Claim `configurationdocsuser-guideconfiguration` is missing structured evidence.
+- `entities/features-personality.md`: Claim `tips-best-practicesdocsguidestips` is missing structured evidence.
+- `entities/features-personality.md`: Claim `soulmd-guidedocsguidesuse-soul-with-hermes` is missing structured evidence.
+- `entities/features-personality.md`: Claim `soulmd-agentsystem-prompt-and-personality-affect` is missing structured evidence.
+- `entities/features-personality.md`: Claim `displayskin-and-skin-affect-how-hermes-looks-in-the-te` is missing structured evidence.
+- `entities/features-skills.md`: Claim `bundled-skills-catalogdocsreferenceskills-catalog` is missing structured evidence.
+- `entities/features-skills.md`: Claim `official-optional-skills-catalogdocsreferenceoptional` is missing structured evidence.
+- `entities/features-skills.md`: Claim `key-mysetting` is missing structured evidence.
+- `entities/features-skills.md`: Claim `known-failure-modes-and-fixes` is missing structured evidence.
+- `entities/features-skills.md`: Claim `value-matches` is missing structured evidence.
+- `entities/features-skills.md`: Claim `macos-macos-darwin` is missing structured evidence.
+- `entities/features-skills.md`: Claim `linux-linux` is missing structured evidence.
+- `entities/features-skills.md`: Claim `windows-windows` is missing structured evidence.
+- `entities/features-skills.md`: Claim `field-behavior` is missing structured evidence.
+- `entities/features-skills.md`: Claim `fallback-for-toolsets-skill-is-hidden-when-the-list` is missing structured evidence.
+- `entities/features-skills.md`: Claim `fallback-for-tools-same-but-checks-individual-tools-in` is missing structured evidence.
+- `entities/features-skills.md`: Claim `requires-toolsets-skill-is-hidden-when-the-listed-t` is missing structured evidence.
+- `entities/features-skills.md`: Claim `requires-tools-same-but-checks-individual-tools` is missing structured evidence.
+- `entities/features-skills.md`: Claim `name-tenor-api-key` is missing structured evidence.
+- `entities/features-skills.md`: Claim `key-mypluginpath` is missing structured evidence.
+- `entities/features-skills.md`: Claim `agentsskills` is missing structured evidence.
+- `entities/features-skills.md`: Claim `homesharedteam-skills` is missing structured evidence.
+- `entities/features-skills.md`: Claim `skills-reposkills` is missing structured evidence.
+- `entities/features-skills.md`: Claim `read-only-external-dirs-are-only-scanned-for-skill-discov` is missing structured evidence.
+- `entities/features-skills.md`: Claim `local-precedence-if-the-same-skill-name-exists-in-both-th` is missing structured evidence.
+- `entities/features-skills.md`: Claim `full-integration-external-skills-appear-in-the-system-pro` is missing structured evidence.
+- `entities/features-skills.md`: Claim `non-existent-paths-are-silently-skipped-if-a-configured-d` is missing structured evidence.
+- `entities/features-skills.md`: Claim `after-completing-a-complex-task-5-tool-calls-successfully` is missing structured evidence.
+- `entities/features-skills.md`: Claim `when-it-hit-errors-or-dead-ends-and-found-the-working-path` is missing structured evidence.
+- `entities/features-skills.md`: Claim `when-the-user-corrected-its-approach` is missing structured evidence.
+- `entities/features-skills.md`: Claim `when-it-discovered-a-non-trivial-workflow` is missing structured evidence.
+- `entities/features-skills.md`: Claim `action-use-for-key-params` is missing structured evidence.
+- `entities/features-skills.md`: Claim `action-create-use-for-new-skill-from-scratch-k` is missing structured evidence.
+- `entities/features-skills.md`: Claim `action-patch-use-for-targeted-fixes-preferred` is missing structured evidence.
+- `entities/features-skills.md`: Claim `action-edit-use-for-major-structural-rewrites` is missing structured evidence.
+- `entities/features-skills.md`: Claim `action-delete-use-for-remove-a-skill-entirely` is missing structured evidence.
+- `entities/features-skills.md`: Claim `action-write-file-use-for-addupdate-supporting-f` is missing structured evidence.
+- `entities/features-skills.md`: Claim `action-remove-file-use-for-remove-a-supporting-fi` is missing structured evidence.
+- `entities/features-skills.md`: Claim `source-example-notes` is missing structured evidence.
+- `entities/features-skills.md`: Claim `source-official-example-officialsecurity1passw` is missing structured evidence.
+- `entities/features-skills.md`: Claim `source-skills-sh-example-skills-shvercel-labsa` is missing structured evidence.
+- `entities/features-skills.md`: Claim `source-well-known-example-well-knownhttpsmin` is missing structured evidence.
+- `entities/features-skills.md`: Claim `source-github-example-openaiskillsk8s-note` is missing structured evidence.
+- `entities/features-skills.md`: Claim `source-clawhub-lobehub-claude-marketplace-exam` is missing structured evidence.
+- `entities/features-skills.md`: Claim `catalog-official-optional-skills-catalogdocsreference` is missing structured evidence.
+- `entities/features-skills.md`: Claim `source-in-repo-optional-skills` is missing structured evidence.
+- `entities/features-skills.md`: Claim `directory-skillsshhttpsskillssh` is missing structured evidence.
+- `entities/features-skills.md`: Claim `clitooling-repo-vercel-labsskillshttpsgithubcomve` is missing structured evidence.
+- `entities/features-skills.md`: Claim `official-vercel-skills-repo-vercel-labsagent-skillshttp` is missing structured evidence.
+- `entities/features-skills.md`: Claim `example-live-endpoint-mintlify-docs-skills-indexhttps` is missing structured evidence.
+- `entities/features-skills.md`: Claim `reference-server-implementation-vercel-labsskills-handler` is missing structured evidence.
+- `entities/features-skills.md`: Claim `openaiskillshttpsgithubcomopenaiskills` is missing structured evidence.
+- `entities/features-skills.md`: Claim `anthropicsskillshttpsgithubcomanthropicsskills` is missing structured evidence.
+- `entities/features-skills.md`: Claim `voltagentawesome-agent-skillshttpsgithubcomvoltagen` is missing structured evidence.
+- `entities/features-skills.md`: Claim `garrytangstackhttpsgithubcomgarrytangstack` is missing structured evidence.
+- `entities/features-skills.md`: Claim `site-clawhubaihttpsclawhubai` is missing structured evidence.
+- `entities/features-skills.md`: Claim `hermes-source-id-clawhub` is missing structured evidence.
+- `entities/features-skills.md`: Claim `anthropicsskillshttpsgithubcomanthropicsskills` is missing structured evidence.
+- `entities/features-skills.md`: Claim `aiskillstoremarketplacehttpsgithubcomaiskillstorem` is missing structured evidence.
+- `entities/features-skills.md`: Claim `site-lobehubhttpslobehubcom` is missing structured evidence.
+- `entities/features-skills.md`: Claim `public-agents-index-chat-agentslobehubcomhttpschat` is missing structured evidence.
+- `entities/features-skills.md`: Claim `backing-repo-lobehublobe-chat-agentshttpsgithubcom` is missing structured evidence.
+- `entities/features-skills.md`: Claim `hermes-source-id-lobehub` is missing structured evidence.
+- `entities/features-skills.md`: Claim `skillssh-detail-page-url` is missing structured evidence.
+- `entities/features-skills.md`: Claim `install-command` is missing structured evidence.
+- `entities/features-skills.md`: Claim `weekly-installs` is missing structured evidence.
+- `entities/features-skills.md`: Claim `upstream-security-audit-statuses` is missing structured evidence.
+- `entities/features-skills.md`: Claim `well-known-indexendpoint-urls` is missing structured evidence.
+- `entities/features-skills.md`: Claim `force-can-override-policy-blocks-for-cautionwarn-style` is missing structured evidence.
+- `entities/features-skills.md`: Claim `force-does-not-override-a-dangerous-scan-verdict` is missing structured evidence.
+- `entities/features-skills.md`: Claim `official-optional-skills-official-are-treated-as-bui` is missing structured evidence.
+- `entities/features-skills.md`: Claim `level-source-policy` is missing structured evidence.
+- `entities/features-skills.md`: Claim `level-builtin-source-ships-with-hermes-policy` is missing structured evidence.
+- `entities/features-skills.md`: Claim `level-official-source-optional-skills-in-the-r` is missing structured evidence.
+- `entities/features-skills.md`: Claim `level-trusted-source-trusted-registriesrepos-suc` is missing structured evidence.
+- `entities/features-skills.md`: Claim `level-community-source-everything-else-skillss` is missing structured evidence.
+- `entities/features-skills.md`: Claim `unchanged-safe-to-pull-upstream-changes-copy-the-new-bu` is missing structured evidence.
+- `entities/features-skills.md`: Claim `changed-treated-as-user-modified-and-skipped-forever` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-examples-description` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-web-examples-web-search-web-extrac` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-terminal-files-examples-terminal` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-browser-examples-browser-navigate` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-media-examples-vision-analyze-imag` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-agent-orchestration-examples-todo` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-memory-recall-examples-memory-se` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-automation-delivery-examples-cronjo` is missing structured evidence.
+- `entities/features-tools.md`: Claim `category-integrations-examples-ha-mcp-serv` is missing structured evidence.
+- `entities/features-tools.md`: Claim `backend-description-use-case` is missing structured evidence.
+- `entities/features-tools.md`: Claim `backend-local-description-run-on-your-machine-de` is missing structured evidence.
+- `entities/features-tools.md`: Claim `backend-docker-description-isolated-containers` is missing structured evidence.
+- `entities/features-tools.md`: Claim `backend-ssh-description-remote-server-use-case` is missing structured evidence.
+- `entities/features-tools.md`: Claim `backend-singularity-description-hpc-containers` is missing structured evidence.
+- `entities/features-tools.md`: Claim `backend-modal-description-cloud-execution-use` is missing structured evidence.
+- `entities/features-tools.md`: Claim `backend-daytona-description-cloud-sandbox-workspa` is missing structured evidence.
+- `entities/features-tools.md`: Claim `read-only-root-filesystem-docker` is missing structured evidence.
+- `entities/features-tools.md`: Claim `all-linux-capabilities-dropped` is missing structured evidence.
+- `entities/features-tools.md`: Claim `no-privilege-escalation` is missing structured evidence.
+- `entities/features-tools.md`: Claim `pid-limits-256-processes` is missing structured evidence.
+- `entities/features-tools.md`: Claim `full-namespace-isolation` is missing structured evidence.
+- `entities/features-tools.md`: Claim `persistent-workspace-via-volumes-not-writable-root-layer` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `feature-platform-description` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `feature-interactive-voice-platform-cli-descr` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `feature-auto-voice-reply-platform-telegram-dis` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `feature-voice-channel-platform-discord-descr` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `extra-packages-required-for` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `extra-voice-packages-sounddevice-numpy-re` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `extra-messaging-packages-discordpyvoice-py` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `extra-tts-premium-packages-elevenlabs-requir` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `dependency-purpose-required-for` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `dependency-portaudio-purpose-microphone-input-a` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `dependency-ffmpeg-purpose-audio-format-conversi` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `dependency-opus-purpose-discord-voice-codec` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `dependency-espeak-ng-purpose-phonemizer-backend` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `telegram-setup-guidedocsuser-guidemessagingtelegram` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `discord-setup-guidedocsuser-guidemessagingdiscord` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `mode-how-to-talk-mention-required-setup` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `mode-direct-message-dm-how-to-talk-open-the-b` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `mode-server-channel-how-to-talk-type-in-a-text` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `mode-command-behavior` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `mode-off-command-voice-off-behavior-text` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `mode-voice-only-command-voice-on-behavior` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `mode-all-command-voice-tts-behavior-spea` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `platform-format-notes` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `platform-telegram-format-voice-bubble-opusogg` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `platform-discord-format-native-voice-bubble-op` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `permission-purpose-required` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `permission-connect-purpose-join-voice-channels` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `permission-speak-purpose-play-tts-audio-in-voic` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `permission-use-voice-activity-purpose-detect-wh` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `level-integer-whats-included` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `level-text-only-integer-274878286912-whats-in` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `level-text-voice-integer-274881432640-whats` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `intent-purpose` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `presence-intent-detect-user-onlineoffline-status` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `server-members-intent-map-voice-ssrc-identifiers-to-dis` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `message-content-intent-read-text-message-content-in-cha` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `macos-opthomebrewliblibopusdylib` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `linux-libopusso0` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `transcripts-appear-in-the-text-channel-voice-user-what` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `agent-responses-are-sent-as-text-in-the-channel-and-spoken-i` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `the-text-channel-is-the-one-where-voice-join-was-issued` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-model-speed-quality-cost-a` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-local-model-base-speed-fast-d` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-local-model-small-speed-medium` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-local-model-large-v3-speed-slo` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-groq-model-whisper-large-v3-turbo` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-groq-model-whisper-large-v3-speed` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-openai-model-whisper-1-speed-f` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-openai-model-gpt-4o-transcribe-sp` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-quality-cost-latency-key-requir` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-edge-tts-quality-good-cost-free` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-elevenlabs-quality-excellent-cost` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-openai-tts-quality-good-cost-pai` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `provider-neutts-quality-good-cost-free` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `check-your-discord-user-id-is-in-discord-allowed-users` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `make-sure-youre-not-muted-in-discord` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `the-bot-needs-a-speaking-event-from-discord-before-it-can-ma` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `verify-stt-is-available-install-faster-whisper-no-key-ne` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `check-the-llm-model-is-configured-and-accessible` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `review-gateway-logs-tail--f-hermeslogsgatewaylog` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `tts-provider-may-be-failing-check-api-key-and-quota` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `edge-tts-free-no-key-is-the-default-fallback` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `check-logs-for-tts-errors` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `use-a-quieter-environment` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `adjust-silence-threshold-in-config-higher-less-sensitiv` is missing structured evidence.
+- `entities/features-voice-mode.md`: Claim `try-a-different-stt-model` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `websocket-recommended-hermes-opens-the-outbound-connectio` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `webhook-useful-when-you-want-feishulark-to-push-events-in` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `feishu-httpsopenfeishucn` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `lark-httpsopenlarksuitecom` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `create-a-new-app` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `in-credentials-basic-info-copy-the-app-id-and-a` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `enable-the-bot-capability-for-the-app` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `run-hermes-gateway-setup-select-feishu-lark-and-ente` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `feishu-for-feishu-china` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `lark-for-lark-international` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `button-clicks-become-card-button-key-value` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `the-actions-value-payload-from-the-card-definition-is-inclu` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `card-actions-are-deduplicated-with-a-15-minute-window-to-pre` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `fetches-the-document-content-and-comment-timeline-in-paralle` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `runs-the-agent-with-the-feishu-doc-feishu-drive-toolsets-s` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `chunks-replies-at-4000-chars-and-posts-them-back-as-threaded` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `caches-per-document-sessions-for-1-hour-with-a-50-message-ca` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `allowlist-a-static-list-of-users-tenants` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `pairing-static-list-runtime-approved-store-useful-for-r` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `subscribe-to-drivenoticecomment-add-v1-in-event-subscripti` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `grant-the-docsdocreadonly-and-drivedrivereadonly-scopes` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `ogg-opus-uploaded-as-opus-audio` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `mp4-mov-avi-m4v-uploaded-as-mp4-media` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `pdf-docx-xlsx-pptx-uploaded-with-their-docume` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `everything-else-uploaded-as-a-generic-stream-file` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `window-60-second-sliding-window` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `limit-120-requests-per-window-per-app-id-path-ip-triple` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `tracking-cap-up-to-4096-unique-keys-tracked-prevents-unbou` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `body-size-limit-1-mb-maximum` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `body-read-timeout-30-seconds` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `content-type-enforcement-only-applicationjson-is-accepted` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `ou-admin-open-id` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `ou-user-open-id-1` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `ou-user-open-id-2` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `ou-blocked-user` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `recommended-scan-to-create-one-command` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `alternative-manual-setup` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `step-2-choose-a-connection-modestep-2-choose-a-connecti` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `recommended-websocket-mode` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `optional-webhook-mode` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `step-3-configure-hermesstep-3-configure-hermesopti` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `option-a-interactive-setup` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `option-b-manual-configuration` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `step-4-start-the-gatewaystep-4-start-the-gateway` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `home-chathome-chat` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `securitysecurityuser-allowlistwebhook-encrypti` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `user-allowlist` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `webhook-encryption-key` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `verification-token` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `group-message-policygroup-message-policybot-identit` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `bot-identity-for-mention-gating` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `interactive-card-actionsinteractive-card-actionsreq` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `required-feishu-app-configuration` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `document-comment-intelligent-replydocument-comment-intel` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `3-tier-access-control` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `required-feishu-app-configuration` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `media-supportmedia-supportinbound-receivingout` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `inbound-receiving` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `outbound-sending` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `markdown-rendering-and-post-fallbackmarkdown-rendering-a` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `processing-status-reactionsprocessing-status-reactions` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `burst-protection-and-batchingburst-protection-and-batchi` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `text-batching` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `media-batching` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `per-chat-serialization` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `rate-limiting-webhook-moderate-limiting-webhook-mode` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `webhook-anomaly-tracking` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `websocket-tuningwebsocket-tuning` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `per-group-access-controlper-group-access-control` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `deduplicationdeduplication` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `all-environment-variablesall-environment-variables` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/feishu-lark-setup.md`: Claim `toolsettoolset` is missing structured evidence.
+- `entities/hermes-agent-faq.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/hermes-agent-installation.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/hermes-agent-learning-path.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/hermes-agent-quickstart.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/hermes-agent-tips.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/hermes-agent-use-mcp-with-hermes.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/hermes-agent-use-voice-mode-with-hermes.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/home-assistant-integration.md`: Claim `domain-optional-filter-by-entity-domain-light-switch` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `area-optional-filter-by-arearoom-name-matches-against` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `entity-id-required-the-entity-to-query-eg-lightlivi` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `domain-optional-filter-by-domain-eg-light-climate` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `domain-required-service-domain-light-switch-climate` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `service-required-service-name-turn-on-turn-off-toggle` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `entity-id-optional-target-entity-eg-lightliving-roo` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `data-optional-additional-parameters-as-a-json-object` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `binary-sensor` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `alarm-control-panel` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `sensorfront-door-battery` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `sensoruptime` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `sensorcpu-usage` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `sensormemory-usage` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `websocket-with-30-second-heartbeat-for-real-time-events` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `automatic-reconnection-with-backoff-5s-10s-30s-60s` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `rest-api-for-outbound-notifications-separate-session-to-avo` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `authorization-ha-events-are-always-authorized-no-user-all` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `shell-command-arbitrary-shell-commands` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `command-line-sensorsswitches-that-execute-commands` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `python-script-scripted-python-execution` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `pyscript-broader-scripting-integration` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `hassio-addon-control-host-shutdownreboot` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `rest-command-http-requests-from-ha-server-ssrf-vector` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `1-create-a-long-lived-access-token` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `2-configure-environment-variables` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `3-start-the-gateway` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `available-toolsavailable-toolsha-list-entities` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `ha-list-entities` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `ha-get-state` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `ha-list-services` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `ha-call-service` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `gateway-platform-real-time-eventsgateway-platform-real` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `event-filtering` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `event-formatting` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `agent-responses` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `connection-management` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `example-automationsexample-automationsmorning-routi` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `morning-routine` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `security-check` is missing structured evidence.
+- `entities/home-assistant-integration.md`: Claim `reactive-automation-via-gateway-events` is missing structured evidence.
+- `entities/index.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/installation.md`: Claim `installationdocsgetting-startedinstallation` is missing structured evidence.
+- `entities/installation.md`: Claim `android-termuxdocsgetting-startedtermux` is missing structured evidence.
+- `entities/installation.md`: Claim `nix-nixos-setupdocsgetting-startednix-setup` is missing structured evidence.
+- `entities/installation.md`: Claim `updating-uninstallingdocsgetting-startedupdating` is missing structured evidence.
+- `entities/installation.md`: Claim `learning-pathdocsgetting-startedlearning-path` is missing structured evidence.
+- `entities/installation.md`: Claim `using-hermesdocsuser-guidecli` is missing structured evidence.
+- `entities/installation.md`: Claim `featuresdocsuser-guidefeaturesoverview` is missing structured evidence.
+- `entities/installation.md`: Claim `messaging-platformsdocsuser-guidemessaging` is missing structured evidence.
+- `entities/installation.md`: Claim `integrationsdocsintegrations` is missing structured evidence.
+- `entities/installation.md`: Claim `guides-tutorialsdocsguidestips` is missing structured evidence.
+- `entities/installation.md`: Claim `developer-guidedocsdeveloper-guidecontributing` is missing structured evidence.
+- `entities/installation.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/installation.md`: Claim `docs` is missing structured evidence.
+- `entities/installation.md`: Claim `getting-started` is missing structured evidence.
+- `entities/installation.md`: Claim `installation` is missing structured evidence.
+- `entities/installation.md`: Claim `uses-termux-pkg-for-system-dependencies-git-python` is missing structured evidence.
+- `entities/installation.md`: Claim `creates-the-virtualenv-with-python--m-venv` is missing structured evidence.
+- `entities/installation.md`: Claim `exports-android-api-level-automatically-for-android-wheel` is missing structured evidence.
+- `entities/installation.md`: Claim `installs-a-curated-termux-extra-with-pip` is missing structured evidence.
+- `entities/installation.md`: Claim `skips-the-untested-browser-whatsapp-bootstrap-by-default` is missing structured evidence.
+- `entities/installation.md`: Claim `uv-fast-python-package-manager` is missing structured evidence.
+- `entities/installation.md`: Claim `python-311-via-uv-no-sudo-needed` is missing structured evidence.
+- `entities/installation.md`: Claim `nodejs-v22-for-browser-automation-and-whatsapp-bridge` is missing structured evidence.
+- `entities/installation.md`: Claim `ripgrep-fast-file-search` is missing structured evidence.
+- `entities/installation.md`: Claim `ffmpeg-audio-format-conversion-for-tts` is missing structured evidence.
+- `entities/installation.md`: Claim `android-termuxandroid--termux` is missing structured evidence.
+- `entities/installation.md`: Claim `what-the-installer-doeswhat-the-installer-does` is missing structured evidence.
+- `entities/installation.md`: Claim `after-installationafter-installation` is missing structured evidence.
+- `entities/installation.md`: Claim `prerequisitesprerequisites` is missing structured evidence.
+- `entities/installation.md`: Claim `manual-developer-installationmanual--developer-install` is missing structured evidence.
+- `entities/installation.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/installation.md`: Claim `user-guidedocsuser-guidecli` is missing structured evidence.
+- `entities/installation.md`: Claim `developer-guidedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/installation.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/installation.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
+- `entities/installation.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
+- `entities/installation.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
+- `entities/learning-path.md`: Claim `installationdocsgetting-startedinstallation` is missing structured evidence.
+- `entities/learning-path.md`: Claim `android-termuxdocsgetting-startedtermux` is missing structured evidence.
+- `entities/learning-path.md`: Claim `nix-nixos-setupdocsgetting-startednix-setup` is missing structured evidence.
+- `entities/learning-path.md`: Claim `updating-uninstallingdocsgetting-startedupdating` is missing structured evidence.
+- `entities/learning-path.md`: Claim `learning-pathdocsgetting-startedlearning-path` is missing structured evidence.
+- `entities/learning-path.md`: Claim `using-hermesdocsuser-guidecli` is missing structured evidence.
+- `entities/learning-path.md`: Claim `featuresdocsuser-guidefeaturesoverview` is missing structured evidence.
+- `entities/learning-path.md`: Claim `messaging-platformsdocsuser-guidemessaging` is missing structured evidence.
+- `entities/learning-path.md`: Claim `integrationsdocsintegrations` is missing structured evidence.
+- `entities/learning-path.md`: Claim `guides-tutorialsdocsguidestips` is missing structured evidence.
+- `entities/learning-path.md`: Claim `developer-guidedocsdeveloper-guidecontributing` is missing structured evidence.
+- `entities/learning-path.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/learning-path.md`: Claim `docs` is missing structured evidence.
+- `entities/learning-path.md`: Claim `getting-started` is missing structured evidence.
+- `entities/learning-path.md`: Claim `learning-path` is missing structured evidence.
+- `entities/learning-path.md`: Claim `know-your-level-jump-to-the-experience-level-tableby-ex` is missing structured evidence.
+- `entities/learning-path.md`: Claim `have-a-specific-goal-skip-to-by-use-caseby-use-case-an` is missing structured evidence.
+- `entities/learning-path.md`: Claim `just-browsing-check-the-key-featureskey-features-at-a-g` is missing structured evidence.
+- `entities/learning-path.md`: Claim `installationdocsgetting-startedinstallation` is missing structured evidence.
+- `entities/learning-path.md`: Claim `quickstartdocsgetting-startedquickstart` is missing structured evidence.
+- `entities/learning-path.md`: Claim `cli-usagedocsuser-guidecli` is missing structured evidence.
+- `entities/learning-path.md`: Claim `code-executiondocsuser-guidefeaturescode-execution` is missing structured evidence.
+- `entities/learning-path.md`: Claim `context-filesdocsuser-guidefeaturescontext-files` is missing structured evidence.
+- `entities/learning-path.md`: Claim `tips-tricksdocsguidestips` is missing structured evidence.
+- `entities/learning-path.md`: Claim `installationdocsgetting-startedinstallation` is missing structured evidence.
+- `entities/learning-path.md`: Claim `configurationdocsuser-guideconfiguration` is missing structured evidence.
+- `entities/learning-path.md`: Claim `messaging-overviewdocsuser-guidemessaging` is missing structured evidence.
+- `entities/learning-path.md`: Claim `telegram-setupdocsuser-guidemessagingtelegram` is missing structured evidence.
+- `entities/learning-path.md`: Claim `discord-setupdocsuser-guidemessagingdiscord` is missing structured evidence.
+- `entities/learning-path.md`: Claim `voice-modedocsuser-guidefeaturesvoice-mode` is missing structured evidence.
+- `entities/learning-path.md`: Claim `use-voice-mode-with-hermesdocsguidesuse-voice-mode-wit` is missing structured evidence.
+- `entities/learning-path.md`: Claim `securitydocsuser-guidesecurity` is missing structured evidence.
+- `entities/learning-path.md`: Claim `daily-briefing-botdocsguidesdaily-briefing-bot` is missing structured evidence.
+- `entities/learning-path.md`: Claim `team-telegram-assistantdocsguidesteam-telegram-assista` is missing structured evidence.
+- `entities/learning-path.md`: Claim `quickstartdocsgetting-startedquickstart` is missing structured evidence.
+- `entities/learning-path.md`: Claim `cron-schedulingdocsuser-guidefeaturescron` is missing structured evidence.
+- `entities/learning-path.md`: Claim `batch-processingdocsuser-guidefeaturesbatch-processin` is missing structured evidence.
+- `entities/learning-path.md`: Claim `delegationdocsuser-guidefeaturesdelegation` is missing structured evidence.
+- `entities/learning-path.md`: Claim `hooksdocsuser-guidefeatureshooks` is missing structured evidence.
+- `entities/learning-path.md`: Claim `tools-overviewdocsuser-guidefeaturestools` is missing structured evidence.
+- `entities/learning-path.md`: Claim `skills-overviewdocsuser-guidefeaturesskills` is missing structured evidence.
+- `entities/learning-path.md`: Claim `mcp-model-context-protocoldocsuser-guidefeaturesmcp` is missing structured evidence.
+- `entities/learning-path.md`: Claim `architecturedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/learning-path.md`: Claim `adding-toolsdocsdeveloper-guideadding-tools` is missing structured evidence.
+- `entities/learning-path.md`: Claim `creating-skillsdocsdeveloper-guidecreating-skills` is missing structured evidence.
+- `entities/learning-path.md`: Claim `quickstartdocsgetting-startedquickstart` is missing structured evidence.
+- `entities/learning-path.md`: Claim `configurationdocsuser-guideconfiguration` is missing structured evidence.
+- `entities/learning-path.md`: Claim `rl-trainingdocsuser-guidefeaturesrl-training` is missing structured evidence.
+- `entities/learning-path.md`: Claim `provider-routingdocsuser-guidefeaturesprovider-routin` is missing structured evidence.
+- `entities/learning-path.md`: Claim `architecturedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/learning-path.md`: Claim `installationdocsgetting-startedinstallation` is missing structured evidence.
+- `entities/learning-path.md`: Claim `quickstartdocsgetting-startedquickstart` is missing structured evidence.
+- `entities/learning-path.md`: Claim `python-library-guidedocsguidespython-library` is missing structured evidence.
+- `entities/learning-path.md`: Claim `architecturedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/learning-path.md`: Claim `toolsdocsuser-guidefeaturestools` is missing structured evidence.
+- `entities/learning-path.md`: Claim `sessionsdocsuser-guidesessions` is missing structured evidence.
+- `entities/learning-path.md`: Claim `just-finished-installing-head-to-the-quickstartdocsg` is missing structured evidence.
+- `entities/learning-path.md`: Claim `completed-the-[[entity.quickstart|Quickstart]]-read-cli-usagedocsuser-guid` is missing structured evidence.
+- `entities/learning-path.md`: Claim `comfortable-with-the-basics-explore-toolsdocsuser-gu` is missing structured evidence.
+- `entities/learning-path.md`: Claim `setting-up-for-a-team-read-securitydocsuser-guidese` is missing structured evidence.
+- `entities/learning-path.md`: Claim `ready-to-build-jump-into-the-developer-guidedocsdeve` is missing structured evidence.
+- `entities/learning-path.md`: Claim `want-practical-examples-check-out-the-guidesdocsguid` is missing structured evidence.
+- `entities/learning-path.md`: Claim `by-experience-levelby-experience-level` is missing structured evidence.
+- `entities/learning-path.md`: Claim `by-use-caseby-use-casei-want-a-cli-coding-assistant` is missing structured evidence.
+- `entities/learning-path.md`: Claim `i-want-a-telegramdiscord-boti-want-a-telegramdiscord` is missing structured evidence.
+- `entities/learning-path.md`: Claim `i-want-to-automate-tasksi-want-to-automate-tasks` is missing structured evidence.
+- `entities/learning-path.md`: Claim `i-want-to-build-custom-toolsskillsi-want-to-build-cus` is missing structured evidence.
+- `entities/learning-path.md`: Claim `i-want-to-train-modelsi-want-to-train-models` is missing structured evidence.
+- `entities/learning-path.md`: Claim `i-want-to-use-it-as-a-python-libraryi-want-to-use-it-a` is missing structured evidence.
+- `entities/learning-path.md`: Claim `key-features-at-a-glancekey-features-at-a-glance` is missing structured evidence.
+- `entities/learning-path.md`: Claim `what-to-read-nextwhat-to-read-next` is missing structured evidence.
+- `entities/learning-path.md`: Claim `user-guidedocsuser-guidecli` is missing structured evidence.
+- `entities/learning-path.md`: Claim `developer-guidedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/learning-path.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/learning-path.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
+- `entities/learning-path.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
+- `entities/learning-path.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `each-dm-gets-its-own-session` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `each-thread-gets-its-own-session-namespace` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `each-user-in-a-shared-room-gets-their-own-session-inside-tha` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `users-share-context-growth-and-token-costs` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `one-persons-long-tool-heavy-task-can-bloat-everyone-elses` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `one-persons-in-flight-run-can-interrupt-another-persons-fo` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `abc123matrixorg` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `h-content-type-applicationjson` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `group-sessions-per-user-true-keeps-each-participants-conte` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `stores-encryption-keys-in-hermesplatformsmatrixstore` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `uploads-device-keys-on-first-connection` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `decrypts-incoming-messages-and-encrypts-outgoing-messages-au` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `auto-joins-encrypted-rooms-when-invited` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `api-server-host0000-binds-to-all-interfaces-so-the-docke` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `api-server-key-is-required-for-non-loopback-binding-pick-a` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `the-api-server-runs-on-port-8642-by-default-change-with-api` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `matrix-storeroothermesplatformsmatrixstore` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `any-homeserver-works-with-synapse-conduit-dendrite-matri` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `federation-if-youre-on-a-federated-homeserver-the-bot-can` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `auto-join-the-bot-automatically-accepts-room-invites-and-jo` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `media-support-hermes-can-send-and-receive-images-audio-vi` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `native-voice-messages-msc3245-the-matrix-adapter-automati` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `session-model-in-matrix` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `mention-and-threading-configuration` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `step-1-create-a-bot-accountstep-1-create-a-bot-account` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `option-a-register-on-your-homeserver-recommended` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `option-b-use-matrixorg-or-another-public-homeserver` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `option-c-use-your-own-account` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `step-2-get-an-access-tokenstep-2-get-an-access-token` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `option-a-access-token-recommended` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `option-b-password-login` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `step-3-find-your-matrix-user-idstep-3-find-your-matrix` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `step-4-configure-hermes-agentstep-4-configure-hermes-ag` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `option-a-interactive-setup-recommended` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `option-b-manual-configuration` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `start-the-gateway` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `end-to-end-encryption-e2eeend-to-end-encryption-e2ee` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `requirements` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `enable-e2ee` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `cross-signing-verification-recommended` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `home-roomhome-roomusing-the-slash-commandmanua` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `using-the-slash-command` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `manual-configuration` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `troubleshootingtroubleshootingbot-is-not-responding` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `bot-is-not-responding-to-messages` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `failed-to-authenticate-whoami-failed-on-startup` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `mautrix-not-installed-error` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `encryption-errors-could-not-decrypt-event` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `upgrading-from-a-previous-version-with-e2ee` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `proxy-mode-e2ee-on-macosproxy-mode-e2ee-on-macosh` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `how-it-works` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `step-1-configure-the-host-macos` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `step-2-configure-the-docker-container-linux-vm` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `step-3-start-both` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `configuration-reference` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `works-for-any-platform` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `sync-issues-bot-falls-behind` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `bot-is-offline` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `user-not-allowed-bot-ignores-you` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/matrix-setup.md`: Claim `notesnotes` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `each-dm-gets-its-own-session` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `each-thread-gets-its-own-session-namespace` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `each-user-in-a-shared-channel-gets-their-own-session-inside` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `users-share-context-growth-and-token-costs` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `one-persons-long-tool-heavy-task-can-bloat-everyone-elses` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `one-persons-in-flight-run-can-interrupt-another-persons-fo` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `username-eg-hermes` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `display-name-eg-hermes-agent` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `description-optional` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `role-member-is-sufficient` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `click-create-bot-account` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `mattermost-will-display-the-bot-token-copy-it-immedia` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `group-sessions-per-user-true-keeps-each-participants-conte` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `self-hosted-friendly-works-with-any-self-hosted-mattermost` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `no-extra-dependencies-the-adapter-uses-aiohttp-for-http-and` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `team-edition-compatible-works-with-both-mattermost-team-edi` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `session-model-in-mattermost` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `step-1-enable-bot-accountsstep-1-enable-bot-accounts` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `step-2-create-a-bot-accountstep-2-create-a-bot-account` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `step-3-add-the-bot-to-channelsstep-3-add-the-bot-to-cha` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `step-4-find-your-mattermost-user-idstep-4-find-your-mat` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `step-5-configure-hermes-agentstep-5-configure-hermes-ag` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `option-a-interactive-setup-recommended` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `option-b-manual-configuration` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `start-the-gateway` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `home-channelhome-channelusing-the-slash-command` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `using-the-slash-command` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `manual-configuration` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `reply-modereply-mode` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `mention-behaviormention-behavior` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `troubleshootingtroubleshootingbot-is-not-responding` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `bot-is-not-responding-to-messages` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `403-forbidden-errors` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `websocket-disconnects-reconnection-loops` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `failed-to-authenticate-on-startup` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `bot-is-offline` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `user-not-allowed-bot-ignores-you` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `per-channel-promptsper-channel-prompts` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/mattermost-setup.md`: Claim `notesnotes` is missing structured evidence.
+- `entities/messaging-gateway.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/messaging-gateway.md`: Claim `in-progress-terminal-commands-are-killed-immediately-sigter` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `tool-calls-are-cancelled-only-the-currently-executing-one` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `multiple-messages-are-combined-messages-sent-during-interr` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `stop-command-interrupts-without-queuing-a-follow-up-messa` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `isolated-session-the-background-agent-has-its-own-session` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `same-configuration-inherits-your-model-provider-toolsets` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `non-blocking-your-main-chat-stays-fully-interactive-send` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `result-delivery-when-the-task-finishes-the-result-is-sent` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `server-monitoring-background-check-the-health-of-all-ser` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `long-builds-background-build-and-deploy-the-staging-envi` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `research-tasks-background-research-competitor-pricing-an` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `file-operations-background-organize-the-photos-in-down` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `path-your-full-shell-path-at-install-time-with-the-venv-b` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `virtual-env-points-to-the-python-virtualenv-so-tools-can-r` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `hermes-home-scopes-the-gateway-to-your-hermes-installation` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `slack-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `whatsapp-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `signal-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `sms-setup-twilio` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `email-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `home-assistant-integration` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `mattermost-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `matrix-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `dingtalk-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `feishulark-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `wecom-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `wecom-callback-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `weixin-setup-wechat` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `bluebubbles-setup-imessage` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `qqbot-setup` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `open-webui-api-server` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `session-persistence` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `reset-policies` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `securitysecuritydm-pairing-alternative-to-allowlist` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `dm-pairing-alternative-to-allowlists` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `interrupting-the-agentinterrupting-the-agent` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `tool-progress-notificationstool-progress-notifications` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `background-sessionsbackground-sessionshow-it-works` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `how-it-works` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `background-process-notifications` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `service-managementservice-managementlinux-systemd` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `linux-systemd` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `macos-launchd` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `platform-specific-toolsetsplatform-specific-toolsets` is missing structured evidence.
+- `entities/messaging-gateway.md`: Claim `next-stepsnext-steps` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `pre-built-binary-with-all-deps-then-use-the-standard-cli-w` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `declarative-config-hardened-systemd-service-managed-secret` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `everything-above-plus-a-persistent-ubuntu-container-where-t` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `nix-with-flakes-enabled-determinate-nix-recommended-enabl` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `api-keys-for-the-services-you-want-to-use-at-minimum-an-op` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `hardened-systemd-service-on-the-host` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `nonewprivileges-protectsystemstrict-privatetmp` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `agent-cannot-self-install-packages` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `persistent-ubuntu-container-with-nixstore-bind-mounted` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `container-isolation-runs-as-unprivileged-user-inside` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `agent-can-self-install-packages-apt-pip-npm-installs-pers` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `change-the-llm-model-settingsmodeldefault-anthropi` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `use-a-different-provider-endpoint-settingsmodelbase-ur` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `add-api-keys-environmentfiles-with-sops-nix-or-agenix` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `give-the-agent-a-personality-manage-statedirhermess` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `add-mcp-tool-servers-mcpserversname` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `mount-host-directories-into-container-containerextravol` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `pass-gpu-access-to-container-containerextraoptions-wit` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `use-podman-instead-of-docker-containerbackend-podma` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `share-state-between-host-cli-and-container-containerhos` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `hermes-setup-config-is-declarative` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `hermes-config-edit-config-is-generated-from-settings` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `hermes-config-set-key-value-config-is-generated-from` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `hermes-gateway-install-the-systemd-service-is-managed-by` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `hermes-gateway-uninstall-the-systemd-service-is-managed` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `systemctl-restart-hermes-agent-container-not-recreated-a` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `nixos-rebuild-switch-code-change-container-not-recreate` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `host-reboot-container-not-recreated-all-state-persists` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `nix-collect-garbage-container-not-recreated-gc-root-al` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `image-change-containerimage-container-is-recreated-d` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `environmentenvironmentfiles-change-container-not-recreat` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `cannot-save-configuration-managed-by-nixos-edit-configu` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `container-recreated-unexpectedly-expected-writable-lay` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `hermes-version-shows-old-version-container-not-restarted` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `permission-denied-on-varlibhermes-use-docker-exec-or` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `nix-collect-garbage-removed-hermes-gc-root-missing-res` is missing structured evidence.
+- `entities/nix-nixos-setup.md`: Claim `no-container-with-name-or-id-hermes-agent-podman-add` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `e-openai-api-base-urlhttphostdockerinternal8642v1` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `e-openai-api-keyyour-secret-key` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `add-hosthostdockerinternalhost-gateway` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `v-open-webuiappbackenddata` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `name-open-webui` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `restart-always` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `30008080` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `open-webuiappbackenddata` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `openai-api-base-urlhttphostdockerinternal8642v1` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `openai-api-keyyour-secret-key` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `hostdockerinternalhost-gateway` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `url-httphostdockerinternal8642v1` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `api-key-your-key-or-any-non-empty-value-eg-not-needed` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `click-the-checkmark-to-verify-the-connection` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `check-the-url-has-v1-suffix-httphostdockerinternal86` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `verify-the-gateway-is-running-curl-httplocalhost8642he` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `check-model-listing-curl-httplocalhost8642v1models-sh` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `docker-networking-from-inside-docker-localhost-means-the-c` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `1-enable-the-api-server` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `2-start-hermes-agent-gateway` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `3-start-open-webui` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `4-open-the-ui` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `docker-compose-setupdocker-compose-setup` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `configuring-via-the-admin-uiconfiguring-via-the-admin-ui` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `api-type-chat-completions-vs-responsesapi-type-chat-com` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `using-chat-completions-recommended` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `using-responses-api` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `how-it-workshow-it-works` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `configuration-referenceconfiguration-referenceherme` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `hermes-agent-api-server` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `open-webui` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `troubleshootingtroubleshootingno-models-appear-in-t` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `no-models-appear-in-the-dropdown` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `connection-test-passes-but-no-models-load` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `response-takes-a-long-time` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `invalid-api-key-errors` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `multi-user-setup-with-profilesmulti-user-setup-with-prof` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `1-create-profiles-and-configure-api-servers` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `2-start-each-gateway` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `3-add-connections-in-open-webui` is missing structured evidence.
+- `entities/open-webui-integration.md`: Claim `linux-docker-no-docker-desktoplinux-docker-no-docker-d` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `receive-messages-via-a-persistent-websocket-connection-to-th` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `send-text-and-markdown-replies-via-the-rest-api` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `download-and-process-images-voice-messages-and-file-attach` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `transcribe-voice-messages-using-tencents-built-in-asr-or-a` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `create-a-new-application-and-note-your-app-id-and-app-secret` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `enable-the-required-intents-c2c-messages-group--messages` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `configure-your-bot-in-sandbox-mode-for-testing-or-publish-f` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `user-openid-1` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `group-openid-1` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `zhipuglm-zai-default-provider-uses-glm-asr-model` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `openai-whisper-set-qq-stt-base-url-and-qq-stt-model` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `any-openai-compatible-stt-endpoint` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `invalid-app-id-secret-double-check-your-credentials-at-q` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `missing-permissions-ensure-the-bot-has-the-required-intent` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `sandbox-only-bot-if-the-bot-is-in-sandbox-mode-it-can-onl` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `verify-the-bots-intents-are-enabled-at-qqqcom` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `check-qq-allowed-users-if-dm-access-is-restricted` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `for-group-messages-ensure-the-bot-is-mentioned-group-poli` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `check-qqbot-home-channel-for-cronnotification-delivery` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `ensure-aiohttp-and-httpx-are-installed-pip-install-aiohttp` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `check-network-connectivity-to-apisgroupqqcom-and-the-webs` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `review-gateway-logs-for-detailed-error-messages-and-reconnec` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `interactive-setup` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `manual-configuration` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `environment-variablesenvironment-variables` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `advanced-configurationadvanced-configuration` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `voice-messages-sttvoice-messages-stt` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `troubleshootingtroubleshootingbot-disconnects-immed` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `bot-disconnects-immediately-quick-disconnect` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `voice-messages-not-transcribed` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `messages-not-delivered` is missing structured evidence.
+- `entities/qq-bot.md`: Claim `connection-errors` is missing structured evidence.
+- `entities/quickstart.md`: Claim `installationdocsgetting-startedinstallation` is missing structured evidence.
+- `entities/quickstart.md`: Claim `android-termuxdocsgetting-startedtermux` is missing structured evidence.
+- `entities/quickstart.md`: Claim `nix-nixos-setupdocsgetting-startednix-setup` is missing structured evidence.
+- `entities/quickstart.md`: Claim `updating-uninstallingdocsgetting-startedupdating` is missing structured evidence.
+- `entities/quickstart.md`: Claim `learning-pathdocsgetting-startedlearning-path` is missing structured evidence.
+- `entities/quickstart.md`: Claim `using-hermesdocsuser-guidecli` is missing structured evidence.
+- `entities/quickstart.md`: Claim `featuresdocsuser-guidefeaturesoverview` is missing structured evidence.
+- `entities/quickstart.md`: Claim `messaging-platformsdocsuser-guidemessaging` is missing structured evidence.
+- `entities/quickstart.md`: Claim `integrationsdocsintegrations` is missing structured evidence.
+- `entities/quickstart.md`: Claim `guides-tutorialsdocsguidestips` is missing structured evidence.
+- `entities/quickstart.md`: Claim `developer-guidedocsdeveloper-guidecontributing` is missing structured evidence.
+- `entities/quickstart.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/quickstart.md`: Claim `docs` is missing structured evidence.
+- `entities/quickstart.md`: Claim `getting-started` is missing structured evidence.
+- `entities/quickstart.md`: Claim `quickstart` is missing structured evidence.
+- `entities/quickstart.md`: Claim `brand-new-and-want-the-shortest-path-to-a-working-setup` is missing structured evidence.
+- `entities/quickstart.md`: Claim `switching-providers-and-dont-want-to-lose-time-to-config-mi` is missing structured evidence.
+- `entities/quickstart.md`: Claim `setting-up-hermes-for-a-team-bot-or-always-on-workflow` is missing structured evidence.
+- `entities/quickstart.md`: Claim `tired-of-it-installed-but-it-still-does-nothing` is missing structured evidence.
+- `entities/quickstart.md`: Claim `secrets-and-tokens-hermesenv` is missing structured evidence.
+- `entities/quickstart.md`: Claim `non-secret-settings-hermesconfigyaml` is missing structured evidence.
+- `entities/quickstart.md`: Claim `the-banner-shows-your-chosen-modelprovider` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-replies-without-error` is missing structured evidence.
+- `entities/quickstart.md`: Claim `it-can-use-a-tool-if-needed-terminal-file-read-web-search` is missing structured evidence.
+- `entities/quickstart.md`: Claim `the-conversation-continues-normally-for-more-than-one-turn` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-tools-tune-tool-access-per-platform` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-skills-browse-and-install-reusable-workflows` is missing structured evidence.
+- `entities/quickstart.md`: Claim `cron-only-after-your-bot-or-cli-setup-is-stable` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-doctor` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-model` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-setup` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-sessions-list` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes---continue` is missing structured evidence.
+- `entities/quickstart.md`: Claim `hermes-gateway-status` is missing structured evidence.
+- `entities/quickstart.md`: Claim `cli-guidedocsuser-guidecli-master-the-terminal-inte` is missing structured evidence.
+- `entities/quickstart.md`: Claim `configurationdocsuser-guideconfiguration-customize` is missing structured evidence.
+- `entities/quickstart.md`: Claim `messaging-gatewaydocsuser-guidemessaging-connect-t` is missing structured evidence.
+- `entities/quickstart.md`: Claim `tools-toolsetsdocsuser-guidefeaturestools-explor` is missing structured evidence.
+- `entities/quickstart.md`: Claim `ai-providersdocsintegrationsproviders-full-provider` is missing structured evidence.
+- `entities/quickstart.md`: Claim `skills-systemdocsuser-guidefeaturesskills-reusable` is missing structured evidence.
+- `entities/quickstart.md`: Claim `tips-best-practicesdocsguidestips-power-user-tips` is missing structured evidence.
+- `entities/quickstart.md`: Claim `the-fastest-paththe-fastest-path` is missing structured evidence.
+- `entities/quickstart.md`: Claim `1-install-hermes-agent1-install-hermes-agent` is missing structured evidence.
+- `entities/quickstart.md`: Claim `2-choose-a-provider2-choose-a-providerhow-settings-ar` is missing structured evidence.
+- `entities/quickstart.md`: Claim `3-run-your-first-chat3-run-your-first-chat` is missing structured evidence.
+- `entities/quickstart.md`: Claim `4-verify-sessions-work4-verify-sessions-work` is missing structured evidence.
+- `entities/quickstart.md`: Claim `5-try-key-features5-try-key-featuresuse-the-terminal` is missing structured evidence.
+- `entities/quickstart.md`: Claim `slash-commandsslash-commands` is missing structured evidence.
+- `entities/quickstart.md`: Claim `multi-line-inputmulti-line-input` is missing structured evidence.
+- `entities/quickstart.md`: Claim `interrupt-the-agentinterrupt-the-agent` is missing structured evidence.
+- `entities/quickstart.md`: Claim `6-add-the-next-layer6-add-the-next-layerbot-or-shared` is missing structured evidence.
+- `entities/quickstart.md`: Claim `automation-and-toolsautomation-and-tools` is missing structured evidence.
+- `entities/quickstart.md`: Claim `sandboxed-terminalsandboxed-terminal` is missing structured evidence.
+- `entities/quickstart.md`: Claim `voice-modevoice-mode` is missing structured evidence.
+- `entities/quickstart.md`: Claim `skillsskills` is missing structured evidence.
+- `entities/quickstart.md`: Claim `mcp-serversmcp-servers` is missing structured evidence.
+- `entities/quickstart.md`: Claim `editor-integration-acpeditor-integration-acp` is missing structured evidence.
+- `entities/quickstart.md`: Claim `common-failure-modescommon-failure-modes` is missing structured evidence.
+- `entities/quickstart.md`: Claim `recovery-toolkitrecovery-toolkit` is missing structured evidence.
+- `entities/quickstart.md`: Claim `quick-referencequick-reference` is missing structured evidence.
+- `entities/quickstart.md`: Claim `next-stepsnext-steps` is missing structured evidence.
+- `entities/quickstart.md`: Claim `user-guidedocsuser-guidecli` is missing structured evidence.
+- `entities/quickstart.md`: Claim `developer-guidedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/quickstart.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/quickstart.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
+- `entities/quickstart.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
+- `entities/quickstart.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
+- `entities/searxng.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/security.md`: Claim `mode-behavior` is missing structured evidence.
+- `entities/security.md`: Claim `manual-default-always-prompt-the-user-for-approval-on` is missing structured evidence.
+- `entities/security.md`: Claim `smart-use-an-auxiliary-llm-to-assess-risk-low-risk-com` is missing structured evidence.
+- `entities/security.md`: Claim `off-disable-all-approval-checks-equivalent-to-running` is missing structured evidence.
+- `entities/security.md`: Claim `pattern-description` is missing structured evidence.
+- `entities/security.md`: Claim `rm--r-rm---recursive-recursive-delete` is missing structured evidence.
+- `entities/security.md`: Claim `rm-delete-in-root-path` is missing structured evidence.
+- `entities/security.md`: Claim `chmod-777666-ow-aw-worldother-writable-perm` is missing structured evidence.
+- `entities/security.md`: Claim `chmod---recursive-with-unsafe-perms-recursive-worldoth` is missing structured evidence.
+- `entities/security.md`: Claim `chown--r-root-chown---recursive-root-recursive-chow` is missing structured evidence.
+- `entities/security.md`: Claim `mkfs-format-filesystem` is missing structured evidence.
+- `entities/security.md`: Claim `dd-if-disk-copy` is missing structured evidence.
+- `entities/security.md`: Claim `devsd-write-to-block-device` is missing structured evidence.
+- `entities/security.md`: Claim `drop-tabledatabase-sql-drop` is missing structured evidence.
+- `entities/security.md`: Claim `delete-from-without-where-sql-delete-without-where` is missing structured evidence.
+- `entities/security.md`: Claim `truncate-table-sql-truncate` is missing structured evidence.
+- `entities/security.md`: Claim `etc-overwrite-system-config` is missing structured evidence.
+- `entities/security.md`: Claim `systemctl-stopdisablemask-stopdisable-system-service` is missing structured evidence.
+- `entities/security.md`: Claim `kill--9--1-kill-all-processes` is missing structured evidence.
+- `entities/security.md`: Claim `pkill--9-force-kill-processes` is missing structured evidence.
+- `entities/security.md`: Claim `fork-bomb-patterns-fork-bombs` is missing structured evidence.
+- `entities/security.md`: Claim `bash--c-sh--c-zsh--c-ksh--c-shell-command-e` is missing structured evidence.
+- `entities/security.md`: Claim `python--e-perl--e-ruby--e-node--c-script-ex` is missing structured evidence.
+- `entities/security.md`: Claim `curl-sh-wget` is missing structured evidence.
+- `entities/security.md`: Claim `bash-curl-sh-wget-execute-remote-scri` is missing structured evidence.
+- `entities/security.md`: Claim `tee-to-etc-ssh-hermesenv-overwrite-s` is missing structured evidence.
+- `entities/security.md`: Claim `to-etc-ssh-hermesenv-overwr` is missing structured evidence.
+- `entities/security.md`: Claim `xargs-rm-xargs-with-rm` is missing structured evidence.
+- `entities/security.md`: Claim `find--exec-rm-find--delete-find-with-destructive-ac` is missing structured evidence.
+- `entities/security.md`: Claim `cpmvinstall-to-etc-copymove-file-into-system` is missing structured evidence.
+- `entities/security.md`: Claim `sed--i-sed---in-place-on-etc-in-place-edit-of-s` is missing structured evidence.
+- `entities/security.md`: Claim `pkillkillall-hermesgateway-self-termination-prevent` is missing structured evidence.
+- `entities/security.md`: Claim `gateway-run-with-disownnohupsetsid-prevents` is missing structured evidence.
+- `entities/security.md`: Claim `once-allow-this-single-execution` is missing structured evidence.
+- `entities/security.md`: Claim `session-allow-this-pattern-for-the-rest-of-the-session` is missing structured evidence.
+- `entities/security.md`: Claim `always-add-to-permanent-allowlist-saved-to-configyaml` is missing structured evidence.
+- `entities/security.md`: Claim `deny-default-block-the-command` is missing structured evidence.
+- `entities/security.md`: Claim `reply-yes-y-approve-ok-or-go-to-appr` is missing structured evidence.
+- `entities/security.md`: Claim `reply-no-n-deny-or-cancel-to-deny` is missing structured evidence.
+- `entities/security.md`: Claim `pair-is-the-default-unauthorized-dms-get-a-pairing-code-r` is missing structured evidence.
+- `entities/security.md`: Claim `ignore-silently-drops-unauthorized-dms` is missing structured evidence.
+- `entities/security.md`: Claim `platform-sections-override-the-global-default-so-you-can-ke` is missing structured evidence.
+- `entities/security.md`: Claim `feature-details` is missing structured evidence.
+- `entities/security.md`: Claim `code-format-8-char-from-32-char-unambiguous-alphabet-no` is missing structured evidence.
+- `entities/security.md`: Claim `randomness-cryptographic-secretschoice` is missing structured evidence.
+- `entities/security.md`: Claim `code-ttl-1-hour-expiry` is missing structured evidence.
+- `entities/security.md`: Claim `rate-limiting-1-request-per-user-per-10-minutes` is missing structured evidence.
+- `entities/security.md`: Claim `pending-limit-max-3-pending-codes-per-platform` is missing structured evidence.
+- `entities/security.md`: Claim `lockout-5-failed-approval-attempts-1-hour-lockout` is missing structured evidence.
+- `entities/security.md`: Claim `file-security-chmod-0600-on-all-pairing-data-files` is missing structured evidence.
+- `entities/security.md`: Claim `logging-codes-are-never-logged-to-stdout` is missing structured evidence.
+- `entities/security.md`: Claim `platform-pendingjson-pending-pairing-requests` is missing structured evidence.
+- `entities/security.md`: Claim `platform-approvedjson-approved-users` is missing structured evidence.
+- `entities/security.md`: Claim `rate-limitsjson-rate-limit-and-lockout-tracking` is missing structured evidence.
+- `entities/security.md`: Claim `persistent-mode-container-persistent-true-bind-mount` is missing structured evidence.
+- `entities/security.md`: Claim `ephemeral-mode-container-persistent-false-uses-tmpfs` is missing structured evidence.
+- `entities/security.md`: Claim `backend-isolation-dangerous-cmd-check-best-fo` is missing structured evidence.
+- `entities/security.md`: Claim `backend-local-isolation-none-runs-on-host` is missing structured evidence.
+- `entities/security.md`: Claim `backend-ssh-isolation-remote-machine-dangero` is missing structured evidence.
+- `entities/security.md`: Claim `backend-docker-isolation-container-dangerous` is missing structured evidence.
+- `entities/security.md`: Claim `backend-singularity-isolation-container-dang` is missing structured evidence.
+- `entities/security.md`: Claim `backend-modal-isolation-cloud-sandbox-danger` is missing structured evidence.
+- `entities/security.md`: Claim `backend-daytona-isolation-cloud-sandbox-dang` is missing structured evidence.
+- `entities/security.md`: Claim `name-tenor-api-key` is missing structured evidence.
+- `entities/security.md`: Claim `my-custom-key` is missing structured evidence.
+- `entities/security.md`: Claim `another-token` is missing structured evidence.
+- `entities/security.md`: Claim `path-google-tokenjson` is missing structured evidence.
+- `entities/security.md`: Claim `path-google-client-secretjson` is missing structured evidence.
+- `entities/security.md`: Claim `docker-read-only-bind-mounts--v-hostcontainerro` is missing structured evidence.
+- `entities/security.md`: Claim `modal-mounted-at-sandbox-creation-synced-before-each-co` is missing structured evidence.
+- `entities/security.md`: Claim `local-no-action-needed-files-already-accessible` is missing structured evidence.
+- `entities/security.md`: Claim `google-tokenjson` is missing structured evidence.
+- `entities/security.md`: Claim `my-custom-oauth-tokenjson` is missing structured evidence.
+- `entities/security.md`: Claim `sandbox-default-filter-passthrough-override` is missing structured evidence.
+- `entities/security.md`: Claim `sandbox-execute-code-default-filter-blocks-var` is missing structured evidence.
+- `entities/security.md`: Claim `sandbox-terminal-local-default-filter-blocks` is missing structured evidence.
+- `entities/security.md`: Claim `sandbox-terminal-docker-default-filter-no-hos` is missing structured evidence.
+- `entities/security.md`: Claim `sandbox-terminal-modal-default-filter-no-host` is missing structured evidence.
+- `entities/security.md`: Claim `sandbox-mcp-default-filter-blocks-everything-ex` is missing structured evidence.
+- `entities/security.md`: Claim `the-passthrough-only-affects-vars-you-or-your-skills-explici` is missing structured evidence.
+- `entities/security.md`: Claim `credential-files-are-mounted-read-only-into-docker-conta` is missing structured evidence.
+- `entities/security.md`: Claim `skills-guard-scans-skill-content-for-suspicious-env-access-p` is missing structured evidence.
+- `entities/security.md`: Claim `missingunset-vars-are-never-registered-you-cant-leak-what` is missing structured evidence.
+- `entities/security.md`: Claim `hermes-infrastructure-secrets-provider-api-keys-gateway-to` is missing structured evidence.
+- `entities/security.md`: Claim `github-pats-ghp` is missing structured evidence.
+- `entities/security.md`: Claim `openai-style-keys-sk` is missing structured evidence.
+- `entities/security.md`: Claim `bearer-tokens` is missing structured evidence.
+- `entities/security.md`: Claim `token-key-api-key-password-secret-paramet` is missing structured evidence.
+- `entities/security.md`: Claim `internalcompanycom` is missing structured evidence.
+- `entities/security.md`: Claim `adminexamplecom` is missing structured evidence.
+- `entities/security.md`: Claim `etchermesblocked-sitestxt` is missing structured evidence.
+- `entities/security.md`: Claim `private-networks-rfc-1918-100008-172160012` is missing structured evidence.
+- `entities/security.md`: Claim `loopback-1270008-1` is missing structured evidence.
+- `entities/security.md`: Claim `link-local-1692540016-includes-cloud-metadata-at` is missing structured evidence.
+- `entities/security.md`: Claim `cgnat-shared-address-space-rfc-6598-100640010` is missing structured evidence.
+- `entities/security.md`: Claim `cloud-metadata-hostnames-metadatagoogleinternal-met` is missing structured evidence.
+- `entities/security.md`: Claim `reserved-multicast-and-unspecified-addresses` is missing structured evidence.
+- `entities/security.md`: Claim `homograph-url-spoofing-internationalized-domain-attacks` is missing structured evidence.
+- `entities/security.md`: Claim `pipe-to-interpreter-patterns-curl-bash-wget-sh` is missing structured evidence.
+- `entities/security.md`: Claim `terminal-injection-attacks` is missing structured evidence.
+- `entities/security.md`: Claim `instructions-to-ignoredisregard-prior-instructions` is missing structured evidence.
+- `entities/security.md`: Claim `hidden-html-comments-with-suspicious-keywords` is missing structured evidence.
+- `entities/security.md`: Claim `attempts-to-read-secrets-env-credentials-netrc` is missing structured evidence.
+- `entities/security.md`: Claim `credential-exfiltration-via-curl` is missing structured evidence.
+- `entities/security.md`: Claim `invisible-unicode-characters-zero-width-spaces-bidirection` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `signal-cli-java-based-signal-client-github` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `java-17-runtime-required-by-signal-cli` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `a-phone-number-with-signal-installed-for-linking-as-a-secon` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `images-png-jpeg-gif-webp-auto-detected-via-magic-bytes` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `audio-mp3-ogg-wav-m4a-voice-messages-transcribed-if-wh` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `documents-pdf-zip-and-other-file-types` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `images-send-image-file-sends-png-jpeg-gif-webp-as-nativ` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `voice-send-voice-sends-audio-files-ogg-mp3-wav-m4a-aa` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `video-send-video-sends-mp4-video-files` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `documents-send-document-sends-any-file-type-pdf-zip-etc` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `15551234567-1554567` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `this-applies-to-both-hermes-gateway-logs-and-the-global-reda` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `note-to-self-messages-arrive-as-syncmessagesentmessage-en` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `the-adapter-detects-when-these-are-addressed-to-the-bots-ow` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `echo-back-protection-sent-timestamp-tracking-prevents-infi` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `the-connection-drops-with-exponential-backoff-2s-60s` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `no-activity-is-detected-for-120-seconds-pings-signal-cli-to` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `phone-numbers-are-redacted-in-all-log-output` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `use-dm-pairing-or-explicit-allowlists-for-safe-onboarding-of` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `keep-groups-disabled-unless-you-specifically-need-group-supp` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `signals-end-to-end-encryption-protects-message-content-in-t` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `the-signal-cli-session-data-in-localsharesignal-cli-co` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `installing-signal-cli` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `step-1-link-your-signal-accountstep-1-link-your-signal` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `step-2-start-the-signal-cli-daemonstep-2-start-the-sign` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `step-3-configure-hermesstep-3-configure-hermesmanu` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `manual-configuration` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `access-controlaccess-controldm-accessgroup-acc` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `group-access` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `featuresfeaturesattachmentstyping-indicators` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `attachments` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `typing-indicators` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `phone-number-redaction` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `note-to-self-single-number-setup` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `health-monitoring` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/signal-setup.md`: Claim `environment-variables-referenceenvironment-variables-ref` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `name-it-something-like-hermes-socket-the-name-doesnt-matte` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `add-the-connectionswrite-scope` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `click-generate` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `copy-the-token-it-starts-with-xapp--this-is-your-slack` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `hey-hermes` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `the-first-token-in-the-list-is-the-primary-token-used-for-t` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `each-token-is-authenticated-via-authtest-on-startup-the-ga` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `when-a-message-arrives-hermes-uses-the-correct-workspace-sp` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `the-primary-bot-user-id-from-the-first-token-is-used-for-b` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `incoming-voiceaudio-messages-are-automatically-transcribed` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `outgoing-tts-responses-are-sent-as-audio-file-attachments` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `tokens-should-be-stored-in-hermesenv-file-permissions` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `rotate-tokens-periodically-via-the-slack-app-settings` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `audit-who-has-access-to-your-hermes-config-directory` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `socket-mode-means-no-public-endpoint-is-exposed-one-less-a` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `thread-reply-behavior` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `session-isolation` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `mention-trigger-behavior` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `unauthorized-user-handling` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `voice-transcription` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `full-example` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `home-channelhome-channel` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `multi-workspace-supportmulti-workspace-supportconfi` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `configuration` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `oauth-token-file` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `how-it-works` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `voice-messagesvoice-messages` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `per-channel-promptsper-channel-prompts` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `troubleshootingtroubleshootingquick-checklist` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `quick-checklist` is missing structured evidence.
+- `entities/slack-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `twilio-account-sign-up-at-twiliocom-free-trial-available` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `a-twilio-phone-number-with-sms-capability` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `a-publicly-accessible-server-twilio-sends-webhooks-to-your` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `aiohttp-pip-install-hermes-agentsms` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `webhook-httpsyour-server8080webhookstwilio` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `http-method-post` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `plain-text-only-markdown-is-automatically-stripped-since-s` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `1600-character-limit-longer-responses-are-split-across-mul` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `echo-prevention-messages-from-your-own-twilio-number-are-i` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `phone-number-redaction-phone-numbers-are-redacted-in-logs` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `interactive-setup-recommended` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `manual-setup` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `step-3-configure-twilio-webhookstep-3-configure-twilio` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `step-4-start-the-gatewaystep-4-start-the-gateway` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `environment-variablesenvironment-variables` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `sms-specific-behaviorsms-specific-behavior` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `securitysecuritywebhook-signature-validationus` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `webhook-signature-validation` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `user-allowlists` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `troubleshootingtroubleshootingmessages-not-arriving` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `messages-not-arriving` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `replies-not-sending` is missing structured evidence.
+- `entities/sms-setup-twilio.md`: Claim `webhook-port-conflicts` is missing structured evidence.
+- `entities/stdin.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/telegram-setup.md`: Claim `messages-that-start-with-a-command` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `replies-directly-to-the-bots-own-messages` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `service-messages-member-joinsleaves-pinned-messages-etc` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `messages-in-channels-where-the-bot-is-an-admin` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `the-agent-writes-a-file-inside-docker-to-workspacereportt` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `the-model-emits-mediaworkspacereporttxt` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `telegram-delivery-fails-because-workspacereporttxt-only-e` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `homeuserhermescachedocumentsoutput` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `write-files-inside-docker-to-output` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `emit-the-host-visible-path-in-media-for-example` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `local-uses-faster-whisper-on-the-machine-running-hermes-no` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `groq-uses-groq-whisper-and-requires-groq-api-key` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `openai-uses-openai-whisper-and-requires-voice-tools-openai-k` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `openai-and-elevenlabs-produce-opus-natively-no-extra-setup` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `edge-tts-the-default-free-provider-outputs-mp3-and-require` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `slash-commands` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `replies-to-one-of-the-bots-messages` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `botusername-mentions` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `matches-for-one-of-your-configured-regex-wake-words-in-teleg` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `use-telegramignored-threads-to-keep-hermes-silent-in-specif` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `if-telegramrequire-mention-is-left-unset-or-false-hermes-k` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `schompyb` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `patterns-use-python-regular-expressions` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `matching-is-case-insensitive` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `patterns-are-checked-against-both-text-messages-and-media-ca` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `invalid-regex-patterns-are-ignored-with-a-warning-in-the-gat` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `if-you-want-a-pattern-to-match-only-at-the-start-of-a-messag` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `topic-website-work-on-your-production-web-service` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `topic-research-literature-review-and-paper-exploration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `topic-general-miscellaneous-tasks-and-quick-questions` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `chat-id-123456789-your-telegram-user-id` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `name-general` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `name-website` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `name-research` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `engineering-topic-auto-loads-the-software-development-skil` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `research-topic-auto-loads-the-arxiv-skill` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `general-topic-no-skill-general-purpose-assistant` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `chat-id--1001234567890-supergroup-id` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `name-engineering` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `name-research` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `name-general` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `bot-api-94-feb-2026-private-chat-topics-bots-can-creat` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `privacy-policy-telegram-now-requires-bots-to-have-a-privacy` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `message-streaming-bot-api-9x-added-support-for-streaming-l` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `149154167220` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `when-the-bot-starts-processing-your-message` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `when-the-response-is-delivered-successfully` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `if-an-error-occurs-during-processing` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `message-in-topic-42-inside-group--1001234567890-uses-topic` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `message-in-topic-99-no-explicit-entry-falls-back-to-grou` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `message-in-a-group-with-no-entry-no-channel-prompt-applied` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `how-to-disable-privacy-mode` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `step-4-find-your-user-idstep-4-find-your-user-id` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `step-5-configure-hermesstep-5-configure-hermesopti` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `option-a-interactive-setup-recommended` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `option-b-manual-configuration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `start-the-gateway` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `sending-generated-files-from-docker-backed-terminalssend` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `webhook-modewebhook-modeconfigurationcloud-dep` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `configuration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `cloud-deployment-example-flyio` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `proxy-supportproxy-support` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `home-channelhome-channel` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `voice-messagesvoice-messagesincoming-voice-speech-t` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `incoming-voice-speech-to-text` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `outgoing-voice-text-to-speech` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `group-chat-usagegroup-chat-usageexample-group-trigg` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `example-group-trigger-configuration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `notes-on-mention-patterns` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `private-chat-topics-bot-api-94private-chat-topics-bot` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `configuration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `how-it-works` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `skill-binding` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `group-forum-topic-skill-bindinggroup-forum-topic-skill-b` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `configuration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `how-it-works` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `differences-from-dm-topics` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `recent-bot-api-featuresrecent-bot-api-features` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `interactive-model-pickerinteractive-model-picker` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `dns-over-https-fallback-ipsdns-over-https-fallback-ips` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `how-it-works` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `configuration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `proxy-supportproxy-support-1supported-variables` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `supported-variables` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `configuration` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `message-reactionsmessage-reactions` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `per-channel-promptsper-channel-prompts` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `exec-approvalexec-approval` is missing structured evidence.
+- `entities/telegram-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `using-hermesdocsuser-guidecli` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `featuresdocsuser-guidefeaturesoverview` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `messaging-platformsdocsuser-guidemessaging` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `integrationsdocsintegrations` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `guides-tutorialsdocsguidestipstips-best-practice` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `run-local-llms-on-macdocsguideslocal-llm-on-mac` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `tutorial-daily-briefing-botdocsguidesdaily-briefing-b` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `tutorial-team-telegram-assistantdocsguidesteam-telegr` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `using-hermes-as-a-python-librarydocsguidespython-libra` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-mcp-with-hermesdocsguidesuse-mcp-with-hermes` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-soulmd-with-hermesdocsguidesuse-soul-with-hermes` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-voice-mode-with-hermesdocsguidesuse-voice-mode-wit` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `build-a-plugindocsguidesbuild-a-hermes-plugin` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `automate-anything-with-crondocsguidesautomate-with-cro` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `automation-templatesdocsguidesautomation-templates` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `cron-troubleshootingdocsguidescron-troubleshooting` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `working-with-skillsdocsguideswork-with-skills` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `delegation-parallel-workdocsguidesdelegation-pattern` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `tutorial-github-pr-review-agentdocsguidesgithub-pr-re` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `github-pr-reviews-via-webhookdocsguideswebhook-github` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `migrate-from-openclawdocsguidesmigrate-from-openclaw` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `aws-bedrockdocsguidesaws-bedrock` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `developer-guidedocsdeveloper-guidecontributing` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `docs` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `guides-tutorials` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `tips-best-practices` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `prefer-opening-files-with-an-explicit-utf-8-encoding` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `in-powershell-you-can-also-switch-the-current-session-to-ut` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `provide-context-up-frontprovide-context-up-front` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-context-files-for-recurring-instructionsuse-context` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `let-the-agent-use-its-toolslet-the-agent-use-its-tools` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-skills-for-complex-workflowsuse-skills-for-complex-w` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `cli-power-user-tipscli-power-user-tipsmulti-line-input` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `paste-detectionpaste-detection` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `interrupt-and-redirectinterrupt-and-redirect` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `resume-sessions-with--cresume-sessions-with--c` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `clipboard-image-pasteclipboard-image-paste` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `slash-command-autocompleteslash-command-autocomplete` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `context-filescontext-filesagentsmd-your-project39` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `soulmd-customize-personalitysoulmd-customize-personali` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `cursorrules-compatibilitycursorrules-compatibility` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `discoverydiscovery` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `memory-skillsmemory--skillsmemory-vs-skills-what-g` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `when-to-create-skillswhen-to-create-skills` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `managing-memory-capacitymanaging-memory-capacity` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `let-the-agent-rememberlet-the-agent-remember` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `performance-costperformance--costdon39t-break-the` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-compress-before-hitting-limitsuse-compress-before-h` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `delegate-for-parallel-workdelegate-for-parallel-work` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-execute-code-for-batch-operationsuse-execute-code-fo` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `choose-the-right-modelchoose-the-right-model` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `messaging-tipsmessaging-tipsset-a-home-channelset-a` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-title-to-organize-sessionsuse-title-to-organize-ses` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `dm-pairing-for-team-accessdm-pairing-for-team-access` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `tool-progress-display-modestool-progress-display-modes` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `securitysecurityuse-docker-for-untrusted-codeuse-do` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `avoid-windows-encoding-pitfallsavoid-windows-encoding-pi` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `review-before-choosing-alwaysreview-before-choosing-al` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `command-approval-is-your-safety-netcommand-approval-is-y` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `use-allowlists-for-messaging-botsuse-allowlists-for-mess` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `user-guidedocsuser-guidecli` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `developer-guidedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
+- `entities/tips-best-practices.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
+- `entities/updating-uninstalling.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/updating-uninstalling.md`: Claim `the-update-ignores-sighup-so-closing-your-ssh-session-or-te` is missing structured evidence.
+- `entities/updating-uninstalling.md`: Claim `all-output-is-mirrored-to-hermeslogsupdatelog-while` is missing structured evidence.
+- `entities/updating-uninstalling.md`: Claim `ctrl-c-sigint-and-system-shutdown-sigterm-are-still-hono` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `using-hermesdocsuser-guidecli` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `featuresdocsuser-guidefeaturesoverview` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `messaging-platformsdocsuser-guidemessaging` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `integrationsdocsintegrations` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `guides-tutorialsdocsguidestipstips-best-practice` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `run-local-llms-on-macdocsguideslocal-llm-on-mac` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `tutorial-daily-briefing-botdocsguidesdaily-briefing-b` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `tutorial-team-telegram-assistantdocsguidesteam-telegr` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `using-hermes-as-a-python-librarydocsguidespython-libra` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `use-mcp-with-hermesdocsguidesuse-mcp-with-hermes` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `use-soulmd-with-hermesdocsguidesuse-soul-with-hermes` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `use-voice-mode-with-hermesdocsguidesuse-voice-mode-wit` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `build-a-plugindocsguidesbuild-a-hermes-plugin` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `automate-anything-with-crondocsguidesautomate-with-cro` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `automation-templatesdocsguidesautomation-templates` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `cron-troubleshootingdocsguidescron-troubleshooting` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `working-with-skillsdocsguideswork-with-skills` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `delegation-parallel-workdocsguidesdelegation-pattern` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `tutorial-github-pr-review-agentdocsguidesgithub-pr-re` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `github-pr-reviews-via-webhookdocsguideswebhook-github` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `migrate-from-openclawdocsguidesmigrate-from-openclaw` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `aws-bedrockdocsguidesaws-bedrock` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `developer-guidedocsdeveloper-guidecontributing` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `docs` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `guides-tutorials` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `use-mcp-with-hermes` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `a-tool-already-exists-in-mcp-form-and-you-do-not-want-to-bui` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `you-want-hermes-to-operate-against-a-local-or-remote-system` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `you-want-fine-grained-per-server-exposure-control` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `you-want-to-connect-hermes-to-internal-apis-databases-or-c` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `a-built-in-hermes-tool-already-solves-the-job-well` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `the-server-exposes-a-huge-dangerous-tool-surface-and-you-are` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `you-only-need-one-very-narrow-integration-and-a-native-tool` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `hermes-remains-the-agent` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `mcp-servers-contribute-tools` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `hermes-discovers-those-tools-at-startup-or-reload-time` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `the-model-can-use-them-like-normal-tools` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `you-control-how-much-of-each-server-is-visible` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `hermes-bannerstatus-should-show-mcp-integration-when-config` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `ask-hermes-what-tools-it-has-available` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `use-reload-mcp-after-config-changes` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `check-logs-if-the-server-failed-to-connect` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `server-native-mcp-tools` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `filtered-with` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `toolsexclude` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `hermes-added-utility-wrappers` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `filtered-with` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `toolsprompts` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `list-resources` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `read-resource` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `list-prompts` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `get-prompt` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `your-config-allows-them-and` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `the-mcp-server-session-actually-supports-those-capabilities` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `use-toolsinclude` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `start-with-the-smallest-set-possible` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `filesystem-server-rooted-to-one-project-dir-not-your-whole` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `git-server-pointed-at-one-repo` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `internal-api-server-with-read-heavy-tool-exposure-by-default` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `includeexclude-lists` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `enabled-flags` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `resourcesprompts-toggles` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `auth-headers-env` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `filtered-by-toolsinclude` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `excluded-by-toolsexclude` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `utility-wrappers-disabled-via-resources-false-or-prompts` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `server-does-not-actually-support-resourcesprompts` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `enabled-false-was-not-left-in-config` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `commandruntime-exists-npx-uvx-etc` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `http-endpoint-is-reachable` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `auth-env-or-headers-are-correct` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `filesystem` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `fetch-documentation-mcp-servers` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `one-narrow-internal-api` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `giant-business-systems-with-lots-of-destructive-actions-and` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `anything-you-do-not-understand-well-enough-to-constrain` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `mcp-model-context-protocoldocsuser-guidefeaturesmcp` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `faqdocsreferencefaq` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `slash-commandsdocsreferenceslash-commands` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `mental-modelmental-model` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `step-1-install-mcp-supportstep-1-install-mcp-support` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `step-2-add-one-server-firststep-2-add-one-server-first` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `step-3-verify-mcp-loadedstep-3-verify-mcp-loaded` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `step-4-start-filtering-immediatelystep-4-start-filterin` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `example-blacklist-dangerous-actionsexample-blacklist-da` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `example-disable-utility-wrappers-tooexample-disable-uti` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `what-does-filtering-actually-affectwhat-does-filtering` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `common-patternscommon-patternspattern-1-local-project` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `pattern-2-github-triage-assistantpattern-2-github-triag` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `pattern-3-internal-api-assistantpattern-3-internal-api` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `pattern-4-documentation-knowledge-serverspattern-4-do` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `tutorial-end-to-end-setup-with-filteringtutorial-end-to` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `phase-2-expand-only-when-neededphase-2-expand-only-when` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `phase-3-add-a-second-server-with-different-policyphase` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `safe-usage-recommendationssafe-usage-recommendationspr` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `disable-unused-utilitiesdisable-unused-utilities` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `keep-servers-scoped-narrowlykeep-servers-scoped-narrowly` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `reload-after-config-changesreload-after-config-changes` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `troubleshooting-by-symptomtroubleshooting-by-symptomt` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `the-server-is-configured-but-nothing-loadsthe-server-i` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `why-do-i-see-fewer-tools-than-the-mcp-server-advertises` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `how-do-i-remove-an-mcp-server-without-deleting-the-config` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `recommended-first-mcp-setupsrecommended-first-mcp-setups` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `related-docsrelated-docs` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `user-guidedocsuser-guidecli` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `developer-guidedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
+- `entities/use-mcp-with-hermes.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `using-hermesdocsuser-guidecli` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `featuresdocsuser-guidefeaturesoverview` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `messaging-platformsdocsuser-guidemessaging` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `integrationsdocsintegrations` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `guides-tutorialsdocsguidestipstips-best-practice` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `run-local-llms-on-macdocsguideslocal-llm-on-mac` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `tutorial-daily-briefing-botdocsguidesdaily-briefing-b` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `tutorial-team-telegram-assistantdocsguidesteam-telegr` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `using-hermes-as-a-python-librarydocsguidespython-libra` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-mcp-with-hermesdocsguidesuse-mcp-with-hermes` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-soulmd-with-hermesdocsguidesuse-soul-with-hermes` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-voice-mode-with-hermesdocsguidesuse-voice-mode-wit` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `build-a-plugindocsguidesbuild-a-hermes-plugin` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `automate-anything-with-crondocsguidesautomate-with-cro` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `automation-templatesdocsguidesautomation-templates` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `cron-troubleshootingdocsguidescron-troubleshooting` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `working-with-skillsdocsguideswork-with-skills` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `delegation-parallel-workdocsguidesdelegation-pattern` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `tutorial-github-pr-review-agentdocsguidesgithub-pr-re` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `github-pr-reviews-via-webhookdocsguideswebhook-github` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `migrate-from-openclawdocsguidesmigrate-from-openclaw` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `aws-bedrockdocsguidesaws-bedrock` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `developer-guidedocsdeveloper-guidecontributing` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `docs` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `guides-tutorials` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-voice-mode-with-hermes` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-want-a-hands-free-cli-workflow` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-want-spoken-responses-in-telegram-or-discord` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-want-hermes-sitting-in-a-discord-voice-channel-for-live` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-want-quick-idea-capture-debugging-or-back-and-forth-wh` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `get-text-working-first` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `enable-voice-replies-second` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `move-to-discord-voice-channels-last-if-you-want-the-full-exp` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `hermes-starts` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `your-provider-is-configured` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `the-agent-can-answer-text-prompts-normally` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `portaudio-microphone-input-playback-for-cli-voice-mode` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `ffmpeg-audio-conversion-for-tts-and-messaging-delivery` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `opus-discord-voice-codec-support` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `espeak-ng-phonemizer-backend-for-neutts` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `stt-provider-local` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `tts-provider-edge` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `local-best-default-for-privacy-and-zero-cost-use` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `groq-very-fast-cloud-transcription` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `openai-good-paid-fallback` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `edge-free-and-good-enough-for-most-users` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `neutts-free-localon-device-tts` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `elevenlabs-best-quality` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `openai-good-middle-ground` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `mistral-multilingual-native-opus` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `press-ctrlb` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `wait-for-silence-detection-to-stop-recording-automatically` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `hermes-transcribes-and-responds` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `if-tts-is-on-it-speaks-the-answer` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `the-loop-can-automatically-restart-for-continuous-use` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `read-the-last-error-again` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `explain-the-root-cause-in-simpler-terms` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `now-give-me-the-exact-fix` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `walking-around-while-thinking` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `dictating-half-formed-ideas` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `asking-hermes-to-structure-your-thoughts-in-real-time` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `voice-on-if-you-want-spoken-replies-only-for-voice-origin` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `voice-tts-if-you-want-a-full-spoken-assistant-all-the-tim` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-are-away-from-your-machine` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-want-to-send-voice-notes-and-get-quick-spoken-replies` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-want-hermes-to-function-like-a-portable-research-or-ops` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `preferably-use-voice-activity` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `presence-intent` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `server-members-intent` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `message-content-intent` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `users-speak-in-the-vc` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `hermes-detects-speech-boundaries` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `transcripts-are-posted-in-the-associated-text-channel` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `hermes-responds-in-text-and-audio` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `the-text-channel-is-the-one-where-voice-join-was-issued` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `keep-discord-allowed-users-tight` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-a-dedicated-bottesting-channel-at-first` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `verify-stt-and-tts-work-in-ordinary-text-chat-voice-mode-bef` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `stt-local-large-v3-or-groq-whisper-large-v3` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `tts-elevenlabs` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `stt-local-base-or-groq` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `stt-local` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `your-discord-user-id-is-in-discord-allowed-users` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `you-are-not-muted` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `privileged-intents-are-enabled` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `the-bot-has-connectspeak-permissions` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `tts-provider-config` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `api-key-quota-for-elevenlabs-or-openai` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `ffmpeg-install-for-edge-conversion-paths` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `quieter-environment` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `higher-silence-threshold` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `different-stt-providermodel` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `shorter-clearer-utterances` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `get-text-hermes-working` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `install-hermes-agentvoice` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-cli-voice-mode-with-local-stt-edge-tts` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `then-enable-voice-on-in-telegram-or-discord` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `only-after-that-try-discord-vc-mode` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `voice-mode-feature-referencedocsuser-guidefeaturesvoi` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `messaging-gatewaydocsuser-guidemessaging` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `discord-setupdocsuser-guidemessagingdiscord` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `telegram-setupdocsuser-guidemessagingtelegram` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `configurationdocsuser-guideconfiguration` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `choose-your-voice-mode-setupchoose-your-voice-mode-setup` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `step-1-make-sure-normal-hermes-works-firststep-1-make-s` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `step-2-install-the-right-extrasstep-2-install-the-right` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `messaging-platformsmessaging-platforms` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `premium-elevenlabs-ttspremium-elevenlabs-tts` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `local-neutts-optionallocal-neutts-optional` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `everythingeverything` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `step-3-install-system-dependenciesstep-3-install-system` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `ubuntu-debianubuntu--debian` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `step-4-choose-stt-and-tts-providersstep-4-choose-stt-an` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `environment-file-exampleenvironment-file-example` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `provider-recommendationsprovider-recommendations` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `if-you-use-hermes-setupif-you-use-hermes-setup` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `step-5-recommended-configstep-5-recommended-config` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-case-1-cli-voice-modeuse-case-1-cli-voice-mode` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `turn-it-onturn-it-onrecording-flowrecording-flow` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `useful-commandsuseful-commands` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `good-cli-workflowsgood-cli-workflows` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `tuning-cli-behaviortuning-cli-behaviorsilence-threshol` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `silence-durationsilence-duration` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `record-keyrecord-key` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-case-2-voice-replies-in-telegram-or-discorduse-case` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `turn-on-voice-repliesturn-on-voice-replies` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `modesmodes` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `when-to-use-which-modewhen-to-use-which-mode` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `good-messaging-workflowsgood-messaging-workflows` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `use-case-3-discord-voice-channelsuse-case-3-discord-voi` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `required-discord-permissionsrequired-discord-permissions` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `join-and-leavejoin-and-leavewhat-happens-when-joined` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `best-practices-for-discord-vc-usebest-practices-for-disc` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `voice-quality-recommendationsvoice-quality-recommendatio` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `best-speed-convenience-setupbest-speed--convenience-se` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `best-zero-cost-setupbest-zero-cost-setup` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `common-failure-modescommon-failure-modesno-audio-devi` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `bot-joins-but-hears-nothingbot-joins-but-hears-nothing` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `it-transcribes-but-does-not-speakit-transcribes-but-do` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `whisper-outputs-garbagewhisper-outputs-garbage` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `it-works-in-dms-but-not-in-server-channelsit-works-in` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `suggested-first-week-setupsuggested-first-week-setup` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `where-to-read-nextwhere-to-read-next` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `user-guidedocsuser-guidecli` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `developer-guidedocsdeveloper-guidearchitecture` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `referencedocsreferencecli-commands` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
+- `entities/use-voice-mode-with-hermes.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
+- `entities/webhooks.md`: Claim `pull-requesttitle-resolves-to-payloadpull-requestti` is missing structured evidence.
+- `entities/webhooks.md`: Claim `repositoryfull-name-resolves-to-payloadrepositoryfu` is missing structured evidence.
+- `entities/webhooks.md`: Claim `raw-special-token-that-dumps-the-entire-payload-as-i` is missing structured evidence.
+- `entities/webhooks.md`: Claim `missing-keys-are-left-as-the-literal-key-string-no-error` is missing structured evidence.
+- `entities/webhooks.md`: Claim `nested-dicts-and-lists-are-json-serialized-and-truncated-at` is missing structured evidence.
+- `entities/webhooks.md`: Claim `external-service-push-supabasefirebase-webhook-fires-on-a` is missing structured evidence.
+- `entities/webhooks.md`: Claim `monitoring-alerts-datadoggrafana-alert-webhook-push-to` is missing structured evidence.
+- `entities/webhooks.md`: Claim `inter-agent-pings-agent-a-notifies-agent-bs-user-that-a-l` is missing structured evidence.
+- `entities/webhooks.md`: Claim `background-job-completion-cron-job-finishes-post-result` is missing structured evidence.
+- `entities/webhooks.md`: Claim `zero-llm-tokens-the-agent-is-never-invoked` is missing structured evidence.
+- `entities/webhooks.md`: Claim `sub-second-delivery-a-single-adapter-call-no-reasoning-lo` is missing structured evidence.
+- `entities/webhooks.md`: Claim `same-security-as-agent-mode-hmac-auth-rate-limits-idempo` is missing structured evidence.
+- `entities/webhooks.md`: Claim `synchronous-response-the-post-returns-200-ok-once-delivery` is missing structured evidence.
+- `entities/webhooks.md`: Claim `deliver-telegram` is missing structured evidence.
+- `entities/webhooks.md`: Claim `deliver-chat-id-123456789` is missing structured evidence.
+- `entities/webhooks.md`: Claim `deliver-only` is missing structured evidence.
+- `entities/webhooks.md`: Claim `prompt-new-match-matchuser-name-matched-with-you` is missing structured evidence.
+- `entities/webhooks.md`: Claim `description-antenna-match-notifications` is missing structured evidence.
+- `entities/webhooks.md`: Claim `deliver-only-true-requires-deliver-to-be-a-real-target-del` is missing structured evidence.
+- `entities/webhooks.md`: Claim `the-skills-field-is-ignored-in-direct-delivery-mode-no-agen` is missing structured evidence.
+- `entities/webhooks.md`: Claim `template-rendering-uses-the-same-dotnotation-syntax-as-ag` is missing structured evidence.
+- `entities/webhooks.md`: Claim `idempotency-uses-the-same-x-github-delivery-x-request-id-h` is missing structured evidence.
+- `entities/webhooks.md`: Claim `events-issues` is missing structured evidence.
+- `entities/webhooks.md`: Claim `prompt-new-issue-issuenumber-issuetitlenby-issue` is missing structured evidence.
+- `entities/webhooks.md`: Claim `deliver-telegram` is missing structured evidence.
+- `entities/webhooks.md`: Claim `deliver-chat-id--100123456789` is missing structured evidence.
+- `entities/webhooks.md`: Claim `description-triage-new-github-issues` is missing structured evidence.
+- `entities/webhooks.md`: Claim `subscriptions-are-stored-in-hermeswebhook-subscriptions` is missing structured evidence.
+- `entities/webhooks.md`: Claim `the-webhook-adapter-hot-reloads-this-file-on-each-incoming-r` is missing structured evidence.
+- `entities/webhooks.md`: Claim `static-routes-from-configyaml-always-take-precedence-over-d` is missing structured evidence.
+- `entities/webhooks.md`: Claim `dynamic-subscriptions-use-the-same-route-format-and-capabili` is missing structured evidence.
+- `entities/webhooks.md`: Claim `no-gateway-restart-required-subscribe-and-its-immediately` is missing structured evidence.
+- `entities/webhooks.md`: Claim `github-x-hub-signature-256-header-hmac-sha256-hex-digest` is missing structured evidence.
+- `entities/webhooks.md`: Claim `gitlab-x-gitlab-token-header-plain-secret-string-match` is missing structured evidence.
+- `entities/webhooks.md`: Claim `generic-x-webhook-signature-header-raw-hmac-sha256-hex-di` is missing structured evidence.
+- `entities/webhooks.md`: Claim `verify-the-port-is-exposed-and-accessible-from-the-webhook-s` is missing structured evidence.
+- `entities/webhooks.md`: Claim `check-firewall-rules-port-8644-or-your-configured-port-m` is missing structured evidence.
+- `entities/webhooks.md`: Claim `verify-the-url-path-matches-httpyour-server8644webhook` is missing structured evidence.
+- `entities/webhooks.md`: Claim `use-the-health-endpoint-to-confirm-the-server-is-running` is missing structured evidence.
+- `entities/webhooks.md`: Claim `ensure-the-secret-in-your-route-config-exactly-matches-the-s` is missing structured evidence.
+- `entities/webhooks.md`: Claim `for-github-the-secret-is-hmac-based-check-x-hub-signature` is missing structured evidence.
+- `entities/webhooks.md`: Claim `for-gitlab-the-secret-is-a-plain-token-match-check-x-gitl` is missing structured evidence.
+- `entities/webhooks.md`: Claim `check-gateway-logs-for-invalid-signature-warnings` is missing structured evidence.
+- `entities/webhooks.md`: Claim `check-that-the-event-type-is-in-your-routes-events-list` is missing structured evidence.
+- `entities/webhooks.md`: Claim `github-events-use-values-like-pull-request-push-issues-th` is missing structured evidence.
+- `entities/webhooks.md`: Claim `gitlab-events-use-values-like-merge-request-push-the-x-git` is missing structured evidence.
+- `entities/webhooks.md`: Claim `if-events-is-empty-or-not-set-all-events-are-accepted` is missing structured evidence.
+- `entities/webhooks.md`: Claim `run-the-gateway-in-foreground-to-see-logs-hermes-gateway-ru` is missing structured evidence.
+- `entities/webhooks.md`: Claim `check-that-the-prompt-template-is-rendering-correctly` is missing structured evidence.
+- `entities/webhooks.md`: Claim `verify-the-delivery-target-is-configured-and-connected` is missing structured evidence.
+- `entities/webhooks.md`: Claim `the-idempotency-cache-should-prevent-this-check-that-the-w` is missing structured evidence.
+- `entities/webhooks.md`: Claim `delivery-ids-are-cached-for-1-hour` is missing structured evidence.
+- `entities/webhooks.md`: Claim `run-gh-auth-login-on-the-gateway-host` is missing structured evidence.
+- `entities/webhooks.md`: Claim `ensure-the-authenticated-github-user-has-write-access-to-the` is missing structured evidence.
+- `entities/webhooks.md`: Claim `check-that-gh-is-installed-and-on-the-path` is missing structured evidence.
+- `entities/webhooks.md`: Claim `via-setup-wizard` is missing structured evidence.
+- `entities/webhooks.md`: Claim `via-environment-variables` is missing structured evidence.
+- `entities/webhooks.md`: Claim `verify-the-server` is missing structured evidence.
+- `entities/webhooks.md`: Claim `configuring-routesconfiguring-routesroute-propertie` is missing structured evidence.
+- `entities/webhooks.md`: Claim `route-properties` is missing structured evidence.
+- `entities/webhooks.md`: Claim `full-example` is missing structured evidence.
+- `entities/webhooks.md`: Claim `prompt-templates` is missing structured evidence.
+- `entities/webhooks.md`: Claim `forum-topic-delivery` is missing structured evidence.
+- `entities/webhooks.md`: Claim `github-pr-review-step-by-stepgithub-pr-review1-cr` is missing structured evidence.
+- `entities/webhooks.md`: Claim `1-create-the-webhook-in-github` is missing structured evidence.
+- `entities/webhooks.md`: Claim `2-add-the-route-config` is missing structured evidence.
+- `entities/webhooks.md`: Claim `3-ensure-gh-cli-is-authenticated` is missing structured evidence.
+- `entities/webhooks.md`: Claim `4-test-it` is missing structured evidence.
+- `entities/webhooks.md`: Claim `gitlab-webhook-setupgitlab-webhook-setup1-create-th` is missing structured evidence.
+- `entities/webhooks.md`: Claim `1-create-the-webhook-in-gitlab` is missing structured evidence.
+- `entities/webhooks.md`: Claim `2-add-the-route-config` is missing structured evidence.
+- `entities/webhooks.md`: Claim `delivery-optionsdelivery-options` is missing structured evidence.
+- `entities/webhooks.md`: Claim `direct-delivery-modedirect-delivery-modewhen-to-use` is missing structured evidence.
+- `entities/webhooks.md`: Claim `when-to-use-direct-delivery` is missing structured evidence.
+- `entities/webhooks.md`: Claim `example-telegram-push-from-supabase` is missing structured evidence.
+- `entities/webhooks.md`: Claim `example-dynamic-subscription-via-cli` is missing structured evidence.
+- `entities/webhooks.md`: Claim `response-codes` is missing structured evidence.
+- `entities/webhooks.md`: Claim `configuration-gotchas` is missing structured evidence.
+- `entities/webhooks.md`: Claim `dynamic-subscriptions-clidynamic-subscriptionscre` is missing structured evidence.
+- `entities/webhooks.md`: Claim `create-a-subscription` is missing structured evidence.
+- `entities/webhooks.md`: Claim `list-subscriptions` is missing structured evidence.
+- `entities/webhooks.md`: Claim `remove-a-subscription` is missing structured evidence.
+- `entities/webhooks.md`: Claim `test-a-subscription` is missing structured evidence.
+- `entities/webhooks.md`: Claim `how-dynamic-subscriptions-work` is missing structured evidence.
+- `entities/webhooks.md`: Claim `agent-driven-subscriptions` is missing structured evidence.
+- `entities/webhooks.md`: Claim `securitysecurityhmac-signature-validationsecre` is missing structured evidence.
+- `entities/webhooks.md`: Claim `hmac-signature-validation` is missing structured evidence.
+- `entities/webhooks.md`: Claim `secret-is-required` is missing structured evidence.
+- `entities/webhooks.md`: Claim `rate-limiting` is missing structured evidence.
+- `entities/webhooks.md`: Claim `idempotency` is missing structured evidence.
+- `entities/webhooks.md`: Claim `body-size-limits` is missing structured evidence.
+- `entities/webhooks.md`: Claim `prompt-injection-risk` is missing structured evidence.
+- `entities/webhooks.md`: Claim `troubleshootingtroubleshootingwebhook-not-arriving` is missing structured evidence.
+- `entities/webhooks.md`: Claim `webhook-not-arriving` is missing structured evidence.
+- `entities/webhooks.md`: Claim `signature-validation-failing` is missing structured evidence.
+- `entities/webhooks.md`: Claim `event-being-ignored` is missing structured evidence.
+- `entities/webhooks.md`: Claim `agent-not-responding` is missing structured evidence.
+- `entities/webhooks.md`: Claim `duplicate-responses` is missing structured evidence.
+- `entities/webhooks.md`: Claim `gh-cli-errors-github-comment-delivery` is missing structured evidence.
+- `entities/webhooks.md`: Claim `environment-variablesenvironment-variables` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `a-wecom-organization-account` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `an-ai-bot-created-in-the-wecom-admin-console` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `the-bot-id-and-secret-from-the-bots-credentials-page` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `python-packages-aiohttp-and-httpx` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `bot-credentials-via-qr-scan-or-manual-entry` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `access-control-settings-allowlist-pairing-mode-or-open-ac` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `home-channel-for-notifications` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `websocket-transport-persistent-connection-no-public-endpo` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `dm-and-group-messaging-configurable-access-policies` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `per-group-sender-allowlists-fine-grained-control-over-who` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `media-support-images-files-voice-video-upload-and-downl` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `aes-encrypted-media-automatic-decryption-for-inbound-attac` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `quote-context-preserves-reply-threading` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `markdown-rendering-rich-text-responses` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `reply-mode-streaming-correlates-responses-to-inbound-messa` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `auto-reconnect-exponential-backoff-on-connection-drops` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `group-id-1` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `group-id-2` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `user-alice` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `user-bob` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `user-charlie` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `user-admin` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `when-an-inbound-media-item-includes-an-aeskey-field-the-ada` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `the-aes-key-is-the-base64-decoded-value-of-the-aeskey-field` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `the-iv-is-derived-from-the-first-16-bytes-of-the-key` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `this-requires-the-cryptography-python-package-pip-install-c` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `images-10-mb-sent-as-file` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `videos-10-mb-sent-as-file` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `voice-2-mb-sent-as-file` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `non-amr-audio-sent-as-file-wecom-only-supports-amr-for-na` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `step-1-create-an-ai-bot` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `step-2-configure-hermes` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `step-3-start-the-gateway` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `featuresfeatures` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `configuration-optionsconfiguration-options` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `access-policiesaccess-policiesdm-policygroup-p` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `group-policy` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `per-group-sender-allowlists` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `media-supportmedia-supportinbound-receivingaes` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `inbound-receiving` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `aes-encrypted-media-decryption` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `outbound-sending` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `reply-mode-stream-responsesreply-mode-stream-responses` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `connection-and-reconnectionconnection-and-reconnection` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `connection-lifecycle` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `reconnection-behavior` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `deduplication` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `all-environment-variablesall-environment-variables` is missing structured evidence.
+- `entities/wecom-enterprise-wechat.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `a-personal-wechat-account` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `python-packages-aiohttp-and-cryptography` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `terminal-qr-rendering-is-included-when-hermes-is-installed-w` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `long-poll-transport-no-public-endpoint-webhook-or-websoc` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `qr-code-login-scan-to-connect-setup-via-hermes-gateway-set` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `dm-and-group-messaging-configurable-access-policies` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `media-support-images-video-files-and-voice-messages` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `aes-128-ecb-encrypted-cdn-automatic-encryptiondecryption` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `context-token-persistence-disk-backed-reply-continuity-acr` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `markdown-formatting-preserves-markdown-including-headers` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `smart-message-chunking-messages-stay-as-a-single-bubble-wh` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `typing-indicators-shows-typing-status-in-the-wechat-cli` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `ssrf-protection-outbound-media-urls-are-validated-before-d` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `message-deduplication-5-minute-sliding-window-prevents-dou` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `automatic-retry-with-backoff-recovers-from-transient-api-e` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `inbound-encrypted-media-is-downloaded-from-the-cdn-using-en` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `outbound-files-are-encrypted-locally-with-a-random-aes-128` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `the-aes-key-is-16-bytes-128-bit-keys-may-arrive-as-raw-ba` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `this-requires-the-cryptography-python-package` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `tokens-are-saved-per-accountpeer-to-hermesweixinaccoun` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `on-startup-previously-saved-tokens-are-restored` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `every-inbound-message-updates-the-stored-token-for-that-send` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `outbound-messages-automatically-include-the-latest-context-t` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `headers-stay-as-markdown-headings` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `tables-stay-as-markdown-tables` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `code-fences-stay-as-fenced-code-blocks` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `excessive-blank-lines-are-collapsed-to-double-newlines-outsi` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `maximum-message-length-4000-characters` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `messages-under-the-limit-stay-intact-even-when-they-contain` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `oversized-messages-split-at-logical-boundaries-paragraphs` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `code-fences-are-kept-intact-whenever-possible-never-split-m` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `oversized-individual-blocks-fall-back-to-the-base-adapters` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `a-03-s-inter-chunk-delay-prevents-wechat-rate-limit-drops-w` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `1-run-the-setup-wizard` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `2-configure-environment-variables` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `3-start-the-gateway` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `featuresfeatures` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `configuration-optionsconfiguration-options` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `access-policiesaccess-policiesdm-policygroup-p` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `group-policy` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `media-supportmedia-supportinbound-receivingaes` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `inbound-receiving` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `aes-128-ecb-encrypted-cdn` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `outbound-sending` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `context-token-persistencecontext-token-persistence` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `markdown-formattingmarkdown-formatting` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `message-chunkingmessage-chunking` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `typing-indicatorstyping-indicators` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `long-poll-connectionlong-poll-connectionhow-it-work` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `how-it-works` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `retry-behavior` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `deduplication` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `token-lock` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `all-environment-variablesall-environment-variables` is missing structured evidence.
+- `entities/weixin-wechat.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/whatsapp-setup.md`: Claim `use-a-dedicated-phone-number-for-the-bot-not-your-personal` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `dont-send-bulkspam-messages-keep-usage-conversational` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `dont-automate-outbound-messaging-to-people-who-havent-mess` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `nodejs-v18-and-npm-the-whatsapp-bridge-runs-as-a-nodejs` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `a-phone-with-whatsapp-installed-for-scanning-the-qr-code` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `unauthorized-dm-behavior-pair-is-the-global-default-unknow` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `whatsappunauthorized-dm-behavior-ignore-makes-whatsapp-sta` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `sessions-survive-restarts-you-dont-need-to-re-scan-the-qr` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `the-session-data-includes-encryption-keys-and-device-credent` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `do-not-share-or-commit-this-session-directory-it-grants-fu` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `incoming-voice-messages-ogg-opus-are-automatically-trans` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `outgoing-tts-responses-are-sent-as-mp3-audio-file-attachmen` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `agent-responses-are-prefixed-with-hermes-agent-by-defaul` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `the-hermesplatformswhatsappsession-directory-contains` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `set-file-permissions-chmod-700-hermesplatformswhatsapp` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `use-a-dedicated-phone-number-for-the-bot-to-isolate-risk-fro` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `if-you-suspect-compromise-unlink-the-device-from-whatsapp` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `phone-numbers-in-logs-are-partially-redacted-but-review-you` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `whatsapp-compatible-markdown` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `tool-progress` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
+- `entities/whatsapp-setup.md`: Claim `securitysecurity` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `corn-based-ethanol-produced-under-the-us-renewable-fuel-stan` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-primary-driver-is-land-use-change-converting-grassland` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `corn-ethanol-production-has-negatively-affected-water-qualit` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `even-without-considering-international-indirect-land-use-eff` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `tyler-j-lark-university-of-wisconsin-madison-lead-author` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `nathan-p-hendricks-kansas-state-university` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `aaron-smith-university-of-california-davis` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `nicholas-pates-kansas-state-university` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `seth-a-spawn-lee-university-of-wisconsin-madison-univer` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `matthew-bougie-university-of-wisconsin-madison` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `eric-g-booth-university-of-wisconsin-madison` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `christopher-j-kucharik-university-of-wisconsin-madison` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `holly-k-gibbs-university-of-wisconsin-madison` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `national-wildlife-federation` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `us-department-of-energy` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `proceedings-of-the-national-academy-of-sciences-pnas` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `peer-reviewed-impact-factor-12` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `published-february-2022` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-renewable-fuels-association-and-growth-energy-published` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `lark-et-al-published-a-reply-in-pnas-defending-their-method` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-ethanol-industry-rebuttals-are-funded-by-industry-groups` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-studys-findings-contradict-lifecycle-analysis-models-fr` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-study-uses-empirical-satellite-data-and-land-use-records` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-scientific-community-remains-divided-the-debate-betwee` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-study-only-covers-data-up-to-approximately-2016-not-cap` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-24-worse-figure-is-at-the-high-end-of-the-range-the` is missing structured evidence.
+- `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-finding-is-at-one-extreme-of-a-genuinely-divided-scienti` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `oak-spp-quercus-white-oak-red-oak-post-oak-pin-oak` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `tulip-poplar-liriodendron-tulipifera-ncs-tallest-nati` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `black-gum-nyssa-sylvatica-great-fall-color-tolerates` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `american-hornbeam-carpinus-caroliniana-musclewood-com` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `bald-cypress-taxodium-distichum-deciduous-conifer-lov` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `flowering-dogwood-cornus-florida-spring-favorite-whit` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `redbud-cercis-canadensis-purple-pink-spring-blooms` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `serviceberry-amelanchier-arborea-white-spring-flowers` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `fringe-tree-chionanthus-virginicus-fragrant-white-flow` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `loblolly-pine-pinus-taeda-ubiquitous-in-the-nc-piedmon` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `eastern-red-cedar-juniperus-virginiana-dioecious-good` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `american-holly-ilex-opaca-classic-evergreen-with-red-b` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `pawpaw-asimina-triloba-edible-fruit-host-for-zebra-sw` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `sassafras-sassafras-albidum-unique-mitten-shaped-leave` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `green-hawthorn-crataegus-viridis-white-spring-blooms` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `nc-state-extension-identification-of-common-trees-of-nort` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `trees-for-the-trianglehttpswwwtreesforthetriangleorg` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `nc-native-plant-society-recommended-native-specieshttps` is missing structured evidence.
+- `sources/trees-native-to-raleigh-north-carolina.md`: Claim `city-of-raleigh-possible-street-trees-pdfhttpscityof` is missing structured evidence.
+- `syntheses/index.md`: Non-source page is missing `sourceIds` provenance.
 <!-- openclaw:wiki:lint:end -->
