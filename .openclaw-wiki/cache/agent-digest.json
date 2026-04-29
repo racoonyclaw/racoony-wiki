@@ -2,11 +2,11 @@
   "pageCounts": {
     "entity": 63,
     "concept": 7,
-    "source": 4,
+    "source": 6,
     "synthesis": 2,
     "report": 8
   },
-  "claimCount": 6743,
+  "claimCount": 6680,
   "pages": [
     {
       "id": "concept.anomem-postmortem",
@@ -23,59 +23,16 @@
       "topClaims": []
     },
     {
-      "id": "concept.corn-ethanol-climate-impact-debate",
-      "title": "Corn Ethanol Climate Impact Debate",
+      "id": "concept.",
+      "title": "corn-ethanol-climate-impact-debate",
       "kind": "concept",
       "path": "concepts/corn-ethanol-climate-impact-debate.md",
-      "sourceIds": [
-        "source.lark2022ethanol"
-      ],
+      "sourceIds": [],
       "questions": [],
       "contradictions": [],
-      "freshnessLevel": "fresh",
-      "claimCount": 21,
-      "topClaims": [
-        {
-          "id": "doe-argonne-greet-model-corn-ethanol-reduces-life-cycle-g",
-          "text": "DOE Argonne GREET model:** Corn ethanol reduces life-cycle GHG emissions by ~40-46% compared to gasoline",
-          "status": "supported",
-          "evidenceCount": 0,
-          "missingEvidence": true,
-          "freshnessLevel": "unknown"
-        },
-        {
-          "id": "lark-et-al-2022-pnas-corn-ethanol-is-at-least-24-more",
-          "text": "Lark et al. (2022) PNAS:** Corn ethanol is at least 24% more carbon-intensive than gasoline when land-use change is accounted for",
-          "status": "supported",
-          "evidenceCount": 0,
-          "missingEvidence": true,
-          "freshnessLevel": "unknown"
-        },
-        {
-          "id": "the-empirical-camp-lark-et-al-uses-satellite-data-showing",
-          "text": "The empirical camp (Lark et al.) uses satellite data showing actual conversion of grasslands and conservation land to corn, releasing stored carbon",
-          "status": "supported",
-          "evidenceCount": 0,
-          "missingEvidence": true,
-          "freshnessLevel": "unknown"
-        },
-        {
-          "id": "the-modeling-camp-doeargonne-uses-economic-models-that-as",
-          "text": "The modeling camp (DOE/Argonne) uses economic models that assume less land-use change",
-          "status": "supported",
-          "evidenceCount": 0,
-          "missingEvidence": true,
-          "freshnessLevel": "unknown"
-        },
-        {
-          "id": "this-is-the-single-largest-driver-of-the-difference-between",
-          "text": "This is the single largest driver of the difference between estimates",
-          "status": "supported",
-          "evidenceCount": 0,
-          "missingEvidence": true,
-          "freshnessLevel": "unknown"
-        }
-      ]
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
     },
     {
       "id": "concept.",
@@ -3245,10 +3202,34 @@
       ]
     },
     {
+      "id": "source.ethanol-blend-wall-california-2023",
+      "title": "Expanding the ethanol blend wall in California: Emissions comparison between E10 and E15",
+      "kind": "source",
+      "path": "sources/expanding-the-ethanol-blend-wall-in-california-emissions-comparison-between-e10-and-e15.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.",
       "title": "Sources",
       "kind": "source",
       "path": "sources/index.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.",
+      "title": "sturchio-2025-ecovoltaic-solar-us-croplands",
+      "kind": "source",
+      "path": "sources/sturchio-2025-ecovoltaic-solar-us-croplands.md",
       "sourceIds": [],
       "questions": [],
       "contradictions": [],
@@ -3437,7 +3418,6 @@
         "rawgithubusercontent",
         "session-2026-04-23",
         "skillssh",
-        "source.lark2022ethanol",
         "tme",
         "weixinqqcom",
         "workweixinqqcom",
@@ -3454,7 +3434,7 @@
       "questions": [],
       "contradictions": [],
       "freshnessLevel": "fresh",
-      "claimCount": 2140,
+      "claimCount": 2119,
       "topClaims": [
         {
           "id": "referencedocsreferencecli-commands",
@@ -3568,7 +3548,6 @@
         "rawgithubusercontent",
         "session-2026-04-23",
         "skillssh",
-        "source.lark2022ethanol",
         "tme",
         "weixinqqcom",
         "workweixinqqcom",
@@ -3585,7 +3564,7 @@
       "questions": [],
       "contradictions": [],
       "freshnessLevel": "fresh",
-      "claimCount": 2140,
+      "claimCount": 2119,
       "topClaims": [
         {
           "id": "referencedocsreferencecli-commands",

@@ -10,7 +10,7 @@ updatedAt: '2026-04-29T16:02:00.169559+00:00'
 
 ## Generated
 <!-- openclaw:wiki:claim-health:start -->
-- Claims missing evidence: 2444
+- Claims missing evidence: 2423
 - Contested claims: 0
 
 ### Missing Evidence

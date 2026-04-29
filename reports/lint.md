@@ -9,48 +9,19 @@ status: active
 
 ## Generated
 <!-- openclaw:wiki:lint:start -->
-- Errors: 14
-- Warnings: 4390
+- Errors: 5
+- Warnings: 4303
 
 ### Errors
-- `concepts/index.md`: Missing `id` frontmatter.
-- `concepts/index.md`: Missing `pageType` frontmatter.
-- `entities/configuration.md`: Missing `id` frontmatter.
-- `entities/configuration.md`: Missing `pageType` frontmatter.
-- `entities/features-overview.md`: Missing `id` frontmatter.
-- `entities/features-overview.md`: Missing `pageType` frontmatter.
-- `entities/index.md`: Missing `id` frontmatter.
-- `entities/index.md`: Missing `pageType` frontmatter.
-- `reports/index.md`: Missing `id` frontmatter.
-- `reports/index.md`: Missing `pageType` frontmatter.
-- `reports/ingest-log.md`: Missing `id` frontmatter.
-- `reports/ingest-log.md`: Missing `pageType` frontmatter.
-- `sources/index.md`: Missing `id` frontmatter.
-- `sources/index.md`: Missing `pageType` frontmatter.
+- `entities/configuration.md`: Duplicate page id `entity.`.
+- `entities/features-overview.md`: Duplicate page id `entity.`.
+- `entities/index.md`: Duplicate page id `entity.`.
+- `reports/index.md`: Duplicate page id `report.`.
+- `reports/ingest-log.md`: Duplicate page id `report.`.
 
 ### Warnings
 - `concepts/anomem-postmortem.md`: Page freshness needs review (missing updatedAt).
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `doe-argonne-greet-model-corn-ethanol-reduces-life-cycle-g` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `lark-et-al-2022-pnas-corn-ethanol-is-at-least-24-more` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-empirical-camp-lark-et-al-uses-satellite-data-showing` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-modeling-camp-doeargonne-uses-economic-models-that-as` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `this-is-the-single-largest-driver-of-the-difference-between` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `industry-critics-argue-the-lark-study-understates-yield-gain` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `lark-et-al-respond-that-their-satellite-data-captures-actua` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `ethanol-production-creates-distillers-grains-that-replace-an` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-value-of-this-credit-is-disputed-between-the-two-camps` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `what-would-farmers-have-planted-if-not-corn-for-ethanol-the` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `different-assumptions-produce-wildly-different-results` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `both-sides-have-published-in-peer-reviewed-journals` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `lark-et-al-were-funded-by-national-wildlife-federation-env` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `industry-funded-studies-are-funded-by-groups-with-a-financia` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-scientific-community-remains-genuinely-split-this-is-n` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `reuters-feb-14-2022-reported-the-lark-studys-findings-t` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-article-sparked-significant-pushback-from-the-ethanol-in` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `multiple-outlets-axios-cleantechnica-cnet-des-moines-reg` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `us-renewable-fuel-standard-rfs` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `biofuel-lifecycle-analysis` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `indirect-land-use-change-iluc` is missing structured evidence.
+- `concepts/corn-ethanol-climate-impact-debate.md`: Unsafe-local source page is missing `unsafeLocalConfiguredPath, unsafeLocalRelativePath` provenance.
 - `concepts/index.md`: Non-source page is missing `sourceIds` provenance.
 - `concepts/index.md`: Page freshness needs review (missing updatedAt).
 - `concepts/project-guidelines.md`: Page freshness needs review (missing updatedAt).
@@ -395,22 +366,6 @@ status: active
 - `entities/cli-interface.md`: Claim `enables-kawaii-style-animated-feedback` is missing structured evidence.
 - `entities/cli-interface.md`: Claim `keeps-output-clean-and-user-friendly` is missing structured evidence.
 - `entities/configuration.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/configuration.md`: Broken wikilink target `entity.security`.
-- `entities/configuration.md`: Broken wikilink target `entity.security`.
-- `entities/configuration.md`: Broken wikilink target `entity.security`.
-- `entities/configuration.md`: Broken wikilink target `entity.security`.
-- `entities/configuration.md`: Broken wikilink target `entity.security`.
-- `entities/configuration.md`: Broken wikilink target `entity.security`.
-- `entities/configuration.md`: Broken wikilink target `entity.security`.
-- `entities/configuration.md`: Broken wikilink target `entity.security`.
-- `entities/configuration.md`: Broken wikilink target `entity.security`.
-- `entities/configuration.md`: Broken wikilink target `entity.security`.
-- `entities/configuration.md`: Broken wikilink target `entity.security`.
-- `entities/configuration.md`: Broken wikilink target `entity.security`.
-- `entities/configuration.md`: Broken wikilink target `entity.security`.
-- `entities/configuration.md`: Broken wikilink target `entity.security`.
-- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/personality`.
-- `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/context-files`.
 - `entities/configuration.md`: Broken wikilink target `/docs/integrations/providers`.
 - `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/code-execution`.
 - `entities/configuration.md`: Broken wikilink target `/docs/user-guide/features/tools`.
@@ -520,13 +475,6 @@ status: active
 - `entities/dingtalk-setup.md`: Claim `no-session-webhook-available` is missing structured evidence.
 - `entities/dingtalk-setup.md`: Claim `securitysecurity` is missing structured evidence.
 - `entities/dingtalk-setup.md`: Claim `notesnotes` is missing structured evidence.
-- `entities/discord-setup.md`: Broken wikilink target `[entity.security`.
-- `entities/discord-setup.md`: Broken wikilink target `entity.security`.
-- `entities/discord-setup.md`: Broken wikilink target `entity.messaging-gateway`.
-- `entities/discord-setup.md`: Broken wikilink target `entity.security`.
-- `entities/discord-setup.md`: Broken wikilink target `entity.security`.
-- `entities/discord-setup.md`: Broken wikilink target `[entity.security`.
-- `entities/discord-setup.md`: Broken wikilink target `entity.security`.
 - `entities/discord-setup.md`: Broken wikilink target `[entity.security`.
 - `entities/discord-setup.md`: Broken wikilink target `entity.security`.
 - `entities/discord-setup.md`: Claim cluster `one-persons-in-flight-run-can-interrupt-another-persons-fo` has competing variants across 7 pages.
@@ -665,11 +613,6 @@ status: active
 - `entities/faq-troubleshooting.md`: Broken wikilink target `entity.security`.
 - `entities/faq-troubleshooting.md`: Broken wikilink target `[entity.security`.
 - `entities/faq-troubleshooting.md`: Broken wikilink target `entity.security`.
-- `entities/faq-troubleshooting.md`: Broken wikilink target `[entity.messaging-gateway`.
-- `entities/faq-troubleshooting.md`: Broken wikilink target `[entity.security`.
-- `entities/faq-troubleshooting.md`: Broken wikilink target `entity.security`.
-- `entities/faq-troubleshooting.md`: Broken wikilink target `entity.messaging-gateway`.
-- `entities/faq-troubleshooting.md`: Broken wikilink target `entity.messaging-gateway`.
 - `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/cli`.
 - `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/features/overview`.
 - `entities/faq-troubleshooting.md`: Broken wikilink target `/docs/user-guide/messaging/`.
@@ -767,7 +710,7 @@ status: active
 - `entities/faq-troubleshooting.md`: Claim `switching-to-a-different-model-or-provider` is missing structured evidence.
 - `entities/faq-troubleshooting.md`: Claim `using-hermes-chat---provider-to-route-to-a-different-back` is missing structured evidence.
 - `entities/faq-troubleshooting.md`: Claim `ask-the-agent-to-use-a-safer-alternative` is missing structured evidence.
-- `entities/faq-troubleshooting.md`: Claim `see-the-full-list-of-dangerous-patterns-in-the-[[entities/security|Security]]-doc` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `see-the-full-list-of-dangerous-patterns-in-the-[[entity.security|Security]]-doc` is missing structured evidence.
 - `entities/faq-troubleshooting.md`: Claim `avoid-sudo-in-messaging-ask-the-agent-to-find-alternativ` is missing structured evidence.
 - `entities/faq-troubleshooting.md`: Claim `if-you-must-use-sudo-configure-passwordless-sudo-for-spec` is missing structured evidence.
 - `entities/faq-troubleshooting.md`: Claim `or-switch-to-the-terminal-interface-for-administrative-tasks` is missing structured evidence.
@@ -1006,64 +949,13 @@ status: active
 - `entities/features-memory.md`: Claim `feature-management-persistent-memory-manually-c` is missing structured evidence.
 - `entities/features-memory.md`: Claim `feature-token-cost-persistent-memory-fixed-per` is missing structured evidence.
 - `entities/features-overview.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-tools`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-skills`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-memory`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-context-files`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-context-files`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-context-files`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-checkpoints`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-checkpoints`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-delegation`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-code-execution`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-hooks`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-batch-processing`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-voice-mode`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-browser`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-vision`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-image-generation`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-mcp`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-mcp`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-mcp`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-mcp`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-provider-routing`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-fallback-providers`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-credential-pools`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-memory-providers`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-api-server`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-acp`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-acp`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-acp`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-rl-training`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-personality`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-personality`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-personality`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-personality`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-personality`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-plugins`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-plugins`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-plugins`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-memory-providers`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-plugins`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-memory`.
 - `entities/features-overview.md`: Broken wikilink target `entity.features-browser`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-tools`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-skills`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-memory`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-context-files`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-context-files`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-context-files`.
 - `entities/features-overview.md`: Broken wikilink target `[entity.features-checkpoints`.
 - `entities/features-overview.md`: Broken wikilink target `entity.features-checkpoints`.
 - `entities/features-overview.md`: Broken wikilink target `[entity.features-delegation`.
 - `entities/features-overview.md`: Broken wikilink target `[entity.features-code-execution`.
 - `entities/features-overview.md`: Broken wikilink target `[entity.features-hooks`.
 - `entities/features-overview.md`: Broken wikilink target `[entity.features-batch-processing`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-voice-mode`.
 - `entities/features-overview.md`: Broken wikilink target `[entity.features-browser`.
 - `entities/features-overview.md`: Broken wikilink target `entity.features-browser`.
 - `entities/features-overview.md`: Broken wikilink target `[entity.features-vision`.
@@ -1072,29 +964,17 @@ status: active
 - `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
 - `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
 - `entities/features-overview.md`: Broken wikilink target `entity.features-tts`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-mcp`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-mcp`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-mcp`.
 - `entities/features-overview.md`: Broken wikilink target `[entity.features-provider-routing`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-fallback-providers`.
 - `entities/features-overview.md`: Broken wikilink target `[entity.features-credential-pools`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-memory-providers`.
 - `entities/features-overview.md`: Broken wikilink target `[entity.features-api-server`.
 - `entities/features-overview.md`: Broken wikilink target `entity.features-acp`.
 - `entities/features-overview.md`: Broken wikilink target `entity.features-acp`.
 - `entities/features-overview.md`: Broken wikilink target `entity.features-acp`.
 - `entities/features-overview.md`: Broken wikilink target `[entity.features-rl-training`.
-- `entities/features-overview.md`: Broken wikilink target `[entity.features-personality`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-personality`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-personality`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-personality`.
 - `entities/features-overview.md`: Broken wikilink target `[entity.features-plugins`.
 - `entities/features-overview.md`: Broken wikilink target `entity.features-plugins`.
 - `entities/features-overview.md`: Broken wikilink target `entity.features-plugins`.
-- `entities/features-overview.md`: Broken wikilink target `entity.features-memory-providers`.
 - `entities/features-overview.md`: Broken wikilink target `entity.features-plugins`.
-- `entities/features-overview.md`: Broken wikilink target `/docs/user-guide/features/cron`.
-- `entities/features-overview.md`: Broken wikilink target `/docs/user-guide/features/skins`.
 - `entities/features-overview.md`: Broken wikilink target `/docs/user-guide/features/cron`.
 - `entities/features-overview.md`: Broken wikilink target `/docs/user-guide/features/skins`.
 - `entities/features-overview.md`: Page freshness needs review (missing updatedAt).
@@ -1836,12 +1716,6 @@ status: active
 - `entities/honda-civic-2016-ex-t-maintenance.md`: Page freshness needs review (missing updatedAt).
 - `entities/index.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/index.md`: Page freshness needs review (missing updatedAt).
-- `entities/installation.md`: Broken wikilink target `entity.quickstart`.
-- `entities/installation.md`: Broken wikilink target `entity.quickstart`.
-- `entities/installation.md`: Broken wikilink target `[entity.quickstart`.
-- `entities/installation.md`: Broken wikilink target `entity.quickstart`.
-- `entities/installation.md`: Broken wikilink target `entity.quickstart`.
-- `entities/installation.md`: Broken wikilink target `entity.quickstart`.
 - `entities/installation.md`: Broken wikilink target `/docs/getting-started/installation`.
 - `entities/installation.md`: Broken wikilink target `/docs/getting-started/termux`.
 - `entities/installation.md`: Broken wikilink target `/docs/getting-started/nix-setup`.
@@ -1923,39 +1797,6 @@ status: active
 - `entities/installation.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
 - `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
 - `entities/learning-path.md`: Broken wikilink target `entity.installation`.
-- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
-- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
-- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
-- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
-- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
-- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
-- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
-- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
-- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
-- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
-- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
-- `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
-- `entities/learning-path.md`: Broken wikilink target `entity.installation`.
-- `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
-- `entities/learning-path.md`: Broken wikilink target `entity.quickstart`.
 - `entities/learning-path.md`: Broken wikilink target `[entity.installation`.
 - `entities/learning-path.md`: Broken wikilink target `entity.installation`.
 - `entities/learning-path.md`: Broken wikilink target `[entity.quickstart`.
@@ -2178,7 +2019,7 @@ status: active
 - `entities/learning-path.md`: Claim `toolsdocsuser-guidefeaturestools` is missing structured evidence.
 - `entities/learning-path.md`: Claim `sessionsdocsuser-guidesessions` is missing structured evidence.
 - `entities/learning-path.md`: Claim `just-finished-installing-head-to-the-quickstartdocsg` is missing structured evidence.
-- `entities/learning-path.md`: Claim `completed-the-[[entities/quickstart|Quickstart]]-read-cli-usagedocsuser-guid` is missing structured evidence.
+- `entities/learning-path.md`: Claim `completed-the-[[entity.quickstart|Quickstart]]-read-cli-usagedocsuser-guid` is missing structured evidence.
 - `entities/learning-path.md`: Claim `comfortable-with-the-basics-explore-toolsdocsuser-gu` is missing structured evidence.
 - `entities/learning-path.md`: Claim `setting-up-for-a-team-read-securitydocsuser-guidese` is missing structured evidence.
 - `entities/learning-path.md`: Claim `ready-to-build-jump-into-the-developer-guidedocsdeve` is missing structured evidence.
@@ -2323,14 +2164,6 @@ status: active
 - `entities/mattermost-setup.md`: Claim `securitysecurity` is missing structured evidence.
 - `entities/mattermost-setup.md`: Claim `notesnotes` is missing structured evidence.
 - `entities/messaging-gateway.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/messaging-gateway.md`: Broken wikilink target `entity.telegram-setup`.
-- `entities/messaging-gateway.md`: Broken wikilink target `entity.discord-setup`.
-- `entities/messaging-gateway.md`: Broken wikilink target `[entity.security`.
-- `entities/messaging-gateway.md`: Broken wikilink target `entity.security`.
-- `entities/messaging-gateway.md`: Broken wikilink target `entity.security`.
-- `entities/messaging-gateway.md`: Broken wikilink target `entity.security`.
-- `entities/messaging-gateway.md`: Broken wikilink target `entity.telegram-setup`.
-- `entities/messaging-gateway.md`: Broken wikilink target `entity.discord-setup`.
 - `entities/messaging-gateway.md`: Broken wikilink target `[entity.security`.
 - `entities/messaging-gateway.md`: Broken wikilink target `entity.security`.
 - `entities/messaging-gateway.md`: Broken wikilink target `/docs/user-guide/features/voice-mode`.
@@ -2380,7 +2213,6 @@ status: active
 - `entities/messaging-gateway.md`: Claim `macos-launchd` is missing structured evidence.
 - `entities/messaging-gateway.md`: Claim `platform-specific-toolsetsplatform-specific-toolsets` is missing structured evidence.
 - `entities/messaging-gateway.md`: Claim `next-stepsnext-steps` is missing structured evidence.
-- `entities/nix-nixos-setup.md`: Broken wikilink target `entity.installation`.
 - `entities/nix-nixos-setup.md`: Claim `pre-built-binary-with-all-deps-then-use-the-standard-cli-w` is missing structured evidence.
 - `entities/nix-nixos-setup.md`: Claim `declarative-config-hardened-systemd-service-managed-secret` is missing structured evidence.
 - `entities/nix-nixos-setup.md`: Claim `everything-above-plus-a-persistent-ubuntu-container-where-t` is missing structured evidence.
@@ -2493,12 +2325,6 @@ status: active
 - `entities/qq-bot.md`: Claim `messages-not-delivered` is missing structured evidence.
 - `entities/qq-bot.md`: Claim `connection-errors` is missing structured evidence.
 - `entities/quickstart.md`: Broken wikilink target `[entity.installation`.
-- `entities/quickstart.md`: Broken wikilink target `entity.installation`.
-- `entities/quickstart.md`: Broken wikilink target `[entity.installation`.
-- `entities/quickstart.md`: Broken wikilink target `entity.installation`.
-- `entities/quickstart.md`: Broken wikilink target `entity.installation`.
-- `entities/quickstart.md`: Broken wikilink target `[entity.installation`.
-- `entities/quickstart.md`: Broken wikilink target `entity.installation`.
 - `entities/quickstart.md`: Broken wikilink target `entity.installation`.
 - `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/termux`.
 - `entities/quickstart.md`: Broken wikilink target `/docs/getting-started/nix-setup`.
@@ -2639,10 +2465,6 @@ status: active
 - `entities/randomstix.md`: Claim `timezone` freshness needs review (missing updatedAt).
 - `entities/searxng.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/searxng.md`: Page freshness needs review (missing updatedAt).
-- `entities/security.md`: Broken wikilink target `entity.messaging-gateway`.
-- `entities/security.md`: Broken wikilink target `entity.configuration`.
-- `entities/security.md`: Broken wikilink target `entity.configuration`.
-- `entities/security.md`: Broken wikilink target `entity.configuration`.
 - `entities/security.md`: Broken wikilink target `/docs/user-guide/[[entities/configuration|Configuration]]`.
 - `entities/security.md`: Claim `mode-behavior` is missing structured evidence.
 - `entities/security.md`: Claim `manual-default-always-prompt-the-user-for-approval-on` is missing structured evidence.
@@ -2849,12 +2671,6 @@ status: active
 - `entities/telegram-setup.md`: Broken wikilink target `entity.security`.
 - `entities/telegram-setup.md`: Broken wikilink target `services`.
 - `entities/telegram-setup.md`: Broken wikilink target `services.ports`.
-- `entities/telegram-setup.md`: Broken wikilink target `entity.security`.
-- `entities/telegram-setup.md`: Broken wikilink target `entity.security`.
-- `entities/telegram-setup.md`: Broken wikilink target `[entity.security`.
-- `entities/telegram-setup.md`: Broken wikilink target `entity.security`.
-- `entities/telegram-setup.md`: Broken wikilink target `[entity.security`.
-- `entities/telegram-setup.md`: Broken wikilink target `entity.security`.
 - `entities/telegram-setup.md`: Broken wikilink target `/docs/user-guide/messaging`.
 - `entities/telegram-setup.md`: Claim cluster `securitysecurity` has competing variants across 13 pages.
 - `entities/telegram-setup.md`: Claim `messages-that-start-with-a-command` is missing structured evidence.
@@ -2947,9 +2763,6 @@ status: active
 - `entities/telegram-setup.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
 - `entities/telegram-setup.md`: Claim `exec-approvalexec-approval` is missing structured evidence.
 - `entities/telegram-setup.md`: Claim `securitysecurity` is missing structured evidence.
-- `entities/tips-best-practices.md`: Broken wikilink target `entity.quickstart`.
-- `entities/tips-best-practices.md`: Broken wikilink target `entity.quickstart`.
-- `entities/tips-best-practices.md`: Broken wikilink target `entity.quickstart`.
 - `entities/tips-best-practices.md`: Broken wikilink target `/docs/user-guide/cli`.
 - `entities/tips-best-practices.md`: Broken wikilink target `/docs/user-guide/features/overview`.
 - `entities/tips-best-practices.md`: Broken wikilink target `/docs/user-guide/messaging/`.
@@ -3265,8 +3078,6 @@ status: active
 - `entities/use-mcp-with-hermes.md`: Claim `github-discussionshttpsgithubcomnousresearchhermes` is missing structured evidence.
 - `entities/use-mcp-with-hermes.md`: Claim `skills-hubhttpsagentskillsio` is missing structured evidence.
 - `entities/use-mcp-with-hermes.md`: Claim `nous-researchhttpsnousresearchcom` is missing structured evidence.
-- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `[entity.discord-setup`.
-- `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `[entity.telegram-setup`.
 - `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `[entity.discord-setup`.
 - `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `[entity.telegram-setup`.
 - `entities/use-voice-mode-with-hermes.md`: Broken wikilink target `/docs/user-guide/cli`.
@@ -3726,20 +3537,110 @@ status: active
 - `entities/whatsapp-setup.md`: Claim `tool-progress` is missing structured evidence.
 - `entities/whatsapp-setup.md`: Claim `troubleshootingtroubleshooting` is missing structured evidence.
 - `entities/whatsapp-setup.md`: Claim `securitysecurity` is missing structured evidence.
-- `reports/ingest-log.md`: Broken wikilink target `sources/test-index-entry`.
+- `reports/claim-health.md`: Broken wikilink target `/docs/reference/slash-commands`.
+- `reports/ingest-log.md`: Broken wikilink target `concepts/corn-ethanol-climate-impact-debate.md`.
+- `reports/ingest-log.md`: Broken wikilink target `syntheses/index.md`.
+- `reports/ingest-log.md`: Broken wikilink target `syntheses/racoony-ops.md`.
+- `reports/ingest-log.md`: Broken wikilink target `reports/claim-health.md`.
+- `reports/ingest-log.md`: Broken wikilink target `.openclaw-wiki/cache/agent-digest.json`.
+- `reports/ingest-log.md`: Broken wikilink target `.openclaw-wiki/cache/claims.jsonl`.
+- `reports/ingest-log.md`: Broken wikilink target `concepts/corn-ethanol-climate-impact-debate.md`.
+- `reports/ingest-log.md`: Broken wikilink target `concepts/ecologically-informed-solar-enables-a-sustainable-energy-transition-in-us-croplands.md`.
+- `reports/ingest-log.md`: Broken wikilink target `sources/expanding-the-ethanol-blend-wall-in-california-emissions-comparison-between-e10-and-e15.md`.
+- `reports/ingest-log.md`: Broken wikilink target `sources/sturchio-2025-ecovoltaic-solar-us-croplands.md`.
+- `reports/ingest-log.md`: Broken wikilink target `syntheses/index.md`.
+- `reports/ingest-log.md`: Broken wikilink target `syntheses/racoony-ops.md`.
+- `reports/ingest-log.md`: Broken wikilink target `.openclaw-wiki/cache/agent-digest.json`.
+- `reports/ingest-log.md`: Broken wikilink target `.openclaw-wiki/cache/claims.jsonl`.
+- `reports/ingest-log.md`: Broken wikilink target `sources/ethanol-blend-wall-california-2023.md`.
+- `reports/ingest-log.md`: Broken wikilink target `sources/expanding-the-ethanol-blend-wall-in-california-emissions-comparison-between-e10-and-e15.md`.
+- `reports/ingest-log.md`: Broken wikilink target `reports/claim-health.md`.
+- `reports/ingest-log.md`: Broken wikilink target `.openclaw-wiki/cache/agent-digest.json`.
+- `reports/ingest-log.md`: Broken wikilink target `.openclaw-wiki/cache/claims.jsonl`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/honda-civic-2016-ex-t-maintenance.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/index.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/lexus-rx-350-2017.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/lolok-site.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/lost-lands-2026.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/macvm.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/randomstix-health.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/randomstix.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/hindsight-memory-server.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/stdin.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/searxng.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/cli-commands-reference.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/contributing.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/architecture.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/ai-providers.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/webhooks.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/open-webui-integration.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/qq-bot.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/bluebubbles-imessage.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/weixin-wechat.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/wecom-enterprise-wechat.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/feishu-lark-setup.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/dingtalk-setup.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/matrix-setup.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/mattermost-setup.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/home-assistant-integration.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/sms-setup-twilio.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/email-setup.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/signal-setup.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/whatsapp-setup.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/slack-setup.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/discord-setup.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/telegram-setup.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/messaging-gateway.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/security.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/features-context-files.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/features-personality.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/features-voice-mode.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/features-mcp.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/features-skills.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/features-memory.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/features-tools.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/features-overview.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/configuration.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/cli-interface.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/faq-troubleshooting.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/use-voice-mode-with-hermes.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/use-mcp-with-hermes.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/tips-best-practices.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/learning-path.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/installation.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/quickstart.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/updating-uninstalling.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/nix-nixos-setup.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/android-termux.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/hermes-agent-faq.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/hermes-agent-installation.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/hermes-agent-learning-path.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/hermes-agent-quickstart.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/hermes-agent-tips.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/hermes-agent-use-mcp-with-hermes.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/hermes-agent-use-voice-mode-with-hermes.md`.
+- `reports/ingest-log.md`: Broken wikilink target `entities/2017-lexus-rx-350.md`.
+- `reports/ingest-log.md`: Broken wikilink target `concepts/anomem-postmortem.md`.
+- `reports/ingest-log.md`: Broken wikilink target `concepts/index.md`.
+- `reports/ingest-log.md`: Broken wikilink target `concepts/project-guidelines.md`.
+- `reports/ingest-log.md`: Broken wikilink target `concepts/prompt-weapon-generator-game.md`.
+- `reports/ingest-log.md`: Broken wikilink target `concepts/self-hosted-infra.md`.
+- `reports/ingest-log.md`: Broken wikilink target `concepts/uncensored-ai-models.md`.
+- `reports/ingest-log.md`: Broken wikilink target `concepts/corn-ethanol-climate-impact-debate.md`.
+- `reports/ingest-log.md`: Broken wikilink target `sources/index.md`.
+- `reports/ingest-log.md`: Broken wikilink target `sources/trees-native-to-raleigh-north-carolina.md`.
+- `reports/ingest-log.md`: Broken wikilink target `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`.
+- `reports/ingest-log.md`: Broken wikilink target `sources/us-corn-based-ethanol-worse-for-the-climate-than-gasoline-study-finds.md`.
+- `reports/ingest-log.md`: Broken wikilink target `syntheses/index.md`.
+- `reports/ingest-log.md`: Broken wikilink target `syntheses/racoony-ops.md`.
+- `reports/ingest-log.md`: Broken wikilink target `reports/open-questions.md`.
+- `reports/ingest-log.md`: Broken wikilink target `reports/contradictions.md`.
+- `reports/ingest-log.md`: Broken wikilink target `reports/low-confidence.md`.
+- `reports/ingest-log.md`: Broken wikilink target `reports/claim-health.md`.
+- `reports/ingest-log.md`: Broken wikilink target `reports/stale-pages.md`.
+- `reports/ingest-log.md`: Broken wikilink target `.openclaw-wiki/cache/agent-digest.json`.
+- `reports/ingest-log.md`: Broken wikilink target `.openclaw-wiki/cache/claims.jsonl`.
 - `reports/lint.md`: Broken wikilink target `entity.security`.
-- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
-- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
-- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
-- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
-- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
-- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
-- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
-- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
-- `reports/lint.md`: Broken wikilink target `entity.installation`.
-- `reports/lint.md`: Broken wikilink target `entity.configuration`.
-- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
-- `reports/lint.md`: Broken wikilink target `entity.quickstart`.
 - `reports/lint.md`: Broken wikilink target `entity.quickstart`.
 - `reports/lint.md`: Broken wikilink target `entity.security`.
 - `reports/lint.md`: Broken wikilink target `entity.quickstart`.
@@ -3770,7 +3671,10 @@ status: active
 - `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-study-only-covers-data-up-to-approximately-2016-not-cap` is missing structured evidence.
 - `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-24-worse-figure-is-at-the-high-end-of-the-range-the` is missing structured evidence.
 - `sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md`: Claim `the-finding-is-at-one-extreme-of-a-genuinely-divided-scienti` is missing structured evidence.
+- `sources/expanding-the-ethanol-blend-wall-in-california-emissions-comparison-between-e10-and-e15.md`: Page freshness needs review (missing updatedAt).
 - `sources/index.md`: Page freshness needs review (missing updatedAt).
+- `sources/sturchio-2025-ecovoltaic-solar-us-croplands.md`: Broken wikilink target `Corn Ethanol Climate Impact Debate`.
+- `sources/sturchio-2025-ecovoltaic-solar-us-croplands.md`: Page freshness needs review (missing updatedAt).
 - `sources/trees-native-to-raleigh-north-carolina.md`: Claim `oak-spp-quercus-white-oak-red-oak-post-oak-pin-oak` is missing structured evidence.
 - `sources/trees-native-to-raleigh-north-carolina.md`: Claim `tulip-poplar-liriodendron-tulipifera-ncs-tallest-nati` is missing structured evidence.
 - `sources/trees-native-to-raleigh-north-carolina.md`: Claim `black-gum-nyssa-sylvatica-great-fall-color-tolerates` is missing structured evidence.
@@ -4562,28 +4466,10 @@ status: active
 - `entities/randomstix.md`: Claim `discord-handle` freshness needs review (missing updatedAt).
 - `entities/randomstix.md`: Claim `timezone` freshness needs review (missing updatedAt).
 - `entities/searxng.md`: Page freshness needs review (missing updatedAt).
+- `sources/expanding-the-ethanol-blend-wall-in-california-emissions-comparison-between-e10-and-e15.md`: Page freshness needs review (missing updatedAt).
 - `sources/index.md`: Page freshness needs review (missing updatedAt).
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `doe-argonne-greet-model-corn-ethanol-reduces-life-cycle-g` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `lark-et-al-2022-pnas-corn-ethanol-is-at-least-24-more` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-empirical-camp-lark-et-al-uses-satellite-data-showing` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-modeling-camp-doeargonne-uses-economic-models-that-as` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `this-is-the-single-largest-driver-of-the-difference-between` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `industry-critics-argue-the-lark-study-understates-yield-gain` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `lark-et-al-respond-that-their-satellite-data-captures-actua` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `ethanol-production-creates-distillers-grains-that-replace-an` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-value-of-this-credit-is-disputed-between-the-two-camps` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `what-would-farmers-have-planted-if-not-corn-for-ethanol-the` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `different-assumptions-produce-wildly-different-results` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `both-sides-have-published-in-peer-reviewed-journals` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `lark-et-al-were-funded-by-national-wildlife-federation-env` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `industry-funded-studies-are-funded-by-groups-with-a-financia` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-scientific-community-remains-genuinely-split-this-is-n` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `reuters-feb-14-2022-reported-the-lark-studys-findings-t` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `the-article-sparked-significant-pushback-from-the-ethanol-in` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `multiple-outlets-axios-cleantechnica-cnet-des-moines-reg` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `us-renewable-fuel-standard-rfs` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `biofuel-lifecycle-analysis` is missing structured evidence.
-- `concepts/corn-ethanol-climate-impact-debate.md`: Claim `indirect-land-use-change-iluc` is missing structured evidence.
+- `sources/sturchio-2025-ecovoltaic-solar-us-croplands.md`: Page freshness needs review (missing updatedAt).
+- `concepts/corn-ethanol-climate-impact-debate.md`: Unsafe-local source page is missing `unsafeLocalConfiguredPath, unsafeLocalRelativePath` provenance.
 - `concepts/index.md`: Non-source page is missing `sourceIds` provenance.
 - `concepts/uncensored-ai-models.md`: Claim `9-cli-methods-basic-advanced-recommended-aggressive` is missing structured evidence.
 - `concepts/uncensored-ai-models.md`: Claim `116-model-presets-across-5-compute-tiers` is missing structured evidence.
@@ -5102,7 +4988,7 @@ status: active
 - `entities/faq-troubleshooting.md`: Claim `switching-to-a-different-model-or-provider` is missing structured evidence.
 - `entities/faq-troubleshooting.md`: Claim `using-hermes-chat---provider-to-route-to-a-different-back` is missing structured evidence.
 - `entities/faq-troubleshooting.md`: Claim `ask-the-agent-to-use-a-safer-alternative` is missing structured evidence.
-- `entities/faq-troubleshooting.md`: Claim `see-the-full-list-of-dangerous-patterns-in-the-[[entities/security|Security]]-doc` is missing structured evidence.
+- `entities/faq-troubleshooting.md`: Claim `see-the-full-list-of-dangerous-patterns-in-the-[[entity.security|Security]]-doc` is missing structured evidence.
 - `entities/faq-troubleshooting.md`: Claim `avoid-sudo-in-messaging-ask-the-agent-to-find-alternativ` is missing structured evidence.
 - `entities/faq-troubleshooting.md`: Claim `if-you-must-use-sudo-configure-passwordless-sudo-for-spec` is missing structured evidence.
 - `entities/faq-troubleshooting.md`: Claim `or-switch-to-the-terminal-interface-for-administrative-tasks` is missing structured evidence.
@@ -5785,7 +5671,7 @@ status: active
 - `entities/learning-path.md`: Claim `toolsdocsuser-guidefeaturestools` is missing structured evidence.
 - `entities/learning-path.md`: Claim `sessionsdocsuser-guidesessions` is missing structured evidence.
 - `entities/learning-path.md`: Claim `just-finished-installing-head-to-the-quickstartdocsg` is missing structured evidence.
-- `entities/learning-path.md`: Claim `completed-the-[[entities/quickstart|Quickstart]]-read-cli-usagedocsuser-guid` is missing structured evidence.
+- `entities/learning-path.md`: Claim `completed-the-[[entity.quickstart|Quickstart]]-read-cli-usagedocsuser-guid` is missing structured evidence.
 - `entities/learning-path.md`: Claim `comfortable-with-the-basics-explore-toolsdocsuser-gu` is missing structured evidence.
 - `entities/learning-path.md`: Claim `setting-up-for-a-team-read-securitydocsuser-guidese` is missing structured evidence.
 - `entities/learning-path.md`: Claim `ready-to-build-jump-into-the-developer-guidedocsdeve` is missing structured evidence.

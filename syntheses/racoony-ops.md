@@ -69,7 +69,8 @@ sourceIds:
 - rawgithubusercontent
 - session-2026-04-23
 - skillssh
-- source.lark2022ethanol
+- source.reuters-ethanol-study-2022
+- source.sturchio-2025-ecovoltaic-solar-us-croplands
 - tme
 - weixinqqcom
 - workweixinqqcom
@@ -15942,167 +15943,7 @@ claims:
   evidence:
   - sourceId: concept.uncensored-ai-models
     path: concepts/uncensored-ai-models.md
-- id: doe-argonne-greet-model-corn-ethanol-reduces-life-cycle-g
-  text: DOE Argonne GREET model:** Corn ethanol reduces life-cycle GHG emissions by
-    ~40-46% compared to gasoline
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: lark-et-al-2022-pnas-corn-ethanol-is-at-least-24-more
-  text: Lark et al. (2022) PNAS:** Corn ethanol is at least 24% more carbon-intensive
-    than gasoline when land-use change is accounted for
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: the-empirical-camp-lark-et-al-uses-satellite-data-showing
-  text: The empirical camp (Lark et al.) uses satellite data showing actual conversion
-    of grasslands and conservation land to corn, releasing stored carbon
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: the-modeling-camp-doeargonne-uses-economic-models-that-as
-  text: The modeling camp (DOE/Argonne) uses economic models that assume less land-use
-    change
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: this-is-the-single-largest-driver-of-the-difference-between
-  text: This is the single largest driver of the difference between estimates
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: industry-critics-argue-the-lark-study-understates-yield-gain
-  text: Industry critics argue the Lark study understates yield gains, meaning fewer
-    acres are needed for the same corn output
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: lark-et-al-respond-that-their-satellite-data-captures-actua
-  text: Lark et al. respond that their satellite data captures actual land-use change,
-    not modeled projections
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: ethanol-production-creates-distillers-grains-that-replace-an
-  text: Ethanol production creates distillers grains that replace animal feed, offsetting
-    some emissions
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: the-value-of-this-credit-is-disputed-between-the-two-camps
-  text: The value of this credit is disputed between the two camps
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: what-would-farmers-have-planted-if-not-corn-for-ethanol-the
-  text: What would farmers have planted if not corn for ethanol? The answer dramatically
-    affects the net GHG calculation
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: different-assumptions-produce-wildly-different-results
-  text: Different assumptions produce wildly different results
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: both-sides-have-published-in-peer-reviewed-journals
-  text: Both sides have published in peer-reviewed journals
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: lark-et-al-were-funded-by-national-wildlife-federation-env
-  text: Lark et al. were funded by National Wildlife Federation (environmental advocacy)
-    and DOE
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: industry-funded-studies-are-funded-by-groups-with-a-financia
-  text: Industry-funded studies are funded by groups with a financial interest in
-    ethanol policy
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: the-scientific-community-remains-genuinely-split-this-is-n
-  text: "The scientific community remains genuinely split \u2014 this is not settled\
-    \ science"
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: reuters-feb-14-2022-reported-the-lark-studys-findings-t
-  text: Reuters (Feb 14, 2022) reported the Lark study's findings; the reporting was
-    generally accurate and not overdramatized
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: the-article-sparked-significant-pushback-from-the-ethanol-in
-  text: The article sparked significant pushback from the ethanol industry
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: multiple-outlets-axios-cleantechnica-cnet-des-moines-reg
-  text: Multiple outlets (Axios, CleanTechnica, CNET, Des Moines Register) covered
-    the study and subsequent debate
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: us-renewable-fuel-standard-rfs
-  text: US Renewable Fuel Standard (RFS)
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: biofuel-lifecycle-analysis
-  text: Biofuel lifecycle analysis
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-- id: indirect-land-use-change-iluc
-  text: Indirect land-use change (ILUC)
-  status: supported
-  confidence: null
-  evidence:
-  - sourceId: concept.corn-ethanol-climate-impact-debate
-    path: concepts/corn-ethanol-climate-impact-debate.md
-updatedAt: '2026-04-29T13:58:33.090882+00:00'
+updatedAt: '2026-04-29T16:56:28.261208+00:00'
 ---
 
 <!-- openclaw:wiki:generated:start -->
@@ -16110,61 +15951,6 @@ updatedAt: '2026-04-29T13:58:33.090882+00:00'
 This synthesis covers: [[entities/randomstix]].
 
 ## Claims
-
-## Related
-<!-- openclaw:wiki:related:start -->
-### Referenced By
-- [[syntheses/index|Syntheses]]
-
-### Related Pages
-- [[entities/honda-civic-2016-ex-t-maintenance|Honda Civic 2016 EX-T Maintenance]]
-- [[entities/lexus-rx-350-2017|Lexus RX 350 2017]]
-- [[entities/lolok-site|lolok Site]]
-- [[entities/lost-lands-2026|Lost Lands 2026]]
-- [[entities/macvm|macvm]]
-- [[entities/randomstix-health|Randomstix Health]]
-- [[entities/randomstix|Quoc Vu]]
-- [[entities/hindsight-memory-server|Hindsight Memory Server]]
-- [[entities/cli-commands-reference|CLI Commands Reference]]
-- [[entities/contributing|Contributing]]
-- [[entities/architecture|Architecture]]
-- [[entities/ai-providers|AI Providers]]
-- [[entities/webhooks|Webhooks]]
-- [[entities/open-webui-integration|Open WebUI Integration]]
-- [[entities/qq-bot|QQ Bot]]
-- [[entities/bluebubbles-imessage|BlueBubbles (iMessage)]]
-- [[entities/weixin-wechat|Weixin (WeChat)]]
-- [[entities/wecom-enterprise-wechat|WeCom (Enterprise WeChat)]]
-- [[entities/feishu-lark-setup|Feishu / Lark Setup]]
-- [[entities/matrix-setup|Matrix Setup]]
-- [[entities/mattermost-setup|Mattermost Setup]]
-- [[entities/home-assistant-integration|Home Assistant Integration]]
-- [[entities/sms-setup-twilio|SMS Setup (Twilio)]]
-- [[entities/signal-setup|Signal Setup]]
-- [[entities/slack-setup|Slack Setup]]
-- [[entities/discord-setup|Discord Setup]]
-- [[entities/telegram-setup|Telegram Setup]]
-- [[entities/security|Security]]
-- [[entities/features-voice-mode|Features: Voice Mode]]
-- [[entities/features-mcp|Features: MCP]]
-- [[entities/features-skills|Features: Skills]]
-- [[entities/features-tools|Features: Tools]]
-- [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
-- [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
-- [[entities/use-mcp-with-hermes|Use MCP with Hermes]]
-- [[entities/tips-best-practices|Tips & Best Practices]]
-- [[entities/learning-path|Learning Path]]
-- [[entities/installation|Installation]]
-- [[entities/quickstart|Quickstart]]
-- [[entities/nix-nixos-setup|Nix & NixOS Setup]]
-- [[entities/android-termux|Android / Termux]]
-- [[concepts/anomem-postmortem|Anomem Postmortem]]
-- [[concepts/project-guidelines|Project Guidelines]]
-- [[concepts/prompt-weapon-generator-game|Prompt Weapon Generator Game]]
-- [[concepts/self-hosted-infra|Self Hosted Infra]]
-- [[concepts/uncensored-ai-models|Uncensored AI Models]]
-- [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-<!-- openclaw:wiki:related:end -->
 
 ### Supported
 
@@ -17956,7 +17742,7 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/discord-setup|Discord Setup]]
 - People in the same channel are sharing context unexpectedly
   - Sources: [[entities/discord-setup|Discord Setup]]
-- [[entities/security|Security]]](#[[entities/security|Security]])[](#role-based-access-control)[](#mention-control)
+- [[[entity.security|Security]]](#[[entity.security|Security]])[](#role-based-access-control)[](#mention-control)
   - Sources: [[entities/discord-setup|Discord Setup]]
 - Role-Based Access Control
   - Sources: [[entities/discord-setup|Discord Setup]]
@@ -18106,7 +17892,7 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/telegram-setup|Telegram Setup]]
 - [Exec Approval](#exec-approval)
   - Sources: [[entities/telegram-setup|Telegram Setup]]
-- [[entities/security|Security]]](#[[entities/security|Security]])
+- [[[entity.security|Security]]](#[[entity.security|Security]])
   - Sources: [[entities/telegram-setup|Telegram Setup]]
 - In-progress terminal commands are killed immediately (SIGTERM, then SIGKILL after 1s)
   - Sources: [[entities/messaging-gateway|Messaging Gateway]]
@@ -18174,7 +17960,7 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/messaging-gateway|Messaging Gateway]]
 - Reset Policies
   - Sources: [[entities/messaging-gateway|Messaging Gateway]]
-- [[entities/security|Security]]](#[[entities/security|Security]])[](#dm-pairing-alternative-to-allowlists)
+- [[[entity.security|Security]]](#[[entity.security|Security]])[](#dm-pairing-alternative-to-allowlists)
   - Sources: [[entities/messaging-gateway|Messaging Gateway]]
 - DM Pairing (Alternative to Allowlists)
   - Sources: [[entities/messaging-gateway|Messaging Gateway]]
@@ -19326,7 +19112,7 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
 - Ask the agent to use a safer alternative
   - Sources: [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
-- See the full list of dangerous patterns in the [[entities/security|Security]] docs](/docs/user-guide/[[entities/security|Security]])
+- See the full list of dangerous patterns in the [[[entity.security|Security]] docs](/docs/user-guide/[[entity.security|Security]])
   - Sources: [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
 - Avoid `sudo` in messaging — ask the agent to find alternatives
   - Sources: [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
@@ -19644,9 +19430,9 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
 - [Messaging Gateway](/docs/user-guide/messaging)
   - Sources: [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
-- [[entities/feishu-lark-setup|Discord Setup]]](/docs/user-guide/messaging/discord)
+- [[[entity.discord-setup|Discord Setup]]](/docs/user-guide/messaging/discord)
   - Sources: [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
-- [[entities/feishu-lark-setup|Telegram Setup]]](/docs/user-guide/messaging/telegram)
+- [[[entity.telegram-setup|Telegram Setup]]](/docs/user-guide/messaging/telegram)
   - Sources: [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
 - [Choose your voice mode setup](#choose-your-voice-mode-setup)
   - Sources: [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
@@ -19940,7 +19726,7 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/tips-best-practices|Tips & Best Practices]]
 - [Use Allowlists for Messaging Bots](#use-allowlists-for-messaging-bots)
   - Sources: [[entities/tips-best-practices|Tips & Best Practices]]
-- [[entities/installation|Installation]]](/docs/getting-started/[[entities/installation|Installation]])
+- [[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])
   - Sources: [[entities/learning-path|Learning Path]], [[entities/learning-path|Learning Path]], [[entities/learning-path|Learning Path]], [[entities/learning-path|Learning Path]], [[entities/quickstart|Quickstart]]
 - [Android / Termux](/docs/getting-started/termux)
   - Sources: [[entities/learning-path|Learning Path]], [[entities/installation|Installation]], [[entities/quickstart|Quickstart]]
@@ -19960,7 +19746,7 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/learning-path|Learning Path]]
 - Just browsing? Check the [Key Features](#key-features-at-a-glance) table for a quick overview of everything Hermes Agent can do.
   - Sources: [[entities/learning-path|Learning Path]]
-- [[entities/quickstart|Quickstart]]](/docs/getting-started/[[entities/quickstart|Quickstart]])
+- [[[entity.quickstart|Quickstart]]](/docs/getting-started/[[entity.quickstart|Quickstart]])
   - Sources: [[entities/learning-path|Learning Path]], [[entities/learning-path|Learning Path]], [[entities/learning-path|Learning Path]], [[entities/learning-path|Learning Path]]
 - [CLI Usage](/docs/user-guide/cli)
   - Sources: [[entities/learning-path|Learning Path]]
@@ -20008,9 +19794,9 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/learning-path|Learning Path]]
 - [Tools](/docs/user-guide/features/tools)
   - Sources: [[entities/learning-path|Learning Path]]
-- Just finished installing? → Head to the [[entities/quickstart|Quickstart]]](/docs/getting-started/[[entities/quickstart|Quickstart]]) to run your first conversation.
+- Just finished installing? → Head to the [[[entity.quickstart|Quickstart]]](/docs/getting-started/[[entity.quickstart|Quickstart]]) to run your first conversation.
   - Sources: [[entities/learning-path|Learning Path]]
-- Completed the [[entities/quickstart|Quickstart]]? → Read [CLI Usage](/docs/user-guide/cli) and [Configuration](/docs/user-guide/configuration) to customize your setup.
+- Completed the [[entity.quickstart|Quickstart]]? → Read [CLI Usage](/docs/user-guide/cli) and [Configuration](/docs/user-guide/configuration) to customize your setup.
   - Sources: [[entities/learning-path|Learning Path]]
 - Comfortable with the basics? → Explore [Tools](/docs/user-guide/features/tools), [Skills](/docs/user-guide/features/skills), and [Memory](/docs/user-guide/features/memory) to unlock the full power of the agent.
   - Sources: [[entities/learning-path|Learning Path]]
@@ -20406,48 +20192,6 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[concepts/uncensored-ai-models|Uncensored AI Models]]
 - For low-spec machines, downloading pre-built models is smarter than running abliteration
   - Sources: [[concepts/uncensored-ai-models|Uncensored AI Models]]
-- DOE Argonne GREET model:** Corn ethanol reduces life-cycle GHG emissions by ~40-46% compared to gasoline
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- Lark et al. (2022) PNAS:** Corn ethanol is at least 24% more carbon-intensive than gasoline when land-use change is accounted for
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- The empirical camp (Lark et al.) uses satellite data showing actual conversion of grasslands and conservation land to corn, releasing stored carbon
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- The modeling camp (DOE/Argonne) uses economic models that assume less land-use change
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- This is the single largest driver of the difference between estimates
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- Industry critics argue the Lark study understates yield gains, meaning fewer acres are needed for the same corn output
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- Lark et al. respond that their satellite data captures actual land-use change, not modeled projections
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- Ethanol production creates distillers grains that replace animal feed, offsetting some emissions
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- The value of this credit is disputed between the two camps
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- What would farmers have planted if not corn for ethanol? The answer dramatically affects the net GHG calculation
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- Different assumptions produce wildly different results
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- Both sides have published in peer-reviewed journals
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- Lark et al. were funded by National Wildlife Federation (environmental advocacy) and DOE
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- Industry-funded studies are funded by groups with a financial interest in ethanol policy
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- The scientific community remains genuinely split — this is not settled science
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- Reuters (Feb 14, 2022) reported the Lark study's findings; the reporting was generally accurate and not overdramatized
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- The article sparked significant pushback from the ethanol industry
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- Multiple outlets (Axios, CleanTechnica, CNET, Des Moines Register) covered the study and subsequent debate
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- US Renewable Fuel Standard (RFS)
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- Biofuel lifecycle analysis
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
-- Indirect land-use change (ILUC)
-  - Sources: [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
 
 ## Contradictions
 
@@ -20459,7 +20203,7 @@ This synthesis covers: [[entities/randomstix]].
 ### discord-setupdocsuser-guidemessagingdiscord
 
 - [[entities/learning-path]]: [Discord Setup](/docs/user-guide/messaging/discord)
-- [[entities/use-voice-mode-with-hermes]]: [[entities/feishu-lark-setup|Discord Setup]]](/docs/user-guide/messaging/discord)
+- [[entities/use-voice-mode-with-hermes]]: [[[entity.discord-setup|Discord Setup]]](/docs/user-guide/messaging/discord)
 
 ### force-does-not-override-a-dangerous-scan-verdict
 
@@ -20480,11 +20224,11 @@ This synthesis covers: [[entities/randomstix]].
 ### installationdocsgetting-startedinstallation
 
 - [[entities/installation]]: [Installation](/docs/getting-started/installation)
-- [[entities/learning-path]]: [[entities/installation|Installation]]](/docs/getting-started/[[entities/installation|Installation]])
-- [[entities/learning-path]]: [[entities/installation|Installation]]](/docs/getting-started/[[entities/installation|Installation]])
-- [[entities/learning-path]]: [[entities/installation|Installation]]](/docs/getting-started/[[entities/installation|Installation]])
-- [[entities/learning-path]]: [[entities/installation|Installation]]](/docs/getting-started/[[entities/installation|Installation]])
-- [[entities/quickstart]]: [[entities/installation|Installation]]](/docs/getting-started/[[entities/installation|Installation]])
+- [[entities/learning-path]]: [[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])
+- [[entities/learning-path]]: [[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])
+- [[entities/learning-path]]: [[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])
+- [[entities/learning-path]]: [[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])
+- [[entities/quickstart]]: [[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])
 
 ### location
 
@@ -20516,13 +20260,13 @@ This synthesis covers: [[entities/randomstix]].
 - [[entities/mattermost-setup]]: [Security](#security)
 - [[entities/signal-setup]]: [Security](#security)
 - [[entities/slack-setup]]: [Security](#security)
-- [[entities/telegram-setup]]: [[entities/security|Security]]](#[[entities/security|Security]])
+- [[entities/telegram-setup]]: [[[entity.security|Security]]](#[[entity.security|Security]])
 - [[entities/whatsapp-setup]]: [Security](#security)
 
 ### telegram-setupdocsuser-guidemessagingtelegram
 
 - [[entities/learning-path]]: [Telegram Setup](/docs/user-guide/messaging/telegram)
-- [[entities/use-voice-mode-with-hermes]]: [[entities/feishu-lark-setup|Telegram Setup]]](/docs/user-guide/messaging/telegram)
+- [[entities/use-voice-mode-with-hermes]]: [[[entity.telegram-setup|Telegram Setup]]](/docs/user-guide/messaging/telegram)
 
 ### troubleshootingtroubleshootingbot-is-not-responding
 

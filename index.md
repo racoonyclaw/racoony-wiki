@@ -3,16 +3,20 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `obsidian`
-- Total pages: 79
-- Sources: 3
+- Total pages: 82
+- Sources: 5
 - Entities: 62
-- Concepts: 6
+- Concepts: 7
 - Syntheses: 1
 - Reports: 7
 
 ### Sources
 - [[sources/environmental-outcomes-of-the-us-renewable-fuel-standard|Environmental outcomes of the US Renewable Fuel Standard]]
   Lark TJ, Hendricks NP, Smith A, Pates N, Spawn-Lee SA, Bougie M, Booth EG, Kucharik CJ, Gibbs HK. 2022. Environmental…
+- [[sources/expanding-the-ethanol-blend-wall-in-california-emissions-comparison-between-e10-and-e15|Expanding the ethanol blend wall in California: Emissions comparison between E10 and E15]]
+  - Increasing the blend wall to E15 will **not affect NOx emissions**
+- [[sources/sturchio-2025-ecovoltaic-solar-us-croplands|Ecologically informed solar enables a sustainable energy transition in US croplands]]
+  United States (US) croplands are ideal recipient environments for solar photovoltaic (PV) energy because they are flat…
 - [[sources/trees-native-to-raleigh-north-carolina|Trees Native to Raleigh, North Carolina]]
   Raleigh sits in the **Piedmont region** of NC (USDA zones 7b/8a).
 - [[sources/us-corn-based-ethanol-worse-for-the-climate-than-gasoline-study-finds|U.S. corn-based ethanol worse for the climate than gasoline, study finds]]
@@ -20,7 +24,7 @@
 
 ### Entities
 - [[entities/2017-lexus-rx-350|2017 Lexus RX 350]]
-  - **Type:** 3.5L V6 DOHC 24V VVT-iW
+  <!-- openclaw:wiki:related:start -->
 - [[entities/ai-providers|AI Providers]]
   On this page
 - [[entities/android-termux|Android / Termux]]
@@ -52,7 +56,7 @@
 - [[entities/features-memory|Features: Memory]]
   Hermes Agent has bounded, curated memory that persists across sessions. This lets it remember your preferences, your…
 - [[entities/features-overview|Features Overview]]
-  Hermes Agent includes a rich set of capabilities that extend far beyond basic chat. From entity.features-memory and…
+  Hermes Agent includes a rich set of capabilities that extend far beyond basic chat. From entities/features-memory and…
 - [[entities/features-personality|Features: Personality]]
   Hermes Agent's personality is fully customizable. `SOUL.md` is the **primary identity** — it's the first thing in the…
 - [[entities/features-skills|Features: Skills]]
@@ -78,7 +82,7 @@
 - [[entities/hermes-agent-use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
   Use Voice Mode with Hermes | Hermes Agent-
 - [[entities/hindsight-memory-server|Hindsight Memory Server]]
-  `/opt/stacks/hindsight_memory/`
+  <!-- openclaw:wiki:related:start -->
 - [[entities/home-assistant-integration|Home Assistant Integration]]
   On this page
 - [[entities/honda-civic-2016-ex-t-maintenance|Honda Civic 2016 EX-T Maintenance]]
@@ -124,12 +128,13 @@
 - [[entities/sms-setup-twilio|SMS Setup (Twilio)]]
   On this page
 - [[entities/stdin|Stdin]]
+  <!-- openclaw:wiki:related:start -->
 - [[entities/telegram-setup|Telegram Setup]]
   On this page
 - [[entities/tips-best-practices|Tips & Best Practices]]
   Tips & Best Practices | Hermes Agent-
 - [[entities/updating-uninstalling|Updating & Uninstalling]]
-  Update to the latest version with a single command:
+  <!-- openclaw:wiki:related:start -->
 - [[entities/use-mcp-with-hermes|Use MCP with Hermes]]
   Use MCP with Hermes | Hermes Agent-
 - [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
@@ -148,6 +153,8 @@
   Anomem (Another Memory) was a self-hosted notes app I built for entities/randomstix. It started as a Go + React project…
 - [[concepts/corn-ethanol-climate-impact-debate|Corn Ethanol Climate Impact Debate]]
   The climate impact of corn-based ethanol is a contested scientific question with two conflicting bodies of evidence.
+- [[concepts/ecologically-informed-solar-enables-a-sustainable-energy-transition-in-us-croplands|Ecologically informed solar enables a sustainable energy transition in US croplands]]
+  United States (US) croplands are ideal recipient environments for solar photovoltaic (PV) energy because they are flat…
 - [[concepts/project-guidelines|Project Guidelines]]
   Rules for starting new coding projects. Born from the failure of concepts/anomem-postmortem.
 - [[concepts/prompt-weapon-generator-game|Prompt Weapon Generator Game]]

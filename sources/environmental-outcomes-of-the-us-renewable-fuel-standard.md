@@ -10,22 +10,22 @@ updatedAt: '2026-04-29T13:57:36.203040+00:00'
 claims:
 - id: corn-based-ethanol-produced-under-the-us-renewable-fuel-stan
   text: Corn-based ethanol produced under the US Renewable Fuel Standard has life-cycle
-    greenhouse gas emissions at least 24% higher than gasoline [source.lark2022ethanol]
+    greenhouse gas emissions at least 24% higher than gasoline [source.reuters-ethanol-study-2022]
   status: supported
   confidence: null
 - id: the-primary-driver-is-land-use-change-converting-grassland
   text: "The primary driver is land-use change \u2014 converting grasslands and conservation\
-    \ reserve land to corn cultivation releases carbon [source.lark2022ethanol]"
+    \ reserve land to corn cultivation releases carbon [source.reuters-ethanol-study-2022]"
   status: supported
   confidence: null
 - id: corn-ethanol-production-has-negatively-affected-water-qualit
   text: Corn ethanol production has negatively affected water quality, conservation
-    land area, and other ecosystem processes [source.lark2022ethanol]
+    land area, and other ecosystem processes [source.reuters-ethanol-study-2022]
   status: supported
   confidence: null
 - id: even-without-considering-international-indirect-land-use-eff
   text: Even without considering international indirect land-use effects, the study
-    found ethanol fails to meet the RFS's own GHG emissions targets [source.lark2022ethanol]
+    found ethanol fails to meet the RFS's own GHG emissions targets [source.reuters-ethanol-study-2022]
   status: supported
   confidence: null
 - id: tyler-j-lark-university-of-wisconsin-madison-lead-author
@@ -141,10 +141,10 @@ Lark TJ, Hendricks NP, Smith A, Pates N, Spawn-Lee SA, Bougie M, Booth EG, Kucha
 - No related pages yet.
 <!-- openclaw:wiki:related:end -->
 
-- Corn-based ethanol produced under the US Renewable Fuel Standard has life-cycle greenhouse gas emissions at least 24% higher than gasoline [source.lark2022ethanol]
-- The primary driver is land-use change — converting grasslands and conservation reserve land to corn cultivation releases carbon [source.lark2022ethanol]
-- Corn ethanol production has negatively affected water quality, conservation land area, and other ecosystem processes [source.lark2022ethanol]
-- Even without considering international indirect land-use effects, the study found ethanol fails to meet the RFS's own GHG emissions targets [source.lark2022ethanol]
+- Corn-based ethanol produced under the US Renewable Fuel Standard has life-cycle greenhouse gas emissions at least 24% higher than gasoline [source.reuters-ethanol-study-2022]
+- The primary driver is land-use change — converting grasslands and conservation reserve land to corn cultivation releases carbon [source.reuters-ethanol-study-2022]
+- Corn ethanol production has negatively affected water quality, conservation land area, and other ecosystem processes [source.reuters-ethanol-study-2022]
+- Even without considering international indirect land-use effects, the study found ethanol fails to meet the RFS's own GHG emissions targets [source.reuters-ethanol-study-2022]
 
 ## Authors & Affiliations
 
