@@ -135,6 +135,13 @@ The SMS gateway shares credentials with the optional [telephony skill](/docs/ref
 
 ## Prerequisites[​](#prerequisites)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 ****[](https://www.twilio.com/try-twilio)************
 - Twilio account — Sign up at twilio.com (free trial available)
 

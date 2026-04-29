@@ -402,6 +402,31 @@ On this page# Learning Path
 Hermes Agent can do a lot — CLI assistant, Telegram/Discord bot, task automation, RL training, and more. This page helps you figure out where to start and what to read based on your experience level and what you're trying to accomplish.
 Start HereIf you haven't installed Hermes Agent yet, begin with the [[entities/installation|Installation]] guide](/docs/getting-started/[[entities/installation|Installation]]) and then run through the [[entities/quickstart|Quickstart]]](/docs/getting-started/[[entities/quickstart|Quickstart]]). Everything below assumes you have a working [[entities/installation|Installation]].
 ## How to Use This Page[​](#how-to-use-this-page)
+
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+
+### Related Pages
+- [[entities/cli-commands-reference|CLI Commands Reference]]
+- [[entities/contributing|Contributing]]
+- [[entities/architecture|Architecture]]
+- [[entities/ai-providers|AI Providers]]
+- [[entities/open-webui-integration|Open WebUI Integration]]
+- [[entities/signal-setup|Signal Setup]]
+- [[entities/security|Security]]
+- [[entities/features-skills|Features: Skills]]
+- [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
+- [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
+- [[entities/use-mcp-with-hermes|Use MCP with Hermes]]
+- [[entities/tips-best-practices|Tips & Best Practices]]
+- [[entities/installation|Installation]]
+- [[entities/quickstart|Quickstart]]
+- [[entities/android-termux|Android / Termux]]
+- [[concepts/uncensored-ai-models|Uncensored AI Models]]
+<!-- openclaw:wiki:related:end -->
 - Know your level? Jump to the [experience-level table](#by-experience-level) and follow the reading order for your tier.
 - Have a specific goal? Skip to [By Use Case](#by-use-case) and find the scenario that matches.
 - Just browsing? Check the [Key Features](#key-features-at-a-glance) table for a quick overview of everything Hermes Agent can do.

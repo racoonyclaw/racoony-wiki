@@ -189,6 +189,13 @@ Hermes Agent's CLI is a full terminal user interface (TUI) — not a web UI. It 
 
 ## Running the CLI
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 ```bash
 # Start an interactive session (default)
 hermes

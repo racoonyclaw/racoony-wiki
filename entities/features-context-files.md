@@ -216,6 +216,14 @@ Hermes Agent automatically discovers and loads context files that shape how it b
 
 ## Supported Context Files[​](#supported-context-files "Direct link to Supported Context Files")
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[entities/features-overview|features-overview]]
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 - **File**, **Purpose**, **Discovery**
 - **File**: **.hermes.md** / **HERMES.md**, **Purpose**: Project instructions (highest priority), **Discovery**: Walks to git root
 - **File**: **AGENTS.md**, **Purpose**: Project instructions, conventions, architecture, **Discovery**: CWD at startup + subdirectories progressively

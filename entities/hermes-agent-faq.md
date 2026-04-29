@@ -32,6 +32,13 @@ FAQ & Troubleshooting | Hermes Agent-
 On this page# FAQ & Troubleshooting
 Quick answers and fixes for the most common questions and issues.
 ## Frequently Asked Questions[​](#frequently-asked-questions)
+
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
 ### What LLM providers work with Hermes?[​](#what-llm-providers-work-with-hermes)
 Hermes Agent works with any OpenAI-compatible API. Supported providers include:
 - [OpenRouter](https://openrouter.ai/) — access hundreds of models through one API key (recommended for flexibility)

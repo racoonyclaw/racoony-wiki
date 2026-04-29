@@ -701,6 +701,31 @@ On this page# Use Voice Mode with Hermes
 This guide is the practical companion to the [Voice Mode feature reference](/docs/user-guide/features/voice-mode).
 If the feature page explains what voice mode can do, this guide shows how to actually use it well.
 ## What voice mode is good for[​](#what-voice-mode-is-good-for)
+
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+
+### Related Pages
+- [[entities/cli-commands-reference|CLI Commands Reference]]
+- [[entities/contributing|Contributing]]
+- [[entities/architecture|Architecture]]
+- [[entities/ai-providers|AI Providers]]
+- [[entities/open-webui-integration|Open WebUI Integration]]
+- [[entities/signal-setup|Signal Setup]]
+- [[entities/security|Security]]
+- [[entities/features-skills|Features: Skills]]
+- [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
+- [[entities/use-mcp-with-hermes|Use MCP with Hermes]]
+- [[entities/tips-best-practices|Tips & Best Practices]]
+- [[entities/learning-path|Learning Path]]
+- [[entities/installation|Installation]]
+- [[entities/quickstart|Quickstart]]
+- [[entities/android-termux|Android / Termux]]
+- [[concepts/uncensored-ai-models|Uncensored AI Models]]
+<!-- openclaw:wiki:related:end -->
 Voice mode is especially useful when:
 - you want a hands-free CLI workflow
 - you want spoken responses in Telegram or Discord

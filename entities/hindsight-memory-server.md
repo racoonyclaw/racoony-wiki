@@ -47,6 +47,14 @@ claims:
 ---
 
 ## Stack Location
+
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[entities/features-overview|features-overview]]
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
 `/opt/stacks/hindsight_memory/`
 
 ## Services

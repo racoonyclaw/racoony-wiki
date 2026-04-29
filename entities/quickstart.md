@@ -364,6 +364,31 @@ Quickstart | Hermes Agent-
 On this page# Quickstart
 This guide gets you from zero to a working Hermes setup that survives real use. Install, choose a provider, verify a working chat, and know exactly what to do when something breaks.
 ## Who this is for[​](#who-this-is-for)
+
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[entities/tips-best-practices|Tips & Best Practices]]
+- [[entities/learning-path|Learning Path]]
+- [[entities/installation|Installation]]
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+
+### Related Pages
+- [[entities/cli-commands-reference|CLI Commands Reference]]
+- [[entities/contributing|Contributing]]
+- [[entities/architecture|Architecture]]
+- [[entities/ai-providers|AI Providers]]
+- [[entities/open-webui-integration|Open WebUI Integration]]
+- [[entities/signal-setup|Signal Setup]]
+- [[entities/security|Security]]
+- [[entities/features-skills|Features: Skills]]
+- [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
+- [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
+- [[entities/use-mcp-with-hermes|Use MCP with Hermes]]
+- [[entities/android-termux|Android / Termux]]
+- [[concepts/uncensored-ai-models|Uncensored AI Models]]
+<!-- openclaw:wiki:related:end -->
 - Brand new and want the shortest path to a working setup
 - Switching providers and don't want to lose time to config mistakes
 - Setting up Hermes for a team, bot, or always-on workflow

@@ -133,6 +133,31 @@ For in-chat slash commands, see [Slash Commands Reference](/docs/reference/slash
 
 ## Global entrypoint
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+
+### Related Pages
+- [[entities/contributing|Contributing]]
+- [[entities/architecture|Architecture]]
+- [[entities/ai-providers|AI Providers]]
+- [[entities/open-webui-integration|Open WebUI Integration]]
+- [[entities/signal-setup|Signal Setup]]
+- [[entities/security|Security]]
+- [[entities/features-skills|Features: Skills]]
+- [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
+- [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
+- [[entities/use-mcp-with-hermes|Use MCP with Hermes]]
+- [[entities/tips-best-practices|Tips & Best Practices]]
+- [[entities/learning-path|Learning Path]]
+- [[entities/installation|Installation]]
+- [[entities/quickstart|Quickstart]]
+- [[entities/android-termux|Android / Termux]]
+- [[concepts/uncensored-ai-models|Uncensored AI Models]]
+<!-- openclaw:wiki:related:end -->
+
 ```
 hermes [global-options] &lt;command&gt; [subcommand/options]
 ```

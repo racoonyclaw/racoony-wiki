@@ -339,6 +339,14 @@ The integration supports both connection modes:
 
 ## How Hermes Behaves[​](#how-hermes-behaves)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 This shared-chat behavior is controlled by config.yaml:
 
 ```prism-code yaml codeBlock_bY9V thin-scrollbar

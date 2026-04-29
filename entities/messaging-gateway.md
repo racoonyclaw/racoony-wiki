@@ -225,6 +225,16 @@ For the full voice feature set — including CLI microphone mode, spoken replies
 
 ## Platform Comparison[​](#platform-comparison)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[entities/discord-setup|Discord Setup]]
+- [[entities/security|Security]]
+- [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 **Voice** = TTS audio replies and/or voice message transcription. **Images** = send/receive images. **Files** = send/receive file attachments. **Threads** = threaded conversations. **Reactions** = emoji reactions on messages. **Typing** = typing indicator while processing. **Streaming** = progressive message updates via editing.
 
 ## Architecture[​](#architecture)

@@ -437,6 +437,32 @@ This page covers setting up inference providers for Hermes Agent — from cloud 
 
 ## Inference Providers[​](#inference-providers)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[entities/features-overview|features-overview]]
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+
+### Related Pages
+- [[entities/cli-commands-reference|CLI Commands Reference]]
+- [[entities/contributing|Contributing]]
+- [[entities/architecture|Architecture]]
+- [[entities/open-webui-integration|Open WebUI Integration]]
+- [[entities/signal-setup|Signal Setup]]
+- [[entities/security|Security]]
+- [[entities/features-skills|Features: Skills]]
+- [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
+- [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
+- [[entities/use-mcp-with-hermes|Use MCP with Hermes]]
+- [[entities/tips-best-practices|Tips & Best Practices]]
+- [[entities/learning-path|Learning Path]]
+- [[entities/installation|Installation]]
+- [[entities/quickstart|Quickstart]]
+- [[entities/android-termux|Android / Termux]]
+- [[concepts/uncensored-ai-models|Uncensored AI Models]]
+<!-- openclaw:wiki:related:end -->
+
 You need at least one way to connect to an LLM. Use hermes model to switch providers and models interactively, or configure directly:
 
 ********************************************************************************************

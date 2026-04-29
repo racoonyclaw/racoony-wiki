@@ -241,6 +241,32 @@ Installation | Hermes Agent-
 On this page# Installation
 Get Hermes Agent up and running in under two minutes with the one-line installer.
 ## Quick Install[​](#quick-install)
+
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[entities/learning-path|Learning Path]]
+- [[entities/quickstart|Quickstart]]
+- [[entities/nix-nixos-setup|Nix & NixOS Setup]]
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+
+### Related Pages
+- [[entities/cli-commands-reference|CLI Commands Reference]]
+- [[entities/contributing|Contributing]]
+- [[entities/architecture|Architecture]]
+- [[entities/ai-providers|AI Providers]]
+- [[entities/open-webui-integration|Open WebUI Integration]]
+- [[entities/signal-setup|Signal Setup]]
+- [[entities/security|Security]]
+- [[entities/features-skills|Features: Skills]]
+- [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
+- [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
+- [[entities/use-mcp-with-hermes|Use MCP with Hermes]]
+- [[entities/tips-best-practices|Tips & Best Practices]]
+- [[entities/android-termux|Android / Termux]]
+- [[concepts/uncensored-ai-models|Uncensored AI Models]]
+<!-- openclaw:wiki:related:end -->
 ### Linux / macOS / WSL2[​](#linux--macos--wsl2)
 ```
 curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash

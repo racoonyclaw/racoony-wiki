@@ -433,6 +433,17 @@ Hermes Agent integrates with Telegram as a full-featured conversational bot. Onc
 
 ## Step 1: Create a Bot via BotFather[​](#step-1-create-a-bot-via-botfather)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[entities/messaging-gateway|Messaging Gateway]]
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+
+### Related Pages
+- [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
+<!-- openclaw:wiki:related:end -->
+
 Every Telegram bot requires an API token issued by [@BotFather](https://t.me/BotFather), Telegram's official bot management tool.
 
 ****[](https://t.me/BotFather)************

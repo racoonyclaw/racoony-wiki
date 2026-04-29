@@ -464,6 +464,13 @@ The agent processes the event and can respond by posting comments on PRs, sendin
 
 ## Quick Start[​](#quick-start)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 ****
 1. Enable via hermes gateway setup or environment variables
 

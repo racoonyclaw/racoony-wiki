@@ -326,6 +326,14 @@ If you want to change who Hermes is — or replace it with an entirely different
 
 ## How SOUL.md works now[​](#how-soulmd-works-now "Direct link to How SOUL.md works now")
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[entities/features-overview|features-overview]]
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 Hermes now seeds a default `SOUL.md` automatically in:
 
 ```

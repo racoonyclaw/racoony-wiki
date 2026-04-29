@@ -9,3 +9,8 @@ unsafeLocalRelativePath: /dev/stdin
 updatedAt: '2026-04-23T22:59:00.536211+00:00'
 ---
 
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->

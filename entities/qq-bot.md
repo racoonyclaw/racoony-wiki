@@ -159,6 +159,13 @@ Connect Hermes to QQ via the **Official QQ Bot API (v2)** — supporting private
 
 ## Overview[​](#overview)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 The QQ Bot adapter uses the [Official QQ Bot API](https://bot.q.qq.com/wiki/develop/api-v2/) to:
 
 ********

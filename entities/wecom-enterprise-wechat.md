@@ -222,6 +222,13 @@ Connect Hermes to [WeCom](https://work.weixin.qq.com/) (企业微信), Tencent's
 
 ## Prerequisites[​](#prerequisites)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 - A WeCom organization account
 
 - An AI Bot created in the WeCom Admin Console

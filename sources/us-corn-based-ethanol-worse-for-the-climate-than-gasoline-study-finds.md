@@ -56,6 +56,11 @@ claims:
 
 ## Summary
 
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->
+
 Corn-based ethanol, mixed in huge quantities into U.S. gasoline, is likely at least 24% more carbon-intensive than straight gasoline, according to a study published in the Proceedings of the National Academy of Sciences. This contradicts previous USDA research showing ethanol to be relatively green.
 
 ## Key Claims

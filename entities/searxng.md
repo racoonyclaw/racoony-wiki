@@ -16,6 +16,13 @@ Privacy-respecting metasearch engine running as a Docker container on this syste
 
 ## Access
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 - **URL**: `http://searxng`
 - **JSON API**: `http://searxng/search?q=<query>&format=json`
 - **Host mapping**: `/etc/hosts` maps `127.0.0.1` to `searxng`

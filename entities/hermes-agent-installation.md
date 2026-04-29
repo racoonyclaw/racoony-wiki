@@ -28,6 +28,13 @@ Installation | Hermes Agent-
 On this page# Installation
 Get Hermes Agent up and running in under two minutes with the one-line installer.
 ## Quick Install[​](#quick-install)
+
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
 ### Linux / macOS / WSL2[​](#linux--macos--wsl2)
 ```
 curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash

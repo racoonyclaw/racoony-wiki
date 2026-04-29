@@ -162,6 +162,13 @@ The Email adapter uses Python's built-in imaplib, smtplib, and email modules. No
 
 ## Prerequisites[​](#prerequisites)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 ************
 - A dedicated email account for your Hermes agent (don't use your personal email)
 

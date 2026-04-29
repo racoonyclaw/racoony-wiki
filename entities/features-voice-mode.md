@@ -343,6 +343,17 @@ If you want a practical setup walkthrough with recommended configurations and re
 
 ## Prerequisites[​](#prerequisites "Direct link to Prerequisites")
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[entities/features-overview|features-overview]]
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+
+### Related Pages
+- [[entities/discord-setup|Discord Setup]]
+<!-- openclaw:wiki:related:end -->
+
 Before using voice features, make sure you have:
 
 1. **Hermes Agent installed** — `pip install hermes-agent` (see [Installation](/docs/getting-started/installation))

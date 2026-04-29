@@ -7,6 +7,13 @@ Hermes Agent includes a rich set of capabilities that extend far beyond basic ch
 
 ## Core[​](#core "Direct link to Core")
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 - **[[entities/features-tools|Tools & Toolsets]]](/docs/user-guide/features/tools)** — Tools are functions that extend the agent's capabilities. They're organized into logical toolsets that can be enabled or disabled per platform, covering web search, terminal execution, file editing, memory, delegation, and more.
 - **[[entities/features-skills|Skills System]]](/docs/user-guide/features/skills)** — On-demand knowledge documents the agent can load when needed. Skills follow a progressive disclosure pattern to minimize token usage and are compatible with the [agentskills.io](https://agentskills.io/specification) open standard.
 - **[[entities/hindsight-memory-server|Persistent Memory]]](/docs/user-guide/features/memory)** — Bounded, curated memory that persists across sessions. Hermes remembers your preferences, projects, environment, and things it has learned via `MEMORY.md` and `USER.md`.

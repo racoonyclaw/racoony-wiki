@@ -202,6 +202,17 @@ Hermes Agent ships a Nix flake with three levels of integration:
 
 ## WHAT'S DIFFERENT FROM THE STANDARD INSTALL
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+
+### Related Pages
+- [[entities/features-mcp|Features: MCP]]
+- [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
+<!-- openclaw:wiki:related:end -->
+
 The curl | bash installer manages Python, Node, and dependencies itself. The Nix flake replaces all of that — every Python dependency is a Nix derivation built by uv2nix, and runtime tools (Node.js, git, ripgrep, ffmpeg) are wrapped into the binary's PATH. There is no runtime pip, no venv activation, no npm install.
 
 For non-NixOS users, this only changes the install step. Everything after (`hermes setup`, `hermes gateway install`, config editing) works identically to the standard install.

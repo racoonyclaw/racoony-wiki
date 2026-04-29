@@ -325,6 +325,18 @@ If you have ever wanted Hermes to use a tool that already exists somewhere else,
 
 ## What MCP gives you[​](#what-mcp-gives-you "Direct link to What MCP gives you")
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[entities/features-overview|features-overview]]
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+
+### Related Pages
+- [[entities/use-mcp-with-hermes|Use MCP with Hermes]]
+- [[entities/nix-nixos-setup|Nix & NixOS Setup]]
+<!-- openclaw:wiki:related:end -->
+
 - Access to external tool ecosystems without writing a native Hermes tool first
 - Local stdio servers and remote HTTP MCP servers in the same config
 - Automatic tool discovery and registration at startup

@@ -211,6 +211,16 @@ Before setup, here's the part most people want to know: how Hermes behaves once 
 
 ## How Hermes Behaves[​](#how-hermes-behaves)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+
+### Related Pages
+- [[entities/matrix-setup|Matrix Setup]]
+<!-- openclaw:wiki:related:end -->
+
 ****************
 tip
 

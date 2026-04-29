@@ -27,6 +27,13 @@ claims:
 
 ## Updating
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 Update to the latest version with a single command:
 
 ```

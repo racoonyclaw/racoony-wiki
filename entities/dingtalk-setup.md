@@ -198,6 +198,13 @@ Before setup, here's the part most people want to know: how Hermes behaves once 
 
 ## How Hermes Behaves[​](#how-hermes-behaves)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 ************
 
 ### Session Model in DingTalk[​](#session-model-in-dingtalk)

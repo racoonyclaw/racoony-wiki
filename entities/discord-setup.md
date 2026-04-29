@@ -449,6 +449,17 @@ Before setup, here's the part most people want to know: how Hermes behaves once 
 
 ## How Hermes Behaves[​](#how-hermes-behaves)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[entities/messaging-gateway|Messaging Gateway]]
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+
+### Related Pages
+- [[entities/features-voice-mode|Features: Voice Mode]]
+<!-- openclaw:wiki:related:end -->
+
 ****************************
 tip
 

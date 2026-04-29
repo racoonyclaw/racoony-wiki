@@ -212,6 +212,13 @@ Hermes Agent integrates with [Home Assistant](https://www.home-assistant.io/) in
 
 ## Setup[​](#setup)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 ### 1. Create a Long-Lived Access Token[​](#1-create-a-long-lived-access-token)
 
 ************

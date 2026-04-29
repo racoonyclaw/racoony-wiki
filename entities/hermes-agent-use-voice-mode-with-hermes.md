@@ -41,6 +41,13 @@ On this page# Use Voice Mode with Hermes
 This guide is the practical companion to the [Voice Mode feature reference](/docs/user-guide/features/voice-mode).
 If the feature page explains what voice mode can do, this guide shows how to actually use it well.
 ## What voice mode is good for[​](#what-voice-mode-is-good-for)
+
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
 Voice mode is especially useful when:
 - you want a hands-free CLI workflow
 - you want spoken responses in Telegram or Discord

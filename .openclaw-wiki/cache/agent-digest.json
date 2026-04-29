@@ -1,35 +1,12 @@
 {
   "pageCounts": {
-    "entity": 7,
-    "concept": 4,
-    "source": 0,
-    "synthesis": 1,
-    "report": 6
+    "entity": 63,
+    "concept": 7,
+    "source": 4,
+    "synthesis": 2,
+    "report": 8
   },
-  "claimCount": 15,
-  "claimHealth": {
-    "freshness": {
-      "fresh": 15,
-      "aging": 0,
-      "stale": 0,
-      "unknown": 0
-    },
-    "contested": 0,
-    "lowConfidence": 0,
-    "missingEvidence": 0
-  },
-  "contradictionClusters": [
-    {
-      "key": "email",
-      "label": "email",
-      "kind": "claim-id",
-      "entryCount": 2,
-      "paths": [
-        "entities/randomstix.md",
-        "syntheses/racoony-ops.md"
-      ]
-    }
-  ],
+  "claimCount": 6743,
   "pages": [
     {
       "id": "concept.anomem-postmortem",
@@ -41,8 +18,74 @@
       ],
       "questions": [],
       "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "concept.corn-ethanol-climate-impact-debate",
+      "title": "Corn Ethanol Climate Impact Debate",
+      "kind": "concept",
+      "path": "concepts/corn-ethanol-climate-impact-debate.md",
+      "sourceIds": [
+        "source.lark2022ethanol"
+      ],
+      "questions": [],
+      "contradictions": [],
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22",
+      "claimCount": 21,
+      "topClaims": [
+        {
+          "id": "doe-argonne-greet-model-corn-ethanol-reduces-life-cycle-g",
+          "text": "DOE Argonne GREET model:** Corn ethanol reduces life-cycle GHG emissions by ~40-46% compared to gasoline",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "lark-et-al-2022-pnas-corn-ethanol-is-at-least-24-more",
+          "text": "Lark et al. (2022) PNAS:** Corn ethanol is at least 24% more carbon-intensive than gasoline when land-use change is accounted for",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "the-empirical-camp-lark-et-al-uses-satellite-data-showing",
+          "text": "The empirical camp (Lark et al.) uses satellite data showing actual conversion of grasslands and conservation land to corn, releasing stored carbon",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "the-modeling-camp-doeargonne-uses-economic-models-that-as",
+          "text": "The modeling camp (DOE/Argonne) uses economic models that assume less land-use change",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "this-is-the-single-largest-driver-of-the-difference-between",
+          "text": "This is the single largest driver of the difference between estimates",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "concept.",
+      "title": "Concepts",
+      "kind": "concept",
+      "path": "concepts/index.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
@@ -56,8 +99,7 @@
       ],
       "questions": [],
       "contradictions": [],
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22",
+      "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
@@ -71,8 +113,7 @@
       ],
       "questions": [],
       "contradictions": [],
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22",
+      "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
@@ -86,10 +127,1462 @@
       ],
       "questions": [],
       "contradictions": [],
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22",
+      "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
+    },
+    {
+      "id": "concept.uncensored-ai-models",
+      "title": "Uncensored AI Models",
+      "kind": "concept",
+      "path": "concepts/uncensored-ai-models.md",
+      "sourceIds": [
+        "githubcom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 38,
+      "topClaims": [
+        {
+          "id": "9-cli-methods-basic-advanced-recommended-aggressive",
+          "text": "9 CLI methods**: basic, advanced (recommended), aggressive, spectral_cascade, informed, surgical, optimized, inverted, nuclear",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "116-model-presets-across-5-compute-tiers",
+          "text": "116 model presets** across 5 compute tiers",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "license-agpl-30-never-import-as-python-library-always",
+          "text": "License**: AGPL-3.0 \u2014 NEVER import as Python library. Always invoke via CLI or subprocess to keep Hermes Agent's MIT license clean.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "models-under-1b-params-respond-poorly-to-abliteration-3b",
+          "text": "Models under ~1B params** respond poorly to abliteration. 3B+ works well. 7-8B is the practical minimum for useful results.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "qwen-25-7b-uncensored-coding-logic",
+          "text": "Qwen 2.5 7B Uncensored \u2014 coding & logic",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.2017-lexus-rx-350",
+      "title": "2017 Lexus RX 350",
+      "kind": "entity",
+      "path": "entities/2017-lexus-rx-350.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 9,
+      "topClaims": [
+        {
+          "id": "type-35l-v6-dohc-24v-vvt-iw",
+          "text": "Type:** 3.5L V6 DOHC 24V VVT-iW",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "horsepower-295-hp-6300-rpm",
+          "text": "Horsepower:** 295 hp @ 6,300 RPM",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "torque-267-lb-ft-4700-rpm",
+          "text": "Torque:** 267 lb-ft @ 4,700 RPM",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "type-0w-20-full-synthetic-oem-recommended",
+          "text": "Type:** 0W-20 full synthetic (OEM recommended)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "capacity-5760-quarts-5457-liters-confirm-with",
+          "text": "Capacity:** ~5.7\u20136.0 quarts (~5.4\u20135.7 liters) \u2014 confirm with dealer manual",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.ai-providers",
+      "title": "AI Providers",
+      "kind": "entity",
+      "path": "entities/ai-providers.md",
+      "sourceIds": [
+        "consolecloudgoogleco",
+        "ollamacom",
+        "ollamacom",
+        "buildnvidiacom",
+        "huggingfaceco",
+        "huggingfaceco",
+        "ollamacom",
+        "ollamacom",
+        "docsvllmai",
+        "githubcom",
+        "githubcom",
+        "githubcom",
+        "huggingfaceco",
+        "lmstudioai",
+        "docslitellmai",
+        "githubcom",
+        "firecrawldev",
+        "githubcom",
+        "cloudcode-pagoogleap",
+        "portalqwenai",
+        "17229192111434",
+        "wsl-host11434",
+        "hostname",
+        "17229192111434",
+        "apitogetherxyz",
+        "gpu-serverinternalco",
+        "proxyexamplecom",
+        "githubcom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 68,
+      "topClaims": [
+        {
+          "id": "pkce-authorization-code-flow-against-accountsgooglecom",
+          "text": "PKCE Authorization Code flow against accounts.google.com",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "browser-callback-at-http1270018085oauth2callback-wi",
+          "text": "Browser callback at http://127.0.0.1:8085/oauth2callback (with ephemeral-port fallback if busy)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "tokens-stored-at-hermesauthgoogle-oauthjson-chmod-060",
+          "text": "Tokens stored at ~/.hermes/auth/google_oauth.json (chmod 0600, atomic write, cross-process fcntl lock)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "automatic-refresh-60-s-before-expiry",
+          "text": "Automatic refresh 60 s before expiry",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "headless-environments-ssh-hermes-headless1-paste-mode",
+          "text": "Headless environments (SSH, HERMES_HEADLESS=1) \u2192 paste-mode fallback",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.android-termux",
+      "title": "Android / Termux",
+      "kind": "entity",
+      "path": "entities/android-termux.md",
+      "sourceIds": [
+        "rawgithubusercontent",
+        "githubcom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 35,
+      "topClaims": [
+        {
+          "id": "the-hermes-cli",
+          "text": "the Hermes CLI",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "cron-support",
+          "text": "cron support",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "ptybackground-terminal-support",
+          "text": "PTY/background terminal support",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "telegram-gateway-support-manual-best-effort-background-ru",
+          "text": "Telegram gateway support (manual / best-effort background runs)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "mcp-support",
+          "text": "MCP support",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.architecture",
+      "title": "Architecture",
+      "kind": "entity",
+      "path": "entities/architecture.md",
+      "sourceIds": [
+        "githubcom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 14,
+      "topClaims": [
+        {
+          "id": "this-page-orient-yourself",
+          "text": "This page** \u2014 orient yourself",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "agent-loop-internalsdocsdeveloper-guideagent-loop",
+          "text": "[Agent Loop Internals](/docs/developer-guide/agent-loop)** \u2014 how AIAgent works",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "prompt-assemblydocsdeveloper-guideprompt-assembly",
+          "text": "[Prompt Assembly](/docs/developer-guide/prompt-assembly)** \u2014 system prompt construction",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "provider-runtime-resolutiondocsdeveloper-guideprovider",
+          "text": "[Provider Runtime Resolution](/docs/developer-guide/provider-runtime)** \u2014 how providers are selected",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "adding-providersdocsdeveloper-guideadding-providers",
+          "text": "[Adding Providers](/docs/developer-guide/adding-providers)** \u2014 practical guide to adding a new provider",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.bluebubbles-imessage",
+      "title": "BlueBubbles (iMessage)",
+      "kind": "entity",
+      "path": "entities/bluebubbles-imessage.md",
+      "sourceIds": [
+        "bluebubblesapp",
+        "bluebubblesapp",
+        "docsbluebubblesapp",
+        "docsbluebubblesapp",
+        "1921681101234"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 44,
+      "topClaims": [
+        {
+          "id": "a-mac-always-on-running-bluebubbles-server",
+          "text": "A Mac (always on) running BlueBubbles Server",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "apple-id-signed-into-messagesapp-on-that-mac",
+          "text": "Apple ID signed into Messages.app on that Mac",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "bluebubbles-server-v100-webhooks-require-this-version",
+          "text": "BlueBubbles Server v1.0.0+ (webhooks require this version)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "network-connectivity-between-hermes-and-the-bluebubbles-serv",
+          "text": "Network connectivity between Hermes and the BlueBubbles server",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "server-url-eg-http1921681101234",
+          "text": "Server URL (e.g., http://192.168.1.10:1234)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.cli-commands-reference",
+      "title": "CLI Commands Reference",
+      "kind": "entity",
+      "path": "entities/cli-commands-reference.md",
+      "sourceIds": [
+        "githubcom",
+        "mintlifycom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 24,
+      "topClaims": [
+        {
+          "id": "add-a-new-provider-openrouter-anthropic-copilot-deepse",
+          "text": "add a new provider** (OpenRouter, Anthropic, Copilot, DeepSeek, custom, etc.)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "log-into-oauth-backed-providers-anthropic-copilot-codex",
+          "text": "log into OAuth-backed providers (Anthropic, Copilot, Codex, Nous Portal)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "enter-or-update-api-keys",
+          "text": "enter or update API keys",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "pick-from-provider-specific-model-lists",
+          "text": "pick from provider-specific model lists",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "configure-a-customself-hosted-endpoint",
+          "text": "configure a custom/self-hosted endpoint",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.cli-interface",
+      "title": "CLI Interface",
+      "kind": "entity",
+      "path": "entities/cli-interface.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 40,
+      "topClaims": [
+        {
+          "id": "model-name-current-model-truncated-if-longer-than-26-ch",
+          "text": "Model name** \u2014 Current model (truncated if longer than 26 chars)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "token-count-context-tokens-used-max-context-window",
+          "text": "Token count** \u2014 Context tokens used / max context window",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "context-bar-visual-fill-indicator-with-color-coded-thres",
+          "text": "Context bar** \u2014 Visual fill indicator with color-coded thresholds",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "cost-estimated-session-cost-or-na-for-unknownzero-pri",
+          "text": "Cost** \u2014 Estimated session cost (or n/a for unknown/zero-priced models)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "duration-elapsed-session-time",
+          "text": "Duration** \u2014 Elapsed session time",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.",
+      "title": "configuration",
+      "kind": "entity",
+      "path": "entities/configuration.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.contributing",
+      "title": "Contributing",
+      "kind": "entity",
+      "path": "entities/contributing.md",
+      "sourceIds": [
+        "docsastralsh",
+        "githubcom",
+        "wwwconventionalcommi",
+        "githubcom",
+        "discordgg",
+        "githubcom",
+        "githubcom",
+        "githubcom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 36,
+      "topClaims": [
+        {
+          "id": "bug-fixes-crashes-incorrect-behavior-data-loss",
+          "text": "Bug fixes** \u2014 crashes, incorrect behavior, data loss",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "cross-platform-compatibility-macos-different-linux-dist",
+          "text": "Cross-platform compatibility** \u2014 macOS, different Linux distros, WSL2",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "security-hardening-shell-injection-prompt-injection-pa",
+          "text": "Security hardening** \u2014 shell injection, prompt injection, path traversal",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "performance-and-robustness-retry-logic-error-handling",
+          "text": "Performance and robustness** \u2014 retry logic, error handling, graceful degradation",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "new-skills-broadly-useful-ones-see-creating-skillsd",
+          "text": "New skills** \u2014 broadly useful ones (see [Creating Skills](/docs/developer-guide/creating-skills))",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.dingtalk-setup",
+      "title": "DingTalk Setup",
+      "kind": "entity",
+      "path": "entities/dingtalk-setup.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 41,
+      "topClaims": [
+        {
+          "id": "each-dm-gets-its-own-session",
+          "text": "each DM gets its own session",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "each-user-in-a-shared-group-chat-gets-their-own-session-insi",
+          "text": "each user in a shared group chat gets their own session inside that group",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "dingtalk-stream-dingtalks-official-sdk-for-stream-mode-w",
+          "text": "dingtalk-stream \u2014 DingTalk's official SDK for Stream Mode (WebSocket-based real-time messaging)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "alibabacloud-dingtalk-dingtalk-openapi-sdk-for-ai-cards-e",
+          "text": "alibabacloud-dingtalk \u2014 DingTalk OpenAPI SDK for AI Cards, emoji reactions, and media downloads",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "app-name-eg-hermes-agent",
+          "text": "App Name: e.g., Hermes Agent",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.discord-setup",
+      "title": "Discord Setup",
+      "kind": "entity",
+      "path": "entities/discord-setup.md",
+      "sourceIds": [
+        "discordcom",
+        "discordcom",
+        "discordcom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 96,
+      "topClaims": [
+        {
+          "id": "each-dm-gets-its-own-session",
+          "text": "each DM gets its own session",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "each-server-thread-gets-its-own-session-namespace",
+          "text": "each server thread gets its own session namespace",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "each-user-in-a-shared-channel-gets-their-own-session-inside",
+          "text": "each user in a shared channel gets their own session inside that channel",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "users-share-context-growth-and-token-costs",
+          "text": "users share context growth and token costs",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "one-persons-long-tool-heavy-task-can-bloat-everyone-elses",
+          "text": "one person's long tool-heavy task can bloat everyone else's context",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.email-setup",
+      "title": "Email Setup",
+      "kind": "entity",
+      "path": "entities/email-setup.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 34,
+      "topClaims": [
+        {
+          "id": "a-dedicated-email-account-for-your-hermes-agent-dont-use-y",
+          "text": "A dedicated email account for your Hermes agent (don't use your personal email)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "imap-enabled-on-the-email-account",
+          "text": "IMAP enabled on the email account",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "an-app-password-if-using-gmail-or-another-provider-with-2fa",
+          "text": "An app password if using Gmail or another provider with 2FA",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "imap-host-and-port-usually-port-993-with-ssl",
+          "text": "IMAP host and port (usually port 993 with SSL)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "smtp-host-and-port-usually-port-587-with-starttls",
+          "text": "SMTP host and port (usually port 587 with STARTTLS)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.faq-troubleshooting",
+      "title": "FAQ & Troubleshooting",
+      "kind": "entity",
+      "path": "entities/faq-troubleshooting.md",
+      "sourceIds": [
+        "hermes-agentnousrese",
+        "githubcom",
+        "discordgg",
+        "openrouterai",
+        "ollamacom",
+        "docsvllmai",
+        "githubcom",
+        "githubcom",
+        "learnmicrosoftcom",
+        "tme",
+        "githubcom",
+        "discordgg",
+        "githubcom",
+        "discordgg",
+        "githubcom",
+        "agentskillsio",
+        "githubcom",
+        "nousresearchcom",
+        "nousresearchcom",
+        "rawgithubusercontent",
+        "astralsh"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 103,
+      "topClaims": [
+        {
+          "id": "using-hermesdocsuser-guidecli",
+          "text": "[Using Hermes](/docs/user-guide/cli)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "featuresdocsuser-guidefeaturesoverview",
+          "text": "[Features](/docs/user-guide/features/overview)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "messaging-platformsdocsuser-guidemessaging",
+          "text": "[Messaging Platforms](/docs/user-guide/messaging/)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "integrationsdocsintegrations",
+          "text": "[Integrations](/docs/integrations/)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "guides-tutorialsdocsguidestips",
+          "text": "[Guides & Tutorials](/docs/guides/tips)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.features-context-files",
+      "title": "Features: Context Files",
+      "kind": "entity",
+      "path": "entities/features-context-files.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 48,
+      "topClaims": [
+        {
+          "id": "file-purpose-discovery",
+          "text": "File**, **Purpose**, **Discovery**",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "file-hermesmd-hermesmd-purpose-project",
+          "text": "File**: **.hermes.md** / **HERMES.md**, **Purpose**: Project instructions (highest priority), **Discovery**: Walks to git root",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "file-agentsmd-purpose-project-instructions-co",
+          "text": "File**: **AGENTS.md**, **Purpose**: Project instructions, conventions, architecture, **Discovery**: CWD at startup + subdirectories progressively",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "file-claudemd-purpose-claude-code-context-file",
+          "text": "File**: **CLAUDE.md**, **Purpose**: Claude Code context files (also detected), **Discovery**: CWD at startup + subdirectories progressively",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "file-soulmd-purpose-global-personality-and-ton",
+          "text": "File**: **SOUL.md**, **Purpose**: Global personality and tone customization for this Hermes instance, **Discovery**: `HERMES_HOME/SOUL.md` only",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.features-mcp",
+      "title": "Features: MCP",
+      "kind": "entity",
+      "path": "entities/features-mcp.md",
+      "sourceIds": [
+        "mcpexamplecom",
+        "mcpinternalexampleco",
+        "mcplegacyinternal",
+        "mcpstripecom",
+        "mcpdocsexamplecom",
+        "mcpexamplecom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 65,
+      "topClaims": [
+        {
+          "id": "access-to-external-tool-ecosystems-without-writing-a-native",
+          "text": "Access to external tool ecosystems without writing a native Hermes tool first",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "local-stdio-servers-and-remote-http-mcp-servers-in-the-same",
+          "text": "Local stdio servers and remote HTTP MCP servers in the same config",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "automatic-tool-discovery-and-registration-at-startup",
+          "text": "Automatic tool discovery and registration at startup",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "utility-wrappers-for-mcp-resources-and-prompts-when-supporte",
+          "text": "Utility wrappers for MCP resources and prompts when supported by the server",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "per-server-filtering-so-you-can-expose-only-the-mcp-tools-yo",
+          "text": "Per-server filtering so you can expose only the MCP tools you actually want Hermes to see",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.features-memory",
+      "title": "Features: Memory",
+      "kind": "entity",
+      "path": "entities/features-memory.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 43,
+      "topClaims": [
+        {
+          "id": "file-purpose-char-limit",
+          "text": "File**, **Purpose**, **Char Limit**",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "file-memorymd-purpose-agents-personal-notes",
+          "text": "File**: **MEMORY.md**, **Purpose**: Agent's personal notes \u2014 environment facts, conventions, things learned, **Char Limit**: 2,200 chars (~800 tokens)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "file-usermd-purpose-user-profile-your-prefer",
+          "text": "File**: **USER.md**, **Purpose**: User profile \u2014 your preferences, communication style, expectations, **Char Limit**: 1,375 chars (~500 tokens)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "a-header-showing-which-store-memory-or-user-profile",
+          "text": "A header showing which store (MEMORY or USER PROFILE)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "usage-percentage-and-character-counts-so-the-agent-knows-cap",
+          "text": "Usage percentage and character counts so the agent knows capacity",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.",
+      "title": "features-overview",
+      "kind": "entity",
+      "path": "entities/features-overview.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.features-personality",
+      "title": "Features: Personality",
+      "kind": "entity",
+      "path": "entities/features-personality.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 75,
+      "topClaims": [
+        {
+          "id": "soulmd-a-durable-persona-file-that-lives-in-hermes-hom",
+          "text": "`SOUL.md` \u2014 a durable persona file that lives in `HERMES_HOME` and serves as the agent's identity (slot #1 in the system prompt)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "built-in-or-custom-personality-presets-session-level-sy",
+          "text": "built-in or custom `/personality` presets \u2014 session-level system-prompt overlays",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "soulmd-is-the-agents-primary-identity-it-occupies-slot",
+          "text": "SOUL.md is the agent's primary identity.** It occupies slot #1 in the system prompt, replacing the hardcoded default identity.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "hermes-creates-a-starter-soulmd-automatically-if-one-does",
+          "text": "Hermes creates a starter `SOUL.md` automatically if one does not exist yet",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "existing-user-soulmd-files-are-never-overwritten",
+          "text": "Existing user `SOUL.md` files are never overwritten",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.features-skills",
+      "title": "Features: Skills",
+      "kind": "entity",
+      "path": "entities/features-skills.md",
+      "sourceIds": [
+        "agentskillsio",
+        "skillssh",
+        "githubcom",
+        "githubcom",
+        "mintlifycom",
+        "githubcom",
+        "githubcom",
+        "githubcom",
+        "githubcom",
+        "githubcom",
+        "clawhubai",
+        "githubcom",
+        "githubcom",
+        "lobehubcom",
+        "chat-agentslobehubco",
+        "githubcom",
+        "developersgooglecom",
+        "mintlifycom",
+        "mintlifycom",
+        "mintlifycom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 73,
+      "topClaims": [
+        {
+          "id": "bundled-skills-catalogdocsreferenceskills-catalog",
+          "text": "[Bundled Skills Catalog](/docs/reference/skills-catalog)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "official-optional-skills-catalogdocsreferenceoptional",
+          "text": "[Official Optional Skills Catalog](/docs/reference/optional-skills-catalog)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "key-mysetting",
+          "text": "key: my.setting",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "known-failure-modes-and-fixes",
+          "text": "Known failure modes and fixes",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "value-matches",
+          "text": "Value**: Matches",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.features-tools",
+      "title": "Features: Tools",
+      "kind": "entity",
+      "path": "entities/features-tools.md",
+      "sourceIds": [
+        "portalnousresearchco"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 22,
+      "topClaims": [
+        {
+          "id": "category-examples-description",
+          "text": "Category**, **Examples**, **Description**",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "category-web-examples-web-search-web-extrac",
+          "text": "Category**: **Web**, **Examples**: `web_search`, `web_extract`, **Description**: Search the web and extract page content.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "category-terminal-files-examples-terminal",
+          "text": "Category**: **Terminal & Files**, **Examples**: `terminal`, `process`, `read_file`, `patch`, **Description**: Execute commands and manipulate files.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "category-browser-examples-browser-navigate",
+          "text": "Category**: **Browser**, **Examples**: `browser_navigate`, `browser_snapshot`, `browser_vision`, **Description**: Interactive browser automation with text and vision support.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "category-media-examples-vision-analyze-imag",
+          "text": "Category**: **Media**, **Examples**: `vision_analyze`, `image_generate`, `text_to_speech`, **Description**: Multimodal analysis and generation.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.features-voice-mode",
+      "title": "Features: Voice Mode",
+      "kind": "entity",
+      "path": "entities/features-voice-mode.md",
+      "sourceIds": [
+        "discordcom",
+        "discordcom",
+        "discordcom",
+        "apiopenaicom",
+        "apigroqcom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 66,
+      "topClaims": [
+        {
+          "id": "feature-platform-description",
+          "text": "Feature**, **Platform**, **Description**",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "feature-interactive-voice-platform-cli-descr",
+          "text": "Feature**: **Interactive Voice**, **Platform**: CLI, **Description**: Press Ctrl+B to record, agent auto-detects silence and responds",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "feature-auto-voice-reply-platform-telegram-dis",
+          "text": "Feature**: **Auto Voice Reply**, **Platform**: Telegram, Discord, **Description**: Agent sends spoken audio alongside text responses",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "feature-voice-channel-platform-discord-descr",
+          "text": "Feature**: **Voice Channel**, **Platform**: Discord, **Description**: Bot joins VC, listens to users speaking, speaks replies back",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "extra-packages-required-for",
+          "text": "Extra**, **Packages**, **Required For**",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.feishu-lark-setup",
+      "title": "Feishu / Lark Setup",
+      "kind": "entity",
+      "path": "entities/feishu-lark-setup.md",
+      "sourceIds": [
+        "openfeishucn",
+        "openlarksuitecom",
+        "your-server8765"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 73,
+      "topClaims": [
+        {
+          "id": "websocket-recommended-hermes-opens-the-outbound-connectio",
+          "text": "websocket \u2014 recommended; Hermes opens the outbound connection and you do not need a public webhook endpoint",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "webhook-useful-when-you-want-feishulark-to-push-events-in",
+          "text": "webhook \u2014 useful when you want Feishu/Lark to push events into your gateway over HTTP",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "feishu-httpsopenfeishucn",
+          "text": "Feishu: https://open.feishu.cn/",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "lark-httpsopenlarksuitecom",
+          "text": "Lark: https://open.larksuite.com/",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "create-a-new-app",
+          "text": "Create a new app.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "hermes-agent-faq",
+      "title": "FAQ & Troubleshooting",
+      "kind": "entity",
+      "path": "entities/hermes-agent-faq.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "hermes-agent-installation",
+      "title": "Installation",
+      "kind": "entity",
+      "path": "entities/hermes-agent-installation.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "hermes-agent-learning-path",
+      "title": "Learning Path",
+      "kind": "entity",
+      "path": "entities/hermes-agent-learning-path.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "hermes-agent-quickstart",
+      "title": "Quickstart",
+      "kind": "entity",
+      "path": "entities/hermes-agent-quickstart.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "hermes-agent-tips",
+      "title": "Tips & Best Practices",
+      "kind": "entity",
+      "path": "entities/hermes-agent-tips.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "hermes-agent-use-mcp-with-hermes",
+      "title": "Use MCP with Hermes",
+      "kind": "entity",
+      "path": "entities/hermes-agent-use-mcp-with-hermes.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "hermes-agent-use-voice-mode-with-hermes",
+      "title": "Use Voice Mode with Hermes",
+      "kind": "entity",
+      "path": "entities/hermes-agent-use-voice-mode-with-hermes.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.hindsight-memory-server",
+      "title": "Hindsight Memory Server",
+      "kind": "entity",
+      "path": "entities/hindsight-memory-server.md",
+      "sourceIds": [
+        "session-2026-04-23"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 7,
+      "topClaims": [
+        {
+          "id": "location",
+          "text": "Running at /opt/stacks/hindsight_memory/",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "api-port",
+          "text": "API on port 8888, Control Plane on port 9999",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "database",
+          "text": "Uses pgvector/pgvector:pg18 (PostgreSQL with pgvector extension)",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "llm-provider",
+          "text": "Uses MiniMax-M2.7 via HINDSIGHT_API_LLM_PROVIDER=minimax",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "api-key",
+          "text": "HINDSIGHT_API_KEY is set in .env but API key auth is not enforced in this version (v0.5.4)",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.home-assistant-integration",
+      "title": "Home Assistant Integration",
+      "kind": "entity",
+      "path": "entities/home-assistant-integration.md",
+      "sourceIds": [
+        "wwwhome-assistantio",
+        "homeassistantlocal81",
+        "19216811008123"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 42,
+      "topClaims": [
+        {
+          "id": "domain-optional-filter-by-entity-domain-light-switch",
+          "text": "domain (optional) \u2014 Filter by entity domain: light, switch, climate, sensor, binary_sensor, cover, fan, media_player, etc.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "area-optional-filter-by-arearoom-name-matches-against",
+          "text": "area (optional) \u2014 Filter by area/room name (matches against friendly names): living room, kitchen, bedroom, etc.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "entity-id-required-the-entity-to-query-eg-lightlivi",
+          "text": "entity_id (required) \u2014 The entity to query, e.g., light.living_room, climate.thermostat, sensor.temperature",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "domain-optional-filter-by-domain-eg-light-climate",
+          "text": "domain (optional) \u2014 Filter by domain, e.g., light, climate, switch",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "domain-required-service-domain-light-switch-climate",
+          "text": "domain (required) \u2014 Service domain: light, switch, climate, cover, media_player, fan, scene, script",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
     },
     {
       "id": "entity.honda-civic-2016-ex-t-maintenance",
@@ -101,10 +1594,151 @@
       ],
       "questions": [],
       "contradictions": [],
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22",
+      "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
+    },
+    {
+      "id": "entity.",
+      "title": "Entities",
+      "kind": "entity",
+      "path": "entities/index.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.installation",
+      "title": "Installation",
+      "kind": "entity",
+      "path": "entities/installation.md",
+      "sourceIds": [
+        "hermes-agentnousrese",
+        "githubcom",
+        "discordgg",
+        "learnmicrosoftcom",
+        "githubcom",
+        "discordgg",
+        "githubcom",
+        "agentskillsio",
+        "githubcom",
+        "nousresearchcom",
+        "nousresearchcom",
+        "rawgithubusercontent"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 37,
+      "topClaims": [
+        {
+          "id": "installationdocsgetting-startedinstallation",
+          "text": "[Installation](/docs/getting-started/installation)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "android-termuxdocsgetting-startedtermux",
+          "text": "[Android / Termux](/docs/getting-started/termux)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "nix-nixos-setupdocsgetting-startednix-setup",
+          "text": "[Nix & NixOS Setup](/docs/getting-started/nix-setup)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "updating-uninstallingdocsgetting-startedupdating",
+          "text": "[Updating & Uninstalling](/docs/getting-started/updating)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "learning-pathdocsgetting-startedlearning-path",
+          "text": "[Learning Path](/docs/getting-started/learning-path)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.learning-path",
+      "title": "Learning Path",
+      "kind": "entity",
+      "path": "entities/learning-path.md",
+      "sourceIds": [
+        "hermes-agentnousrese",
+        "githubcom",
+        "discordgg",
+        "githubcom",
+        "discordgg",
+        "githubcom",
+        "agentskillsio",
+        "githubcom",
+        "nousresearchcom",
+        "nousresearchcom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 77,
+      "topClaims": [
+        {
+          "id": "installationdocsgetting-startedinstallation",
+          "text": "[[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "android-termuxdocsgetting-startedtermux",
+          "text": "[Android / Termux](/docs/getting-started/termux)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "nix-nixos-setupdocsgetting-startednix-setup",
+          "text": "[Nix & NixOS Setup](/docs/getting-started/nix-setup)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "updating-uninstallingdocsgetting-startedupdating",
+          "text": "[Updating & Uninstalling](/docs/getting-started/updating)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "learning-pathdocsgetting-startedlearning-path",
+          "text": "[Learning Path](/docs/getting-started/learning-path)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
     },
     {
       "id": "entity.lexus-rx-350-2017",
@@ -116,8 +1750,7 @@
       ],
       "questions": [],
       "contradictions": [],
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22",
+      "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
@@ -131,24 +1764,16 @@
       ],
       "questions": [],
       "contradictions": [],
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22",
+      "freshnessLevel": "unknown",
       "claimCount": 4,
       "topClaims": [
         {
-          "id": "deployment",
-          "text": "CI/CD via GitHub Actions + self-hosted runner (lolok-runner)",
+          "id": "type",
+          "text": "Web application running in Docker container",
           "status": "supported",
           "evidenceCount": 1,
           "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "MEMORY.md",
-              "path": "workspace/MEMORY.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
+          "freshnessLevel": "unknown"
         },
         {
           "id": "port",
@@ -156,14 +1781,15 @@
           "status": "supported",
           "evidenceCount": 1,
           "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "MEMORY.md",
-              "path": "workspace/MEMORY.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "deployment",
+          "text": "CI/CD via GitHub Actions + self-hosted runner (lolok-runner)",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
         },
         {
           "id": "static-server",
@@ -171,29 +1797,7 @@
           "status": "supported",
           "evidenceCount": 1,
           "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "MEMORY.md",
-              "path": "workspace/MEMORY.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
-        },
-        {
-          "id": "type",
-          "text": "Web application running in Docker container",
-          "status": "supported",
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "MEMORY.md",
-              "path": "workspace/MEMORY.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
+          "freshnessLevel": "unknown"
         }
       ]
     },
@@ -207,39 +1811,16 @@
       ],
       "questions": [],
       "contradictions": [],
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22",
+      "freshnessLevel": "unknown",
       "claimCount": 4,
       "topClaims": [
         {
-          "id": "cost",
-          "text": "GA Tier 4 ($512.91) + Thursday Early Entry ($107.02) + shipping ($16.49) - promo ($25) = $611.42 total",
+          "id": "dates",
+          "text": "September 18-20, 2026",
           "status": "supported",
           "evidenceCount": 1,
           "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "MEMORY.md",
-              "path": "workspace/MEMORY.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
-        },
-        {
-          "id": "ticket-type",
-          "text": "GA Tier 4 with Thursday Early Entry",
-          "status": "supported",
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "MEMORY.md",
-              "path": "workspace/MEMORY.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
+          "freshnessLevel": "unknown"
         },
         {
           "id": "location",
@@ -247,29 +1828,23 @@
           "status": "supported",
           "evidenceCount": 1,
           "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "MEMORY.md",
-              "path": "workspace/MEMORY.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
+          "freshnessLevel": "unknown"
         },
         {
-          "id": "dates",
-          "text": "September 18-20, 2026",
+          "id": "cost",
+          "text": "GA Tier 4 ($512.91) + Thursday Early Entry ($107.02) + shipping ($16.49) - promo ($25) = $611.42 total",
           "status": "supported",
           "evidenceCount": 1,
           "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "MEMORY.md",
-              "path": "workspace/MEMORY.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "ticket-type",
+          "text": "GA Tier 4 with Thursday Early Entry",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
         }
       ]
     },
@@ -283,10 +1858,416 @@
       ],
       "questions": [],
       "contradictions": [],
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22",
+      "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
+    },
+    {
+      "id": "entity.matrix-setup",
+      "title": "Matrix Setup",
+      "kind": "entity",
+      "path": "entities/matrix-setup.md",
+      "sourceIds": [
+        "your-server",
+        "matrixexampleorg",
+        "your-server",
+        "your-server",
+        "mac-ip8642",
+        "19216811008642"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 61,
+      "topClaims": [
+        {
+          "id": "each-dm-gets-its-own-session",
+          "text": "each DM gets its own session",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "each-thread-gets-its-own-session-namespace",
+          "text": "each thread gets its own session namespace",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "each-user-in-a-shared-room-gets-their-own-session-inside-tha",
+          "text": "each user in a shared room gets their own session inside that room",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "users-share-context-growth-and-token-costs",
+          "text": "users share context growth and token costs",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "one-persons-long-tool-heavy-task-can-bloat-everyone-elses",
+          "text": "one person's long tool-heavy task can bloat everyone else's context",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.mattermost-setup",
+      "title": "Mattermost Setup",
+      "kind": "entity",
+      "path": "entities/mattermost-setup.md",
+      "sourceIds": [
+        "your-mattermost-serv",
+        "mmexamplecom",
+        "mattermost-backend",
+        "your-server"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 40,
+      "topClaims": [
+        {
+          "id": "each-dm-gets-its-own-session",
+          "text": "each DM gets its own session",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "each-thread-gets-its-own-session-namespace",
+          "text": "each thread gets its own session namespace",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "each-user-in-a-shared-channel-gets-their-own-session-inside",
+          "text": "each user in a shared channel gets their own session inside that channel",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "users-share-context-growth-and-token-costs",
+          "text": "users share context growth and token costs",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "one-persons-long-tool-heavy-task-can-bloat-everyone-elses",
+          "text": "one person's long tool-heavy task can bloat everyone else's context",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.messaging-gateway",
+      "title": "Messaging Gateway",
+      "kind": "entity",
+      "path": "entities/messaging-gateway.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 45,
+      "topClaims": [
+        {
+          "id": "in-progress-terminal-commands-are-killed-immediately-sigter",
+          "text": "In-progress terminal commands are killed immediately (SIGTERM, then SIGKILL after 1s)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "tool-calls-are-cancelled-only-the-currently-executing-one",
+          "text": "Tool calls are cancelled \u2014 only the currently-executing one runs, the rest are skipped",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "multiple-messages-are-combined-messages-sent-during-interr",
+          "text": "Multiple messages are combined \u2014 messages sent during interruption are joined into one prompt",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "stop-command-interrupts-without-queuing-a-follow-up-messa",
+          "text": "/stop command \u2014 interrupts without queuing a follow-up message",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "isolated-session-the-background-agent-has-its-own-session",
+          "text": "Isolated session \u2014 the background agent has its own session with its own conversation history. It has no knowledge of your current chat context and receives only the prompt you provide.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.nix-nixos-setup",
+      "title": "Nix & NixOS Setup",
+      "kind": "entity",
+      "path": "entities/nix-nixos-setup.md",
+      "sourceIds": [
+        "openrouterai",
+        "mcpexamplecom",
+        "mcpexamplecom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 37,
+      "topClaims": [
+        {
+          "id": "pre-built-binary-with-all-deps-then-use-the-standard-cli-w",
+          "text": "Pre-built binary with all deps \u2014 then use the standard CLI workflow",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "declarative-config-hardened-systemd-service-managed-secret",
+          "text": "Declarative config, hardened systemd service, managed secrets",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "everything-above-plus-a-persistent-ubuntu-container-where-t",
+          "text": "Everything above, plus a persistent Ubuntu container where the agent can apt/pip/npm install",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "nix-with-flakes-enabled-determinate-nix-recommended-enabl",
+          "text": "Nix with flakes enabled \u2014 Determinate Nix recommended (enables flakes by default)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "api-keys-for-the-services-you-want-to-use-at-minimum-an-op",
+          "text": "API keys for the services you want to use (at minimum: an OpenRouter or Anthropic key)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.open-webui-integration",
+      "title": "Open WebUI Integration",
+      "kind": "entity",
+      "path": "entities/open-webui-integration.md",
+      "sourceIds": [
+        "githubcom",
+        "hostdockerinternal86",
+        "17217018642"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 41,
+      "topClaims": [
+        {
+          "id": "e-openai-api-base-urlhttphostdockerinternal8642v1",
+          "text": "e OPENAI_API_BASE_URL=http://host.docker.internal:8642/v1 \\",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "e-openai-api-keyyour-secret-key",
+          "text": "e OPENAI_API_KEY=your-secret-key \\",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "add-hosthostdockerinternalhost-gateway",
+          "text": "add-host=host.docker.internal:host-gateway \\",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "v-open-webuiappbackenddata",
+          "text": "v open-webui:/app/backend/data \\",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "name-open-webui",
+          "text": "name open-webui \\",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.qq-bot",
+      "title": "QQ Bot",
+      "kind": "entity",
+      "path": "entities/qq-bot.md",
+      "sourceIds": [
+        "botqqqcom",
+        "openbigmodelcn"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 32,
+      "topClaims": [
+        {
+          "id": "receive-messages-via-a-persistent-websocket-connection-to-th",
+          "text": "Receive messages via a persistent WebSocket connection to the QQ Gateway",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "send-text-and-markdown-replies-via-the-rest-api",
+          "text": "Send text and markdown replies via the REST API",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "download-and-process-images-voice-messages-and-file-attach",
+          "text": "Download and process images, voice messages, and file attachments",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "transcribe-voice-messages-using-tencents-built-in-asr-or-a",
+          "text": "Transcribe voice messages using Tencent's built-in ASR or a configurable STT provider",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "create-a-new-application-and-note-your-app-id-and-app-secret",
+          "text": "Create a new application and note your App ID and App Secret",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.quickstart",
+      "title": "Quickstart",
+      "kind": "entity",
+      "path": "entities/quickstart.md",
+      "sourceIds": [
+        "hermes-agentnousrese",
+        "githubcom",
+        "discordgg",
+        "learnmicrosoftcom",
+        "githubcom",
+        "discordgg",
+        "githubcom",
+        "agentskillsio",
+        "githubcom",
+        "nousresearchcom",
+        "nousresearchcom",
+        "rawgithubusercontent"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 67,
+      "topClaims": [
+        {
+          "id": "installationdocsgetting-startedinstallation",
+          "text": "[[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "android-termuxdocsgetting-startedtermux",
+          "text": "[Android / Termux](/docs/getting-started/termux)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "nix-nixos-setupdocsgetting-startednix-setup",
+          "text": "[Nix & NixOS Setup](/docs/getting-started/nix-setup)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "updating-uninstallingdocsgetting-startedupdating",
+          "text": "[Updating & Uninstalling](/docs/getting-started/updating)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "learning-pathdocsgetting-startedlearning-path",
+          "text": "[Learning Path](/docs/getting-started/learning-path)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
     },
     {
       "id": "entity.randomstix-health",
@@ -298,8 +2279,7 @@
       ],
       "questions": [],
       "contradictions": [],
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22",
+      "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
@@ -314,39 +2294,16 @@
       ],
       "questions": [],
       "contradictions": [],
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22",
+      "freshnessLevel": "unknown",
       "claimCount": 4,
       "topClaims": [
         {
-          "id": "timezone",
-          "text": "America/New_York (EDT/EST)",
+          "id": "name",
+          "text": "Name is randomstix",
           "status": "supported",
           "evidenceCount": 1,
           "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "USER.md",
-              "path": "workspace/USER.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
-        },
-        {
-          "id": "discord-handle",
-          "text": "Contact via Discord #general",
-          "status": "supported",
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "USER.md",
-              "path": "workspace/USER.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
+          "freshnessLevel": "unknown"
         },
         {
           "id": "email",
@@ -354,29 +2311,787 @@
           "status": "supported",
           "evidenceCount": 1,
           "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "USER.md",
-              "path": "workspace/USER.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
+          "freshnessLevel": "unknown"
         },
         {
-          "id": "name",
-          "text": "Name is randomstix",
+          "id": "discord-handle",
+          "text": "Contact via Discord #general",
           "status": "supported",
           "evidenceCount": 1,
           "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "USER.md",
-              "path": "workspace/USER.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "timezone",
+          "text": "America/New_York (EDT/EST)",
+          "status": "supported",
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.searxng",
+      "title": "SearXNG",
+      "kind": "entity",
+      "path": "entities/searxng.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.security",
+      "title": "Security",
+      "kind": "entity",
+      "path": "entities/security.md",
+      "sourceIds": [
+        "githubcom",
+        "developersgooglecom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 105,
+      "topClaims": [
+        {
+          "id": "mode-behavior",
+          "text": "Mode**: Behavior",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "manual-default-always-prompt-the-user-for-approval-on",
+          "text": "manual** (default)**: Always prompt the user for approval on dangerous commands",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "smart-use-an-auxiliary-llm-to-assess-risk-low-risk-com",
+          "text": "smart****: Use an auxiliary LLM to assess risk. Low-risk commands (e.g., `python -c \"print('hello')\"`) are auto-approved. Genuinely dangerous commands are auto-denied. Uncertain cases escalate to a manual prompt.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "off-disable-all-approval-checks-equivalent-to-running",
+          "text": "off****: Disable all approval checks \u2014 equivalent to running with `--yolo`. All commands execute without prompts.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "pattern-description",
+          "text": "Pattern**: Description",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.signal-setup",
+      "title": "Signal Setup",
+      "kind": "entity",
+      "path": "entities/signal-setup.md",
+      "sourceIds": [
+        "githubcom",
+        "githubcom",
+        "githubcom",
+        "githubcom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 38,
+      "topClaims": [
+        {
+          "id": "signal-cli-java-based-signal-client-github",
+          "text": "signal-cli \u2014 Java-based Signal client (GitHub)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "java-17-runtime-required-by-signal-cli",
+          "text": "Java 17+ runtime \u2014 required by signal-cli",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "a-phone-number-with-signal-installed-for-linking-as-a-secon",
+          "text": "A phone number with Signal installed (for linking as a secondary device)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "images-png-jpeg-gif-webp-auto-detected-via-magic-bytes",
+          "text": "Images \u2014 PNG, JPEG, GIF, WebP (auto-detected via magic bytes)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "audio-mp3-ogg-wav-m4a-voice-messages-transcribed-if-wh",
+          "text": "Audio \u2014 MP3, OGG, WAV, M4A (voice messages transcribed if Whisper is configured)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.slack-setup",
+      "title": "Slack Setup",
+      "kind": "entity",
+      "path": "entities/slack-setup.md",
+      "sourceIds": [
+        "apislackcom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 31,
+      "topClaims": [
+        {
+          "id": "name-it-something-like-hermes-socket-the-name-doesnt-matte",
+          "text": "Name it something like hermes-socket (the name doesn't matter)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "add-the-connectionswrite-scope",
+          "text": "Add the connections:write scope",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "click-generate",
+          "text": "Click Generate",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "copy-the-token-it-starts-with-xapp--this-is-your-slack",
+          "text": "Copy the token** \u2014 it starts with xapp-. This is your SLACK_APP_TOKEN",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "hey-hermes",
+          "text": "\"hey hermes\"",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.sms-setup-twilio",
+      "title": "SMS Setup (Twilio)",
+      "kind": "entity",
+      "path": "entities/sms-setup-twilio.md",
+      "sourceIds": [
+        "wwwtwiliocom",
+        "consoletwiliocom",
+        "your-server8080"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 23,
+      "topClaims": [
+        {
+          "id": "twilio-account-sign-up-at-twiliocom-free-trial-available",
+          "text": "Twilio account \u2014 Sign up at twilio.com (free trial available)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "a-twilio-phone-number-with-sms-capability",
+          "text": "A Twilio phone number with SMS capability",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "a-publicly-accessible-server-twilio-sends-webhooks-to-your",
+          "text": "A publicly accessible server \u2014 Twilio sends webhooks to your server when SMS arrives",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "aiohttp-pip-install-hermes-agentsms",
+          "text": "aiohttp \u2014 pip install 'hermes-agent[sms]'",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "webhook-httpsyour-server8080webhookstwilio",
+          "text": "Webhook: https://your-server:8080/webhooks/twilio",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.stdin",
+      "title": "Stdin",
+      "kind": "entity",
+      "path": "entities/stdin.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.telegram-setup",
+      "title": "Telegram Setup",
+      "kind": "entity",
+      "path": "entities/telegram-setup.md",
+      "sourceIds": [
+        "python-telegram-boto",
+        "tme",
+        "tme",
+        "tme",
+        "my-appflydev",
+        "tme",
+        "proxyexamplecom8080"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 90,
+      "topClaims": [
+        {
+          "id": "messages-that-start-with-a-command",
+          "text": "Messages that start with a / command",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "replies-directly-to-the-bots-own-messages",
+          "text": "Replies directly to the bot's own messages",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "service-messages-member-joinsleaves-pinned-messages-etc",
+          "text": "Service messages (member joins/leaves, pinned messages, etc.)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "messages-in-channels-where-the-bot-is-an-admin",
+          "text": "Messages in channels where the bot is an admin",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "the-agent-writes-a-file-inside-docker-to-workspacereportt",
+          "text": "the agent writes a file inside Docker to /workspace/report.txt",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.tips-best-practices",
+      "title": "Tips & Best Practices",
+      "kind": "entity",
+      "path": "entities/tips-best-practices.md",
+      "sourceIds": [
+        "hermes-agentnousrese",
+        "githubcom",
+        "discordgg",
+        "githubcom",
+        "discordgg",
+        "githubcom",
+        "agentskillsio",
+        "githubcom",
+        "nousresearchcom",
+        "nousresearchcom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 67,
+      "topClaims": [
+        {
+          "id": "using-hermesdocsuser-guidecli",
+          "text": "[Using Hermes](/docs/user-guide/cli)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "featuresdocsuser-guidefeaturesoverview",
+          "text": "[Features](/docs/user-guide/features/overview)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "messaging-platformsdocsuser-guidemessaging",
+          "text": "[Messaging Platforms](/docs/user-guide/messaging/)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "integrationsdocsintegrations",
+          "text": "[Integrations](/docs/integrations/)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "guides-tutorialsdocsguidestipstips-best-practice",
+          "text": "[Guides & Tutorials](/docs/guides/tips)[Tips & Best Practices](/docs/guides/tips)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.updating-uninstalling",
+      "title": "Updating & Uninstalling",
+      "kind": "entity",
+      "path": "entities/updating-uninstalling.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "the-update-ignores-sighup-so-closing-your-ssh-session-or-te",
+          "text": "The update ignores SIGHUP, so closing your SSH session or terminal window no longer kills it mid-install",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "all-output-is-mirrored-to-hermeslogsupdatelog-while",
+          "text": "All output is mirrored to `~/.hermes/logs/update.log` while the update runs",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "ctrl-c-sigint-and-system-shutdown-sigterm-are-still-hono",
+          "text": "Ctrl-C (SIGINT) and system shutdown (SIGTERM) are still honored",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.use-mcp-with-hermes",
+      "title": "Use MCP with Hermes",
+      "kind": "entity",
+      "path": "entities/use-mcp-with-hermes.md",
+      "sourceIds": [
+        "hermes-agentnousrese",
+        "githubcom",
+        "discordgg",
+        "githubcom",
+        "discordgg",
+        "githubcom",
+        "agentskillsio",
+        "githubcom",
+        "nousresearchcom",
+        "nousresearchcom",
+        "mcpstripecom",
+        "mcpdocsexamplecom",
+        "mcpinternalexampleco"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 111,
+      "topClaims": [
+        {
+          "id": "using-hermesdocsuser-guidecli",
+          "text": "[Using Hermes](/docs/user-guide/cli)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "featuresdocsuser-guidefeaturesoverview",
+          "text": "[Features](/docs/user-guide/features/overview)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "messaging-platformsdocsuser-guidemessaging",
+          "text": "[Messaging Platforms](/docs/user-guide/messaging/)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "integrationsdocsintegrations",
+          "text": "[Integrations](/docs/integrations/)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "guides-tutorialsdocsguidestipstips-best-practice",
+          "text": "[Guides & Tutorials](/docs/guides/tips)[Tips & Best Practices](/docs/guides/tips)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.use-voice-mode-with-hermes",
+      "title": "Use Voice Mode with Hermes",
+      "kind": "entity",
+      "path": "entities/use-voice-mode-with-hermes.md",
+      "sourceIds": [
+        "hermes-agentnousrese",
+        "githubcom",
+        "discordgg",
+        "githubcom",
+        "discordgg",
+        "githubcom",
+        "agentskillsio",
+        "githubcom",
+        "nousresearchcom",
+        "nousresearchcom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 150,
+      "topClaims": [
+        {
+          "id": "using-hermesdocsuser-guidecli",
+          "text": "[Using Hermes](/docs/user-guide/cli)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "featuresdocsuser-guidefeaturesoverview",
+          "text": "[Features](/docs/user-guide/features/overview)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "messaging-platformsdocsuser-guidemessaging",
+          "text": "[Messaging Platforms](/docs/user-guide/messaging/)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "integrationsdocsintegrations",
+          "text": "[Integrations](/docs/integrations/)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "guides-tutorialsdocsguidestipstips-best-practice",
+          "text": "[Guides & Tutorials](/docs/guides/tips)[Tips & Best Practices](/docs/guides/tips)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.webhooks",
+      "title": "Webhooks",
+      "kind": "entity",
+      "path": "entities/webhooks.md",
+      "sourceIds": [
+        "your-server8644",
+        "your-server8644",
+        "your-server8644",
+        "your-server8644"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 100,
+      "topClaims": [
+        {
+          "id": "pull-requesttitle-resolves-to-payloadpull-requestti",
+          "text": "{pull_request.title} resolves to payload[\"pull_request\"][\"title\"]",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "repositoryfull-name-resolves-to-payloadrepositoryfu",
+          "text": "{repository.full_name} resolves to payload[\"repository\"][\"full_name\"]",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "raw-special-token-that-dumps-the-entire-payload-as-i",
+          "text": "{__raw__} \u2014 special token that dumps the entire payload as indented JSON (truncated at 4000 characters). Useful for monitoring alerts or generic webhooks where the agent needs the full context.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "missing-keys-are-left-as-the-literal-key-string-no-error",
+          "text": "Missing keys are left as the literal {key} string (no error)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "nested-dicts-and-lists-are-json-serialized-and-truncated-at",
+          "text": "Nested dicts and lists are JSON-serialized and truncated at 2000 characters",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.wecom-enterprise-wechat",
+      "title": "WeCom (Enterprise WeChat)",
+      "kind": "entity",
+      "path": "entities/wecom-enterprise-wechat.md",
+      "sourceIds": [
+        "workweixinqqcom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 49,
+      "topClaims": [
+        {
+          "id": "a-wecom-organization-account",
+          "text": "A WeCom organization account",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "an-ai-bot-created-in-the-wecom-admin-console",
+          "text": "An AI Bot created in the WeCom Admin Console",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "the-bot-id-and-secret-from-the-bots-credentials-page",
+          "text": "The Bot ID and Secret from the bot's credentials page",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "python-packages-aiohttp-and-httpx",
+          "text": "Python packages: aiohttp and httpx",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "bot-credentials-via-qr-scan-or-manual-entry",
+          "text": "Bot credentials (via QR scan or manual entry)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.weixin-wechat",
+      "title": "Weixin (WeChat)",
+      "kind": "entity",
+      "path": "entities/weixin-wechat.md",
+      "sourceIds": [
+        "weixinqqcom"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 55,
+      "topClaims": [
+        {
+          "id": "a-personal-wechat-account",
+          "text": "A personal WeChat account",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "python-packages-aiohttp-and-cryptography",
+          "text": "Python packages: aiohttp and cryptography",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "terminal-qr-rendering-is-included-when-hermes-is-installed-w",
+          "text": "Terminal QR rendering is included when Hermes is installed with the messaging extra",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "long-poll-transport-no-public-endpoint-webhook-or-websoc",
+          "text": "Long-poll transport \u2014 no public endpoint, webhook, or WebSocket needed",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "qr-code-login-scan-to-connect-setup-via-hermes-gateway-set",
+          "text": "QR code login \u2014 scan-to-connect setup via hermes gateway setup",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "entity.whatsapp-setup",
+      "title": "WhatsApp Setup",
+      "kind": "entity",
+      "path": "entities/whatsapp-setup.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 22,
+      "topClaims": [
+        {
+          "id": "use-a-dedicated-phone-number-for-the-bot-not-your-personal",
+          "text": "Use a dedicated phone number for the bot (not your personal number)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "dont-send-bulkspam-messages-keep-usage-conversational",
+          "text": "Don't send bulk/spam messages \u2014 keep usage conversational",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "dont-automate-outbound-messaging-to-people-who-havent-mess",
+          "text": "Don't automate outbound messaging to people who haven't messaged first",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "nodejs-v18-and-npm-the-whatsapp-bridge-runs-as-a-nodejs",
+          "text": "Node.js v18+ and npm \u2014 the WhatsApp bridge runs as a Node.js process",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "a-phone-with-whatsapp-installed-for-scanning-the-qr-code",
+          "text": "A phone with WhatsApp installed (for scanning the QR code)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
         }
       ]
     },
@@ -389,7 +3104,6 @@
       "questions": [],
       "contradictions": [],
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22T20:08:56.138Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -402,7 +3116,30 @@
       "questions": [],
       "contradictions": [],
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22T20:20:03.508Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.",
+      "title": "Reports",
+      "kind": "report",
+      "path": "reports/index.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "report.",
+      "title": "Ingest Log",
+      "kind": "report",
+      "path": "reports/ingest-log.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
@@ -427,7 +3164,6 @@
       "questions": [],
       "contradictions": [],
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22T04:38:47.297Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -440,7 +3176,6 @@
       "questions": [],
       "contradictions": [],
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22T04:38:47.297Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -453,9 +3188,315 @@
       "questions": [],
       "contradictions": [],
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22T20:14:44.978Z",
       "claimCount": 0,
       "topClaims": []
+    },
+    {
+      "id": "source.environmental-outcomes-of-the-us-renewable-fuel-standard",
+      "title": "Environmental outcomes of the US Renewable Fuel Standard",
+      "kind": "source",
+      "path": "sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 27,
+      "topClaims": [
+        {
+          "id": "corn-based-ethanol-produced-under-the-us-renewable-fuel-stan",
+          "text": "Corn-based ethanol produced under the US Renewable Fuel Standard has life-cycle greenhouse gas emissions at least 24% higher than gasoline [source.lark2022ethanol]",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "the-primary-driver-is-land-use-change-converting-grassland",
+          "text": "The primary driver is land-use change \u2014 converting grasslands and conservation reserve land to corn cultivation releases carbon [source.lark2022ethanol]",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "corn-ethanol-production-has-negatively-affected-water-qualit",
+          "text": "Corn ethanol production has negatively affected water quality, conservation land area, and other ecosystem processes [source.lark2022ethanol]",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "even-without-considering-international-indirect-land-use-eff",
+          "text": "Even without considering international indirect land-use effects, the study found ethanol fails to meet the RFS's own GHG emissions targets [source.lark2022ethanol]",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "tyler-j-lark-university-of-wisconsin-madison-lead-author",
+          "text": "Tyler J. Lark \u2014 University of Wisconsin-Madison (lead author)",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "source.",
+      "title": "Sources",
+      "kind": "source",
+      "path": "sources/index.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.trees-native-to-raleigh-north-carolina",
+      "title": "Trees Native to Raleigh, North Carolina",
+      "kind": "source",
+      "path": "sources/trees-native-to-raleigh-north-carolina.md",
+      "sourceIds": [
+        "contentcesncsuedu",
+        "wwwtreesforthetriang",
+        "ncwildflowerorg",
+        "cityofraleigh0drupal"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 19,
+      "topClaims": [
+        {
+          "id": "oak-spp-quercus-white-oak-red-oak-post-oak-pin-oak",
+          "text": "Oak spp.** (Quercus) \u2014 White oak, red oak, post oak, pin oak \u2014 all thrive in the Piedmont",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "tulip-poplar-liriodendron-tulipifera-ncs-tallest-nati",
+          "text": "Tulip Poplar** (Liriodendron tulipifera) \u2014 NC's tallest native, fast-growing, iconic yellow flowers",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "black-gum-nyssa-sylvatica-great-fall-color-tolerates",
+          "text": "Black Gum** (Nyssa sylvatica) \u2014 great fall color, tolerates wet/dry, wildlife magnet",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "american-hornbeam-carpinus-caroliniana-musclewood-com",
+          "text": "American Hornbeam** (Carpinus caroliniana) \u2014 musclewood, compact, great for smaller yards",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "bald-cypress-taxodium-distichum-deciduous-conifer-lov",
+          "text": "Bald Cypress** (Taxodium distichum) \u2014 deciduous conifer, loves wet areas, gorgeous autumn",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "source.reuters-ethanol-study-2022",
+      "title": "U.S. corn-based ethanol worse for the climate than gasoline, study finds",
+      "kind": "source",
+      "path": "sources/us-corn-based-ethanol-worse-for-the-climate-than-gasoline-study-finds.md",
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 7,
+      "topClaims": [
+        {
+          "id": "corn-based-ethanol-is-likely-at-least-24-more-carbon-inte",
+          "text": "Corn-based ethanol is likely at least **24% more carbon-intensive than gasoline** due to emissions from land use changes, processing, and combustion. [evidence: PNAS study, funded by National Wildlife Federation and U.S. Department of Energy]",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "the-study-contradicts-previous-usda-research-2019-that",
+          "text": "The study **contradicts previous USDA research** (2019) that found ethanol's carbon intensity was 39% lower than gasoline \u2014 partly because USDA underestimated the emissions impact of land conversion.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "the-renewable-fuel-standard-rfs-enacted-in-2005-requ",
+          "text": "The **Renewable Fuel Standard (RFS)**, enacted in 2005, requires ~15 billion gallons of corn ethanol blended into U.S. gasoline annually. As a result, **corn cultivation grew 8.7%** and expanded into **6.9 million additional acres** (2008\u20132016).",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "land-use-changes-triggered-by-ethanol-demand-include-tilling",
+          "text": "Land use changes triggered by ethanol demand include tilling retired/conservation cropland, which releases soil carbon, and increased nitrogen fertilizer use.",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "the-epa-is-considering-reforms-to-the-rfs-program-with-auth",
+          "text": "The EPA is considering reforms to the RFS program, with authority to set 2023 requirements in May 2022 (Congress set mandates only through 2022).",
+          "status": "supported",
+          "evidenceCount": 0,
+          "missingEvidence": true,
+          "freshnessLevel": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "syntheses",
+      "title": "Syntheses",
+      "kind": "synthesis",
+      "path": "syntheses/index.md",
+      "sourceIds": [
+        "17217018642",
+        "17229192111434",
+        "19216811008123",
+        "19216811008642",
+        "1921681101234",
+        "MEMORY.md",
+        "USER.md",
+        "agentskillsio",
+        "apigroqcom",
+        "apiopenaicom",
+        "apislackcom",
+        "apitogetherxyz",
+        "astralsh",
+        "bluebubblesapp",
+        "botqqqcom",
+        "buildnvidiacom",
+        "chat-agentslobehubco",
+        "clawhubai",
+        "cloudcode-pagoogleap",
+        "consolecloudgoogleco",
+        "consoletwiliocom",
+        "developersgooglecom",
+        "discordcom",
+        "discordgg",
+        "docsastralsh",
+        "docsbluebubblesapp",
+        "docslitellmai",
+        "docsvllmai",
+        "firecrawldev",
+        "githubcom",
+        "gpu-serverinternalco",
+        "hermes-agentnousrese",
+        "homeassistantlocal81",
+        "hostdockerinternal86",
+        "hostname",
+        "huggingfaceco",
+        "learnmicrosoftcom",
+        "lmstudioai",
+        "lobehubcom",
+        "mac-ip8642",
+        "matrixexampleorg",
+        "mattermost-backend",
+        "mcpdocsexamplecom",
+        "mcpexamplecom",
+        "mcpinternalexampleco",
+        "mcplegacyinternal",
+        "mcpstripecom",
+        "mintlifycom",
+        "mmexamplecom",
+        "my-appflydev",
+        "nousresearchcom",
+        "ollamacom",
+        "openbigmodelcn",
+        "openfeishucn",
+        "openlarksuitecom",
+        "openrouterai",
+        "portalnousresearchco",
+        "portalqwenai",
+        "proxyexamplecom",
+        "proxyexamplecom8080",
+        "python-telegram-boto",
+        "rawgithubusercontent",
+        "session-2026-04-23",
+        "skillssh",
+        "source.lark2022ethanol",
+        "tme",
+        "weixinqqcom",
+        "workweixinqqcom",
+        "wsl-host11434",
+        "wwwconventionalcommi",
+        "wwwhome-assistantio",
+        "wwwtwiliocom",
+        "your-mattermost-serv",
+        "your-server",
+        "your-server8080",
+        "your-server8644",
+        "your-server8765"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "freshnessLevel": "fresh",
+      "claimCount": 2140,
+      "topClaims": [
+        {
+          "id": "referencedocsreferencecli-commands",
+          "text": "[Reference](/docs/reference/cli-commands)",
+          "status": "supported",
+          "evidenceCount": 13,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "troubleshootingtroubleshooting",
+          "text": "[Troubleshooting](#troubleshooting)",
+          "status": "supported",
+          "evidenceCount": 8,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "securitysecurity",
+          "text": "[Security](#security)",
+          "status": "supported",
+          "evidenceCount": 8,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "how-it-works",
+          "text": "How It Works",
+          "status": "supported",
+          "evidenceCount": 7,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "using-hermesdocsuser-guidecli",
+          "text": "[Using Hermes](/docs/user-guide/cli)",
+          "status": "supported",
+          "evidenceCount": 7,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
+        }
+      ]
     },
     {
       "id": "synthesis.raccoony-ops",
@@ -463,59 +3504,128 @@
       "kind": "synthesis",
       "path": "syntheses/racoony-ops.md",
       "sourceIds": [
-        "IDENTITY.md",
-        "TOOLS.md"
+        "17217018642",
+        "17229192111434",
+        "19216811008123",
+        "19216811008642",
+        "1921681101234",
+        "MEMORY.md",
+        "USER.md",
+        "agentskillsio",
+        "apigroqcom",
+        "apiopenaicom",
+        "apislackcom",
+        "apitogetherxyz",
+        "astralsh",
+        "bluebubblesapp",
+        "botqqqcom",
+        "buildnvidiacom",
+        "chat-agentslobehubco",
+        "clawhubai",
+        "cloudcode-pagoogleap",
+        "consolecloudgoogleco",
+        "consoletwiliocom",
+        "developersgooglecom",
+        "discordcom",
+        "discordgg",
+        "docsastralsh",
+        "docsbluebubblesapp",
+        "docslitellmai",
+        "docsvllmai",
+        "firecrawldev",
+        "githubcom",
+        "gpu-serverinternalco",
+        "hermes-agentnousrese",
+        "homeassistantlocal81",
+        "hostdockerinternal86",
+        "hostname",
+        "huggingfaceco",
+        "learnmicrosoftcom",
+        "lmstudioai",
+        "lobehubcom",
+        "mac-ip8642",
+        "matrixexampleorg",
+        "mattermost-backend",
+        "mcpdocsexamplecom",
+        "mcpexamplecom",
+        "mcpinternalexampleco",
+        "mcplegacyinternal",
+        "mcpstripecom",
+        "mintlifycom",
+        "mmexamplecom",
+        "my-appflydev",
+        "nousresearchcom",
+        "ollamacom",
+        "openbigmodelcn",
+        "openfeishucn",
+        "openlarksuitecom",
+        "openrouterai",
+        "portalnousresearchco",
+        "portalqwenai",
+        "proxyexamplecom",
+        "proxyexamplecom8080",
+        "python-telegram-boto",
+        "rawgithubusercontent",
+        "session-2026-04-23",
+        "skillssh",
+        "source.lark2022ethanol",
+        "tme",
+        "weixinqqcom",
+        "workweixinqqcom",
+        "wsl-host11434",
+        "wwwconventionalcommi",
+        "wwwhome-assistantio",
+        "wwwtwiliocom",
+        "your-mattermost-serv",
+        "your-server",
+        "your-server8080",
+        "your-server8644",
+        "your-server8765"
       ],
       "questions": [],
       "contradictions": [],
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-04-22",
-      "claimCount": 3,
+      "claimCount": 2140,
       "topClaims": [
         {
-          "id": "identity",
-          "text": "Name: Raccoony, emoji 🦝, runs as AI assistant in OpenClaw",
+          "id": "referencedocsreferencecli-commands",
+          "text": "[Reference](/docs/reference/cli-commands)",
           "status": "supported",
-          "evidenceCount": 1,
+          "evidenceCount": 13,
           "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "IDENTITY.md",
-              "path": "workspace/IDENTITY.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
+          "freshnessLevel": "unknown"
         },
         {
-          "id": "email",
-          "text": "Personal email: racoonyclaw@gmail.com (used for CI/CD alerts, notifications)",
+          "id": "troubleshootingtroubleshooting",
+          "text": "[Troubleshooting](#troubleshooting)",
           "status": "supported",
-          "evidenceCount": 1,
+          "evidenceCount": 8,
           "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "TOOLS.md",
-              "path": "workspace/TOOLS.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
+          "freshnessLevel": "unknown"
         },
         {
-          "id": "user-email",
-          "text": "User's email: quocvu2640@gmail.com",
+          "id": "securitysecurity",
+          "text": "[Security](#security)",
           "status": "supported",
-          "evidenceCount": 1,
+          "evidenceCount": 8,
           "missingEvidence": false,
-          "evidence": [
-            {
-              "sourceId": "TOOLS.md",
-              "path": "workspace/TOOLS.md"
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-04-22"
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "how-it-works",
+          "text": "How It Works",
+          "status": "supported",
+          "evidenceCount": 7,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
+        },
+        {
+          "id": "using-hermesdocsuser-guidecli",
+          "text": "[Using Hermes](/docs/user-guide/cli)",
+          "status": "supported",
+          "evidenceCount": 7,
+          "missingEvidence": false,
+          "freshnessLevel": "unknown"
         }
       ]
     }

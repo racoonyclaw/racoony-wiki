@@ -261,6 +261,13 @@ This adapter is for **personal WeChat accounts** (微信). If you need enterpris
 
 ## Prerequisites[​](#prerequisites)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 - A personal WeChat account
 
 - Python packages: aiohttp and cryptography

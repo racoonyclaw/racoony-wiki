@@ -41,6 +41,13 @@ On this page# Use MCP with Hermes
 This guide shows how to actually use MCP with Hermes Agent in day-to-day workflows.
 If the feature page explains what MCP is, this guide is about how to get value from it quickly and safely.
 ## When should you use MCP?[​](#when-should-you-use-mcp)
+
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
 Use MCP when:
 - a tool already exists in MCP form and you do not want to build a native Hermes tool
 - you want Hermes to operate against a local or remote system through a clean RPC layer

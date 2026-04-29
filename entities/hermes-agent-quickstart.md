@@ -28,6 +28,13 @@ Quickstart | Hermes Agent-
 On this page# Quickstart
 This guide gets you from zero to a working Hermes setup that survives real use. Install, choose a provider, verify a working chat, and know exactly what to do when something breaks.
 ## Who this is for[​](#who-this-is-for)
+
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
 - Brand new and want the shortest path to a working setup
 - Switching providers and don't want to lose time to config mistakes
 - Setting up Hermes for a team, bot, or always-on workflow

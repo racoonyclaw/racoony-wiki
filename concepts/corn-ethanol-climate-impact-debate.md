@@ -113,6 +113,13 @@ The climate impact of corn-based ethanol is a contested scientific question with
 
 ## The Contradiction
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 - **DOE Argonne GREET model:** Corn ethanol reduces life-cycle GHG emissions by ~40-46% compared to gasoline
 - **Lark et al. (2022) PNAS:** Corn ethanol is at least 24% more carbon-intensive than gasoline when land-use change is accounted for
 

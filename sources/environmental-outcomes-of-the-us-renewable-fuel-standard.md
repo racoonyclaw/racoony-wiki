@@ -136,6 +136,11 @@ Lark TJ, Hendricks NP, Smith A, Pates N, Spawn-Lee SA, Bougie M, Booth EG, Kucha
 
 ## Claims
 
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->
+
 - Corn-based ethanol produced under the US Renewable Fuel Standard has life-cycle greenhouse gas emissions at least 24% higher than gasoline [source.lark2022ethanol]
 - The primary driver is land-use change — converting grasslands and conservation reserve land to corn cultivation releases carbon [source.lark2022ethanol]
 - Corn ethanol production has negatively affected water quality, conservation land area, and other ecosystem processes [source.lark2022ethanol]

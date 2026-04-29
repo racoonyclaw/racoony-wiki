@@ -181,6 +181,31 @@ Overview of approaches, tools, and hardware requirements for running uncensored 
 
 ## Text LLMs (Uncensored / Abliterated)
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+
+### Related Pages
+- [[entities/cli-commands-reference|CLI Commands Reference]]
+- [[entities/contributing|Contributing]]
+- [[entities/architecture|Architecture]]
+- [[entities/ai-providers|AI Providers]]
+- [[entities/open-webui-integration|Open WebUI Integration]]
+- [[entities/signal-setup|Signal Setup]]
+- [[entities/security|Security]]
+- [[entities/features-skills|Features: Skills]]
+- [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
+- [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
+- [[entities/use-mcp-with-hermes|Use MCP with Hermes]]
+- [[entities/tips-best-practices|Tips & Best Practices]]
+- [[entities/learning-path|Learning Path]]
+- [[entities/installation|Installation]]
+- [[entities/quickstart|Quickstart]]
+- [[entities/android-termux|Android / Termux]]
+<!-- openclaw:wiki:related:end -->
+
 ### Two Paths to Uncensored LLMs
 
 1. **Pre-built uncensored models** — community has already stripped guardrails. Download and run.

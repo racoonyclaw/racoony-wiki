@@ -7,6 +7,14 @@ All settings are stored in the `~/.hermes/` directory for easy access.
 
 ## Directory Structure[​](#directory-structure "Direct link to Directory Structure")
 
+## Related
+<!-- openclaw:wiki:related:start -->
+### Referenced By
+- [[entities/security|Security]]
+- [[syntheses/index|Syntheses]]
+- [[syntheses/racoony-ops|Raccoony Operations]]
+<!-- openclaw:wiki:related:end -->
+
 ```
 ~/.hermes/
 ├── config.yaml     # Settings (model, terminal, TTS, compression, etc.)
