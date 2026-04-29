@@ -346,7 +346,7 @@ claims:
 
 Quickstart | Hermes Agent-
 [Skip to main content](#__docusaurus_skipToContent_fallback)[Hermes Agent](/docs/)[Docs](/docs/getting-started/quickstart)[Skills](/docs/skills)[Home](https://hermes-agent.nousresearch.com)[GitHub](https://github.com/NousResearch/hermes-agent)[Discord](https://discord.gg/NousResearch)[Getting Started](/docs/getting-started/quickstart)[Quickstart](/docs/getting-started/quickstart)
-- [[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])
+- [[entities/installation|Installation]]](/docs/getting-started/[[entities/installation|Installation]])
 - [Android / Termux](/docs/getting-started/termux)
 - [Nix & NixOS Setup](/docs/getting-started/nix-setup)
 - [Updating & Uninstalling](/docs/getting-started/updating)
@@ -383,7 +383,7 @@ After it finishes, reload your shell:
 ```
 source ~/.bashrc   # or source ~/.zshrc
 ```
-For detailed [[entity.installation|Installation]] options, prerequisites, and troubleshooting, see the [[[entity.installation|Installation]] guide](/docs/getting-started/[[entity.installation|Installation]]).
+For detailed [[entities/installation|Installation]] options, prerequisites, and troubleshooting, see the [[entities/installation|Installation]] guide](/docs/getting-started/[[entities/installation|Installation]]).
 ## 2. Choose a Provider[​](#2-choose-a-provider)
 The single most important setup step. Use `hermes model` to walk through the choice interactively:
 ```
@@ -500,7 +500,7 @@ CommandDescription`hermes`Start chatting`hermes model`Choose your LLM provider a
 - [AI Providers](/docs/integrations/providers) — Full provider list and setup details
 - [Skills System](/docs/user-guide/features/skills) — Reusable workflows and knowledge
 - [Tips & Best Practices](/docs/guides/tips) — Power user tips
-[Edit this page](https://github.com/NousResearch/hermes-agent/edit/main/website/docs/getting-started/quickstart.md)[NextInstallation](/docs/getting-started/[[entity.installation|Installation]])- [Who this is for](#who-this-is-for)
+[Edit this page](https://github.com/NousResearch/hermes-agent/edit/main/website/docs/getting-started/quickstart.md)[NextInstallation](/docs/getting-started/[[entities/installation|Installation]])- [Who this is for](#who-this-is-for)
 - [The fastest path](#the-fastest-path)
 - [1. Install Hermes Agent](#1-install-hermes-agent)
 - [2. Choose a Provider](#2-choose-a-provider)[How settings are stored](#how-settings-are-stored)

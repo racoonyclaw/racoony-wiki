@@ -86,11 +86,13 @@ claims:
   status: supported
   confidence: null
 - id: telegram-setup
-  text: [[entity.telegram-setup|Telegram Setup]]
+  text:
+  - - entity.telegram-setup|Telegram Setup
   status: supported
   confidence: null
 - id: discord-setup
-  text: [[entity.discord-setup|Discord Setup]]
+  text:
+  - - entity.discord-setup|Discord Setup
   status: supported
   confidence: null
 - id: slack-setup
@@ -278,7 +280,7 @@ Configure per-platform overrides in ~/.hermes/gateway.json:
 
 ```
 
-## [[entity.security|Security]][​](#[[entity.security|Security]])
+## [[entities/security|Security]][​](#[[entities/security|Security]])
 
 **By default, the gateway denies all users who are not in an allowlist or paired via DM.** This is the safe default for a bot with terminal access.
 
@@ -484,9 +486,9 @@ Each platform has its own toolset:
 ## Next Steps[​](#next-steps)
 
 [](/docs/user-guide/messaging/telegram)[](/docs/user-guide/messaging/discord)[](/docs/user-guide/messaging/slack)[](/docs/user-guide/messaging/whatsapp)[](/docs/user-guide/messaging/signal)[](/docs/user-guide/messaging/sms)[](/docs/user-guide/messaging/email)[](/docs/user-guide/messaging/homeassistant)[](/docs/user-guide/messaging/mattermost)[](/docs/user-guide/messaging/matrix)[](/docs/user-guide/messaging/dingtalk)[](/docs/user-guide/messaging/feishu)[](/docs/user-guide/messaging/wecom)[](/docs/user-guide/messaging/wecom-callback)[](/docs/user-guide/messaging/weixin)[](/docs/user-guide/messaging/bluebubbles)[](/docs/user-guide/messaging/qqbot)[](/docs/user-guide/messaging/open-webui)[](/docs/user-guide/messaging/webhooks)
-- [[entity.telegram-setup|Telegram Setup]]
+- [[entities/telegram-setup|Telegram Setup]]
 
-- [[entity.discord-setup|Discord Setup]]
+- [[entities/discord-setup|Discord Setup]]
 
 - Slack Setup
 
@@ -524,7 +526,7 @@ Each platform has its own toolset:
 [](#platform-comparison)[](#architecture)[](#quick-setup)[](#gateway-commands)[](#chat-commands-inside-messaging)[](#session-management)[](#session-persistence)[](#reset-policies)
 - Session Persistence
 - Reset Policies
-- [[[entity.security|Security]]](#[[entity.security|Security]])[](#dm-pairing-alternative-to-allowlists)
+- [[entities/security|Security]]](#[[entities/security|Security]])[](#dm-pairing-alternative-to-allowlists)
 - DM Pairing (Alternative to Allowlists)
 - [Interrupting the Agent](#interrupting-the-agent)
 - [Tool Progress Notifications](#tool-progress-notifications)

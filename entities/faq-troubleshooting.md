@@ -253,7 +253,8 @@ claims:
   status: supported
   confidence: null
 - id: see-the-full-list-of-dangerous-patterns-in-the-[[entity.security|Security]]-doc
-  text: See the full list of dangerous patterns in the [[[entity.security|Security]] docs](/docs/user-guide/[[entity.security|Security]])
+  text: See the full list of dangerous patterns in the [[[entity.security|Security]]
+    docs](/docs/user-guide/[[entity.security|Security]])
   status: supported
   confidence: null
 - id: avoid-sudo-in-messaging-ask-the-agent-to-find-alternativ
@@ -607,7 +608,7 @@ Timeouts with local modelsHermes auto-detects local endpoints and relaxes stream
 ### How much does it cost?[​](#how-much-does-it-cost)
 Hermes Agent itself is free and open-source (MIT license). You pay only for the LLM API usage from your chosen provider. Local models are completely free to run.
 ### Can multiple people use one instance?[​](#can-multiple-people-use-one-instance)
-Yes. The [[[entity.messaging-gateway|Messaging Gateway]]](/docs/user-guide/messaging/) lets multiple users interact with the same Hermes Agent instance via Telegram, Discord, Slack, WhatsApp, or Home Assistant. Access is controlled through allowlists (specific user IDs) and DM pairing (first user to message claims access).
+Yes. The [[entities/messaging-gateway|Messaging Gateway]]](/docs/user-guide/messaging/) lets multiple users interact with the same Hermes Agent instance via Telegram, Discord, Slack, WhatsApp, or Home Assistant. Access is controlled through allowlists (specific user IDs) and DM pairing (first user to message claims access).
 ### What's the difference between memory and skills?[​](#whats-the-difference-between-memory-and-skills)
 - Memory stores facts — things the agent knows about you, your projects, and preferences. Memories are retrieved automatically based on relevance.
 - Skills store procedures — step-by-step instructions for how to do things. Skills are recalled when the agent encounters a similar task.
@@ -711,10 +712,10 @@ See [Context Length Detection](/docs/integrations/providers#context-length-detec
 Cause: Hermes detected a potentially destructive command (e.g., `rm -rf`, `DROP TABLE`). This is a safety feature.
 Solution: When prompted, review the command and type `y` to approve it. You can also:
 - Ask the agent to use a safer alternative
-- See the full list of dangerous patterns in the [[[entity.security|Security]] docs](/docs/user-guide/[[entity.security|Security]])
+- See the full list of dangerous patterns in the [[entities/security|Security]] docs](/docs/user-guide/[[entities/security|Security]])
 tipThis is working as intended — Hermes never silently runs destructive commands. The approval prompt shows you exactly what will execute.
-#### `sudo` not working via [[entity.messaging-gateway|Messaging Gateway]][​](#sudo-not-working-via-messaging-gateway)
-Cause: The [[entity.messaging-gateway|Messaging Gateway]] runs without an interactive terminal, so `sudo` cannot prompt for a password.
+#### `sudo` not working via [[entities/messaging-gateway|Messaging Gateway]][​](#sudo-not-working-via-messaging-gateway)
+Cause: The [[entities/messaging-gateway|Messaging Gateway]] runs without an interactive terminal, so `sudo` cannot prompt for a password.
 Solution:
 - Avoid `sudo` in messaging — ask the agent to find alternatives
 - If you must use `sudo`, configure passwordless sudo for specific commands in `/etc/sudoers`

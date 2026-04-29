@@ -1,3 +1,8 @@
+---
+id: source.
+pageType: source
+---
+
 # Sources
 
 ## Generated

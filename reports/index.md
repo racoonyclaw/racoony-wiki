@@ -1,3 +1,8 @@
+---
+id: report.
+pageType: report
+---
+
 # Reports
 
 ## Generated

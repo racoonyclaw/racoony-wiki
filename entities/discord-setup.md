@@ -456,7 +456,7 @@ If you want a normal bot-help channel where people can talk to Hermes without ta
 
 ### Discord Gateway Model[​](#discord-gateway-model)
 
-Hermes on Discord is not a webhook that replies statelessly. It runs through the full [[entity.messaging-gateway|Messaging Gateway]], which means each incoming message goes through:
+Hermes on Discord is not a webhook that replies statelessly. It runs through the full [[entities/messaging-gateway|Messaging Gateway]], which means each incoming message goes through:
 
 1. authorization (DISCORD_ALLOWED_USERS)
 
@@ -1045,7 +1045,7 @@ group_sessions_per_user: true
 
 If you intentionally want a shared room conversation, leave it off — just expect shared transcript history and shared interrupt behavior.
 
-## [[entity.security|Security]][​](#[[entity.security|Security]])
+## [[entities/security|Security]][​](#[[entities/security|Security]])
 
 warning
 
@@ -1104,7 +1104,7 @@ tip
 
 Leave everyone and roles at false unless you know exactly why you need them. It is very easy for an LLM to produce the string @everyone inside a normal-looking response; without this protection, that would notify every member of your server.
 
-For more information on securing your Hermes Agent deployment, see the [[[entity.security|Security]] Guide](/docs/user-guide/[[entity.security|Security]]).
+For more information on securing your Hermes Agent deployment, see the [[entities/security|Security]] Guide](/docs/user-guide/[[entities/security|Security]]).
 [](#how-hermes-behaves)[](#discord-gateway-model)[](#session-model-in-discord)[](#interrupts-and-concurrency)
 - Discord Gateway Model
 - Session Model in Discord
@@ -1142,6 +1142,6 @@ For more information on securing your Hermes Agent deployment, see the [[[entity
 - Bot is offline
 - "User not allowed" / Bot ignores you
 - People in the same channel are sharing context unexpectedly
-- [[[entity.security|Security]]](#[[entity.security|Security]])[](#role-based-access-control)[](#mention-control)
+- [[entities/security|Security]]](#[[entities/security|Security]])[](#role-based-access-control)[](#mention-control)
 - Role-Based Access Control
 - Mention Control

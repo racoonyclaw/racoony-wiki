@@ -1,3 +1,8 @@
+---
+id: concept.
+pageType: concept
+---
+
 # Concepts
 
 ## Generated

@@ -1060,7 +1060,7 @@ When the agent tries to run a potentially dangerous command, it asks you for app
 
 Reply "yes"/"y" to approve or "no"/"n" to deny.
 
-## [[entity.security|Security]][​](#[[entity.security|Security]])
+## [[entities/security|Security]][​](#[[entities/security|Security]])
 
 warning
 
@@ -1068,7 +1068,7 @@ Always set TELEGRAM_ALLOWED_USERS to restrict who can interact with your bot. Wi
 
 Never share your bot token publicly. If compromised, revoke it immediately via BotFather's /revoke command.
 
-For more details, see the [[[entity.security|Security]] documentation](/docs/user-guide/[[entity.security|Security]]). You can also use [DM pairing](/docs/user-guide/messaging#dm-pairing-alternative-to-allowlists) for a more dynamic approach to user authorization.
+For more details, see the [[entities/security|Security]] documentation](/docs/user-guide/[[entities/security|Security]]). You can also use [DM pairing](/docs/user-guide/messaging#dm-pairing-alternative-to-allowlists) for a more dynamic approach to user authorization.
 [](#step-1-create-a-bot-via-botfather)[](#step-2-customize-your-bot-optional)[](#step-3-privacy-mode-critical-for-groups)[](#how-to-disable-privacy-mode)
 - How to disable privacy mode
 - [Step 4: Find Your User ID](#step-4-find-your-user-id)
@@ -1110,4 +1110,4 @@ For more details, see the [[[entity.security|Security]] documentation](/docs/use
 - [Per-Channel Prompts](#per-channel-prompts)
 - [Troubleshooting](#troubleshooting)
 - [Exec Approval](#exec-approval)
-- [[[entity.security|Security]]](#[[entity.security|Security]])
+- [[entities/security|Security]]](#[[entities/security|Security]])

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ecf37408f4c133fa",
+        "id": "a5c98292304c70dc",
         "type": "tabs",
         "children": [
           {
-            "id": "b42fabf1d6705195",
+            "id": "315c2c8062d2e054",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/project-guidelines.md",
+                "file": "sources/us-corn-based-ethanol-worse-for-the-climate-than-gasoline-study-finds.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "project-guidelines"
+              "title": "us-corn-based-ethanol-worse-for-the-climate-than-gasoline-study-finds"
             }
           }
         ]
@@ -183,9 +183,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "b42fabf1d6705195",
+  "active": "315c2c8062d2e054",
   "lastOpenFiles": [
+    "sources/environmental-outcomes-of-the-us-renewable-fuel-standard.md",
+    "sources/trees-native-to-raleigh-north-carolina.md",
+    "index.md",
+    "inbox.md",
+    "AGENTS.md",
+    "concepts/corn-ethanol-climate-impact-debate.md",
+    "concepts/prompt-weapon-generator-game.md",
+    "concepts/project-guidelines.md",
     "concepts/index.md",
+    "_attachments/labs-quoc-vu-2026-01-14.pdf",
+    "_attachments/lark2022-ethanol-rfs-pnas.pdf",
+    "_attachments/honda-civic-2016-owners-manual.pdf",
     "concepts/anomem-postmortem.md",
     "entities/randomstix-health.md",
     "entities/randomstix.md",
@@ -203,16 +214,6 @@
     "reports/low-confidence.md",
     "reports/stale-pages.md",
     "reports/index.md",
-    "inbox.md",
-    "WIKI.md",
-    "index.md",
-    "syntheses/index.md",
-    "syntheses/racoony-ops.md",
-    "AGENTS.md",
-    "concepts/project-guidelines.md",
-    "concepts/self-hosted-infra.md",
-    "Untitled.canvas",
-    "_attachments/labs-quoc-vu-2026-01-14.pdf",
-    "_attachments/honda-civic-2016-owners-manual.pdf"
+    "Untitled.canvas"
   ]
 }

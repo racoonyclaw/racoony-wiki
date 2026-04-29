@@ -222,7 +222,7 @@ claims:
 ---
 
 Installation | Hermes Agent-
-[Skip to main content](#__docusaurus_skipToContent_fallback)[Hermes Agent](/docs/)[Docs](/docs/getting-started/[[entity.quickstart|Quickstart]])[Skills](/docs/skills)[Home](https://hermes-agent.nousresearch.com)[GitHub](https://github.com/NousResearch/hermes-agent)[Discord](https://discord.gg/NousResearch)[Getting Started](/docs/getting-started/[[entity.quickstart|Quickstart]])[[[entity.quickstart|Quickstart]]](/docs/getting-started/[[entity.quickstart|Quickstart]])
+[Skip to main content](#__docusaurus_skipToContent_fallback)[Hermes Agent](/docs/)[Docs](/docs/getting-started/[[entities/quickstart|Quickstart]])[Skills](/docs/skills)[Home](https://hermes-agent.nousresearch.com)[GitHub](https://github.com/NousResearch/hermes-agent)[Discord](https://discord.gg/NousResearch)[Getting Started](/docs/getting-started/[[entities/quickstart|Quickstart]])[[entities/quickstart|Quickstart]]](/docs/getting-started/[[entities/quickstart|Quickstart]])
 - [Installation](/docs/getting-started/installation)
 - [Android / Termux](/docs/getting-started/termux)
 - [Nix & NixOS Setup](/docs/getting-started/nix-setup)
@@ -283,14 +283,14 @@ If you want to clone the repo and install from source — for contributing, runn
 ## Troubleshooting[​](#troubleshooting)
 ProblemSolution`hermes: command not found`Reload your shell (`source ~/.bashrc`) or check PATH`API key not set`Run `hermes model` to configure your provider, or `hermes config set OPENROUTER_API_KEY your_key`Missing config after updateRun `hermes config check` then `hermes config migrate`
 For more diagnostics, run `hermes doctor` — it will tell you exactly what's missing and how to fix it.
-[Edit this page](https://github.com/NousResearch/hermes-agent/edit/main/website/docs/getting-started/installation.md)[PreviousQuickstart](/docs/getting-started/[[entity.quickstart|Quickstart]])[NextAndroid / Termux](/docs/getting-started/termux)- [Quick Install](#quick-install)[Linux / macOS / WSL2](#linux--macos--wsl2)
+[Edit this page](https://github.com/NousResearch/hermes-agent/edit/main/website/docs/getting-started/installation.md)[PreviousQuickstart](/docs/getting-started/[[entities/quickstart|Quickstart]])[NextAndroid / Termux](/docs/getting-started/termux)- [Quick Install](#quick-install)[Linux / macOS / WSL2](#linux--macos--wsl2)
 - [Android / Termux](#android--termux)
 - [What the Installer Does](#what-the-installer-does)
 - [After Installation](#after-installation)
 - [Prerequisites](#prerequisites)
 - [Manual / Developer Installation](#manual--developer-installation)
 - [Troubleshooting](#troubleshooting)
-Docs- [Getting Started](/docs/getting-started/[[entity.quickstart|Quickstart]])
+Docs- [Getting Started](/docs/getting-started/[[entities/quickstart|Quickstart]])
 - [User Guide](/docs/user-guide/cli)
 - [Developer Guide](/docs/developer-guide/architecture)
 - [Reference](/docs/reference/cli-commands)

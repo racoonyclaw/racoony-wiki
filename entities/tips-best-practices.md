@@ -332,7 +332,7 @@ claims:
 ---
 
 Tips & Best Practices | Hermes Agent-
-[Skip to main content](#__docusaurus_skipToContent_fallback)[Hermes Agent](/docs/)[Docs](/docs/getting-started/[[entity.quickstart|Quickstart]])[Skills](/docs/skills)[Home](https://hermes-agent.nousresearch.com)[GitHub](https://github.com/NousResearch/hermes-agent)[Discord](https://discord.gg/NousResearch)[Getting Started](/docs/getting-started/[[entity.quickstart|Quickstart]])
+[Skip to main content](#__docusaurus_skipToContent_fallback)[Hermes Agent](/docs/)[Docs](/docs/getting-started/[[entities/quickstart|Quickstart]])[Skills](/docs/skills)[Home](https://hermes-agent.nousresearch.com)[GitHub](https://github.com/NousResearch/hermes-agent)[Discord](https://discord.gg/NousResearch)[Getting Started](/docs/getting-started/[[entities/quickstart|Quickstart]])
 - [Using Hermes](/docs/user-guide/cli)
 - [Features](/docs/user-guide/features/overview)
 - [Messaging Platforms](/docs/user-guide/messaging/)
@@ -498,7 +498,7 @@ Have a tip that should be on this page? Open an issue or PR — community contri
 - [Review Before Choosing "Always"](#review-before-choosing-always)
 - [Command Approval Is Your Safety Net](#command-approval-is-your-safety-net)
 - [Use Allowlists for Messaging Bots](#use-allowlists-for-messaging-bots)
-Docs- [Getting Started](/docs/getting-started/[[entity.quickstart|Quickstart]])
+Docs- [Getting Started](/docs/getting-started/[[entities/quickstart|Quickstart]])
 - [User Guide](/docs/user-guide/cli)
 - [Developer Guide](/docs/developer-guide/architecture)
 - [Reference](/docs/reference/cli-commands)

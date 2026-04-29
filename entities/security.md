@@ -635,7 +635,7 @@ Use `hermes config edit` to review or remove patterns from your permanent allowl
 
 ## User Authorization (Gateway)[​](#user-authorization-gateway "Direct link to User Authorization (Gateway)")
 
-When running the [[entity.messaging-gateway|Messaging Gateway]], Hermes controls who can interact with the bot through a layered authorization system.
+When running the [[entities/messaging-gateway|Messaging Gateway]], Hermes controls who can interact with the bot through a layered authorization system.
 
 ### Authorization Check Order[​](#authorization-check-order "Direct link to Authorization Check Order")
 
@@ -817,7 +817,7 @@ required_environment_variables:
     help: Get a key from https://developers.google.com/tenor
 ```
 
-After loading this skill, `TENOR_API_KEY` passes through to `execute_code`, `terminal` (local), **and remote backends (Docker, Modal)** — no manual [[entity.configuration|Configuration]] needed.
+After loading this skill, `TENOR_API_KEY` passes through to `execute_code`, `terminal` (local), **and remote backends (Docker, Modal)** — no manual [[entities/configuration|Configuration]] needed.
 
 Docker & Modal
 
@@ -932,7 +932,7 @@ security:
 
 When a blocked URL is requested, the tool returns an error explaining the domain is blocked by policy. The blocklist is enforced across `web_search`, `web_extract`, `browser_navigate`, and all URL-capable tools.
 
-See [Website Blocklist](/docs/user-guide/[[entity.configuration|Configuration]]#website-blocklist) in the [[entity.configuration|Configuration]] guide for full details.
+See [Website Blocklist](/docs/user-guide/[[entities/configuration|Configuration]]#website-blocklist) in the [[entities/configuration|Configuration]] guide for full details.
 
 ### SSRF Protection[​](#ssrf-protection "Direct link to SSRF Protection")
 

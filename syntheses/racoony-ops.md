@@ -17901,7 +17901,7 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/discord-setup|Discord Setup]]
 - People in the same channel are sharing context unexpectedly
   - Sources: [[entities/discord-setup|Discord Setup]]
-- [[[entity.security|Security]]](#[[entity.security|Security]])[](#role-based-access-control)[](#mention-control)
+- [[entities/security|Security]]](#[[entities/security|Security]])[](#role-based-access-control)[](#mention-control)
   - Sources: [[entities/discord-setup|Discord Setup]]
 - Role-Based Access Control
   - Sources: [[entities/discord-setup|Discord Setup]]
@@ -18051,7 +18051,7 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/telegram-setup|Telegram Setup]]
 - [Exec Approval](#exec-approval)
   - Sources: [[entities/telegram-setup|Telegram Setup]]
-- [[[entity.security|Security]]](#[[entity.security|Security]])
+- [[entities/security|Security]]](#[[entities/security|Security]])
   - Sources: [[entities/telegram-setup|Telegram Setup]]
 - In-progress terminal commands are killed immediately (SIGTERM, then SIGKILL after 1s)
   - Sources: [[entities/messaging-gateway|Messaging Gateway]]
@@ -18119,7 +18119,7 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/messaging-gateway|Messaging Gateway]]
 - Reset Policies
   - Sources: [[entities/messaging-gateway|Messaging Gateway]]
-- [[[entity.security|Security]]](#[[entity.security|Security]])[](#dm-pairing-alternative-to-allowlists)
+- [[entities/security|Security]]](#[[entities/security|Security]])[](#dm-pairing-alternative-to-allowlists)
   - Sources: [[entities/messaging-gateway|Messaging Gateway]]
 - DM Pairing (Alternative to Allowlists)
   - Sources: [[entities/messaging-gateway|Messaging Gateway]]
@@ -19271,7 +19271,7 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
 - Ask the agent to use a safer alternative
   - Sources: [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
-- See the full list of dangerous patterns in the [[[entity.security|Security]] docs](/docs/user-guide/[[entity.security|Security]])
+- See the full list of dangerous patterns in the [[entities/security|Security]] docs](/docs/user-guide/[[entities/security|Security]])
   - Sources: [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
 - Avoid `sudo` in messaging — ask the agent to find alternatives
   - Sources: [[entities/faq-troubleshooting|FAQ & Troubleshooting]]
@@ -19589,9 +19589,9 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
 - [Messaging Gateway](/docs/user-guide/messaging)
   - Sources: [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
-- [[[entity.discord-setup|Discord Setup]]](/docs/user-guide/messaging/discord)
+- [[entities/feishu-lark-setup|Discord Setup]]](/docs/user-guide/messaging/discord)
   - Sources: [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
-- [[[entity.telegram-setup|Telegram Setup]]](/docs/user-guide/messaging/telegram)
+- [[entities/feishu-lark-setup|Telegram Setup]]](/docs/user-guide/messaging/telegram)
   - Sources: [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
 - [Choose your voice mode setup](#choose-your-voice-mode-setup)
   - Sources: [[entities/use-voice-mode-with-hermes|Use Voice Mode with Hermes]]
@@ -19885,7 +19885,7 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/tips-best-practices|Tips & Best Practices]]
 - [Use Allowlists for Messaging Bots](#use-allowlists-for-messaging-bots)
   - Sources: [[entities/tips-best-practices|Tips & Best Practices]]
-- [[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])
+- [[entities/installation|Installation]]](/docs/getting-started/[[entities/installation|Installation]])
   - Sources: [[entities/learning-path|Learning Path]], [[entities/learning-path|Learning Path]], [[entities/learning-path|Learning Path]], [[entities/learning-path|Learning Path]], [[entities/quickstart|Quickstart]]
 - [Android / Termux](/docs/getting-started/termux)
   - Sources: [[entities/learning-path|Learning Path]], [[entities/installation|Installation]], [[entities/quickstart|Quickstart]]
@@ -19905,7 +19905,7 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/learning-path|Learning Path]]
 - Just browsing? Check the [Key Features](#key-features-at-a-glance) table for a quick overview of everything Hermes Agent can do.
   - Sources: [[entities/learning-path|Learning Path]]
-- [[[entity.quickstart|Quickstart]]](/docs/getting-started/[[entity.quickstart|Quickstart]])
+- [[entities/quickstart|Quickstart]]](/docs/getting-started/[[entities/quickstart|Quickstart]])
   - Sources: [[entities/learning-path|Learning Path]], [[entities/learning-path|Learning Path]], [[entities/learning-path|Learning Path]], [[entities/learning-path|Learning Path]]
 - [CLI Usage](/docs/user-guide/cli)
   - Sources: [[entities/learning-path|Learning Path]]
@@ -19953,9 +19953,9 @@ This synthesis covers: [[entities/randomstix]].
   - Sources: [[entities/learning-path|Learning Path]]
 - [Tools](/docs/user-guide/features/tools)
   - Sources: [[entities/learning-path|Learning Path]]
-- Just finished installing? → Head to the [[[entity.quickstart|Quickstart]]](/docs/getting-started/[[entity.quickstart|Quickstart]]) to run your first conversation.
+- Just finished installing? → Head to the [[entities/quickstart|Quickstart]]](/docs/getting-started/[[entities/quickstart|Quickstart]]) to run your first conversation.
   - Sources: [[entities/learning-path|Learning Path]]
-- Completed the [[entity.quickstart|Quickstart]]? → Read [CLI Usage](/docs/user-guide/cli) and [Configuration](/docs/user-guide/configuration) to customize your setup.
+- Completed the [[entities/quickstart|Quickstart]]? → Read [CLI Usage](/docs/user-guide/cli) and [Configuration](/docs/user-guide/configuration) to customize your setup.
   - Sources: [[entities/learning-path|Learning Path]]
 - Comfortable with the basics? → Explore [Tools](/docs/user-guide/features/tools), [Skills](/docs/user-guide/features/skills), and [Memory](/docs/user-guide/features/memory) to unlock the full power of the agent.
   - Sources: [[entities/learning-path|Learning Path]]
@@ -20404,7 +20404,7 @@ This synthesis covers: [[entities/randomstix]].
 ### discord-setupdocsuser-guidemessagingdiscord
 
 - [[entities/learning-path]]: [Discord Setup](/docs/user-guide/messaging/discord)
-- [[entities/use-voice-mode-with-hermes]]: [[[entity.discord-setup|Discord Setup]]](/docs/user-guide/messaging/discord)
+- [[entities/use-voice-mode-with-hermes]]: [[entities/feishu-lark-setup|Discord Setup]]](/docs/user-guide/messaging/discord)
 
 ### force-does-not-override-a-dangerous-scan-verdict
 
@@ -20425,11 +20425,11 @@ This synthesis covers: [[entities/randomstix]].
 ### installationdocsgetting-startedinstallation
 
 - [[entities/installation]]: [Installation](/docs/getting-started/installation)
-- [[entities/learning-path]]: [[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])
-- [[entities/learning-path]]: [[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])
-- [[entities/learning-path]]: [[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])
-- [[entities/learning-path]]: [[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])
-- [[entities/quickstart]]: [[[entity.installation|Installation]]](/docs/getting-started/[[entity.installation|Installation]])
+- [[entities/learning-path]]: [[entities/installation|Installation]]](/docs/getting-started/[[entities/installation|Installation]])
+- [[entities/learning-path]]: [[entities/installation|Installation]]](/docs/getting-started/[[entities/installation|Installation]])
+- [[entities/learning-path]]: [[entities/installation|Installation]]](/docs/getting-started/[[entities/installation|Installation]])
+- [[entities/learning-path]]: [[entities/installation|Installation]]](/docs/getting-started/[[entities/installation|Installation]])
+- [[entities/quickstart]]: [[entities/installation|Installation]]](/docs/getting-started/[[entities/installation|Installation]])
 
 ### location
 
@@ -20461,13 +20461,13 @@ This synthesis covers: [[entities/randomstix]].
 - [[entities/mattermost-setup]]: [Security](#security)
 - [[entities/signal-setup]]: [Security](#security)
 - [[entities/slack-setup]]: [Security](#security)
-- [[entities/telegram-setup]]: [[[entity.security|Security]]](#[[entity.security|Security]])
+- [[entities/telegram-setup]]: [[entities/security|Security]]](#[[entities/security|Security]])
 - [[entities/whatsapp-setup]]: [Security](#security)
 
 ### telegram-setupdocsuser-guidemessagingtelegram
 
 - [[entities/learning-path]]: [Telegram Setup](/docs/user-guide/messaging/telegram)
-- [[entities/use-voice-mode-with-hermes]]: [[[entity.telegram-setup|Telegram Setup]]](/docs/user-guide/messaging/telegram)
+- [[entities/use-voice-mode-with-hermes]]: [[entities/feishu-lark-setup|Telegram Setup]]](/docs/user-guide/messaging/telegram)
 
 ### troubleshootingtroubleshootingbot-is-not-responding
 
